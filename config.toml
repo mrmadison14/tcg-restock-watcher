@@ -1,0 +1,62 @@
+[[stores]]
+key = "collectorsrow"
+base_url = "https://collectorsrow.cards"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "collectorstore"
+base_url = "https://collectorstore.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "thepokehive"
+base_url = "https://thepokehive.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "hobbiesville"
+base_url = "https://hobbiesville.com"
+platform = "shopify"
+currency = "CAD"
+
+[[stores]]
+key = "deckoutgaming"
+base_url = "https://deckoutgaming.ca"
+platform = "shopify"
+currency = "CAD"
+
+[[stores]]
+key = "allpoketcg"
+base_url = "https://allpoketcg.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "skyboxct"
+base_url = "https://skyboxct.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "matrixtcg"
+base_url = "https://matrixtcg.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "401games"
+base_url = "https://401games.ca"
+platform = "shopify"
+currency = "CAD"
+
+[franchise_synonyms]
+pokemon = ["pokemon", "pokémon"]
+"one piece" = ["one piece", "one-piece"]
+"dragon ball" = ["dragon ball", "dragon ball super", "dragonball", "fusion world"]
+
+[thresholds]
+max_events_per_store = 25
+price_epsilon = 0.01
