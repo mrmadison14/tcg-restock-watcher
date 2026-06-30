@@ -40,3 +40,21 @@ def test_flood_cap_collapses_to_summary():
     assert sent == 1                       # collapsed
     assert len(quiet) == 1                 # summary goes quiet
     assert "30" in quiet[0]["content"]     # mentions the count
+
+def test_loud_payload_has_here_mention():
+    loud, quiet = [], []
+    send_events([mk_event(EventType.RESTOCK)], loud.append, quiet.append, max_events_per_store=25)
+    assert loud[0]["content"] == "@here"
+    assert loud[0]["allowed_mentions"] == {"parse": ["everyone"]}
+
+def test_quiet_payload_has_no_mention():
+    loud, quiet = [], []
+    send_events([mk_event(EventType.NEW_PRODUCT)], loud.append, quiet.append, max_events_per_store=25)
+    assert "content" not in quiet[0]
+    assert "allowed_mentions" not in quiet[0]
+
+def test_price_arrow_direction():
+    down = build_embed(mk_event(EventType.PRICE_CHANGE, price=49.99, prev_price=59.99))
+    up = build_embed(mk_event(EventType.PRICE_CHANGE, price=69.99, prev_price=59.99))
+    assert "▼" in str(down)
+    assert "▲" in str(up)
