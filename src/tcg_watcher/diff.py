@@ -32,7 +32,7 @@ def detect_events(
             )
             continue
 
-        if abs(p.price - old["price"]) > epsilon:
+        if p.in_stock and abs(p.price - old["price"]) > epsilon:
             events.append(
                 Event(
                     type=EventType.PRICE_CHANGE,

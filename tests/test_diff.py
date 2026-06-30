@@ -54,3 +54,8 @@ def test_preorder_restock_emits_preorder_open():
     assert len(events) == 1
     assert events[0].type == EventType.PREORDER_OPEN
     assert events[0].previous_in_stock is False
+
+def test_no_price_change_when_out_of_stock():
+    prev = snap({"v1": {"price": 10.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 8.0, False)], prev)  # price moved but now out of stock
+    assert events == []
