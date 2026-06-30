@@ -47,3 +47,10 @@ def test_disappearance_emits_nothing():
     prev = snap({"v1": {"price": 10.0, "in_stock": True, "title": "T", "is_preorder": False}})
     events = detect_events([], prev)  # product gone
     assert events == []
+
+def test_preorder_restock_emits_preorder_open():
+    prev = snap({"v1": {"price": 10.0, "in_stock": False, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 10.0, True, preorder=True)], prev)
+    assert len(events) == 1
+    assert events[0].type == EventType.PREORDER_OPEN
+    assert events[0].previous_in_stock is False
