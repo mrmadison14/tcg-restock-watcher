@@ -26,3 +26,9 @@ def test_franchise_set_on_returned_products():
     out = filter_franchises([mk("Pokemon Booster Bundle")], SYN)
     assert out[0].franchise == "pokemon"
     assert out[0].title == "Pokemon Booster Bundle"
+
+def test_tags_matched_individually_no_cross_boundary():
+    p = mk("Mystery Item", tags=("someone", "piecemeal"))
+    assert filter_franchises([p], SYN) == []
+    q = mk("Mystery Item", tags=("One Piece",))
+    assert filter_franchises([q], SYN)[0].franchise == "one piece"
