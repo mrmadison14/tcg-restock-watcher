@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:40:20Z",
+  "last_run": "2026-07-01T16:45:19Z",
   "seeded": true,
   "variants": {
     "34594642198692": {
@@ -6448,15 +6448,15 @@
     },
     "54853996511604": {
       "in_stock": true,
-      "is_preorder": false,
+      "is_preorder": true,
       "price": 284.99,
-      "title": "Pokemon - ME4 Chaos Rising - Booster Box (Limit 1 Per Person)"
+      "title": "Pokemon - ME4 Chaos Rising - Booster Box (Limit 1 Per Person) (Wave 2 Pre-Order Ships July 31 2026)"
     },
     "54854001164660": {
       "in_stock": true,
-      "is_preorder": false,
+      "is_preorder": true,
       "price": 264.99,
-      "title": "Pokemon - ME3 Perfect Order - Booster Box (Limit 1 Per Person)"
+      "title": "Pokemon - ME3 Perfect Order - Booster Box (Limit 1 Per Person) (Wave 2 Pre-Order Ships July 31 2026)"
     },
     "54854137446772": {
       "in_stock": true,
