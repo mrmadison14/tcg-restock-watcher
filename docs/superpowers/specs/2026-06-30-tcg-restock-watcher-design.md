@@ -293,9 +293,10 @@ implementation (see the Cloudflare-from-Actions spike, Landmine #1):
   filter**. New `Store.collections` field + runner branch.
 - **Polite HTTP layer.** Added min-interval throttle (2.5s), `Retry-After` honoring, and
   exponential-backoff retries to `make_httpx_get` to stay under Cloudflare's limit.
-- **Roster = 8 stores** (not 10): `store.401games.ca` (apex redirects there; DBZ sealed only —
-  its Pokémon/OP sealed aren't cleanly targetable); **collectorstore dropped** (Funko-heavy, no
-  clean sealed TCG); **tcgsorted deferred** (no resolvable storefront).
+- **Roster = 9 stores** (not 10): `store.401games.ca` (apex redirects there; DBZ sealed only —
+  its Pokémon/OP sealed aren't cleanly targetable); **collectorstore** via its `games-pokemon` /
+  `games-one-piece` sealed collections (added 2026-07-01 after an initial drop); **tcgsorted
+  deferred** (no resolvable storefront).
 - **Phase-1 loud routing** = restock/preorder → `#deals` (loud), new/price-change → `#tracker`
   (quiet). (Spec's below-market loud is Phase 3.)
 - **Price-change refinement:** only emitted for in-stock variants (out-of-stock price changes
@@ -303,4 +304,4 @@ implementation (see the Cloudflare-from-Actions spike, Landmine #1):
 - **Verified live** on GitHub Actions: 8/8 stores, 0 failures, 0 × 429, seed-first silent,
   steady-state 0 spurious events, state committed. 47 tests green.
 - **Deferred follow-ups:** 401games Pokémon/OP sealed handles; drop bare `"bundle"` sealed
-  marker + crash-on-missing-id in adapter (minor, full-crawl only); tcgsorted + collectorstore.
+  marker + crash-on-missing-id in adapter (minor, full-crawl only); tcgsorted; Phase 2/3.
