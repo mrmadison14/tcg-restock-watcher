@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:15:20Z",
+  "last_run": "2026-07-01T16:20:22Z",
   "seeded": true,
   "variants": {
     "39876094885948": {
@@ -71,7 +71,7 @@
     "39876095541308": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 1428.0,
+      "price": 1400.0,
       "title": "Pokemon TCG: Celebrations - Ultra-Premium Collection Box"
     },
     "39876095574076": {
@@ -215,7 +215,7 @@
     "39876096753724": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 299.0,
+      "price": 257.0,
       "title": "Pokemon TCG: Sun and Moon - Elite Trainer Box (Solgaleo)"
     },
     "39876096819260": {
@@ -251,7 +251,7 @@
     "39876096983100": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 304.0,
+      "price": 214.0,
       "title": "Pokemon TCG: Sun and Moon - Lost Thunder Build and Battle Box"
     },
     "39876097015868": {
@@ -347,19 +347,19 @@
     "39876097966140": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 671.0,
+      "price": 670.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Booster Box"
     },
     "39876097998908": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 19.0,
+      "price": 18.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Booster Pack"
     },
     "39876098031676": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 59.0,
+      "price": 58.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Electivire Stacking Collectors Tin"
     },
     "39876098097212": {
@@ -449,7 +449,7 @@
     "39876098621500": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 520.0,
+      "price": 514.0,
       "title": "Pokemon TCG: Sword and Shield - Chilling Reign Booster Box"
     },
     "39876098654268": {
@@ -605,7 +605,7 @@
     "39876100358204": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 814.0,
+      "price": 805.0,
       "title": "Pokemon TCG: Sword and Shield - Evolving Skies Build and Battle Stadium Box"
     },
     "39876100390972": {
@@ -863,7 +863,7 @@
     "39876102946876": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 336.0,
+      "price": 342.0,
       "title": "Pokemon TCG: Jolteon VMAX Premium Collection Box"
     },
     "39876103176252": {
@@ -947,7 +947,7 @@
     "39876103897148": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 521.0,
+      "price": 515.0,
       "title": "Pokemon TCG: Sword and Shield - Rebel Clash Booster Box"
     },
     "39876103929916": {
@@ -977,7 +977,7 @@
     "39876104224828": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 73.0,
+      "price": 74.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates V Tin (Eldegoss V)"
     },
     "39876104257596": {
@@ -995,7 +995,7 @@
     "39876104323132": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 79.0,
+      "price": 61.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates Dedenne Mad Party Pin Collection"
     },
     "39876104355900": {
@@ -1241,19 +1241,19 @@
     "39900821618748": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 70.0,
+      "price": 68.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Build and Battle Kit"
     },
     "39900821684284": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 169.0,
+      "price": 183.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Build and Battle Stadium Box"
     },
     "39910324961340": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 273.0,
+      "price": 265.0,
       "title": "Pokemon TCG: Sword and Shield - Battle Styles Booster Box"
     },
     "39929426051132": {
@@ -1265,7 +1265,7 @@
     "39932583804988": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 28.0,
+      "price": 27.0,
       "title": "Pokemon TCG: Battle Academy (2022)"
     },
     "39942315114556": {
@@ -1277,7 +1277,7 @@
     "39943617445948": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 5260.0,
+      "price": 3676.0,
       "title": "Pokemon TCG: Generations Elite Trainer Box"
     },
     "39946367762492": {
@@ -1289,7 +1289,7 @@
     "39961090424892": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 76.0,
+      "price": 75.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates Pikachu V Collection Box"
     },
     "39961091899452": {
@@ -1493,7 +1493,7 @@
     "40066220916796": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 115.0,
+      "price": 111.0,
       "title": "Pokemon TCG: Spring (2022) Collectors Bundle"
     },
     "40100274831420": {
@@ -1505,7 +1505,7 @@
     "40103278772284": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 462.0,
+      "price": 459.0,
       "title": "Pokemon TCG: Sword and Shield - Astral Radiance Booster Box"
     },
     "40103278837820": {
@@ -1553,7 +1553,7 @@
     "40103279591484": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 238.0,
+      "price": 233.0,
       "title": "Pokemon TCG: Sword and Shield - Astral Radiance Elite Trainer Box (Pokemon Center Exclusive)"
     },
     "40103279657020": {
@@ -1565,7 +1565,7 @@
     "40103279755324": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 105.0,
+      "price": 100.0,
       "title": "Pokemon TCG: Kleavor VSTAR Premium Collection Box"
     },
     "40103827439676": {
