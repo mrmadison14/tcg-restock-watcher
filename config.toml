@@ -110,3 +110,16 @@ pokemon = ["pokemon", "pokémon"]
 [thresholds]
 max_events_per_store = 25
 price_epsilon = 0.01
+
+[pricing]
+enabled = true
+deal_threshold = 0.10
+match_threshold = 0.86
+index_path = "data/price_index.json"
+fx_path = "data/fx.json"
+fx_url = "https://open.er-api.com/v6/latest/USD"
+
+[pricing.categories]
+pokemon = [3, 85]
+"one piece" = [68]
+"dragon ball" = [23, 27, 80]
