@@ -3,12 +3,16 @@ key = "collectorsrow"
 base_url = "https://collectorsrow.cards"
 platform = "shopify"
 currency = "USD"
-
-[[stores]]
-key = "collectorstore"
-base_url = "https://collectorstore.com"
-platform = "shopify"
-currency = "USD"
+collections = [
+  "pokemon:japanese-pokemon-booster-boxes",
+  "pokemon:pokemon-booster-packs",
+  "pokemon:pokemon-premium-collection-boxes",
+  "pokemon:english-pokemon-elite-trainer-boxes",
+  "pokemon:pokemon-booster-bundle",
+  "pokemon:pokemon-booster-boxes",
+  "pokemon:pokemon-collectors-tins",
+  "pokemon:pokemon-mini-tins",
+]
 
 [[stores]]
 key = "thepokehive"
@@ -21,12 +25,30 @@ key = "hobbiesville"
 base_url = "https://hobbiesville.com"
 platform = "shopify"
 currency = "CAD"
+collections = [
+  "pokemon:pokemon-booster-boxes",
+  "pokemon:pokemon-elite-trainer-boxes",
+  "pokemon:pokemon-booster-packs",
+  "pokemon:pokemon-blister-packs",
+  "pokemon:pokemon-3-pack-blisters",
+  "pokemon:pokemon-premium-collection",
+  "pokemon:pokemon-tin",
+  "pokemon:pokemon-half-booster-box",
+  "one piece:one-piece-booster-boxes",
+  "one piece:one-piece-booster-packs",
+  "dragon ball:dragon-ball-super-collection-boxes",
+  "dragon ball:dragon-ball-super-booster-boxes",
+]
 
 [[stores]]
 key = "deckoutgaming"
 base_url = "https://deckoutgaming.ca"
 platform = "shopify"
 currency = "CAD"
+collections = [
+  "pokemon:pokemon-sealed",
+  "one piece:one-piece-sealed",
+]
 
 [[stores]]
 key = "allpoketcg"
@@ -39,6 +61,13 @@ key = "skyboxct"
 base_url = "https://skyboxct.com"
 platform = "shopify"
 currency = "USD"
+collections = [
+  "pokemon:pokemon-box-collections",
+  "pokemon:pokemon-tin",
+  "pokemon:pokemon-blister-packs",
+  "pokemon:pokemon-booster-box",
+  "pokemon:pokemon-etb",
+]
 
 [[stores]]
 key = "matrixtcg"
@@ -51,6 +80,9 @@ key = "401games"
 base_url = "https://store.401games.ca"
 platform = "shopify"
 currency = "CAD"
+collections = [
+  "dragon ball:dragon-ball-super-sealed",
+]
 
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
