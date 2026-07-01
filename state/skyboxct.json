@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T13:53:51Z",
+  "last_run": "2026-07-01T16:02:26Z",
   "seeded": true,
   "variants": {
     "39876094885948": {
@@ -29,13 +29,13 @@
     "39876095082556": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 182.0,
+      "price": 184.0,
       "title": "Pokemon TCG: Celebrations - Lance&#x27;s Charizard V Collection Box"
     },
     "39876095148092": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 210.0,
+      "price": 209.0,
       "title": "Pokemon TCG: Celebrations -  Collector&#x27;s Chest"
     },
     "39876095180860": {
@@ -53,25 +53,25 @@
     "39876095246396": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 680.0,
+      "price": 662.0,
       "title": "Pokemon TCG: Celebrations - Mini-Tin Display"
     },
     "39876095475772": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 345.0,
+      "price": 346.0,
       "title": "Pokemon TCG: Celebrations - Premium Figure Collection Pikachu VMax Box"
     },
     "39876095508540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 208.0,
+      "price": 209.0,
       "title": "Pokemon TCG: Celebrations - Dark Sylveon V Collection"
     },
     "39876095541308": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 1424.0,
+      "price": 1428.0,
       "title": "Pokemon TCG: Celebrations - Ultra-Premium Collection Box"
     },
     "39876095574076": {
@@ -83,7 +83,7 @@
     "39876095606844": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 153.0,
+      "price": 162.0,
       "title": "Pokemon TCG: Celebrations - Zacian Lv. X Deluxe Pin Collection Box"
     },
     "39876095639612": {
@@ -197,7 +197,7 @@
     "39876096622652": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 2447.0,
+      "price": 2641.0,
       "title": "Pokemon TCG: Sun and Moon - Celestial Storm Booster Box"
     },
     "39876096655420": {
@@ -221,13 +221,13 @@
     "39876096819260": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1801.0,
+      "price": 1892.0,
       "title": "Pokemon TCG: Sun and Moon - Forbidden Light Booster Box"
     },
     "39876096852028": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 2110.0,
+      "price": 2137.0,
       "title": "Pokemon TCG: Sun and Moon - Guardians Rising Booster Box"
     },
     "39876096884796": {
@@ -293,7 +293,7 @@
     "39876097212476": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 15750.0,
+      "price": 26250.0,
       "title": "Pokemon TCG: Sun and Moon - Team Up Booster Box"
     },
     "39876097245244": {
@@ -347,7 +347,7 @@
     "39876097966140": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 672.0,
+      "price": 671.0,
       "title": "Pokemon TCG: Sword and Shield - Brilliant Stars Booster Box"
     },
     "39876097998908": {
@@ -449,7 +449,7 @@
     "39876098621500": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 521.0,
+      "price": 520.0,
       "title": "Pokemon TCG: Sword and Shield - Chilling Reign Booster Box"
     },
     "39876098654268": {
@@ -491,7 +491,7 @@
     "39876099113020": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 220.0,
+      "price": 218.0,
       "title": "Pokemon TCG: Sword and Shield - Champion&#x27;s Path Elite Trainer Box"
     },
     "39876099145788": {
@@ -581,7 +581,7 @@
     "39876099997756": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 173.0,
+      "price": 163.0,
       "title": "Pokemon TCG: Sword and Shield - Elite Trainer Box (Zacian)"
     },
     "39876100030524": {
@@ -629,7 +629,7 @@
     "39876100718652": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 551.0,
+      "price": 541.0,
       "title": "Pokemon TCG: Sword and Shield - Evolving Skies Elite Trainer Box (Glaceon/Vaporeon/Sylveon/Espeon)"
     },
     "39876100751420": {
@@ -785,7 +785,7 @@
     "39876102422588": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 53.0,
+      "price": 52.0,
       "title": "Pokemon TCG: Sword and Shield - Galar Power Mini Tin (Dragapul)"
     },
     "39876102455356": {
@@ -869,7 +869,7 @@
     "39876103176252": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 162.0,
+      "price": 172.0,
       "title": "Pokemon TCG: Leafeon VSTAR Special Collection Box"
     },
     "39876103209020": {
@@ -953,7 +953,7 @@
     "39876103929916": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 373.0,
+      "price": 367.0,
       "title": "Pokemon TCG: Sword and Shield - Rebel Clash Copperajah Elite Trainer Box"
     },
     "39876103962684": {
@@ -971,7 +971,7 @@
     "39876104192060": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 73.0,
+      "price": 77.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates V Tin (Cramorant V)"
     },
     "39876104224828": {
@@ -983,7 +983,7 @@
     "39876104257596": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 153.0,
+      "price": 163.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates Elite Trainer Box"
     },
     "39876104290364": {
@@ -995,7 +995,7 @@
     "39876104323132": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 69.0,
+      "price": 79.0,
       "title": "Pokemon TCG: Sword and Shield - Shining Fates Dedenne Mad Party Pin Collection"
     },
     "39876104355900": {
@@ -1055,7 +1055,7 @@
     "39876105044028": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 162.0,
+      "price": 152.0,
       "title": "Pokemon TCG: Sword and Shield - Vivid Voltage Gigantamax Pikachu Elite Trainer Box"
     },
     "39876108582972": {
@@ -1145,13 +1145,13 @@
     "39876109303868": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 2674.0,
+      "price": 3181.0,
       "title": "Pokemon TCG: XY - Evolutions Booster Box"
     },
     "39876109336636": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 2896.0,
+      "price": 2897.0,
       "title": "Pokemon TCG: XY - Fates Collide Booster Box"
     },
     "39876109369404": {
@@ -1253,7 +1253,7 @@
     "39910324961340": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 294.0,
+      "price": 273.0,
       "title": "Pokemon TCG: Sword and Shield - Battle Styles Booster Box"
     },
     "39929426051132": {
@@ -1283,7 +1283,7 @@
     "39946367762492": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 4095.0,
+      "price": 4828.0,
       "title": "Pokemon TCG: XY - Booster Box"
     },
     "39961090424892": {
@@ -1361,7 +1361,7 @@
     "39977160212540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 625.0,
+      "price": 593.0,
       "title": "Pokemon TCG: Sword and Shield - Evolving Skies Elite Trainer Box (Flareon/Jolteon/Umbreon/Leafeon)"
     },
     "40005181243452": {
@@ -1511,7 +1511,7 @@
     "40103278837820": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 166.0,
+      "price": 163.0,
       "title": "Pokemon TCG: Sword and Shield - Astral Radiance Elite Trainer Box"
     },
     "40103278903356": {
@@ -1649,7 +1649,7 @@
     "40160489570364": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 157.0,
+      "price": 156.0,
       "title": "Pokemon TCG: Professor Juniper Premium Tournament Collection Box"
     },
     "40160489668668": {
@@ -1703,7 +1703,7 @@
     "40186025574460": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 63.0,
+      "price": 67.0,
       "title": "Pokemon TCG: Pokemon GO Collection [Alolan Exeggutor V]"
     },
     "40186025902140": {
@@ -1793,7 +1793,7 @@
     "40186027671612": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 112.0,
+      "price": 110.0,
       "title": "Pokemon TCG: Pokemon GO Premier Deck Holder Collection [Dragonite VSTAR]"
     },
     "40186027835452": {
@@ -1889,7 +1889,7 @@
     "40251845083196": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 401.0,
+      "price": 89.0,
       "title": "Pokemon TCG: Shining Legends - Marshadow Pin Box"
     },
     "40254381064252": {
@@ -1937,13 +1937,13 @@
     "40362309648444": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 211.0,
+      "price": 205.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Bundle Box"
     },
     "40362309681212": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 780.0,
+      "price": 779.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Booster Box"
     },
     "40362309943356": {
@@ -1955,13 +1955,13 @@
     "40362309976124": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 240.0,
+      "price": 249.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Elite Trainer Box"
     },
     "40362310402108": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 89.0,
+      "price": 131.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Build and Battle Kit"
     },
     "40362310598716": {
@@ -1973,7 +1973,7 @@
     "40362310631484": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 625.0,
+      "price": 619.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Ultra Premium Collection (Charizard)"
     },
     "40362310959164": {
@@ -2021,7 +2021,7 @@
     "40362312532028": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 219.0,
+      "price": 232.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Zoroark VSTAR Premium Collection"
     },
     "40362313547836": {
@@ -2039,7 +2039,7 @@
     "40362313613372": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 63.0,
+      "price": 68.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Stacking Tin (Fighting)"
     },
     "40362313646140": {
@@ -2141,7 +2141,7 @@
     "40486146375740": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 173.0,
+      "price": 163.0,
       "title": "Pokemon TCG: Sword and Shield - Silver Tempest Elite Trainer Box"
     },
     "40486146408508": {
@@ -2237,7 +2237,7 @@
     "40503831068732": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 836.0,
+      "price": 158.0,
       "title": "Pokemon TCG: Sun and Moon - Tag Team Tin (Pikachu and Zekrom GX)"
     },
     "40503831101500": {
@@ -2261,7 +2261,7 @@
     "40529726668860": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 65.0,
+      "price": 110.0,
       "title": "Pokemon TCG: Trick or Trade BOOster Bundle"
     },
     "40536094801980": {
@@ -2285,7 +2285,7 @@
     "40540123299900": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 362.0,
+      "price": 360.0,
       "title": "Pokemon TCG: Sword and Shield - Crown Zenith Elite Trainer Box"
     },
     "40550244253756": {
@@ -2315,7 +2315,7 @@
     "40562601164860": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 166.0,
+      "price": 173.0,
       "title": "Pokemon Crown Zenith Special Collection Pikachu VMAX Box"
     },
     "40562601197628": {
@@ -2363,7 +2363,7 @@
     "40569359204412": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 118.0,
+      "price": 115.0,
       "title": "Pokemon Mimikyu EX Box"
     },
     "40577097728060": {
@@ -2381,7 +2381,7 @@
     "40577097826364": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 153.0,
+      "price": 152.0,
       "title": "Pokemon Crown Zenith Tin [Galarian Articuno]"
     },
     "40577097859132": {
@@ -2561,7 +2561,7 @@
     "40625489608764": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 525.0,
+      "price": 520.0,
       "title": "Pokemon TCG: Scarlet and Violet - Paldea Evolved Booster Box"
     },
     "40625489739836": {
@@ -2669,7 +2669,7 @@
     "40649768304700": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1475.0,
+      "price": 1427.0,
       "title": "Pokemon TCG: Sun and Moon - Dragon Majesty Elite Trainer Box"
     },
     "40649768337468": {
@@ -2735,13 +2735,13 @@
     "40663698767932": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 85.0,
+      "price": 87.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Poster Collection Box"
     },
     "40663698800700": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 630.0,
+      "price": 620.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Elite Trainer Box"
     },
     "40663698866236": {
@@ -2765,43 +2765,43 @@
     "40663698964540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 983.0,
+      "price": 982.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Ultra Premium Collection Box"
     },
     "40664941559868": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 56.0,
+      "price": 58.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Magneton and Ekans]"
     },
     "40664941592636": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 58.0,
+      "price": 60.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Machamp and Cubone]"
     },
     "40664941625404": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 56.0,
+      "price": 60.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Scyther and Weezing]"
     },
     "40664941658172": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 61.0,
+      "price": 63.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Arcanine and Omanyte]"
     },
     "40664941690940": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 63.0,
+      "price": 70.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Gengar and Poliwag]"
     },
     "40664941756476": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 58.0,
+      "price": 61.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Hitmonchan and Meowth]"
     },
     "40664941789244": {
@@ -2813,13 +2813,13 @@
     "40664941822012": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 56.0,
+      "price": 58.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Slowpoke and Sandshrew]"
     },
     "40664941854780": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 58.0,
+      "price": 61.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Dragonite and Vileplume]"
     },
     "40664941887548": {
@@ -2957,7 +2957,7 @@
     "40692073365564": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 124.0,
+      "price": 123.0,
       "title": "Pokemon Charizard ex Premium Collection Box"
     },
     "40692073431100": {
@@ -3005,7 +3005,7 @@
     "40711216398396": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 275.0,
+      "price": 263.0,
       "title": "Pokemon TCG: Crown Zenith - Morpeko V-UNION Premium Treasures Collection Box"
     },
     "40778984423484": {
@@ -3035,7 +3035,7 @@
     "40846953021500": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 478.0,
+      "price": 446.0,
       "title": "Pokemon  Sun &amp; Moon Team Up Pikachu Checklane Blister Pack"
     },
     "40846953054268": {
@@ -3299,7 +3299,7 @@
     "41197897449532": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 116.0,
+      "price": 115.0,
       "title": "Pokemon Scarlet and Violet: Twilight Masquerade Elite Trainer Box"
     },
     "41224289910844": {
@@ -3335,7 +3335,7 @@
     "41338574569532": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 415.0,
+      "price": 404.0,
       "title": "Pokémon: Sword &amp; Shield - Lost Origin Pokémon Center Elite Trainer Box"
     },
     "41473994817596": {
@@ -3407,7 +3407,7 @@
     "41799264075836": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 217.0,
+      "price": 220.0,
       "title": "Pokemon Scarlet and Violet: Shrouded Fable Greninja EX Illustraion Collection Box"
     },
     "41799264174140": {
@@ -3431,7 +3431,7 @@
     "41799264501820": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 36.0,
+      "price": 37.0,
       "title": "Pokemon Scarlet and Violet: Shrouded Fable Mini Tin [Zoroark]"
     },
     "41799264534588": {
@@ -3659,7 +3659,7 @@
     "42153264644156": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 119.0,
+      "price": 100.0,
       "title": "Pokemon XY: Fates Collide Blister Pack (Pansear)"
     },
     "42153264676924": {
@@ -3689,7 +3689,7 @@
     "42208268288060": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 322.0,
+      "price": 321.0,
       "title": "Pokemon Scarlet and Violet: Surging Sparks Booster Box"
     },
     "42208270057532": {
@@ -3731,7 +3731,7 @@
     "42208274513980": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 273.0,
+      "price": 272.0,
       "title": "Pokemon TCG: Terapagos Ex Ultra Premium Collection Box"
     },
     "42208275824700": {
@@ -3797,7 +3797,7 @@
     "42358269640764": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 79.0,
+      "price": 76.0,
       "title": "Pokemon: Scarlet and Violet - Prismatic Evolutions Surprise Box"
     },
     "42358271934524": {
@@ -3815,7 +3815,7 @@
     "42358272491580": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 187.0,
+      "price": 188.0,
       "title": "Pokemon: Scarlet and Violet - Prismatic Evolutions Elite Trainer Box"
     },
     "42358272589884": {
@@ -3827,13 +3827,13 @@
     "42376252948540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 421.0,
+      "price": 410.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Blooming Waters Premium Collection Box"
     },
     "42376252981308": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 82.0,
+      "price": 83.0,
       "title": "Pokemon TCG: Scarlet and Violet - Prismatic Evolutions Accessory Pouch Special Collection Box"
     },
     "42386526994492": {
@@ -3845,7 +3845,7 @@
     "42386527060028": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 16.0,
+      "price": 15.0,
       "title": "Pokemon Scarlet and Violet: Stellar Crown Checklane Blister [Horsea]"
     },
     "42386527158332": {
@@ -3935,7 +3935,7 @@
     "42494229577788": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 295.0,
+      "price": 294.0,
       "title": "Pokemon Scarlet and Violet: Journey Together Enhanced Booster Box"
     },
     "42494231904316": {
@@ -4007,7 +4007,7 @@
     "42527999328316": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 73.0,
+      "price": 72.0,
       "title": "Pokemon TCG: Charizard EX Special Collection Box"
     },
     "42527999655996": {
@@ -4061,7 +4061,7 @@
     "42641371660348": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 36.0,
+      "price": 34.0,
       "title": "Pokemon: Kanto Friends Mini Tin [Charmander]"
     },
     "42641371693116": {
@@ -4073,7 +4073,7 @@
     "42641371758652": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 39.0,
+      "price": 45.0,
       "title": "Pokemon: Kanto Friends Mini Tin [Squirtle]"
     },
     "42641621975100": {
@@ -4085,7 +4085,7 @@
     "42652706504764": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 320.0,
+      "price": 324.0,
       "title": "Pokemon: Scarlet and Violet - Prismatic Evolutions Super Premium Collection Box"
     },
     "42660672602172": {
@@ -4097,13 +4097,13 @@
     "42660672667708": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 197.0,
+      "price": 199.0,
       "title": "Pokemon Scarlet and Violet: Twilight Masquerade Pokemon Center Elite Trainer Box"
     },
     "42660672700476": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1375.0,
+      "price": 1370.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Pokemon Center Elite Trainer Box"
     },
     "42660672766012": {
@@ -4133,7 +4133,7 @@
     "42660672962620": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 255.0,
+      "price": 254.0,
       "title": "Pokemon Scarlet and Violet: Temporal Forces Pokemon Center Elite Trainer Box (Walking Wake)"
     },
     "42660673486908": {
@@ -4145,7 +4145,7 @@
     "42660673519676": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 273.0,
+      "price": 270.0,
       "title": "Pokemon Scarlet and Violet: Paradox Rift Pokemon Center Elite Trainer Box (Roaring Moon)"
     },
     "42663219953724": {
@@ -4349,7 +4349,7 @@
     "43211420303420": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 188.0,
+      "price": 187.0,
       "title": "Pokemon Scarlet and Violet: Black Bolt Elite Trainer Box"
     },
     "43211420434492": {
@@ -4361,7 +4361,7 @@
     "43211420565564": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 156.0,
+      "price": 153.0,
       "title": "Pokemon Scarlet and Violet: White Flare Elite Trainer Box"
     },
     "43211421089852": {
@@ -4403,7 +4403,7 @@
     "43252521336892": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 67.0,
+      "price": 66.0,
       "title": "Pokemon TCG: Scarlet and Violet - Destined Rivals Tin (MewTwo EX)"
     },
     "43308999344188": {
@@ -4427,13 +4427,13 @@
     "43308999934012": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 131.0,
+      "price": 130.0,
       "title": "Pokemon TCG: Mega Evolution - Elite Trainer Box (Mega Lucario)"
     },
     "43309000130620": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 130.0,
+      "price": 131.0,
       "title": "Pokemon TCG: Mega Evolution - Elite Trainer Box (Mega Gardevoir)"
     },
     "43309000523836": {
@@ -4469,7 +4469,7 @@
     "43309001605180": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 261.0,
+      "price": 259.0,
       "title": "Pokemon TCG: Scarlet and Violet - Prismatic Evolutions Premium Figure Collection Box"
     },
     "43395025305660": {
@@ -4547,7 +4547,7 @@
     "43518810685500": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 483.0,
+      "price": 478.0,
       "title": "Pokemon TCG: Mega Evolution - Phantasmal Flames Booster Box"
     },
     "43518810718268": {
@@ -4571,7 +4571,7 @@
     "43563195007036": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 315.0,
+      "price": 310.0,
       "title": "Pokemon TCG: Sun and Moon - Pikachu Sidekick Collection Box"
     },
     "43590577815612": {
@@ -4667,13 +4667,13 @@
     "43762271977532": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 320.0,
+      "price": 319.0,
       "title": "Pokemon Scarlet and Violet: Black Bolt Pokemon Center Elite Trainer Box"
     },
     "43762272075836": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 294.0,
+      "price": 293.0,
       "title": "Pokemon Scarlet and Violet: White Flare Pokemon Center Elite Trainer Box"
     },
     "43762272305212": {
@@ -4685,13 +4685,13 @@
     "43770369835068": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 360.0,
+      "price": 359.0,
       "title": "Pokemon TCG: Mega Evolution - Phantasmal Flames Pokemon Center Elite Trainer Box"
     },
     "43826816254012": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 72.0,
+      "price": 69.0,
       "title": "Pokemon TCG: Mega Evolution - Ascended Heroes First Partner Deluxe Pin Collection Box"
     },
     "43826816679996": {
@@ -4715,13 +4715,13 @@
     "43833249169468": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 294.0,
+      "price": 293.0,
       "title": "Pokemon TCG: Mega Evolution - Pokemon Center Elite Trainer Box (Mega Lucario)"
     },
     "43833249267772": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 244.0,
+      "price": 242.0,
       "title": "Pokemon TCG: Mega Evolution - Pokemon Center Elite Trainer Box (Mega Gardevoir)"
     },
     "43921182490684": {
@@ -4733,13 +4733,13 @@
     "43921182556220": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 235.0,
+      "price": 237.0,
       "title": "Pokemon TCG: Mega Evolution - Perfect Order Booster Box"
     },
     "43921182883900": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 78.0,
+      "price": 76.0,
       "title": "Pokemon TCG: Mega Evolution - Perfect Order Elite Trainer Box"
     },
     "43958061727804": {
@@ -4751,13 +4751,13 @@
     "44048602595388": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 54.0,
+      "price": 56.0,
       "title": "Pokemon TCG: Mega Zygarde Ex Premium Collection Box"
     },
     "44061782868028": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 514.0,
+      "price": 509.0,
       "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Pokemon Center Elite Trainer Box"
     },
     "44067165372476": {
@@ -4775,7 +4775,7 @@
     "44148339966012": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 24.0,
+      "price": 23.0,
       "title": "Pokemon TCG: Mega Evolution - Chaos Rising 3-Pack Blister (Charmeleon)"
     },
     "44148340129852": {
@@ -4787,7 +4787,7 @@
     "44148340162620": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 80.0,
+      "price": 79.0,
       "title": "Pokemon TCG: Mega Evolution - Chaos Rising Elite Trainer Box"
     },
     "44148340260924": {
@@ -4907,7 +4907,7 @@
     "45690364067900": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 115.0,
+      "price": 105.0,
       "title": "Pokemon TCG: Terastal Gathering Chinese Booster Box"
     },
     "45690364362812": {
