@@ -4,6 +4,30 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-01 (session 4) — commit-state doc-clobber fix (off-tree regression) + Shopify-candidate triage, 🟢 LIVE
+
+Resumed from the session-3 handoff. Verification-first per the handoff — and the opening `git pull --rebase` immediately surfaced a **live data-loss bug not in the decision tree**: bot commit `4f94e04` (child of the human handoff commit `83d58da`) had **deleted `docs/superpowers/PHASE2_SCOPING.md` + `docs/PAT_ROTATION.md` and reverted `SESSION_HISTORY.md`/`RESUME_PROMPT.md`**. Root-caused, fixed (TDD), restored the files, verified in prod.
+
+**Root cause (systematic-debugging).** `watch.yml`'s commit-state retry loop did `git reset --soft origin/main` after fetching, which keeps the runner's **stale index**. `reconcile` only re-materializes `state/`, so any *non-`state/`* file a concurrent human push added to origin mid-run (the docs) was committed as a **deletion**; concurrently-edited non-state files were reverted to the runner's stale base. Only bites when origin advances via a non-`state/` push during a run — exactly what the session-3 handoff push did. As a bonus, `--soft` also defeated the `git diff --staged --quiet` convergence early-exit.
+
+**Fix.** `git reset --soft` → **`git reset --mixed origin/main`**: re-bases the index onto the fetched tip so only `state/` diffs can ever be staged; non-state files are inherited from origin and preserved. Extracted the whole sequence into **`scripts/commit_state.sh`** (with a `RECONCILE_CMD` test seam) and pointed `watch.yml` at it. New integration test **`tests/test_commit_state.py`** replays a bot-run-races-human-push in a real git triad: RED on `--soft`, GREEN on `--mixed`, + a happy-path guard. TDD (+2 → **107 tests**). Commits `73f62b9` (fix) + `ad25dea` (restore).
+
+**`build-index.yml` checked, left as-is** — its `commit → pull --rebase → push` replays only the `data/` diff onto the fetched tip, so it never clobbers non-`data/` files (theoretical daily-only conflict-failure risk, no data loss).
+
+**Second finding (informational).** The last straggler on the OLD inline logic (run `28541683947`) failed *harmlessly*: its clobber commit also reverted `watch.yml`, and GitHub rejected the push — `refusing to allow a GitHub App to create or update workflow .github/workflows/watch.yml without workflows permission` (the job has only `contents: write`). That guard is why the docs survived that straggler. Fixed runs only ever touch `state/`, so they never need `workflows: write`.
+
+**Prod verification.** 2 consecutive fixed runs succeeded (`28541865676`, `28541970794`); 2 subsequent bot `state:` commits then landed with all docs intact (the very act that broke things last session — pushing docs to `main` — is now clobber-safe).
+
+**Store triage (against the user's store/promo list image).** Of 14 store domains in the image, 2 already tracked (rarecandy, collectorstore). Probed the rest via `/products.json`: **9 are Shopify = easy adds through the existing adapter, config-only** — `3kcollectables`, `doubleinfinitygaming`, `paladincards20`, `realgoodeal`, `shinypax`, `shopchieffpokeman`, `spoilsandloot`, `tygerstcgden`, `zulusgames`. Not-easy: `blowoutcards` (custom/non-Shopify HTML, and a big store — no full-crawl), `missionreadycollectibles` (`/products.json` → 401), `tcgsorted` (shop.app link — likely Shopify, real domain TBD). No stores added yet — pending scope confirmation (curated `collections` vs full-crawl per store size). Several of these also carry Smokemon/$5-off **promo codes** in the image, which the watcher does not model (orthogonal to restock/deal alerts).
+
+**Current state (close of session 4):**
+- 🟢 LIVE + autonomous + concurrency-safe, now also **clobber-safe for concurrent non-`state/` pushes**. **107 tests** green, tree clean. **10 stores** unchanged.
+- HEAD advances via bot `state:` commits; the session's fix commits are `73f62b9` / `ad25dea` (now under later bot commits).
+
+**Next steps:** (a) Add the **9 easy Shopify stores** (confirm scope — which stores; curated `collections` vs full-crawl by size) — biggest, lowest-effort coverage win. (b) Phase 2 Wix ×2 (still the harder non-Shopify work). (c) Widen rarecandy. (d) Rotate the cron-job.org PAT before expiry.
+
+---
+
 ## 2026-07-01 (session 3) — CI concurrency fix (found off-tree) + PAT rotation + Discord inter-post delay + rarecandy adapter (Phase 2 begun), 🟢 LIVE
 
 Resumed from HEAD `755744d`; ended at HEAD **`bc42af3`** (`main`; bot appends `state:`/`data:` commits). Verification-first: found a **live, ongoing failure not in the handoff's decision tree** — `watch` was failing ~38% of runs — fixed it, then did A, B, and began C. All TDD'd + reviewed + prod-verified.

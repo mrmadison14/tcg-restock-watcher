@@ -6,22 +6,22 @@ Paste-and-go prompt for a fresh Claude session. Self-contained — no prior conv
 
 I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-restock-watcher`. It's a personal (non-Agent-Smith) tool that polls TCG stores every ~5 min for sealed Pokémon / One Piece / Dragon Ball product (booster boxes, ETBs, bundles, tins, blisters) and posts restock / new-listing / preorder / price-change alerts to Discord — with TCGplayer below-market **deal-flagging**. Stack: Python 3.13 + uv + httpx, no DB/framework/UI. Runs free on GitHub Actions (personal GitHub `mrmadison14`); state committed back to the repo.
 
-## Where things stand (2026-07-01, session 3)
+## Where things stand (2026-07-01, session 4)
 
-🟢 LIVE + autonomous + concurrency-safe. `main` HEAD ≈ **`bc42af3`** (advances via the Actions bot's `state:`/`data:` commits — expected, not drift). This session: found & fixed a **38% watch-failure bug** (off the decision-tree), rotated the exposed PAT, added a proactive Discord inter-post delay, and shipped the **rarecandy** adapter (first non-Shopify store — Phase 2 begun).
-- **CI fix (the big one):** commit-state was failing ~38% on `git pull --rebase` conflicts when runs overlapped, dropping state → re-alerts. Now a fetch→reconcile→reset-soft→commit→push **retry loop** (`tcg_watcher.reconcile`: newest-`last_run`-per-file + materializes origin-only files). 60-min prod monitor: **0 failures / 17 runs**.
-- **rarecandy:** parses `__NEXT_DATA__` Apollo cache from `/shop`+`/discover`; seeded 51 sealed variants live. `http.get` gained `as_text` for HTML.
-- **PAT rotated** (old exposed token revoked); **Discord inter-post delay** live (`post_delay_seconds`, default 1.0s).
+🟢 LIVE + autonomous + concurrency-safe — and now **clobber-safe for concurrent non-`state/` pushes**. `main` HEAD advances via the Actions bot's `state:`/`data:` commits (expected, not drift); this session's fix commits are `73f62b9` (fix) + `ad25dea` (restore), now under later bot commits. This session: found & fixed a **live doc-clobber data-loss bug** (off the decision-tree), then triaged the user's store-list image for easy Shopify adds.
+- **commit-state clobber fix (the big one):** `watch.yml` did `git reset --soft origin/main`, keeping the runner's stale index; since `reconcile` only re-materializes `state/`, a concurrent human push's non-`state/` files (the session-3 handoff docs) got committed as deletions. Fix: **`git reset --mixed`** re-bases the index onto the fetched tip → only `state/` diffs are ever staged. Extracted to **`scripts/commit_state.sh`** (+ `RECONCILE_CMD` seam); `watch.yml` calls it; new **`tests/test_commit_state.py`** (RED on `--soft`, GREEN on `--mixed`). Restored the 4 clobbered files. Prod-verified (2 fixed runs + 2 bot state commits, docs intact).
+- **store triage:** of 14 domains in the store-list image, 2 already tracked (rarecandy, collectorstore); **9 are Shopify = easy config-only adds** (3kcollectables, doubleinfinitygaming, paladincards20, realgoodeal, shinypax, shopchieffpokeman, spoilsandloot, tygerstcgden, zulusgames). Not-easy: blowoutcards (non-Shopify, big), missionreadycollectibles (401), tcgsorted (shop.app, domain TBD). None added yet — scope TBC (curated `collections` vs full-crawl by size).
+- **rarecandy** (session 3): parses `__NEXT_DATA__` Apollo cache from `/shop`+`/discover`; ~51 sealed variants. **PAT rotated**; **Discord inter-post delay** live (`post_delay_seconds`, default 1.0s).
 
 ## Uncommitted / in-flight state
 - Staged: nothing
 - Unstaged / modified: nothing (working tree clean, up to date with origin/main)
-- Failing or skipped tests: none (105 passed)
+- Failing or skipped tests: none (107 passed)
 - Background jobs / open processes: none
 - **Exact next command:** `cd /Users/jmadison/workspace/tcg-restock-watcher && git pull --rebase && uv run pytest -q`
 
 ## Read these first (in order)
-1. `SESSION_HISTORY.md` — session-3 entry (top) = full arc + next steps.
+1. `SESSION_HISTORY.md` — session-4 entry (top) = full arc + next steps.
 2. `docs/superpowers/PHASE2_SCOPING.md` — Phase 2 (Wix ×2) feasibility + effort (the main open work).
 3. `README.md` — as-built overview (10 stores, sealed-only, 429 story).
 4. `config.toml` — 10 stores + curated collections + `[pricing]` + `[thresholds]`.
@@ -31,18 +31,18 @@ I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-res
 cd /Users/jmadison/workspace/tcg-restock-watcher
 git pull --rebase                                   # bot commits state/data ~every 5 min; sync first
 git status -sb                                      # expect: clean, up to date with origin/main
-uv run pytest -q                                    # expect: 105 passed
+uv run pytest -q                                    # expect: 107 passed
 gh run list --workflow=watch --limit 5              # expect: recent runs = success (was ~38% failing pre-`2c8be31`)
 gh run list --workflow=build-index --limit 2        # expect: daily run success
 ```
-If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The old rebase-conflict failure is fixed; a new failure is more likely a transient fetch or the new PAT expiring. If tests < 105 or stores ≠ 10, STOP and reconcile against the docs above before changing anything.
+If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-conflict and doc-clobber failures are fixed; a new failure is more likely a transient fetch or the PAT expiring. If tests < 107 or stores ≠ 10, STOP and reconcile against the docs above before changing anything.
 
 ## Key reference values (no credentials)
 | Thing | Value |
 |---|---|
-| HEAD (indicative) | **`bc42af3`** (+ handoff doc commit; advances via bot commits) |
+| HEAD (indicative) | session-4 fix `73f62b9` + restore `ad25dea` (advances via bot commits) |
 | Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
-| Tests | 105 passing |
+| Tests | 107 passing |
 | Stores | 10 (9 Shopify + rarecandy Next.js) |
 | Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
 | Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
@@ -62,7 +62,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The old reb
 - TDD (RED→GREEN); review for non-trivial changes; present diffs before pushing live changes. End commit messages with the `Co-Authored-By: Claude Opus 4.8` trailer.
 
 ## Gotchas
-- **commit-state is now a retry loop — do NOT revert to `git pull --rebase`.** Two overlapping runs rewrite `last_run` in every state file, so a naive rebase conflicts on all of them. `tcg_watcher.reconcile` = newest-`last_run`-per-file + materializes origin-only files (`git add state/` stages deletions on git 2.x → would drop a store another run just seeded).
+- **commit-state lives in `scripts/commit_state.sh` (called by `watch.yml`) — do NOT inline it back or revert to `git pull --rebase`.** It's a fetch→reconcile→`git reset --mixed origin/main`→`git add state/`→commit→push retry loop. Two overlapping runs rewrite `last_run` in every state file, so a naive rebase conflicts on all of them; `tcg_watcher.reconcile` = newest-`last_run`-per-file + materializes origin-only files. **Keep `--mixed` (never `--soft`):** soft keeps the runner's stale index, so a concurrent human push's non-`state/` files (e.g. docs) get committed as deletions — this is how the session-3 handoff docs got clobbered (session 4). `RECONCILE_CMD` env overrides the reconcile command for tests; `tests/test_commit_state.py` guards the clobber (RED on `--soft`, GREEN on `--mixed`).
 - **rarecandy:** `__NEXT_DATA__` → `props.pageProps.__APOLLO_STATE__`; iterate `RareFind:` entities → their `Product` ref; url = base/`{rareFind.slug}` (store-prefixed & `/product/` both 404); franchise tags `onepiece`/`dbz` normalized to `one piece`/`dragon ball` so `filter_franchises` matches. GraphQL host `api.rarecandy.com/graphql` introspection is 400 → HTML route only; no pagination in HTML → ~85 browse-surface listings, not the full catalog.
 - Discord `@here` needs `allowed_mentions:{parse:["everyone"]}`; poster retries 429 `Retry-After` + proactive `post_delay_seconds` between posts.
 - Box-vs-`case` fuzzy trap: `match.best_match` rejects size-qualifier mismatches via `_SIZE_TOKENS` — don't remove that guard.
@@ -70,9 +70,10 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The old reb
 - A launchd pinger was prepared but **NOT loaded** (`~/.claude/scripts/tcg-watch-ping.sh` + `~/Library/LaunchAgents/com.mrmadison.tcg-watch-ping.plist`) — superseded by cron-job.org.
 
 ## Decision tree — pick your next move
-(A) **Phase 2 — Wix ×2** (`pokelegendstcg` + `bulbacards`): the main remaining work. Per `docs/superpowers/PHASE2_SCOPING.md`, both are Wix Stores whose SSR HTML only exposes page 1 (~16 items); the full catalog needs an access-token + storefront **GraphQL POST** → requires a POST-capable `http` helper (extend `make_httpx_get`). Decide **full-GraphQL** (real coverage, ~2–2.5d) vs **best-effort SSR** (~1d, low value). Make the gallery route config-driven (bulbacards `/shop` 404s) and verify Wix id-stability before enabling alerts. One shared `adapters/wix.py` serves both sites.
-(B) **Widen rarecandy** beyond the ~85 browse-surface listings if the `rareFindCatalog(page)` GraphQL path can be made to work (introspection currently 400).
-(C) Something else — describe.
+(A) **Add the 9 easy Shopify stores** (from the session-4 store-list triage): `3kcollectables`, `doubleinfinitygaming`, `paladincards20`, `realgoodeal`, `shinypax`, `shopchieffpokeman`, `spoilsandloot`, `tygerstcgden`, `zulusgames` — all confirmed Shopify (`/products.json` 200), so **config-only** via the existing `adapters/shopify.py`. Per store, decide curated `collections` (find the sealed collection handles) vs full-crawl (`keep_sealed(filter_franchises())`) by catalog size — **never full-crawl a big store**. Deal-flagging applies automatically. Biggest, lowest-effort coverage win. (Not-easy from the image: `blowoutcards` = non-Shopify + big; `missionreadycollectibles` = `/products.json` 401; `tcgsorted` = shop.app link, real domain TBD.)
+(B) **Phase 2 — Wix ×2** (`pokelegendstcg` + `bulbacards`): the harder non-Shopify work. Per `docs/superpowers/PHASE2_SCOPING.md`, both are Wix Stores whose SSR HTML only exposes page 1 (~16 items); the full catalog needs an access-token + storefront **GraphQL POST** → requires a POST-capable `http` helper (extend `make_httpx_get`). Decide **full-GraphQL** (real coverage, ~2–2.5d) vs **best-effort SSR** (~1d, low value). Make the gallery route config-driven (bulbacards `/shop` 404s) and verify Wix id-stability before enabling alerts. One shared `adapters/wix.py` serves both sites.
+(C) **Widen rarecandy** beyond the ~85 browse-surface listings if the `rareFindCatalog(page)` GraphQL path can be made to work (introspection currently 400).
+(D) Something else — describe.
 
 === END PROMPT ===
 
