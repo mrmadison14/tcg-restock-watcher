@@ -4,49 +4,6 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
-## 2026-07-01 (session 3) — CI concurrency fix (found off-tree) + PAT rotation + Discord inter-post delay + rarecandy adapter (Phase 2 begun), 🟢 LIVE
-
-Resumed from HEAD `755744d`; ended at HEAD **`bc42af3`** (`main`; bot appends `state:`/`data:` commits). Verification-first: found a **live, ongoing failure not in the handoff's decision tree** — `watch` was failing ~38% of runs — fixed it, then did A, B, and began C. All TDD'd + reviewed + prod-verified.
-
-**Off-tree find — commit-state concurrency bug (top priority).** `git status`/`gh run list` showed 38% of recent watch runs failing. Root cause (systematic-debugging + a real-git simulation): overlapping runs (cron-job.org 5-min + GitHub's own schedule + occasional >5-min runs) each rewrite `last_run` in every `state/*.json`, so the old `git pull --rebase origin main` conflicted on all 9 files → run failed, its state was dropped, next run re-alerted (a hidden flood source). Fix: commit step is now a **fetch → reconcile → `reset --soft origin/main` → commit → push retry loop** (`watch.yml`) + job `timeout-minutes: 10`. New `tcg_watcher.reconcile` keeps the **newest `last_run` per file** and **materializes origin-only files** (guards a real data-loss hole — `git add state/` stages deletions on git 2.x, silently dropping a store another run just seeded). TDD (+10) + two real-git end-to-end sims (stale-file + origin-only). Commit `2c8be31`. **60-min prod monitor: 0 failures / 17 runs (was 38%); 3 execution overlaps all handled.**
-
-**A — cron-job.org PAT rotated.** Exposed/expiring fine-grained PAT replaced (Actions r+w, this repo only), swapped into cron-job.org `Authorization` (tested 204), old token **revoked**; verified by a post-revoke scheduled dispatch landing (`28536694410`). Runbook `docs/PAT_ROTATION.md`.
-
-**B — proactive Discord inter-post delay.** `send_events` sleeps `post_delay_seconds` (config `[thresholds]`, default 1.0s, injected sleep) between posts so bursts don't hit the webhook 429 in the first place (on top of the existing Retry-After retry). TDD (+5). Commit `953ce06`.
-
-**C — Phase 2 scoping + rarecandy adapter (first non-Shopify).** A research subagent probed the 3 non-Shopify sites → `docs/superpowers/PHASE2_SCOPING.md` (rarecandy easy; both Wix hard — full catalog needs token + GraphQL POST; ~1 week, 2 adapters not 3). Built **rarecandy** (Next.js marketplace): parses `__NEXT_DATA__` Apollo cache from `/shop`+`/discover` (GraphQL introspection is 400/closed), per `RareFind` → `Product` (real stock count, explicit `isPreorder`, franchise+sealed tags with `onepiece`→`one piece` / `dbz`→`dragon ball` normalization so `filter_franchises` matches; url `/{rareFind.slug}`, verified 200). `http.get` gained an `as_text` option for HTML. TDD vs a real trimmed fixture (+9). Commit `bc42af3`. **Prod-verified: `[rarecandy] seeded 51 watched variants (no alerts)`.**
-
-**Current state (close of session 3):**
-- 🟢 LIVE + autonomous + concurrency-safe. HEAD **`bc42af3`** on `main` (advances via bot commits). **105 tests** green.
-- Watch pipeline now 0% failures. PAT rotated. Discord inter-post delay live. **10 stores** (rarecandy = first non-Shopify).
-
-**Next steps:** (a) **Phase 2 Wix ×2** (`pokelegendstcg` + `bulbacards`) — remaining non-Shopify work; needs a POST/token-capable `http` path for full catalog (see `PHASE2_SCOPING.md`; decide full-GraphQL vs best-effort SSR; make gallery route config-driven — bulbacards `/shop` 404s; verify id-stability). (b) Optionally widen rarecandy past ~85 browse-surface listings if `rareFindCatalog(page)` GraphQL opens up. (c) Rotate the new PAT before its expiry.
-
----
-
-## 2026-07-01 (session 2) — 401games coverage + Task-15 polish + Phase 3 deal-flagging (shipped) + made autonomous, 🟢 LIVE
-
-Resumed from HEAD `182e42a`; ended at HEAD **`755744d`** (`main`; the Actions bot appends `state:`/`data:` commits, so HEAD keeps advancing). Verified session-1 state, then executed decision-tree items A + D + B, made the watcher run autonomously at 5-min cadence, and fixed a live crash surfaced during this handoff.
-
-**Stage A — 401games full sealed coverage.** 401games was DBZ-only (195 variants). It organizes Pokémon/OP by *set* (mixes singles) but also exposes product-type sealed collections. Added Pokémon (booster-boxes / ETBs / packs / box-sets-tins / japanese-sealed-product) + One Piece (booster-boxes / packs / box-sets) to `config.toml`; dropped its stale seed state to force a silent re-seed. Verified via a live run: `[401games] seeded 1131 watched variants (no alerts)`, ok=9, 0×429. Commit `e64af93`.
-
-**Stage D — Task-15 polish.** `adapters/shopify.py`: dropped over-matching bare `"bundle"` marker (kept `"booster bundle"`); made product/variant ids crash-on-missing (`it["id"]`/`v["id"]`). TDD, +3 tests. Commit `2c33154`.
-
-**Stage B — Phase 3 deal-flagging (the big one).** Spike-verified tcgcsv (sealed products DO carry `marketPrice`; a realistic Chrome UA bypasses its Cloudflare 401). Brainstorm → spec (`docs/superpowers/specs/2026-07-01-phase3-deal-flagging-design.md`) → plan (`docs/superpowers/plans/2026-07-01-phase3-deal-flagging.md`) → subagent-driven TDD build (10 tasks, fresh implementer + reviewers). New `pricing/{tcgcsv,match,build_index,oracle}.py`, `Verdict` model, `[pricing]` config, deal-aware `notify` routing, daily `build-index.yml`. Final review found a **Critical**: a single "Booster Box" fuzzy-matched a "Booster Box Case" (0.91) → bogus 91%-under loud deal — fixed with a size-qualifier guard in `match.best_match` (`_SIZE_TOKENS`) + dropped bare `"case"` marker (commit `848ba9d`). Merged via PR #1 (`745083a`). Real index built on Actions + verified: **pokemon 2595 / one piece 255 / dragon ball 588** sealed entries + CAD FX 1.42.
-
-**Stage — autonomous + Discord proof.** GitHub's own `watch` schedule self-started but sparse (~2–3h — free-tier throttles frequent crons; moved cron off top-of-hour anyway). Verified the Discord path end-to-end (forced a preorder event → loud `#deals` @here; self-healed). Stood up a **cron-job.org** cloud cron POSTing `workflow_dispatch` every 5 min (verified 204 + a real dispatch firing) — 5-min cadence with no local Mac. (Decided against paying GitHub — schedule throttle is plan-independent. A launchd pinger was prepared but NOT loaded, superseded by cron-job.org.)
-
-**Stage — live Discord-429 crash fixed (surfaced during handoff).** The 5-min cadence + a backlog of real events exposed a gap: `make_discord_poster` had no 429 handling → a rate-limited webhook crashed the whole run, and since state saves *after* posting, the same events re-fired every run = crash loop (and it was emailing failure notices). Fixed: the poster now retries on 429 honoring `Retry-After` (mirrors `make_httpx_get`), fail-loud only after exhausting retries. TDD, +2 tests. Commit `cea9b29`. Verified: the next run posted the **19-event backlog** and saved state — `RUN: ok=9 failed=0 events_sent=19`.
-
-**Current state (close of session 2):**
-- 🟢 LIVE + autonomous. HEAD **`755744d`** on `main` (advances via bot commits). **81 tests** green, tree clean.
-- Phase 3 deal-flagging merged + price index built (2595/255/588 + FX). Market verdict on every event; ≥10%-under → loud `#deals`.
-- Runs every 5 min via cron-job.org (verified) + GitHub's sparse own schedule as backstop. 401games full sealed (1131). Discord proven; 19-event backlog cleared.
-
-**Next steps:** (a) **Rotate the cron-job.org PAT** — pasted in chat (exposed) + expires 2026-07-31 → new fine-grained PAT (Actions r+w, this repo), update the cron-job.org `Authorization` header, re-test 204, revoke old. (b) If Discord 429s recur under load, add a small inter-post delay in `send_events` (proactive, on top of the retry). (c) Phase 2 (non-Shopify: Wix ×2 + rarecandy) still deferred.
-
----
-
 ## 2026-07-01 (session 1) — Brainstorm → ship (sealed-only watcher, LIVE), 🟢 LIVE
 
 Started from a bare idea; ended with a **live, verified** watcher on GitHub Actions. Built via the
