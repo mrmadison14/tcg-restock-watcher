@@ -58,3 +58,33 @@ def test_price_arrow_direction():
     up = build_embed(mk_event(EventType.PRICE_CHANGE, price=69.99, prev_price=59.99))
     assert "▼" in str(down)
     assert "▲" in str(up)
+
+def test_send_events_sleeps_between_posts_only():
+    slept = []
+    events = [mk_event(EventType.RESTOCK), mk_event(EventType.PRICE_CHANGE, vid="v2"),
+              mk_event(EventType.NEW_PRODUCT, vid="v3")]
+    sent = send_events(events, lambda p: None, lambda p: None, max_events_per_store=25,
+                       delay_seconds=0.5, sleep=slept.append)
+    assert sent == 3
+    assert slept == [0.5, 0.5]
+
+def test_send_events_single_post_no_sleep():
+    slept = []
+    send_events([mk_event(EventType.RESTOCK)], lambda p: None, lambda p: None,
+                max_events_per_store=25, delay_seconds=0.5, sleep=slept.append)
+    assert slept == []
+
+def test_send_events_zero_delay_never_sleeps():
+    slept = []
+    events = [mk_event(EventType.RESTOCK), mk_event(EventType.NEW_PRODUCT, vid="v2")]
+    send_events(events, lambda p: None, lambda p: None, max_events_per_store=25, sleep=slept.append)
+    assert slept == []
+
+def test_send_events_delays_before_flood_summary_too():
+    slept = []
+    events = ([mk_event(EventType.RESTOCK, store="a")]
+              + [mk_event(EventType.NEW_PRODUCT, store="b", vid=f"v{i}") for i in range(30)])
+    sent = send_events(events, lambda p: None, lambda p: None, max_events_per_store=25,
+                       delay_seconds=0.5, sleep=slept.append)
+    assert sent == 2
+    assert slept == [0.5]

@@ -36,6 +36,7 @@ price_epsilon = 0.01
     assert cfg.franchise_synonyms["pokemon"] == ("pokemon", "pokémon")
     assert cfg.max_events_per_store == 25
     assert cfg.price_epsilon == 0.01
+    assert cfg.post_delay_seconds == 0.0
 
 
 def test_load_config_collections(tmp_path: Path):
@@ -111,3 +112,9 @@ def test_pricing_parsed(tmp_path):
     assert pr.enabled is True and pr.deal_threshold == 0.10
     assert pr.categories["pokemon"] == (3, 85)
     assert pr.categories["dragon ball"] == (23, 27, 80)
+
+
+def test_post_delay_seconds_parsed(tmp_path):
+    f = tmp_path / "c.toml"
+    f.write_text(BASE.replace("price_epsilon = 0.01", "price_epsilon = 0.01\npost_delay_seconds = 1.5"))
+    assert load_config(f).post_delay_seconds == 1.5

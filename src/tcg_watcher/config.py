@@ -31,6 +31,7 @@ class Config:
     franchise_synonyms: dict[str, tuple[str, ...]]
     max_events_per_store: int
     price_epsilon: float
+    post_delay_seconds: float = 0.0
     pricing: "PricingConfig | None" = None
 
 
@@ -66,5 +67,6 @@ def load_config(path: Path) -> Config:
         franchise_synonyms=synonyms,
         max_events_per_store=thresholds["max_events_per_store"],
         price_epsilon=thresholds["price_epsilon"],
+        post_delay_seconds=thresholds.get("post_delay_seconds", 0.0),
         pricing=pricing,
     )

@@ -1,4 +1,5 @@
 from __future__ import annotations
+import time
 from collections import defaultdict
 from .models import Event, EventType
 
@@ -76,25 +77,26 @@ def _payload(embed: dict, loud: bool) -> dict:
     return payload
 
 
-def send_events(events, post_loud, post_quiet, max_events_per_store, route=route_loud) -> int:
+def send_events(events, post_loud, post_quiet, max_events_per_store, route=route_loud,
+                delay_seconds=0.0, sleep=time.sleep) -> int:
     by_store: dict[str, list[Event]] = defaultdict(list)
     for e in events:
         by_store[e.product.store].append(e)
 
-    sent = 0
+    actions = []
     for store, store_events in by_store.items():
         if len(store_events) > max_events_per_store:
-            summary = {
+            actions.append((post_quiet, {
                 "content": f"📦 **{store}**: {len(store_events)} changes this run "
                            f"(flood cap {max_events_per_store} exceeded — summarized).",
-            }
-            post_quiet(summary)
-            sent += 1
+            }))
             continue
         for e in store_events:
-            embed = build_embed(e)
             loud = route(e)
-            payload = _payload(embed, loud)
-            (post_loud if loud else post_quiet)(payload)
-            sent += 1
-    return sent
+            actions.append((post_loud if loud else post_quiet, _payload(build_embed(e), loud)))
+
+    for i, (poster, payload) in enumerate(actions):
+        if i and delay_seconds:
+            sleep(delay_seconds)
+        poster(payload)
+    return len(actions)

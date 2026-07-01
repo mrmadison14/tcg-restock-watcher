@@ -63,7 +63,8 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
         if oracle is not None:
             events = [replace(e, verdict=oracle.verdict(e.product)) for e in events]
         report.events_sent += send_events(
-            events, post_loud, post_quiet, config.max_events_per_store, route=route_deal_or_urgent
+            events, post_loud, post_quiet, config.max_events_per_store,
+            route=route_deal_or_urgent, delay_seconds=config.post_delay_seconds,
         )
         save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
         report.stores_ok += 1

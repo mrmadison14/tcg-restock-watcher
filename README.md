@@ -79,7 +79,8 @@ Each embed: product title, event type (color + emoji), store, price (previous â†
 - **Add a store**: add a `[[stores]]` block (`platform = "shopify"`). Find sealed collection
   handles via `https://<store>/collections.json`. Disable with `enabled = false`.
 - **Franchises / thresholds**: `[franchise_synonyms]`, `max_events_per_store` (flood cap â†’
-  one summary embed), `price_epsilon`.
+  one summary embed), `price_epsilon`, `post_delay_seconds` (proactive pause between Discord
+  posts to stay under webhook rate limits; default `1.0`, set `0` to disable).
 
 ## Local use
 
