@@ -1,83 +1,81 @@
-# Resume Prompt — TCG Restock Watcher
+# Resume Prompt — tcg-restock-watcher
 
 Paste-and-go prompt for a fresh Claude session. Self-contained — no prior conversation context required. Single repo (no siblings).
 
 === START PROMPT ===
 
-I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-restock-watcher`. It's a personal (non-Agent-Smith) tool that polls Shopify TCG stores every ~5 min for **sealed** Pokémon / One Piece / Dragon Ball product (booster boxes, ETBs, bundles, tins, blisters) and posts restock / new-listing / preorder / price-change alerts to Discord. Stack: Python 3.13 + uv + httpx, no DB/framework/UI. Runs on free GitHub Actions (personal GitHub `mrmadison14`), state committed back to the repo. It is **LIVE and verified working**.
+I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-restock-watcher`. It's a personal (non-Agent-Smith) tool that polls TCG stores every ~5 min for sealed Pokémon / One Piece / Dragon Ball product (booster boxes, ETBs, bundles, tins, blisters) and posts restock / new-listing / preorder / price-change alerts to Discord — with TCGplayer below-market **deal-flagging**. Stack: Python 3.13 + uv + httpx, no DB/framework/UI. Runs free on GitHub Actions (personal GitHub `mrmadison14`); state committed back to the repo.
 
-## Where things stand (2026-07-01, session 1)
+## Where things stand (2026-07-01, session 3)
 
-🟢 **LIVE — Phase 1 complete and shipped.** `main` is clean and pushed; HEAD ≈ **`182e42a`** but the Actions bot appends `state: update snapshots` commits every ~5 min, so HEAD will be newer (that's expected, not drift). This session went from idea → spec → plan → subagent-driven build → live. The hard part was Cloudflare **429**'ing GitHub's datacenter IP on full-catalog crawls; solved by fetching **sealed-only** (curated collections + small-store full-crawl) plus a polite throttle. 9 stores, 47 tests, 0 failures / 0×429 on the live runs.
+🟢 LIVE + autonomous + concurrency-safe. `main` HEAD ≈ **`bc42af3`** (advances via the Actions bot's `state:`/`data:` commits — expected, not drift). This session: found & fixed a **38% watch-failure bug** (off the decision-tree), rotated the exposed PAT, added a proactive Discord inter-post delay, and shipped the **rarecandy** adapter (first non-Shopify store — Phase 2 begun).
+- **CI fix (the big one):** commit-state was failing ~38% on `git pull --rebase` conflicts when runs overlapped, dropping state → re-alerts. Now a fetch→reconcile→reset-soft→commit→push **retry loop** (`tcg_watcher.reconcile`: newest-`last_run`-per-file + materializes origin-only files). 60-min prod monitor: **0 failures / 17 runs**.
+- **rarecandy:** parses `__NEXT_DATA__` Apollo cache from `/shop`+`/discover`; seeded 51 sealed variants live. `http.get` gained `as_text` for HTML.
+- **PAT rotated** (old exposed token revoked); **Discord inter-post delay** live (`post_delay_seconds`, default 1.0s).
 
 ## Uncommitted / in-flight state
-
 - Staged: nothing
-- Unstaged / modified: nothing (working tree clean)
-- Failing or skipped tests: none (47 passed)
+- Unstaged / modified: nothing (working tree clean, up to date with origin/main)
+- Failing or skipped tests: none (105 passed)
 - Background jobs / open processes: none
 - **Exact next command:** `cd /Users/jmadison/workspace/tcg-restock-watcher && git pull --rebase && uv run pytest -q`
 
 ## Read these first (in order)
-1. `/Users/jmadison/workspace/tcg-restock-watcher/README.md` — as-built overview: 9 stores, sealed-only, curated-vs-full-crawl, the 429 story, config, limitations.
-2. `/Users/jmadison/workspace/tcg-restock-watcher/SESSION_HISTORY.md` — full session-1 arc + next steps.
-3. `/Users/jmadison/workspace/tcg-restock-watcher/docs/superpowers/specs/2026-06-30-tcg-restock-watcher-design.md` — design spec; **§16 = as-built deltas** (Phases 2/3, deferred follow-ups).
-4. `/Users/jmadison/workspace/tcg-restock-watcher/config.toml` — the 9-store roster + curated `collections`.
+1. `SESSION_HISTORY.md` — session-3 entry (top) = full arc + next steps.
+2. `docs/superpowers/PHASE2_SCOPING.md` — Phase 2 (Wix ×2) feasibility + effort (the main open work).
+3. `README.md` — as-built overview (10 stores, sealed-only, 429 story).
+4. `config.toml` — 10 stores + curated collections + `[pricing]` + `[thresholds]`.
 
 ## Verification commands (run first to confirm no drift)
-
 ```bash
 cd /Users/jmadison/workspace/tcg-restock-watcher
-git pull --rebase                                   # bot commits state ~every 5 min; sync first
+git pull --rebase                                   # bot commits state/data ~every 5 min; sync first
 git status -sb                                      # expect: clean, up to date with origin/main
-uv run pytest -q                                    # expect: 47 passed
-uv run python -c "from tcg_watcher.config import load_config; c=load_config('config.toml'); print(len(c.stores),'stores')"   # expect: 9 stores
-gh workflow list                                    # expect: watch = active
-gh run list --workflow=watch --limit 3              # expect: recent runs 'success'
+uv run pytest -q                                    # expect: 105 passed
+gh run list --workflow=watch --limit 5              # expect: recent runs = success (was ~38% failing pre-`2c8be31`)
+gh run list --workflow=build-index --limit 2        # expect: daily run success
 ```
-If any output differs (watch not active, tests failing, <9 stores), STOP and reconcile against the docs above before changing anything.
+If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The old rebase-conflict failure is fixed; a new failure is more likely a transient fetch or the new PAT expiring. If tests < 105 or stores ≠ 10, STOP and reconcile against the docs above before changing anything.
 
 ## Key reference values (no credentials)
-
 | Thing | Value |
 |---|---|
-| HEAD (indicative) | **`182e42a`** (advances via bot `state:` commits) |
-| Repo | `github.com/mrmadison14/tcg-restock-watcher` (public) |
-| GitHub account | `mrmadison14` (personal; `gh auth status` should show it) |
-| Discord secrets (values in repo secrets, NOT here) | `DISCORD_DEALS_WEBHOOK` (loud), `DISCORD_TRACKER_WEBHOOK` (quiet) |
-| Workflows | `watch.yml` (5-min cron, commits state), `spike.yml` (manual reachability) |
-| Franchises | pokemon, one piece, dragon ball |
-| Stores (9) | collectorsrow, collectorstore, hobbiesville, deckoutgaming, skyboxct, 401games (curated collections); thepokehive, allpoketcg, matrixtcg (full-crawl+sealed) |
-| 401games real host | `store.401games.ca` (apex redirects; DBZ sealed only so far) |
-| collectorstore sealed | collections `games-pokemon`, `games-one-piece` |
-| Phase-3 price source | `tcgcsv.com` (TCGplayer JSON: pokemon=cat 3, one piece=68, DBZ=23/27/80, pokemon-japan=85) |
+| HEAD (indicative) | **`bc42af3`** (+ handoff doc commit; advances via bot commits) |
+| Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
+| Tests | 105 passing |
+| Stores | 10 (9 Shopify + rarecandy Next.js) |
+| Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
+| Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
+| cron-job.org PAT | ✅ **rotated 2026-07-01** (fine-grained, Actions r+w, this repo). Rotate again before its expiry. Runbook: `docs/PAT_ROTATION.md` |
+| Phase-3 index | `data/price_index.json` (pokemon 2595 / one piece 255 / dragon ball 588 sealed) + `data/fx.json` (CAD 1.42) |
+| tcgcsv categories | pokemon 3 & 85, one piece 68, dragon ball 23 / 27 / 80 |
+| Discord webhooks | `DISCORD_DEALS_WEBHOOK` (loud @here) · `DISCORD_TRACKER_WEBHOOK` (quiet) — GH repo secrets |
+| Deal threshold | 10% under market (`[pricing].deal_threshold`) |
+| Post delay | `[thresholds].post_delay_seconds = 1.0` (proactive anti-429) |
 
 ## Hard rules & conventions
-
-- Python 3.13, `uv` only (not pip/poetry). `httpx` for HTTP. **No comments in production code.** No new deps without asking.
-- **Sealed-only scope** — individual singles are intentionally out of scope (they cause the 429 and aren't the use case).
-- **Curated store** (`store.collections` set): products are trusted (no franchise/sealed filter) and tagged with the config-given franchise. **Full-crawl store** (no collections): `keep_sealed(filter_franchises(...))`. Only use full-crawl for small catalogs.
-- **Never full-crawl a big store** — Cloudflare 429s GitHub IPs. Keep the polite throttle in `http.py` (min_interval + Retry-After + backoff).
-- The Actions bot commits `state/` to `main` every ~5 min → **always `git pull --rebase` before pushing** local changes, or the push is rejected.
-- Follow TDD; keep the two-stage (spec then quality) review discipline for non-trivial changes. End commit messages with the Co-Authored-By trailer.
+- Python 3.13, uv only (not pip/poetry). httpx for HTTP. **No comments in production code. No new deps without asking.**
+- **Sealed-only scope** — singles are out of scope (they trigger the Cloudflare 429).
+- Curated store (has `collections`): products trusted (no filter), tagged with the config franchise. Full-crawl store (no `collections`, incl. rarecandy): `keep_sealed(filter_franchises(...))`. **Never full-crawl a big store / whole marketplace.**
+- Keep the polite throttle in `http.py` (min_interval + Retry-After + backoff) for BOTH the fetch (`make_httpx_get`) and the Discord poster (`make_discord_poster`).
+- The Actions bot commits `state/` + `data/` to `main` every few min → **always `git pull --rebase` before pushing.**
+- TDD (RED→GREEN); review for non-trivial changes; present diffs before pushing live changes. End commit messages with the `Co-Authored-By: Claude Opus 4.8` trailer.
 
 ## Gotchas
-
-- Discord `@here` requires `allowed_mentions: {"parse": ["everyone"]}` — there is **no `"here"` parse type** (a `["here"]` "fix" silently kills the ping).
-- `config.toml` is NOT auto-committed by code-task subagents — commit it explicitly (it was missed once).
-- The `feed-spike` workflow tests `/products.json` reachability, which is NOT how curated stores are fetched now — it's a historical gate artifact, don't trust it as a production check.
-- A Discord post failure is fatal for that run (fail-loud, non-idempotent) — the failing store re-alerts next run rather than losing events. Intended.
+- **commit-state is now a retry loop — do NOT revert to `git pull --rebase`.** Two overlapping runs rewrite `last_run` in every state file, so a naive rebase conflicts on all of them. `tcg_watcher.reconcile` = newest-`last_run`-per-file + materializes origin-only files (`git add state/` stages deletions on git 2.x → would drop a store another run just seeded).
+- **rarecandy:** `__NEXT_DATA__` → `props.pageProps.__APOLLO_STATE__`; iterate `RareFind:` entities → their `Product` ref; url = base/`{rareFind.slug}` (store-prefixed & `/product/` both 404); franchise tags `onepiece`/`dbz` normalized to `one piece`/`dragon ball` so `filter_franchises` matches. GraphQL host `api.rarecandy.com/graphql` introspection is 400 → HTML route only; no pagination in HTML → ~85 browse-surface listings, not the full catalog.
+- Discord `@here` needs `allowed_mentions:{parse:["everyone"]}`; poster retries 429 `Retry-After` + proactive `post_delay_seconds` between posts.
+- Box-vs-`case` fuzzy trap: `match.best_match` rejects size-qualifier mismatches via `_SIZE_TOKENS` — don't remove that guard.
+- tcgcsv 401s default-UA fetchers; the Chrome UA in `http.py` bypasses it. GitHub free-tier throttles frequent `schedule` crons (~2–3h) — that's why cron-job.org does the 5-min cadence (paying GitHub does NOT help).
+- A launchd pinger was prepared but **NOT loaded** (`~/.claude/scripts/tcg-watch-ping.sh` + `~/Library/LaunchAgents/com.mrmadison.tcg-watch-ping.plist`) — superseded by cron-job.org.
 
 ## Decision tree — pick your next move
-
-(A) **Confirm real-world alerts + fill 401games coverage** — check Discord / `git log` for `state:` commits that produced events (a real restock/preorder). Then find 401games' Pokémon & One Piece sealed collection handles via `https://store.401games.ca/collections.json` and add them to its `collections` in `config.toml` (currently DBZ-sealed only). Commit, pull --rebase, push; trigger `gh workflow run watch` to verify.
-(B) **Phase 3 — TCGplayer deal-flagging** — add a market-price oracle from `tcgcsv.com` so #deals fires loud only when a listing is below TCGplayer market (sealed-first fuzzy match, USD-normalized for CAD stores). See spec §9. New plan via writing-plans, then subagent-driven build.
-(C) **Phase 2 — non-Shopify sites** — add adapters for pokelegendstcg + bulbacards (Wix) and rarecandy (Next.js). Best-effort, isolated per-adapter. Spike each site's data path first.
-(D) **Minor polish (Task 15)** — in `adapters/shopify.py`: drop bare `"bundle"` from `_SEALED_MARKERS` (over-matches) and use `it["id"]`/`v["id"]` to crash on a missing required id instead of stringifying `None`. Full-crawl path only; low priority.
-(E) Something else — describe.
+(A) **Phase 2 — Wix ×2** (`pokelegendstcg` + `bulbacards`): the main remaining work. Per `docs/superpowers/PHASE2_SCOPING.md`, both are Wix Stores whose SSR HTML only exposes page 1 (~16 items); the full catalog needs an access-token + storefront **GraphQL POST** → requires a POST-capable `http` helper (extend `make_httpx_get`). Decide **full-GraphQL** (real coverage, ~2–2.5d) vs **best-effort SSR** (~1d, low value). Make the gallery route config-driven (bulbacards `/shop` 404s) and verify Wix id-stability before enabling alerts. One shared `adapters/wix.py` serves both sites.
+(B) **Widen rarecandy** beyond the ~85 browse-surface listings if the `rareFindCatalog(page)` GraphQL path can be made to work (introspection currently 400).
+(C) Something else — describe.
 
 === END PROMPT ===
 
 ## Note for the next session
 
-This session took the project from a one-line idea to a live, verified GitHub-Actions watcher in one sitting, using the superpowers brainstorm→spec→plan→subagent-driven-development flow with per-task spec+quality reviews. The defining challenge was Cloudflare rate-limiting (429) of GitHub's datacenter IPs on full-catalog crawls — resolved by pivoting to **sealed-only** fetching (curated Shopify collections for big stores, full-crawl+sealed-filter for small ones) plus a polite HTTP layer (throttle + Retry-After + retries), which both fixed the 429 and sharpened alerts to what James actually buys. James is hands-on and course-corrects well (he caught the collectorstore drop and the GitLab→GitHub account mix-up) — surface findings and confirm scope changes rather than deciding silently. Standing preferences observed: verify before claiming done (we live-ran on GitHub twice to confirm), keep everything under `~/workspace/`, and prefer the narrowest correct scope. Phase 1 is fully shipped; everything remaining (Phases 2/3, 401games coverage, minor polish) is optional and captured above.
+Session 3 opened by verifying the "done" system and immediately found it was **failing 38% of runs** — a commit-state rebase conflict under run overlap that dropped state and re-alerted — fixed with a reconcile+retry loop, proven by a real-git simulation and a 60-min 0/17 prod monitor. Then it cleared the security loose end (**rotated the exposed PAT**, revoked the old, verified continuity), added a **proactive Discord inter-post delay** (B), and began Phase 2 by shipping the **rarecandy** adapter (Next.js `__NEXT_DATA__` route; seeded 51 sealed live). The **Wix pair is the remaining Phase 2 work** and is genuinely harder (needs POST/token plumbing — see `PHASE2_SCOPING.md`). Standing user preferences observed: address him as **"James Madison"** (never a nickname); **verify before claiming done** (again vindicated — the "done" pipeline was silently failing); **prefer free/no-cost solutions**; TDD RED→GREEN + review for non-trivial work; `git pull --rebase` before pushing (the Actions bot writes to `main` continuously); and **present diffs for review before pushing** live changes.
