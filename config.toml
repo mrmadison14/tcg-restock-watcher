@@ -102,6 +102,12 @@ collections = [
   "dragon ball:dragon-ball-super-sealed",
 ]
 
+[[stores]]
+key = "rarecandy"
+base_url = "https://rarecandy.com"
+platform = "rarecandy"
+currency = "USD"
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]

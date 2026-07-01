@@ -20,7 +20,7 @@ per store: fetch sealed products → diff vs last snapshot → classify events
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (9)
+## Stores (10)
 
 | Store | Fetch mode | Franchises |
 |---|---|---|
@@ -33,11 +33,12 @@ per store: fetch sealed products → diff vs last snapshot → classify events
 | thepokehive.com | full-crawl + sealed filter | all (small catalog) |
 | allpoketcg.com | full-crawl + sealed filter | all (small catalog) |
 | matrixtcg.com | full-crawl + sealed filter | all (small catalog) |
+| rarecandy.com | Next.js `__NEXT_DATA__`, sealed via tags | Pokémon, One Piece, Dragon Ball |
 
 Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
 aren't cleanly targetable (add handles to its config if found). **collectorstore.com** uses its
 `games-pokemon` / `games-one-piece` collections (all sealed). **tcgsorted** (shop.app) is deferred (no resolvable
-storefront). The 3 non-Shopify sites (Wix ×2, rarecandy) are Phase 2.
+storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopify adapter; the remaining Wix ×2 are Phase 2 (see `docs/superpowers/PHASE2_SCOPING.md`).
 
 ## The Cloudflare 429 story (why it's built this way)
 
@@ -100,7 +101,7 @@ uv run pytest -v                      # 88 tests
 - A **Discord post failure is fatal for that run** (fail-loud, non-idempotent): the failing
   store's snapshot isn't saved, so those events re-alert next run rather than being lost.
 - Snapshot commits every ~5 min **grow repo history** over time (acceptable for Phase 1).
-- **Phase 2** = the 3 non-Shopify sites. **Phase 3** = TCGplayer "below market" deal-flagging
+- **Phase 2** = non-Shopify sites (**rarecandy** ✅ Next.js; Wix ×2 remaining). **Phase 3** = TCGplayer "below market" deal-flagging
   (via tcgcsv.com), which makes `#deals` below-market-only.
 
 ## Design docs

@@ -30,7 +30,7 @@ def make_httpx_get(
         client = httpx.Client(timeout=30.0, headers={"User-Agent": _UA}, follow_redirects=True)
     last = {"t": None}
 
-    def get(url, params=None):
+    def get(url, params=None, as_text=False):
         for attempt in range(retries + 1):
             if last["t"] is not None:
                 wait = min_interval - (monotonic() - last["t"])
@@ -50,7 +50,7 @@ def make_httpx_get(
                 sleep(ra if ra is not None else backoff * (2 ** attempt))
                 continue
             resp.raise_for_status()
-            return resp.json()
+            return resp.text if as_text else resp.json()
 
     return get
 

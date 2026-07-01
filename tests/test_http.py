@@ -82,6 +82,13 @@ def test_retry_after_capped():
     assert 30 in slept
 
 
+def test_as_text_returns_body_text():
+    req = httpx.Request("GET", "http://x")
+    client = FakeClient([httpx.Response(200, text="<html>hi</html>", request=req)])
+    get = make_httpx_get(retries=0, min_interval=0, client=client, sleep=lambda s: None)
+    assert get("http://x", as_text=True) == "<html>hi</html>"
+
+
 def test_throttle_spaces_requests():
     slept = []
     clock = {"t": 0.0}
