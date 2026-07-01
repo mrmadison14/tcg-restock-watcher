@@ -152,6 +152,8 @@ currency = "USD"
 collections = [
   "pokemon:pokemon-sealed-products",
   "one piece:one-piece-boosters",
+  "dragon ball:dragon-ball-super",
+  "pokemon:pokemon-sealed-cases",
 ]
 
 [[stores]]
@@ -165,6 +167,25 @@ collections = [
   "pokemon:pokemon-booster-packs",
   "pokemon:pokemon-boxed-sets",
   "pokemon:pokemon-loose-decks",
+  "pokemon:pokemon-scarlet-violet",
+  "pokemon:pokemon-imported-product",
+]
+
+[[stores]]
+key = "tcgsorted"
+base_url = "https://shop.tcgsorted.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "doubleinfinitygaming"
+base_url = "https://doubleinfinitygaming.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:pokemon-new-and-hot",
+  "one piece:one-piece-new-and-hot",
+  "dragon ball:dragon-ball-fusion-world",
 ]
 
 [franchise_synonyms]
