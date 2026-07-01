@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T23:50:20Z",
+  "last_run": "2026-07-01T23:55:17Z",
   "seeded": true,
   "variants": {
     "46224462151999": {
@@ -1959,7 +1959,7 @@
       "title": "(Korean) Pokémon TCG: Mask of Transformation Booster Pack"
     },
     "52235463917887": {
-      "in_stock": true,
+      "in_stock": false,
       "is_preorder": false,
       "price": 2.0,
       "title": "(Korean) Pokémon TCG: Paradise Dragona Booster Pack"
