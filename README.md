@@ -9,11 +9,13 @@ this repo. **Live** at https://github.com/mrmadison14/tcg-restock-watcher.
 
 ```
 per store: fetch sealed products → diff vs last snapshot → classify events
-        → Discord (loud/quiet) → commit new snapshot
+        → Discord (loud/quiet) → reconcile + commit snapshot
 ```
 
 - `.github/workflows/watch.yml` runs `python -m tcg_watcher` every ~5 min and commits updated
-  `state/*.json` snapshots back to `main`.
+  `state/*.json` snapshots back to `main`. The commit step is **concurrency-safe**: when runs
+  overlap, it reconciles each snapshot by newest `last_run` (`tcg_watcher.reconcile`) and retries
+  the push, so parallel runs never conflict or clobber one another's state.
 - **Sealed-only, by design.** Individual singles are intentionally out of scope — they're not
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
@@ -43,7 +45,7 @@ GitHub's datacenter IPs get rate-limited (HTTP 429) by Cloudflare when crawling 
 Two things keep us under the limit: **(1) sealed-only** fetching (~40 requests/run, not ~300+),
 and **(2) a polite HTTP layer** — a minimum interval between requests (2.5s), honoring
 `Retry-After`, and exponential-backoff retries. A full run takes ~2–3 min (mostly the throttle),
-well under the 5-min cron. Verified green on GitHub with 0 failures.
+well under the 5-min cron.
 
 ## Setup (already done, for reference)
 
@@ -85,7 +87,7 @@ Each embed: product title, event type (color + emoji), store, price (previous �
 export DISCORD_DEALS_WEBHOOK=... DISCORD_TRACKER_WEBHOOK=...
 uv run python -m tcg_watcher          # TCG_CONFIG (default config.toml), TCG_STATE_DIR (default state)
 python scripts/spike_feeds.py         # reachability spike
-uv run pytest -v                      # 47 tests
+uv run pytest -v                      # 88 tests
 ```
 
 ## Known limitations (Phase 1)
