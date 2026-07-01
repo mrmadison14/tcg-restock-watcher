@@ -15,11 +15,23 @@ class Store:
 
 
 @dataclass(frozen=True)
+class PricingConfig:
+    enabled: bool
+    deal_threshold: float
+    match_threshold: float
+    index_path: str
+    fx_path: str
+    fx_url: str
+    categories: dict[str, tuple[int, ...]]
+
+
+@dataclass(frozen=True)
 class Config:
     stores: tuple[Store, ...]
     franchise_synonyms: dict[str, tuple[str, ...]]
     max_events_per_store: int
     price_epsilon: float
+    pricing: "PricingConfig | None" = None
 
 
 def load_config(path: Path) -> Config:
@@ -37,9 +49,22 @@ def load_config(path: Path) -> Config:
     )
     synonyms = {k: tuple(v) for k, v in data["franchise_synonyms"].items()}
     thresholds = data["thresholds"]
+    pricing = None
+    if "pricing" in data:
+        pr = data["pricing"]
+        pricing = PricingConfig(
+            enabled=pr.get("enabled", True),
+            deal_threshold=pr["deal_threshold"],
+            match_threshold=pr["match_threshold"],
+            index_path=pr["index_path"],
+            fx_path=pr["fx_path"],
+            fx_url=pr["fx_url"],
+            categories={k: tuple(v) for k, v in pr.get("categories", {}).items()},
+        )
     return Config(
         stores=stores,
         franchise_synonyms=synonyms,
         max_events_per_store=thresholds["max_events_per_store"],
         price_epsilon=thresholds["price_epsilon"],
+        pricing=pricing,
     )
