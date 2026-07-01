@@ -55,11 +55,25 @@ def make_httpx_get(
     return get
 
 
-def make_discord_poster(webhook_url: str):
-    client = httpx.Client(timeout=20.0)
+def make_discord_poster(
+    webhook_url: str,
+    retries: int = 4,
+    backoff: float = 1.0,
+    retry_after_cap: float = 30.0,
+    client=None,
+    sleep=time.sleep,
+):
+    if client is None:
+        client = httpx.Client(timeout=20.0)
 
     def post(payload: dict) -> None:
-        resp = client.post(webhook_url, json=payload)
-        resp.raise_for_status()
+        for attempt in range(retries + 1):
+            resp = client.post(webhook_url, json=payload)
+            if resp.status_code == 429 and attempt < retries:
+                ra = _retry_after_seconds(resp, retry_after_cap)
+                sleep(ra if ra is not None else backoff * (2 ** attempt))
+                continue
+            resp.raise_for_status()
+            return
 
     return post
