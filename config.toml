@@ -48,7 +48,7 @@ currency = "USD"
 
 [[stores]]
 key = "401games"
-base_url = "https://401games.ca"
+base_url = "https://store.401games.ca"
 platform = "shopify"
 currency = "CAD"
 
