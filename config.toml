@@ -15,6 +15,16 @@ collections = [
 ]
 
 [[stores]]
+key = "collectorstore"
+base_url = "https://collectorstore.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:games-pokemon",
+  "one piece:games-one-piece",
+]
+
+[[stores]]
 key = "thepokehive"
 base_url = "https://thepokehive.com"
 platform = "shopify"
