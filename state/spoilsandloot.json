@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T20:22:40Z",
+  "last_run": "2026-07-01T20:26:32Z",
   "seeded": true,
   "variants": {
     "46224462151999": {
@@ -2494,9 +2494,9 @@
     },
     "52861109043519": {
       "in_stock": false,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 69.95,
-      "title": "[PREORDER SHIP BY 7/3/26] Pokémon TCG: Mega Greninja ex Premium Collection"
+      "title": "Pokémon TCG: Mega Greninja ex Premium Collection"
     },
     "52865636794687": {
       "in_stock": true,
