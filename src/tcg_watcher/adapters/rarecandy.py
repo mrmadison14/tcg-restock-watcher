@@ -45,7 +45,7 @@ def products_from_apollo(store: Store, apollo: dict) -> list[Product]:
                 image=thumb.get("thumbnail"),
                 tags=tags,
                 is_preorder=bool(product.get("isPreorder")),
-                is_sealed="sealed" in tags,
+                is_sealed="sealed" in tags and "singles" not in tags,
             )
         )
     return out

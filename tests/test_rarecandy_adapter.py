@@ -64,6 +64,23 @@ def test_extract_apollo_missing_returns_empty():
     assert rarecandy.extract_apollo("<html>no next data here</html>") == {}
 
 
+def _apollo_with_tags(tags):
+    return {
+        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"}},
+        "Product:X": {"id": 1, "name": "Test", "price": 1.0, "quantity": 1, "tags": tags},
+    }
+
+
+def test_singles_tag_excluded_from_sealed():
+    prods = rarecandy.products_from_apollo(_store(), _apollo_with_tags(["pokemon", "singles", "sealed"]))
+    assert prods[0].is_sealed is False
+
+
+def test_sealed_without_singles_is_sealed():
+    prods = rarecandy.products_from_apollo(_store(), _apollo_with_tags(["pokemon", "sealed"]))
+    assert prods[0].is_sealed is True
+
+
 def test_fetch_products_unions_surfaces_and_dedupes():
     payload = {"props": {"pageProps": {"__APOLLO_STATE__": _apollo()}}}
     html = '<script id="__NEXT_DATA__" type="application/json">' + json.dumps(payload) + "</script>"
