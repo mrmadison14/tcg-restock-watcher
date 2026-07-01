@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T20:55:18Z",
+  "last_run": "2026-07-01T21:00:25Z",
   "seeded": true,
   "variants": {
     "48782703427752": {
@@ -3601,6 +3601,18 @@
       "is_preorder": false,
       "price": 49.99,
       "title": "Pokemon: Mega Greninja ex Premium Collection *Releases 07-03-2026*"
+    },
+    "55685874843816": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 59.99,
+      "title": "Pokemon: Sword & Shield Silver Tempest 3-Pack Blister [Togetic]"
+    },
+    "55685876220072": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 49.99,
+      "title": "Pokemon: Sword & Shield Silver Tempest 3-Pack Blister [Manaphy]"
     }
   }
 }
