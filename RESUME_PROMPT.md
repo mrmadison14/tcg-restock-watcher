@@ -42,7 +42,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 |---|---|
 | HEAD (indicative) | session-4 fix `73f62b9` + restore `ad25dea` (advances via bot commits) |
 | Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
-| Tests | 107 passing |
+| Tests | 109 passing |
 | Stores | 20 (19 Shopify + rarecandy Next.js) |
 | Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
 | Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
@@ -63,7 +63,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 
 ## Gotchas
 - **commit-state lives in `scripts/commit_state.sh` (called by `watch.yml`) — do NOT inline it back or revert to `git pull --rebase`.** It's a fetch→reconcile→`git reset --mixed origin/main`→`git add state/`→commit→push retry loop. Two overlapping runs rewrite `last_run` in every state file, so a naive rebase conflicts on all of them; `tcg_watcher.reconcile` = newest-`last_run`-per-file + materializes origin-only files. **Keep `--mixed` (never `--soft`):** soft keeps the runner's stale index, so a concurrent human push's non-`state/` files (e.g. docs) get committed as deletions — this is how the session-3 handoff docs got clobbered (session 4). `RECONCILE_CMD` env overrides the reconcile command for tests; `tests/test_commit_state.py` guards the clobber (RED on `--soft`, GREEN on `--mixed`).
-- **rarecandy:** `__NEXT_DATA__` → `props.pageProps.__APOLLO_STATE__`; iterate `RareFind:` entities → their `Product` ref; url = base/`{rareFind.slug}` (store-prefixed & `/product/` both 404); franchise tags `onepiece`/`dbz` normalized to `one piece`/`dragon ball` so `filter_franchises` matches. GraphQL host `api.rarecandy.com/graphql` introspection is 400 → HTML route only; no pagination in HTML → ~85 browse-surface listings, not the full catalog.
+- **rarecandy:** `__NEXT_DATA__` → `props.pageProps.__APOLLO_STATE__`; iterate `RareFind:` entities → their `Product` ref; url = base/`{rareFind.slug}` (store-prefixed & `/product/` both 404); franchise tags `onepiece`/`dbz` normalized to `one piece`/`dragon ball` so `filter_franchises` matches. GraphQL host `api.rarecandy.com/graphql` introspection is 400 → HTML route only; no pagination in HTML → ~85 browse-surface listings, not the full catalog. **`is_sealed` = `sealed` tag AND NOT `singles` tag** — rarecandy tags graded slabs / named single cards with a catch-all dump that *includes* `sealed`, so the `singles` exclusion is load-bearing (removing it re-admits CGC/PSA singles into the sealed feed).
 - Discord `@here` needs `allowed_mentions:{parse:["everyone"]}`; poster retries 429 `Retry-After` + proactive `post_delay_seconds` between posts.
 - Box-vs-`case` fuzzy trap: `match.best_match` rejects size-qualifier mismatches via `_SIZE_TOKENS` — don't remove that guard.
 - tcgcsv 401s default-UA fetchers; the Chrome UA in `http.py` bypasses it. GitHub free-tier throttles frequent `schedule` crons (~2–3h) — that's why cron-job.org does the 5-min cadence (paying GitHub does NOT help).
