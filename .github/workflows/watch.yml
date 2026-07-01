@@ -1,0 +1,37 @@
+name: watch
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: tcg-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - name: Run watcher
+        env:
+          DISCORD_DEALS_WEBHOOK: ${{ secrets.DISCORD_DEALS_WEBHOOK }}
+          DISCORD_TRACKER_WEBHOOK: ${{ secrets.DISCORD_TRACKER_WEBHOOK }}
+        run: uv run python -m tcg_watcher
+      - name: Commit state
+        run: |
+          git config user.name "tcg-watcher-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/
+          if git diff --staged --quiet; then
+            echo "no state changes"
+          else
+            git commit -m "state: update snapshots [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
