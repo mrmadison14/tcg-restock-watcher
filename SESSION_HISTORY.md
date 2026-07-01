@@ -18,13 +18,13 @@ Resumed from the session-3 handoff. Verification-first per the handoff — and t
 
 **Prod verification.** 2 consecutive fixed runs succeeded (`28541865676`, `28541970794`); 2 subsequent bot `state:` commits then landed with all docs intact (the very act that broke things last session — pushing docs to `main` — is now clobber-safe).
 
-**Store triage (against the user's store/promo list image).** Of 14 store domains in the image, 2 already tracked (rarecandy, collectorstore). Probed the rest via `/products.json`: **9 are Shopify = easy adds through the existing adapter, config-only** — `3kcollectables`, `doubleinfinitygaming`, `paladincards20`, `realgoodeal`, `shinypax`, `shopchieffpokeman`, `spoilsandloot`, `tygerstcgden`, `zulusgames`. Not-easy: `blowoutcards` (custom/non-Shopify HTML, and a big store — no full-crawl), `missionreadycollectibles` (`/products.json` → 401), `tcgsorted` (shop.app link — likely Shopify, real domain TBD). No stores added yet — pending scope confirmation (curated `collections` vs full-crawl per store size). Several of these also carry Smokemon/$5-off **promo codes** in the image, which the watcher does not model (orthogonal to restock/deal alerts).
+**Store triage (against the user's store/promo list image).** Of 14 store domains in the image, 2 already tracked (rarecandy, collectorstore). Probed the rest via `/products.json`: **9 are Shopify = easy adds through the existing adapter, config-only** — `3kcollectables`, `doubleinfinitygaming`, `paladincards20`, `realgoodeal`, `shinypax`, `shopchieffpokeman`, `spoilsandloot`, `tygerstcgden`, `zulusgames`. Not-easy: `blowoutcards` (custom/non-Shopify HTML, and a big store — no full-crawl), `missionreadycollectibles` (`/products.json` → 401), `tcgsorted` (shop.app link — likely Shopify, real domain TBD). **8 added + seeded live** (`ok=18 failed=0`): 6 full-crawl + `realgoodeal` (590) / `zulusgames` (95) curated; `doubleinfinitygaming` skipped (graded-singles catalog, no clean sealed collections). Several of these also carry Smokemon/$5-off **promo codes** in the image, which the watcher does not model (orthogonal to restock/deal alerts).
 
 **Current state (close of session 4):**
-- 🟢 LIVE + autonomous + concurrency-safe, now also **clobber-safe for concurrent non-`state/` pushes**. **107 tests** green, tree clean. **10 stores** unchanged.
+- 🟢 LIVE + autonomous + concurrency-safe, now also **clobber-safe for concurrent non-`state/` pushes**. **107 tests** green, tree clean. **18 stores** (added 8 from the store-list image; `doubleinfinitygaming` skipped).
 - HEAD advances via bot `state:` commits; the session's fix commits are `73f62b9` / `ad25dea` (now under later bot commits).
 
-**Next steps:** (a) Add the **9 easy Shopify stores** (confirm scope — which stores; curated `collections` vs full-crawl by size) — biggest, lowest-effort coverage win. (b) Phase 2 Wix ×2 (still the harder non-Shopify work). (c) Widen rarecandy. (d) Rotate the cron-job.org PAT before expiry.
+**Next steps:** (a) ✅ Added 8/9 easy Shopify stores (`doubleinfinitygaming` skipped); optionally add One Piece/Dragon Ball collections where the full-crawl stores carry them + resolve `tcgsorted`/`missionreadycollectibles`. (b) Phase 2 Wix ×2 (still the harder non-Shopify work). (c) Widen rarecandy. (d) Rotate the cron-job.org PAT before expiry.
 
 ---
 
