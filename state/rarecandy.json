@@ -1,12 +1,12 @@
 {
-  "last_run": "2026-07-01T19:25:14Z",
+  "last_run": "2026-07-01T19:30:24Z",
   "seeded": true,
   "variants": {
-    "111186": {
+    "110510": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 599000.0,
-      "title": "Pokemon 1st Edition Base Set Booster Box"
+      "price": 199.99,
+      "title": "TEMPORAL FORCES Iron Leaves Pokémon Center Elite Trainer Box"
     },
     "116098": {
       "in_stock": true,
@@ -14,29 +14,65 @@
       "price": 189.99,
       "title": "ASCENDED HEROES Pokémon Elite Trainer Box"
     },
-    "13825": {
+    "11622": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 2299.99,
-      "title": "151 Pokémon Booster Bundle Sealed Display - 10 Bundles"
+      "price": 4999.99,
+      "title": "Pokemon TOMY Scratch Cards Series 1 Booster Box (1997)"
     },
-    "18140": {
+    "13417": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 110.0,
-      "title": "Pokemon Snow Hazard (Japanese) Booster Box"
+      "price": 149.99,
+      "title": "PARADOX RIFT Half Booster Box - 18 Packs"
     },
-    "210351": {
+    "13418": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 60.0,
-      "title": "One Piece Foxy The Azure Sea's Seven Super Rare CGC Pristine 10"
+      "price": 145.99,
+      "title": "TEMPORAL FORCES Half Booster Box - 18 Packs"
     },
-    "210370": {
+    "14454": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 175.0,
-      "title": "Pokemon Psyduck Scarlet & Violet 151 Illustration Rare CGC 10"
+      "price": 294.99,
+      "title": "PARADOX RIFT Pokémon Booster Box"
+    },
+    "204695": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 8.99,
+      "title": "MEGA EVOLUTIONS Pokemon Booster Pack"
+    },
+    "204968": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 65.0,
+      "title": "2020 Pokémon Darkness Ablaze Mew V #069/189 CGC 8.5"
+    },
+    "206059": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 50.0,
+      "title": "2021 Pokémon Evolving Skies Glaceon V #040/203 CGC 9"
+    },
+    "208925": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 18.0,
+      "title": "[CN] Paldea Trainer Sleeves Battle Gift Box | 帕底亚训练家对战礼盒"
+    },
+    "210368": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 31.99,
+      "title": "One Piece Portgas D. Ace Premium Booster Vol.2 Secret Rare CGC 9"
+    },
+    "210393": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 165.0,
+      "title": "2026 Pokémon First Partner Collection Promo Popplio #045 CGC Pristine 10"
     },
     "214653": {
       "in_stock": true,
@@ -44,23 +80,47 @@
       "price": 144.99,
       "title": "MEGA DREAM Japanese Pokémon Booster Box"
     },
-    "217111": {
+    "214658": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 89.99,
-      "title": "Gem 2 Booster Box (S-Chinese)"
+      "price": 499.99,
+      "title": "ASCENDED HEROES Pokémon Center Elite Trainer Box"
     },
-    "217123": {
+    "216186": {
       "in_stock": true,
-      "is_preorder": false,
-      "price": 49.99,
-      "title": "Wild Force Booster Box Korean"
+      "is_preorder": true,
+      "price": 60.0,
+      "title": "Pokémon Pitch Black Sleeved Booster Pack Art Set"
     },
-    "217124": {
+    "216288": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 62.99,
-      "title": "Mega Brave Booster Box Korean"
+      "price": 95.0,
+      "title": "Chaos Rising Elite Trainer Box - ME04: Chaos Rising (CRI)"
+    },
+    "217095": {
+      "in_stock": true,
+      "is_preorder": true,
+      "price": 109.99,
+      "title": "Pitch Black Elite Trainer Box - ME05: Pitch Black (ME05)"
+    },
+    "217097": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 315.0,
+      "title": "Surging Sparks Booster Box - SV08: Surging Sparks (SSP)"
+    },
+    "217098": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 350.0,
+      "title": "First 4 Figures x Pokemon Center Charizard Rising Flames Figure"
+    },
+    "217110": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 79.99,
+      "title": "Gem 3 Booster Box (S-Chinese)"
     },
     "217215": {
       "in_stock": true,
@@ -229,6 +289,12 @@
       "is_preorder": false,
       "price": 110.0,
       "title": "Japanese Crimson Haze Booster Box - SV5a: Crimson Haze (SV5a)"
+    },
+    "6626": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 299.99,
+      "title": "SURGING SPARKS Booster Box Pokémon "
     }
   }
 }
