@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T20:30:25Z",
+  "last_run": "2026-07-01T20:35:14Z",
   "seeded": true,
   "variants": {
     "46224462151999": {
@@ -2493,7 +2493,7 @@
       "title": "Pokémon TCG: First Partner Illustration Collection: Series 2"
     },
     "52861109043519": {
-      "in_stock": false,
+      "in_stock": true,
       "is_preorder": false,
       "price": 69.95,
       "title": "Pokémon TCG: Mega Greninja ex Premium Collection"
