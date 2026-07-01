@@ -63,6 +63,19 @@ def test_build_walks_categories_and_writes(tmp_path):
     assert fx["rates"]["CAD"] == 1.36 and fx["fetched_at"] == "2026-07-01T20:30:00Z"
 
 
+def test_sealed_entries_drops_bare_case_nonsealed():
+    products = [
+        {"productId": 1, "name": "Alakazam Case File Binder"},
+        {"productId": 2, "name": "Silver Tempest Booster Box"},
+    ]
+    prices = [
+        {"productId": 1, "marketPrice": 20.0, "subTypeName": "Normal"},
+        {"productId": 2, "marketPrice": 500.0, "subTypeName": "Normal"},
+    ]
+    out = sealed_entries(products, prices)
+    assert set(out) == {"silver tempest booster box"}
+
+
 def test_build_isolates_category_failure(tmp_path):
     def http_get(url, params=None):
         if "/3/" in url or url.endswith("/3/groups"):

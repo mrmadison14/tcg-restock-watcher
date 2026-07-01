@@ -2,6 +2,8 @@ from __future__ import annotations
 import re
 from difflib import SequenceMatcher
 
+_SIZE_TOKENS = frozenset({"case", "display", "carton", "lot"})
+
 _STRIP_WORDS = (
     "pokémon", "pokemon", "one piece",
     "dragon ball super", "dragon ball", "fusion world",
@@ -33,6 +35,9 @@ def best_match(norm_title: str, index: dict, threshold: float):
     if best is None or best_ratio < threshold:
         return None
     name, entry = best
-    if not (q & set(name.split())):
+    name_tokens = set(name.split())
+    if not (q & name_tokens):
+        return None
+    if (q ^ name_tokens) & _SIZE_TOKENS:
         return None
     return (entry["display_name"], entry["market_usd"])

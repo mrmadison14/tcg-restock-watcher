@@ -11,7 +11,7 @@ from ..http import make_httpx_get
 
 _SEALED_MARKERS = (
     "booster box", "elite trainer", "etb", "booster bundle", "booster pack",
-    "collection", "tin", "blister", "case", "premium",
+    "collection", "tin", "blister", "premium",
 )
 
 
