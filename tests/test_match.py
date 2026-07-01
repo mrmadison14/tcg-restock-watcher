@@ -35,6 +35,16 @@ def test_best_match_rejects_size_qualifier_mismatch():
     assert best_match("silver tempest booster box case", index, 0.86) == ("Silver Tempest Booster Box Case", 6100.0)
 
 
+def test_best_match_prefilter_skips_zero_overlap():
+    index = {"zzz qqq www": {"market_usd": 9.0, "display_name": "Zzz Qqq Www"}}
+    assert best_match("surging sparks elite trainer box", index, 0.1) is None
+
+
+def test_best_match_prefilter_keeps_overlapping_candidate():
+    m = best_match("surging sparks elite trainer box", INDEX, 0.86)
+    assert m == ("Surging Sparks Elite Trainer Box", 60.0)
+
+
 def test_best_match_still_matches_same_size():
     index = {"surging sparks elite trainer box": {"market_usd": 60.0, "display_name": "Surging Sparks Elite Trainer Box"}}
     assert best_match("surging sparks elite trainer box", index, 0.86) == ("Surging Sparks Elite Trainer Box", 60.0)

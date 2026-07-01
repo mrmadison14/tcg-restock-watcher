@@ -1,9 +1,11 @@
 from __future__ import annotations
 import json
+import logging
 import re
 from ..config import Store
 from ..models import Product
 
+_log = logging.getLogger(__name__)
 _SURFACES = ("/shop", "/discover")
 _NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL)
 _FRANCHISE_TAG = {"onepiece": "one piece", "dbz": "dragon ball"}
@@ -55,8 +57,15 @@ def fetch_products(store: Store, http_get) -> list[Product]:
     seen: set[str] = set()
     out: list[Product] = []
     for surface in _SURFACES:
-        apollo = extract_apollo(http_get(f"{store.base_url}{surface}", as_text=True))
-        for p in products_from_apollo(store, apollo):
+        html = http_get(f"{store.base_url}{surface}", as_text=True)
+        apollo = extract_apollo(html)
+        products = products_from_apollo(store, apollo)
+        if not products and html:
+            _log.warning(
+                "[%s] no products extracted from %s (html_len=%d)",
+                store.key, surface, len(html),
+            )
+        for p in products:
             if p.variant_id not in seen:
                 seen.add(p.variant_id)
                 out.append(p)

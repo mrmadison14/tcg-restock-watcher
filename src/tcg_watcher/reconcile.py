@@ -45,11 +45,18 @@ def reconcile_files(
     return changed
 
 
+_MISSING_MARKERS = ("does not exist", "exists on disk, but not in")
+
+
 def _git_show(ref_path: str) -> dict | None:
     result = subprocess.run(["git", "show", ref_path], capture_output=True, text=True)
-    if result.returncode != 0:
+    if result.returncode == 0:
+        return json.loads(result.stdout)
+    if result.returncode == 128 and any(m in result.stderr for m in _MISSING_MARKERS):
         return None
-    return json.loads(result.stdout)
+    raise RuntimeError(
+        f"git show {ref_path} failed (rc={result.returncode}): {result.stderr.strip()}"
+    )
 
 
 def _git_ls(state_dir: str) -> list[str]:

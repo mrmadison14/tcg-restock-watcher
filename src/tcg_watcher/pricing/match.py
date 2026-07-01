@@ -28,6 +28,8 @@ def best_match(norm_title: str, index: dict, threshold: float):
     best = None
     best_ratio = 0.0
     for name, entry in index.items():
+        if not (q & set(name.split())):
+            continue
         ratio = SequenceMatcher(None, norm_title, name).ratio()
         if ratio > best_ratio:
             best_ratio = ratio

@@ -1,7 +1,10 @@
 import json
+import subprocess
 from pathlib import Path
 
-from tcg_watcher.reconcile import pick_newer, reconcile_files
+import pytest
+
+from tcg_watcher.reconcile import pick_newer, reconcile_files, _git_show
 
 
 def snap(last_run, variants=None, seeded=True):
@@ -84,3 +87,45 @@ def test_reconcile_files_keeps_worktree_only_file(tmp_path: Path):
     changed = reconcile_files(tmp_path, lambda n: None, lambda: [])
     assert changed == []
     assert (tmp_path / "a.json").exists()
+
+
+def _fake_run(returncode, stdout="", stderr=""):
+    def run(cmd, capture_output=True, text=True):
+        return subprocess.CompletedProcess(cmd, returncode, stdout, stderr)
+    return run
+
+
+def test_git_show_success_parses_json(monkeypatch):
+    monkeypatch.setattr(subprocess, "run", _fake_run(0, stdout='{"seeded": true}'))
+    assert _git_show("origin/main:state/a.json") == {"seeded": True}
+
+
+def test_git_show_missing_path_returns_none(monkeypatch):
+    monkeypatch.setattr(
+        subprocess, "run",
+        _fake_run(128, stderr="fatal: path 'state/a.json' does not exist in 'origin/main'"),
+    )
+    assert _git_show("origin/main:state/a.json") is None
+
+
+def test_git_show_missing_on_disk_returns_none(monkeypatch):
+    monkeypatch.setattr(
+        subprocess, "run",
+        _fake_run(128, stderr="fatal: path 'state/a.json' exists on disk, but not in 'origin/main'"),
+    )
+    assert _git_show("origin/main:state/a.json") is None
+
+
+def test_git_show_transient_failure_raises(monkeypatch):
+    monkeypatch.setattr(
+        subprocess, "run",
+        _fake_run(128, stderr="fatal: unable to access remote: Could not resolve host"),
+    )
+    with pytest.raises(RuntimeError):
+        _git_show("origin/main:state/a.json")
+
+
+def test_git_show_nonzero_non128_raises(monkeypatch):
+    monkeypatch.setattr(subprocess, "run", _fake_run(1, stderr="some other error"))
+    with pytest.raises(RuntimeError):
+        _git_show("origin/main:state/a.json")

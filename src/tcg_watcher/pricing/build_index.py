@@ -15,27 +15,36 @@ _SEALED_MARKERS = (
 )
 
 
-def _market_for(pid, price_rows: list[dict]):
-    normal = None
-    fallback = None
+def _index_prices(price_rows: list[dict]) -> dict:
+    by_product: dict = {}
     for pr in price_rows:
-        if pr.get("productId") != pid or pr.get("marketPrice") is None:
+        if pr.get("marketPrice") is None:
             continue
+        pid = pr.get("productId")
+        slot = by_product.setdefault(pid, {"normal": None, "fallback": None})
         if pr.get("subTypeName") == "Normal":
-            normal = pr["marketPrice"]
-        elif fallback is None:
-            fallback = pr["marketPrice"]
-    return normal if normal is not None else fallback
+            slot["normal"] = pr["marketPrice"]
+        elif slot["fallback"] is None:
+            slot["fallback"] = pr["marketPrice"]
+    return by_product
+
+
+def _market_for(pid, index: dict):
+    slot = index.get(pid)
+    if slot is None:
+        return None
+    return slot["normal"] if slot["normal"] is not None else slot["fallback"]
 
 
 def sealed_entries(products: list[dict], prices: list[dict]) -> dict:
+    index = _index_prices(prices)
     out: dict = {}
     for p in products:
         name = p.get("name", "")
         low = name.lower()
         if not any(m in low for m in _SEALED_MARKERS):
             continue
-        mp = _market_for(p["productId"], prices)
+        mp = _market_for(p["productId"], index)
         if mp is None:
             continue
         out[normalize(name)] = {"market_usd": mp, "display_name": name}

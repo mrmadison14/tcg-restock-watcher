@@ -32,6 +32,26 @@ def test_sealed_entries_prefers_normal_subtype():
     assert out["set booster box"]["market_usd"] == 500.0
 
 
+def test_sealed_entries_market_matches_reference_semantics():
+    products = [
+        {"productId": 10, "name": "Alpha Booster Box"},
+        {"productId": 11, "name": "Beta Booster Box"},
+        {"productId": 12, "name": "Gamma Booster Box"},
+    ]
+    prices = [
+        {"productId": 10, "marketPrice": 5.0, "subTypeName": "Holofoil"},
+        {"productId": 10, "marketPrice": 100.0, "subTypeName": "Normal"},
+        {"productId": 11, "marketPrice": 7.0, "subTypeName": "Foil"},
+        {"productId": 11, "marketPrice": 9.0, "subTypeName": "Reverse Holofoil"},
+        {"productId": 12, "marketPrice": None, "subTypeName": "Normal"},
+        {"productId": 12, "marketPrice": 42.0, "subTypeName": "Holofoil"},
+    ]
+    out = sealed_entries(products, prices)
+    assert out["alpha booster box"]["market_usd"] == 100.0
+    assert out["beta booster box"]["market_usd"] == 7.0
+    assert out["gamma booster box"]["market_usd"] == 42.0
+
+
 def test_build_walks_categories_and_writes(tmp_path):
     groups_by_cat = {3: [{"groupId": 3170}], 68: [{"groupId": 500}]}
     prod_by = {(3, 3170): [{"productId": 1, "name": "Silver Tempest Booster Box"}],

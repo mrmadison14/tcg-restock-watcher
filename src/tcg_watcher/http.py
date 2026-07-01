@@ -60,6 +60,8 @@ def make_discord_poster(
     retries: int = 4,
     backoff: float = 1.0,
     retry_after_cap: float = 30.0,
+    max_429_waits: int = 2,
+    total_wait_cap: float = 45.0,
     client=None,
     sleep=time.sleep,
 ):
@@ -67,13 +69,21 @@ def make_discord_poster(
         client = httpx.Client(timeout=20.0)
 
     def post(payload: dict) -> None:
+        waits_429 = 0
+        total_wait = 0.0
         for attempt in range(retries + 1):
             resp = client.post(webhook_url, json=payload)
-            if resp.status_code == 429 and attempt < retries:
+            if resp.status_code == 429 and attempt < retries and waits_429 < max_429_waits:
                 ra = _retry_after_seconds(resp, retry_after_cap)
-                sleep(ra if ra is not None else backoff * (2 ** attempt))
+                wait = ra if ra is not None else backoff * (2 ** attempt)
+                if total_wait + wait > total_wait_cap:
+                    break
+                sleep(wait)
+                total_wait += wait
+                waits_429 += 1
                 continue
             resp.raise_for_status()
             return
+        resp.raise_for_status()
 
     return post

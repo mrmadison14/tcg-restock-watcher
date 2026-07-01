@@ -62,12 +62,17 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
         events = detect_events(watched, prev, config.price_epsilon)
         if oracle is not None:
             events = [replace(e, verdict=oracle.verdict(e.product)) for e in events]
-        report.events_sent += send_events(
-            events, post_loud, post_quiet, config.max_events_per_store,
-            route=route_deal_or_urgent, delay_seconds=config.post_delay_seconds,
-        )
-        save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
-        report.stores_ok += 1
-        print(f"[{store.key}] {len(watched)} watched, {len(events)} events")
+        try:
+            report.events_sent += send_events(
+                events, post_loud, post_quiet, config.max_events_per_store,
+                route=route_deal_or_urgent, delay_seconds=config.post_delay_seconds,
+            )
+            report.stores_ok += 1
+            print(f"[{store.key}] {len(watched)} watched, {len(events)} events")
+        except Exception as exc:
+            report.stores_failed += 1
+            print(f"[{store.key}] post failed: {type(exc).__name__}: {exc}")
+        finally:
+            save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
 
     return report

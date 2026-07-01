@@ -1,4 +1,5 @@
 import json
+import logging
 from pathlib import Path
 
 from tcg_watcher.config import Store
@@ -95,3 +96,16 @@ def test_fetch_products_unions_surfaces_and_dedupes():
     assert len(prods) == 6
     assert len(calls) >= 2
     assert all(as_text for (_url, as_text) in calls)
+
+
+def test_fetch_products_warns_on_nonempty_html_no_products(caplog):
+    html = "<html><body>totally different layout, no next data</body></html>"
+
+    def fake_get(url, params=None, as_text=False):
+        return html
+
+    with caplog.at_level(logging.WARNING):
+        prods = rarecandy.fetch_products(_store(), fake_get)
+    assert prods == []
+    assert any("no products extracted" in r.message for r in caplog.records)
+    assert any("rarecandy" in r.getMessage() for r in caplog.records)

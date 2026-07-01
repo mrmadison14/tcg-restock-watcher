@@ -91,6 +91,33 @@ def test_curated_store_trusts_collection_products(tmp_path: Path):
     assert "7" in snap["variants"]
 
 
+def test_post_failure_one_store_others_ok(tmp_path: Path):
+    a = Store(key="a", base_url="https://a.test", platform="shopify", currency="USD")
+    b = Store(key="b", base_url="https://b.test", platform="shopify", currency="USD")
+
+    def http_seed(url, params=None):
+        if (params or {}).get("page", 1) != 1:
+            return {"products": []}
+        return shopify_page(False)
+
+    run_once(cfg(a, b), http_seed, (lambda x: None), (lambda x: None), tmp_path, "t0")
+
+    def http_restock(url, params=None):
+        if (params or {}).get("page", 1) != 1:
+            return {"products": []}
+        return shopify_page(True)
+
+    def loud(payload):
+        if payload["embeds"][0]["fields"][0]["value"] == "a":
+            raise RuntimeError("webhook down for a")
+
+    report = run_once(cfg(a, b), http_restock, loud, (lambda x: None), tmp_path, "t1")
+    assert report.stores_failed == 1
+    assert report.stores_ok == 1
+    assert load_snapshot(snapshot_path(tmp_path, "a"))["last_run"] == "t1"
+    assert load_snapshot(snapshot_path(tmp_path, "b"))["last_run"] == "t1"
+
+
 def test_run_once_enriches_and_routes_deal_loud(tmp_path):
     from tcg_watcher.models import Verdict
     from tcg_watcher.config import Config, Store
