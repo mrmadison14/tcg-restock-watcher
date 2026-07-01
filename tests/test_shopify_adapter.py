@@ -53,3 +53,38 @@ def test_pagination_stops_on_empty():
     http_get = make_http_get({1: PAGE1, 2: {"products": []}})
     products = fetch_products(STORE, http_get)
     assert len(products) == 3
+
+
+def test_collection_mode_tags_franchise_and_dedups():
+    store = Store(key="c", base_url="https://c.test", platform="shopify", currency="USD",
+                  collections=("pokemon:pk-sealed", "one piece:op-sealed"))
+    pk = {"id": 1, "handle": "etb", "title": "Surging Sparks ETB", "product_type": "", "tags": [], "images": [],
+          "variants": [{"id": 11, "title": "Default Title", "price": "50.00", "available": True}]}
+    op = {"id": 2, "handle": "opbb", "title": "OP Booster Box", "product_type": "", "tags": [], "images": [],
+          "variants": [{"id": 22, "title": "Default Title", "price": "100.00", "available": True}]}
+    def http_get(url, params=None):
+        if (params or {}).get("page", 1) != 1:
+            return {"products": []}
+        if "pk-sealed" in url:
+            return {"products": [pk, op]}
+        if "op-sealed" in url:
+            return {"products": [op]}
+        return {"products": []}
+    prods = fetch_products(store, http_get)
+    fr = {p.variant_id: p.franchise for p in prods}
+    assert fr["11"] == "pokemon"
+    assert fr["22"] == "pokemon"
+    assert len(prods) == 2
+
+
+def test_full_crawl_early_stops_on_short_page():
+    store = Store(key="s", base_url="https://s.test", platform="shopify", currency="USD")
+    calls = []
+    def http_get(url, params=None):
+        page = (params or {}).get("page", 1); calls.append(page)
+        if page == 1:
+            return {"products": [{"id": 1, "handle": "h", "title": "Booster Box", "product_type": "", "tags": [], "images": [],
+                    "variants": [{"id": 9, "title": "Default Title", "price": "1.00", "available": True}]}]}
+        return {"products": []}
+    fetch_products(store, http_get)
+    assert calls == [1]

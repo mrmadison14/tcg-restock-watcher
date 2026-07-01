@@ -32,3 +32,12 @@ def test_tags_matched_individually_no_cross_boundary():
     assert filter_franchises([p], SYN) == []
     q = mk("Mystery Item", tags=("One Piece",))
     assert filter_franchises([q], SYN)[0].franchise == "one piece"
+
+
+def test_keep_sealed_filters_non_sealed():
+    from tcg_watcher.filtering import keep_sealed
+    box = Product(store="s", product_id="1", variant_id="a", title="Booster Box", price=1.0,
+                  currency="USD", in_stock=True, url="u", is_sealed=True)
+    single = Product(store="s", product_id="2", variant_id="b", title="Charizard", price=1.0,
+                     currency="USD", in_stock=True, url="u", is_sealed=False)
+    assert keep_sealed([box, single]) == [box]

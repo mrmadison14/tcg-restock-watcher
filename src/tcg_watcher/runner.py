@@ -4,7 +4,7 @@ from pathlib import Path
 
 from .config import Config
 from .adapters import shopify
-from .filtering import filter_franchises
+from .filtering import filter_franchises, keep_sealed
 from .state import load_snapshot, build_snapshot, save_snapshot, snapshot_path
 from .diff import detect_events
 from .notify import send_events
@@ -45,7 +45,11 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
             print(f"[{store.key}] adapter failed: {type(exc).__name__}: {exc}")
             continue
 
-        watched = filter_franchises(products, config.franchise_synonyms)
+        if store.collections:
+            watched = products
+        else:
+            watched = keep_sealed(filter_franchises(products, config.franchise_synonyms))
+
         prev = load_snapshot(snapshot_path(state_dir, store.key))
 
         if not prev.get("seeded"):

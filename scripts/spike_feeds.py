@@ -2,7 +2,6 @@ import sys, json, urllib.request, urllib.error
 
 FEEDS = [
     "https://collectorsrow.cards",
-    "https://collectorstore.com",
     "https://thepokehive.com",
     "https://hobbiesville.com",
     "https://deckoutgaming.ca",
