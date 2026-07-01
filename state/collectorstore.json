@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:30:24Z",
+  "last_run": "2026-07-01T16:35:15Z",
   "seeded": true,
   "variants": {
     "48782703427752": {
@@ -977,7 +977,7 @@
     "51274586357928": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 189.99,
+      "price": 249.99,
       "title": "Pokemon: Champion's Path Elite Trainer Box"
     },
     "51274680467624": {
@@ -1117,6 +1117,12 @@
       "is_preorder": false,
       "price": 34.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Mini Tins *Random*"
+    },
+    "51395316678824": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 74.99,
+      "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Surprise Box"
     },
     "51395612737704": {
       "in_stock": true,
@@ -1273,6 +1279,12 @@
       "is_preorder": false,
       "price": 6.99,
       "title": "Pokemon: Japanese Heat Wave Arena Booster Pack (sv9a)"
+    },
+    "51857366319272": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 24.99,
+      "title": "Pokemon: Kanto Friends Mini Tin (Random)"
     },
     "51872985710760": {
       "in_stock": true,
@@ -2215,6 +2227,12 @@
       "is_preorder": false,
       "price": 64.99,
       "title": "Pokemon: XY Breakpoint Sleeved Booster Pack"
+    },
+    "54076859318440": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 284.99,
+      "title": "Pokemon: Journey Together REGULAR Booster Box"
     },
     "54243454615720": {
       "in_stock": true,

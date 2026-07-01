@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:30:24Z",
+  "last_run": "2026-07-01T16:35:15Z",
   "seeded": true,
   "variants": {
     "39876094885948": {
@@ -29,7 +29,7 @@
     "39876095082556": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 184.0,
+      "price": 179.0,
       "title": "Pokemon TCG: Celebrations - Lance&#x27;s Charizard V Collection Box"
     },
     "39876095148092": {
@@ -185,13 +185,13 @@
     "39876096458812": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1055.0,
+      "price": 1045.0,
       "title": "Pokemon TCG: Sun and Moon - Booster Box"
     },
     "39876096491580": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1344.0,
+      "price": 1333.0,
       "title": "Pokemon TCG: Sun and Moon - Burning Shadow Booster Box"
     },
     "39876096622652": {
@@ -1361,7 +1361,7 @@
     "39977160212540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 593.0,
+      "price": 625.0,
       "title": "Pokemon TCG: Sword and Shield - Evolving Skies Elite Trainer Box (Flareon/Jolteon/Umbreon/Leafeon)"
     },
     "40005181243452": {
@@ -1691,7 +1691,7 @@
     "40186025312316": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 115.0,
+      "price": 105.0,
       "title": "Pokemon TCG: Pokemon GO Special Collection - Team Valor"
     },
     "40186025443388": {
@@ -1709,7 +1709,7 @@
     "40186025902140": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 179.0,
+      "price": 177.0,
       "title": "Pokemon TCG: Pokemon GO Premium Collection [Radiant Eevee]"
     },
     "40186026000444": {
@@ -1739,7 +1739,7 @@
     "40186026524732": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 63.0,
+      "price": 68.0,
       "title": "Pokemon TCG: Pokemon GO Tin [Blissey]"
     },
     "40186026655804": {
@@ -1763,7 +1763,7 @@
     "40186026983484": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 63.0,
+      "price": 68.0,
       "title": "Pokemon TCG: Pokemon GO Mini Tin [Blissey]"
     },
     "40186027114556": {
@@ -1799,7 +1799,7 @@
     "40186027835452": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 73.0,
+      "price": 79.0,
       "title": "Pokemon TCG: Pokemon GO Pin Collection [Squirtle]"
     },
     "40186027966524": {
@@ -1841,7 +1841,7 @@
     "40227138306108": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 43.0,
+      "price": 44.0,
       "title": "Pokemon TCG: V Battle Deck Bundle (Rayquaza V/Noivern V)"
     },
     "40240587767868": {
@@ -1943,7 +1943,7 @@
     "40362309681212": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 779.0,
+      "price": 772.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Booster Box"
     },
     "40362309943356": {
@@ -1955,13 +1955,13 @@
     "40362309976124": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 249.0,
+      "price": 240.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Elite Trainer Box"
     },
     "40362310402108": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 131.0,
+      "price": 126.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Build and Battle Kit"
     },
     "40362310598716": {
@@ -2009,13 +2009,13 @@
     "40362312466492": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 173.0,
+      "price": 152.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Dialga VSTAR Premium Collection"
     },
     "40362312499260": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 31.0,
+      "price": 35.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Premium Checklane Blister [Infernape]"
     },
     "40362312532028": {
@@ -2027,7 +2027,7 @@
     "40362313547836": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 144.0,
+      "price": 143.0,
       "title": "Pokemon TCG: Sword and Shield - Lost Origin Palkia VSTAR Premium Collection"
     },
     "40362313580604": {
@@ -2087,7 +2087,7 @@
     "40440347557948": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 100.0,
+      "price": 108.0,
       "title": "Pokemon TCG: Hidden Potential Tin [Rotom V]"
     },
     "40455230980156": {
@@ -2123,7 +2123,7 @@
     "40479753142332": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 126.0,
+      "price": 125.0,
       "title": "Pokemon TCG: Blastoise VMAX Battle Box"
     },
     "40486146310204": {
@@ -2141,7 +2141,7 @@
     "40486146375740": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 163.0,
+      "price": 175.0,
       "title": "Pokemon TCG: Sword and Shield - Silver Tempest Elite Trainer Box"
     },
     "40486146408508": {
@@ -2159,7 +2159,7 @@
     "40486146670652": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 55.0,
+      "price": 59.0,
       "title": "Pokemon TCG: Sword and Shield - Silver Tempest 3 Pack Blister [Manaphy]"
     },
     "40486146703420": {
@@ -2201,7 +2201,7 @@
     "40493740556348": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 252.0,
+      "price": 260.0,
       "title": "Pokemon TCG: Sword and Shield Figure Collection"
     },
     "40493740687420": {
@@ -2399,7 +2399,7 @@
     "40587128700988": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 30.0,
+      "price": 40.0,
       "title": "Scarlet and Violet 3 Pack Blister [Arcanine]"
     },
     "40587128733756": {
@@ -2777,13 +2777,13 @@
     "40664941592636": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 60.0,
+      "price": 62.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Machamp and Cubone]"
     },
     "40664941625404": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 60.0,
+      "price": 63.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Mini Tin Box [Scyther and Weezing]"
     },
     "40664941658172": {
@@ -2861,7 +2861,7 @@
     "40678070616124": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 84.0,
+      "price": 88.0,
       "title": "Trick or Trade BOOster Bundle 2023"
     },
     "40678070845500": {
