@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T03:11:02Z",
+  "last_run": "2026-07-01T04:23:53Z",
   "seeded": true,
   "variants": {
     "34594642198692": {
@@ -6364,9 +6364,9 @@
     },
     "54818854011252": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 69.99,
-      "title": "Pokemon - Mega ex Premium Collection - Mega Greninja ex (Pre-Order Ships July 3 2026) (Limit 4 Per Person)"
+      "title": "Pokemon - Mega ex Premium Collection - Mega Greninja ex (Limit 4 Per Person)"
     },
     "54822465503604": {
       "in_stock": true,
@@ -6400,63 +6400,63 @@
     },
     "54833316004212": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 129.99,
-      "title": "Pokemon - M5 Abyss Eye - Japanese Booster Box (Wave 2 Pre-Order Ships July 7 2026)"
+      "title": "Pokemon - M5 Abyss Eye - Japanese Booster Box"
     },
     "54849245380980": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 319.99,
-      "title": "Pokemon - ME5 Pitch Black - Booster Box (Limit 1 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Booster Box (Limit 1 Per Person)"
     },
     "54849322058100": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 59.99,
-      "title": "Pokemon - ME5 Pitch Black - Booster Bundle (Limit 6 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Booster Bundle (Limit 6 Per Person)"
     },
     "54849389298036": {
       "in_stock": false,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 119.99,
-      "title": "Pokemon - ME5 Pitch Black - Elite Trainer Box (Limit 1 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Elite Trainer Box (Limit 1 Per Person)"
     },
     "54849841234292": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 8.99,
-      "title": "Pokemon - ME5 Pitch Black - Checklane Blister - Slowpoke (Limit 4 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Checklane Blister - Slowpoke (Limit 4 Per Person)"
     },
     "54849841922420": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 31.99,
-      "title": "Pokemon - ME5 Pitch Black - 3-Pack Blister - Binacle (Limit 2 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - 3-Pack Blister - Binacle (Limit 2 Per Person)"
     },
     "54849842020724": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 8.99,
-      "title": "Pokemon - ME5 Pitch Black - Sleeved Booster Pack (Random Art) (Limit 10 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Sleeved Booster Pack (Random Art) (Limit 10 Per Person)"
     },
     "54849842676084": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 8.99,
-      "title": "Pokemon - ME5 Pitch Black - Booster Pack (Random Art) (Limit 20 Per Person) (Pre-Order Ships July 17 2026)"
+      "title": "Pokemon - ME5 Pitch Black - Booster Pack (Random Art) (Limit 20 Per Person)"
     },
     "54853996511604": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 284.99,
-      "title": "Pokemon - ME4 Chaos Rising - Booster Box (Limit 1 Per Person) (Wave 2 Pre-Order Ships July 31 2026)"
+      "title": "Pokemon - ME4 Chaos Rising - Booster Box (Limit 1 Per Person)"
     },
     "54854001164660": {
       "in_stock": true,
-      "is_preorder": true,
+      "is_preorder": false,
       "price": 264.99,
-      "title": "Pokemon - ME3 Perfect Order - Booster Box (Limit 1 Per Person) (Wave 2 Pre-Order Ships July 31 2026)"
+      "title": "Pokemon - ME3 Perfect Order - Booster Box (Limit 1 Per Person)"
     },
     "54854137446772": {
       "in_stock": true,
