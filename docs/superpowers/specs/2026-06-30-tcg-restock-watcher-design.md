@@ -274,3 +274,33 @@ and a **"Buy now" link** straight to the product page.
 2. **Phase 2 — Tier-2 sites:** Wix ×2 + rarecandy, best-effort, isolated.
 3. **Phase 3 — Deal-flagging:** tcgcsv oracle, sealed-first matching, loud/quiet split, USD
    normalization.
+
+---
+
+## 16. Phase-1 implementation deltas (as-built, 2026-07-01)
+
+The shipped Phase 1 diverged from the original design based on empirical findings during
+implementation (see the Cloudflare-from-Actions spike, Landmine #1):
+
+- **Sealed-only scope.** Landmine #1 was worse than anticipated: GitHub datacenter IPs get
+  Cloudflare **429**'d when crawling full catalogs (the stores are tens-of-thousands of
+  *singles*). Rather than a proxy/always-on box, the fix was to **fetch only sealed product**
+  (booster boxes, ETBs, bundles, tins, blisters) — which is the actual use case and cuts each
+  run to ~40 requests. Individual singles are out of scope. *(User-approved scope change.)*
+- **Fetch modes.** Big stores use **curated sealed collections** (`collections =
+  ["franchise:handle", …]` in config; trusted as sealed + franchise-tagged, no heuristic
+  filtering). Small stores (thepokehive, allpoketcg, matrixtcg) **full-crawl + `keep_sealed`
+  filter**. New `Store.collections` field + runner branch.
+- **Polite HTTP layer.** Added min-interval throttle (2.5s), `Retry-After` honoring, and
+  exponential-backoff retries to `make_httpx_get` to stay under Cloudflare's limit.
+- **Roster = 8 stores** (not 10): `store.401games.ca` (apex redirects there; DBZ sealed only —
+  its Pokémon/OP sealed aren't cleanly targetable); **collectorstore dropped** (Funko-heavy, no
+  clean sealed TCG); **tcgsorted deferred** (no resolvable storefront).
+- **Phase-1 loud routing** = restock/preorder → `#deals` (loud), new/price-change → `#tracker`
+  (quiet). (Spec's below-market loud is Phase 3.)
+- **Price-change refinement:** only emitted for in-stock variants (out-of-stock price changes
+  suppressed as noise).
+- **Verified live** on GitHub Actions: 8/8 stores, 0 failures, 0 × 429, seed-first silent,
+  steady-state 0 spurious events, state committed. 47 tests green.
+- **Deferred follow-ups:** 401games Pokémon/OP sealed handles; drop bare `"bundle"` sealed
+  marker + crash-on-missing-id in adapter (minor, full-crawl only); tcgsorted + collectorstore.

@@ -1,100 +1,103 @@
 # TCG Restock Watcher
 
-Polls Shopify TCG stores every ~5 minutes for **Pokémon / One Piece / Dragon Ball**
-inventory and price changes, and posts alerts to **Discord**. Runs entirely on free
-GitHub Actions; state lives in this repo.
+Polls TCG stores every ~5 minutes for **sealed** Pokémon / One Piece / Dragon Ball product
+(booster boxes, ETBs, bundles, tins, blisters, cases) and posts **restock / new-listing /
+preorder / price-change** alerts to **Discord**. Runs on free GitHub Actions; state lives in
+this repo. **Live** at https://github.com/mrmadison14/tcg-restock-watcher.
 
 ## How it works
 
 ```
-per store: adapter (products.json) → franchise filter → diff vs last snapshot
-        → classify events → Discord (loud/quiet) → commit new snapshot
+per store: fetch sealed products → diff vs last snapshot → classify events
+        → Discord (loud/quiet) → commit new snapshot
 ```
 
-- A GitHub Actions workflow (`.github/workflows/watch.yml`) runs `python -m tcg_watcher`
-  every ~5 min and commits updated `state/*.json` snapshots back to `main` (free history +
-  git-diff debugging).
-- One adapter per store platform normalizes each catalog into a common product shape; the
-  diff engine and notifier are store-agnostic.
+- `.github/workflows/watch.yml` runs `python -m tcg_watcher` every ~5 min and commits updated
+  `state/*.json` snapshots back to `main`.
+- **Sealed-only, by design.** Individual singles are intentionally out of scope — they're not
+  what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
+  rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (Phase 1 — 9 Shopify stores)
+## Stores (8)
 
-collectorsrow.cards · collectorstore.com · thepokehive.com · hobbiesville.com ·
-deckoutgaming.ca · allpoketcg.com · skyboxct.com · matrixtcg.com · **store.401games.ca**
+| Store | Fetch mode | Franchises |
+|---|---|---|
+| collectorsrow.cards | curated sealed collections | Pokémon |
+| hobbiesville.com | curated sealed collections | Pokémon, One Piece, Dragon Ball |
+| deckoutgaming.ca | curated sealed collections | Pokémon, One Piece |
+| skyboxct.com | curated sealed collections | Pokémon |
+| store.401games.ca | curated sealed collections | Dragon Ball |
+| thepokehive.com | full-crawl + sealed filter | all (small catalog) |
+| allpoketcg.com | full-crawl + sealed filter | all (small catalog) |
+| matrixtcg.com | full-crawl + sealed filter | all (small catalog) |
 
-> Note: 401games' real storefront is `store.401games.ca` (the apex redirects there).
-> `tcgsorted` (shop.app) could not be resolved to a working `/products.json` and is deferred
-> to Phase 2, alongside the 3 non-Shopify sites (pokelegendstcg + bulbacards on Wix,
-> rarecandy on Next.js).
+Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
+aren't cleanly targetable (add handles to its config if found). **collectorstore.com** was
+dropped (Funko-heavy, no clean sealed TCG). **tcgsorted** (shop.app) is deferred (no resolvable
+storefront). The 3 non-Shopify sites (Wix ×2, rarecandy) are Phase 2.
 
-## Setup
+## The Cloudflare 429 story (why it's built this way)
 
-1. **Create two Discord channels** (e.g. `#deals` and `#tracker`) and add an **Incoming
-   Webhook** to each: Channel → Edit → Integrations → Webhooks → New Webhook → Copy URL.
-2. **Store the webhook URLs as repo secrets** (they are never committed):
-   ```bash
-   gh secret set DISCORD_DEALS_WEBHOOK      # paste the #deals webhook URL
-   gh secret set DISCORD_TRACKER_WEBHOOK    # paste the #tracker webhook URL
-   ```
-3. The repo is **public** so Actions minutes are unlimited. No secrets live in the code.
-4. The **first run seeds silently** (writes snapshots, sends nothing). Alerts begin on run 2.
+GitHub's datacenter IPs get rate-limited (HTTP 429) by Cloudflare when crawling large catalogs.
+Two things keep us under the limit: **(1) sealed-only** fetching (~40 requests/run, not ~300+),
+and **(2) a polite HTTP layer** — a minimum interval between requests (2.5s), honoring
+`Retry-After`, and exponential-backoff retries. A full run takes ~2–3 min (mostly the throttle),
+well under the 5-min cron. Verified green on GitHub with 0 failures.
+
+## Setup (already done, for reference)
+
+1. Two Discord channels with Incoming Webhooks (`#deals`, `#tracker`).
+2. Repo secrets `DISCORD_DEALS_WEBHOOK` and `DISCORD_TRACKER_WEBHOOK` (`gh secret set ...`).
+3. Public repo (free unlimited Actions minutes). First run seeds silently; alerts begin run 2.
 
 ## Notifications
 
-- **#deals** (loud, `@here` ping): **restocks** and **preorder openings** — the act-now events.
-- **#tracker** (quiet, no ping): **new listings** and **price changes**.
-- Until Phase 3 (TCGplayer market-price deal-flagging) lands, set the **#tracker** channel to
-  **All Messages** in Discord notification settings if you want a phone buzz on every change.
+- **#deals** (loud, `@here`): **restocks** and **preorder openings** — act-now events.
+- **#tracker** (quiet): **new listings** and **price changes**.
+- Set **#tracker** to *All Messages* in Discord if you want phone buzzes there too.
 
-Each alert embed shows the product title, event type (color + emoji), store, price
-(previous → current with ▲/▼ on price changes), franchise, image, and a tap-through Buy link.
+Each embed: product title, event type (color + emoji), store, price (previous → current with
+▲/▼), franchise, image, and a tap-through Buy link.
 
 ## Event types
 
-- **restock** — a watched variant went out-of-stock → in-stock.
-- **new listing** — a variant never seen before (→ **preorder** if tagged/ titled as one).
-- **price change** — price moved beyond `price_epsilon` **and the variant is currently in
-  stock** (price changes on out-of-stock items are suppressed as noise).
-- A restock takes precedence over a simultaneous price change (one alert, not two).
+- **restock** — a sealed variant went out-of-stock → in-stock.
+- **new listing** — a sealed variant never seen before (→ **preorder** if tagged/titled as one).
+- **price change** — price moved beyond `price_epsilon` **and the variant is in stock**.
+- A restock takes precedence over a simultaneous price change (one alert).
 
-## Configuration
+## Configuration (`config.toml`)
 
-All in `config.toml`:
-
-- **Add/remove a store** — edit a `[[stores]]` block. Phase 1 supports `platform = "shopify"`
-  only. Disable a store with `enabled = false` (e.g. if it starts blocking GitHub's IPs).
-- **Tune franchise matching** — edit `[franchise_synonyms]`. Matching checks tags →
-  product_type → title (each tag individually). Some large general stores match big sets;
-  tighten synonyms if a store is noisy.
-- **Thresholds** — `max_events_per_store` (flood cap → one summary embed if exceeded),
-  `price_epsilon`.
+- **Curated store** — set `collections = ["<franchise>:<collection-handle>", ...]` (e.g.
+  `"pokemon:pokemon-booster-boxes"`). Only those collections are fetched; products are trusted
+  as sealed and tagged with the given franchise.
+- **Full-crawl store** — omit `collections`; the whole catalog is fetched, then filtered to the
+  franchise watchlist and to sealed products (`is_sealed` heuristic). Use only for small stores.
+- **Add a store**: add a `[[stores]]` block (`platform = "shopify"`). Find sealed collection
+  handles via `https://<store>/collections.json`. Disable with `enabled = false`.
+- **Franchises / thresholds**: `[franchise_synonyms]`, `max_events_per_store` (flood cap →
+  one summary embed), `price_epsilon`.
 
 ## Local use
 
 ```bash
-# one real run (seeds on first run; needs webhook envs, even if unused on a seed run)
 export DISCORD_DEALS_WEBHOOK=... DISCORD_TRACKER_WEBHOOK=...
-uv run python -m tcg_watcher            # honors TCG_CONFIG (default config.toml), TCG_STATE_DIR (default state)
-
-# check every feed is reachable (the landmine-#1 spike)
-python scripts/spike_feeds.py
-
-# tests
-uv run pytest -v
+uv run python -m tcg_watcher          # TCG_CONFIG (default config.toml), TCG_STATE_DIR (default state)
+python scripts/spike_feeds.py         # reachability spike
+uv run pytest -v                      # 47 tests
 ```
 
 ## Known limitations (Phase 1)
 
-- Shopify reports **in/out of stock only**, not quantity ("3 left").
+- Shopify reports **in/out of stock only**, not quantity.
 - **GitHub cron is best-effort (~5–15 min)** — not for sub-minute drop sniping.
-- **Transient 503s** from some stores are handled two ways: the HTTP layer retries transient
-  503/429/timeouts, and if a store still fails, the run isolates it (logs + skips) and retries
-  next cycle. A store failing one cycle is picked up the next.
+- Transient failures: the HTTP layer retries; a store still failing is isolated (logged, skipped)
+  and retried next cycle.
 - A **Discord post failure is fatal for that run** (fail-loud, non-idempotent): the failing
   store's snapshot isn't saved, so those events re-alert next run rather than being lost.
 - Snapshot commits every ~5 min **grow repo history** over time (acceptable for Phase 1).
 - **Phase 2** = the 3 non-Shopify sites. **Phase 3** = TCGplayer "below market" deal-flagging
-  (loud `#deals` becomes below-market-only) via tcgcsv.com.
+  (via tcgcsv.com), which makes `#deals` below-market-only.
 
 ## Design docs
 
