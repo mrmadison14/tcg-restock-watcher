@@ -27,3 +27,14 @@ def test_best_match_returns_none_below_threshold():
 
 def test_best_match_requires_token_overlap():
     assert best_match("", INDEX, 0.86) is None
+
+
+def test_best_match_rejects_size_qualifier_mismatch():
+    index = {"silver tempest booster box case": {"market_usd": 6100.0, "display_name": "Silver Tempest Booster Box Case"}}
+    assert best_match("silver tempest booster box", index, 0.86) is None
+    assert best_match("silver tempest booster box case", index, 0.86) == ("Silver Tempest Booster Box Case", 6100.0)
+
+
+def test_best_match_still_matches_same_size():
+    index = {"surging sparks elite trainer box": {"market_usd": 60.0, "display_name": "Surging Sparks Elite Trainer Box"}}
+    assert best_match("surging sparks elite trainer box", index, 0.86) == ("Surging Sparks Elite Trainer Box", 60.0)
