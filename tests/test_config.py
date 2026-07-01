@@ -36,3 +36,34 @@ price_epsilon = 0.01
     assert cfg.franchise_synonyms["pokemon"] == ("pokemon", "pokémon")
     assert cfg.max_events_per_store == 25
     assert cfg.price_epsilon == 0.01
+
+
+def test_load_config_collections(tmp_path: Path):
+    cfg_file = tmp_path / "config.toml"
+    cfg_file.write_text(
+        '''
+[[stores]]
+key = "curated"
+base_url = "https://c.test"
+platform = "shopify"
+currency = "USD"
+collections = ["pokemon:pokemon-sealed", "one piece:op-sealed"]
+
+[[stores]]
+key = "plain"
+base_url = "https://p.test"
+platform = "shopify"
+currency = "USD"
+
+[franchise_synonyms]
+pokemon = ["pokemon"]
+
+[thresholds]
+max_events_per_store = 25
+price_epsilon = 0.01
+''',
+        encoding="utf-8",
+    )
+    cfg = load_config(cfg_file)
+    assert cfg.stores[0].collections == ("pokemon:pokemon-sealed", "one piece:op-sealed")
+    assert cfg.stores[1].collections == ()

@@ -75,3 +75,17 @@ def test_now_iso_helper_format():
     from tcg_watcher.__main__ import now_iso
     s = now_iso()
     assert s.endswith("Z") and "T" in s and len(s) == 20  # YYYY-MM-DDTHH:MM:SSZ
+
+
+def test_curated_store_trusts_collection_products(tmp_path: Path):
+    store = Store(key="cur", base_url="https://cur.test", platform="shopify", currency="USD",
+                  collections=("pokemon:pk-sealed",))
+    def http_get(url, params=None):
+        if (params or {}).get("page", 1) != 1:
+            return {"products": []}
+        return {"products": [{"id": 1, "handle": "x", "title": "Mystery Chest", "product_type": "", "tags": [], "images": [],
+                "variants": [{"id": 7, "title": "Default Title", "price": "40.00", "available": True}]}]}
+    report = run_once(cfg(store), http_get, (lambda x: None), (lambda x: None), tmp_path, "t0")
+    assert "cur" in report.seeded
+    snap = load_snapshot(snapshot_path(tmp_path, "cur"))
+    assert "7" in snap["variants"]

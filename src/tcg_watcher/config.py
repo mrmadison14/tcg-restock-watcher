@@ -11,6 +11,7 @@ class Store:
     platform: str
     currency: str
     enabled: bool = True
+    collections: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -30,6 +31,7 @@ def load_config(path: Path) -> Config:
             platform=s["platform"],
             currency=s["currency"],
             enabled=s.get("enabled", True),
+            collections=tuple(s.get("collections", [])),
         )
         for s in data["stores"]
     )

@@ -25,3 +25,7 @@ def filter_franchises(
         if fr is not None:
             out.append(replace(p, franchise=fr))
     return out
+
+
+def keep_sealed(products: list[Product]) -> list[Product]:
+    return [p for p in products if p.is_sealed]
