@@ -91,6 +91,14 @@ base_url = "https://store.401games.ca"
 platform = "shopify"
 currency = "CAD"
 collections = [
+  "pokemon:pokemon-booster-boxes",
+  "pokemon:pokemon-elite-trainer-boxes",
+  "pokemon:pokemon-booster-packs",
+  "pokemon:pokemon-box-sets-tins",
+  "pokemon:pokemon-japanese-sealed-product",
+  "one piece:one-piece-booster-boxes",
+  "one piece:one-piece-booster-packs",
+  "one piece:one-piece-box-sets",
   "dragon ball:dragon-ball-super-sealed",
 ]
 
