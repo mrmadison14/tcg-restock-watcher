@@ -20,7 +20,7 @@ per store: fetch sealed products → diff vs last snapshot → classify events
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (10)
+## Stores (18)
 
 | Store | Fetch mode | Franchises |
 |---|---|---|
@@ -34,11 +34,19 @@ per store: fetch sealed products → diff vs last snapshot → classify events
 | allpoketcg.com | full-crawl + sealed filter | all (small catalog) |
 | matrixtcg.com | full-crawl + sealed filter | all (small catalog) |
 | rarecandy.com | Next.js `__NEXT_DATA__`, sealed via tags | Pokémon, One Piece, Dragon Ball |
+| 3kcollectables.com | full-crawl + sealed filter | all (small catalog) |
+| paladincards20.com | full-crawl + sealed filter | all (small catalog) |
+| shopchieffpokeman.com | full-crawl + sealed filter | all (small catalog) |
+| spoilsandloot.com | full-crawl + sealed filter | all |
+| shinypax.us | full-crawl + sealed filter | all (minimal sealed) |
+| tygerstcgden.com | full-crawl + sealed filter | all (minimal sealed) |
+| realgoodeal.com | curated sealed collections | Pokémon, One Piece |
+| zulusgames.com | curated sealed collections | Pokémon |
 
 Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
 aren't cleanly targetable (add handles to its config if found). **collectorstore.com** uses its
 `games-pokemon` / `games-one-piece` collections (all sealed). **tcgsorted** (shop.app) is deferred (no resolvable
-storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopify adapter; the remaining Wix ×2 are Phase 2 (see `docs/superpowers/PHASE2_SCOPING.md`).
+storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopify adapter; the remaining Wix ×2 are Phase 2 (see `docs/superpowers/PHASE2_SCOPING.md`). Session-4 added 8 stores from the store-list image (6 full-crawl + **realgoodeal**/**zulusgames** curated because they're big/singles-heavy); **doubleinfinitygaming** was skipped — no clean sealed collections and a graded-singles catalog that pollutes the sealed filter.
 
 ## The Cloudflare 429 story (why it's built this way)
 

@@ -108,6 +108,65 @@ base_url = "https://rarecandy.com"
 platform = "rarecandy"
 currency = "USD"
 
+[[stores]]
+key = "3kcollectables"
+base_url = "https://3kcollectables.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "paladincards20"
+base_url = "https://paladincards20.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "shopchieffpokeman"
+base_url = "https://shopchieffpokeman.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "spoilsandloot"
+base_url = "https://spoilsandloot.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "shinypax"
+base_url = "https://shinypax.us"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "tygerstcgden"
+base_url = "https://tygerstcgden.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "realgoodeal"
+base_url = "https://realgoodeal.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:pokemon-sealed-products",
+  "one piece:one-piece-boosters",
+]
+
+[[stores]]
+key = "zulusgames"
+base_url = "https://zulusgames.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:pokemon-booster-boxes-1",
+  "pokemon:pokemon-elite-trainer-box",
+  "pokemon:pokemon-booster-packs",
+  "pokemon:pokemon-boxed-sets",
+  "pokemon:pokemon-loose-decks",
+]
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]
