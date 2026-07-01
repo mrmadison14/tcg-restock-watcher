@@ -1,0 +1,1176 @@
+{
+  "last_run": "2026-07-01T01:38:32Z",
+  "seeded": true,
+  "variants": {
+    "12065191297099": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 8.95,
+      "title": "Dragon Ball Super - Cross Worlds Booster Pack"
+    },
+    "12068930224203": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Colossal Warfare Special Pack"
+    },
+    "12068932419659": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 149.95,
+      "title": "Dragon Ball Super - Colossal Warfare Booster Box"
+    },
+    "12068932649035": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 139.95,
+      "title": "Dragon Ball Super - Draft Box 2"
+    },
+    "12068933009483": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 34.95,
+      "title": "Dragon Ball Super - Starter Deck #5 - The Crimson Saiyan"
+    },
+    "12068933599307": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Starter Deck #4 - The Guardian of Namekians"
+    },
+    "12084628717643": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Expansion Set #3 - Ultimate Box"
+    },
+    "12174288650315": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Draft Box 3"
+    },
+    "12174288683083": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 169.95,
+      "title": "Dragon Ball Super - World Martial Arts Themed Booster Box"
+    },
+    "12178073681995": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 139.95,
+      "title": "Dragon Ball Super - Miraculous Revival Booster Box"
+    },
+    "12178073780299": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Miraculous Revival Special Pack"
+    },
+    "12178073911371": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Starter Deck #6 - Resurrected Fusion"
+    },
+    "12178073944139": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 13.95,
+      "title": "Dragon Ball Super - Starter Deck #7 - Shenron's Advent"
+    },
+    "12213565456459": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 6.95,
+      "title": "Dragon Ball Super - Colossal Warfare Booster Pack"
+    },
+    "12294999277643": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 8.95,
+      "title": "Dragon Ball Super - World Martial Arts Tournament  Booster Pack"
+    },
+    "14106210533451": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 119.95,
+      "title": "Dragon Ball Super - Expansion Set #4 - Unity of Saiyans"
+    },
+    "14106217709643": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 79.95,
+      "title": "Dragon Ball Super - Expansion Set #5 - Unity of Destruction"
+    },
+    "1852201533455": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 164.95,
+      "title": "Dragon Ball Super - Cross Worlds Booster Box"
+    },
+    "1852201730063": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 17.95,
+      "title": "Dragon Ball Super - The Extreme Evolution Starter Deck"
+    },
+    "1852202352655": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Cross Worlds - Special Pack"
+    },
+    "27879757676619": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Starter Deck #9 - Saiyan Legacy"
+    },
+    "27879763411019": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 59.95,
+      "title": "Dragon Ball Super - Expert Deck #1 - Universe 6 Assailants"
+    },
+    "28115636584523": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 229.95,
+      "title": "Dragon Ball Super - Draft Box 4 - Dragon Brawl"
+    },
+    "29231358541899": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 49.95,
+      "title": "Dragon Ball Super - Expansion Set #8 - Magnificent Collection - Forsaken Warrior"
+    },
+    "29231368241227": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 59.95,
+      "title": "Dragon Ball Super - Expansion Set #7 - Magnificent Collection - Fusion Hero"
+    },
+    "29681269178443": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Assault of the Saiyans Booster Pack"
+    },
+    "29747149668427": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 149.95,
+      "title": "Dragon Ball Super - Malicious Machinations Booster Box"
+    },
+    "29747240271947": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 34.95,
+      "title": "Dragon Ball Super - Gift Box #2 - Battle of Gods"
+    },
+    "29747303972939": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 89.95,
+      "title": "Dragon Ball Super - Gift Box #3 - Wild for Revenge"
+    },
+    "29747383140427": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Starter Deck #10 - Parasitic Overlord"
+    },
+    "29747489243211": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 79.95,
+      "title": "Dragon Ball Super - Collector's Value Box"
+    },
+    "29747646693451": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 39.95,
+      "title": "Dragon Ball Super - Expansion Set #10 - Namekian Surge"
+    },
+    "29747688636491": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Expansion Set #9 - Saiyan Surge"
+    },
+    "30058585030731": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Expert Deck #2 - Android Duality"
+    },
+    "30058611179595": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 54.95,
+      "title": "Dragon Ball Super - Expert Deck #3 - The Ultimate Life Form"
+    },
+    "30058624155723": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 104.95,
+      "title": "Dragon Ball Super - Starter Deck #11 - Instinct Surpassed"
+    },
+    "31647468290123": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 169.95,
+      "title": "Dragon Ball Super - Draft Box 5 - Divine Multiverse"
+    },
+    "31647469600843": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Expansion Set #11 - Universe 7 Unison"
+    },
+    "31647471272011": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Expansion Set #12 - Universe 11 Unison"
+    },
+    "31802006732875": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 399.95,
+      "title": "Dragon Ball Super - Rise of the Unison Warrior Booster Box"
+    },
+    "31802018299979": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 39.95,
+      "title": "Dragon Ball Super - Starter Deck #12 - Spirit of Potara"
+    },
+    "31802027147339": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Starter Deck #13 - Clan Collusion"
+    },
+    "31802046054475": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 39.95,
+      "title": "Dragon Ball Super - Starter Deck #14 - Saiyan Wonder"
+    },
+    "31802111230027": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 59.95,
+      "title": "Dragon Ball Super - Rise of the Unison Warrior - Premium Pack Set 01"
+    },
+    "31989615493195": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 124.95,
+      "title": "Dragon Ball Super - Special Anniversary Box Set 2020"
+    },
+    "32435664715851": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 79.95,
+      "title": "Dragon Ball Super - Draft Box 6 - Giant Force"
+    },
+    "32709816156235": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 549.95,
+      "title": "Dragon Ball Super - Vermilion Bloodline Booster Box"
+    },
+    "32861706158155": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Vicious Rejuvenation - Premium Pack Set 03"
+    },
+    "32861706190923": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 124.95,
+      "title": "Dragon Ball Super - Battle Evolution Booster Box"
+    },
+    "32861706223691": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Expansion Set #16 - Ultimate Deck"
+    },
+    "32861706256459": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 159.95,
+      "title": "Dragon Ball Super - Vicious Rejuvenation Booster Box"
+    },
+    "32882158174283": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 6.95,
+      "title": "Dragon Ball Super - Miraculous Revival Booster Pack"
+    },
+    "32890899923019": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Vermilion Bloodline - Premium Pack Set 02"
+    },
+    "37525252702395": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 119.95,
+      "title": "Dragon Ball Super - Destroyer Kings Special Pack"
+    },
+    "37554451873979": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 139.95,
+      "title": "Dragon Ball Super - Supreme Rivalry Booster Box"
+    },
+    "37554481463483": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Supreme Rivalry - Premium Pack Set 04"
+    },
+    "37738859233467": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Expansion Set #14 - Battle Advanced"
+    },
+    "37738873159867": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 18.95,
+      "title": "Dragon Ball Super - Expansion Set #15 - Battle Enhanced"
+    },
+    "38022823805115": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 22.95,
+      "title": "Dragon Ball Super - Expansion Set #18 - Namekian Boost"
+    },
+    "38094791246011": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 189.95,
+      "title": "Dragon Ball Super - Collector's Selection Vol.1"
+    },
+    "38158331936955": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 149.95,
+      "title": "Dragon Ball Super - Cross Spirits Booster Box"
+    },
+    "38158332002491": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Starter Deck #16: Darkness Reborn"
+    },
+    "38158332461243": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Starter Deck #15: Pride of the Saiyans"
+    },
+    "38203550728379": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 11.95,
+      "title": "Dragon Ball Super - Vermilion Bloodline 1st Edition  Booster Pack"
+    },
+    "38234831159483": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Draft Box 4 - Dragon Brawl - Booster Pack"
+    },
+    "38234953842875": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Malicious Machinations Booster Pack"
+    },
+    "39342007713979": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Vicious Rejuvenation Booster Pack"
+    },
+    "39358495850683": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 89.95,
+      "title": "Dragon Ball Super - Special Anniversary Box Set 2021"
+    },
+    "39799043653819": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 6.95,
+      "title": "Dragon Ball Super - Battle Evolution Booster Pack"
+    },
+    "39844375101627": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 179.95,
+      "title": "Dragon Ball Super - Saiyan Showdown Booster Box"
+    },
+    "39844550836411": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Saiyan Showdown - Premium Pack Set 06"
+    },
+    "40317910941883": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 39.95,
+      "title": "Dragon Ball Super - Mythic Booster Box"
+    },
+    "40317940433083": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Mythic Booster Gift Collection"
+    },
+    "40328090714299": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 99.95,
+      "title": "Dragon Ball Super - Rise of the Unison Warrior - 2nd Edition Booster Box"
+    },
+    "40328092844219": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 109.95,
+      "title": "Dragon Ball Super - Vermilion Bloodline - 2nd Edition Booster Box"
+    },
+    "40929205158075": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 349.95,
+      "title": "Dragon Ball Super - Realm of the Gods Booster Box"
+    },
+    "40929383055547": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 49.95,
+      "title": "Dragon Ball Super - Realm of the Gods - Premium Pack Set 07"
+    },
+    "41012213776571": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 119.95,
+      "title": "Dragon Ball Super - Carddass Premium Edition DX Set"
+    },
+    "41252841652411": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Cross Spirits Booster Pack"
+    },
+    "41633124188347": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Collector's Selection Vol.2"
+    },
+    "41787921039547": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 17.95,
+      "title": "Dragon Ball Super - Ultimate Squad - Premium Pack Set 08"
+    },
+    "41788243247291": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Ultimate Squad Booster Box"
+    },
+    "41788415738043": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super -  Expansion Set #20 - Ultimate Deck 2022"
+    },
+    "42119967310011": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Saiyan Showdown Booster Pack"
+    },
+    "42397372514491": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Mythic Booster Booster Pack"
+    },
+    "42552055234747": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 109.95,
+      "title": "Dragon Ball Super - Theme Selection Set - History of Goku"
+    },
+    "42552062771387": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 99.95,
+      "title": "Dragon Ball Super - Theme Selection Set - History of Vegeta"
+    },
+    "42644062863547": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 184.95,
+      "title": "Dragon Ball Super - Dawn of the Z-Legends Booster Box"
+    },
+    "42644121682107": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Dawn of the Z-Legends Premium Pack Set"
+    },
+    "42644126204091": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Starter Deck #17 - Red Rage"
+    },
+    "42644132004027": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 12.95,
+      "title": "Dragon Ball Super - Starter Deck #18 - Blue Future"
+    },
+    "42644136689851": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Starter Deck #19 - Green Fusion"
+    },
+    "42644139802811": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Starter Deck #20 - Yellow Transformation"
+    },
+    "42655796887739": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 17.95,
+      "title": "Dragon Ball Super - Realm of the Gods Booster Pack"
+    },
+    "42678663839931": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 79.95,
+      "title": "Dragon Ball Super - 5th Anniversary Box Set"
+    },
+    "42995105235131": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 269.95,
+      "title": "Dragon Ball Super - 5th Anniversary Set - Display of 4"
+    },
+    "42995129811131": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 229.95,
+      "title": "Dragon Ball Super - Dawn of the Z-Legends Premium Pack Set - Display of 8"
+    },
+    "42995139215547": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Theme Selection Set - Bundle of 2"
+    },
+    "43005890560187": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 6.95,
+      "title": "Dragon Ball Super - Ultimate Squad Booster Pack"
+    },
+    "43017001238715": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Zenkai Series 2 - Fighter's Ambition Booster Box"
+    },
+    "43017043411131": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Zenkai Series 2 - Fighter's Ambition Premium Pack Set"
+    },
+    "43017062711483": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 44.95,
+      "title": "Dragon Ball Super - Gift Collection 2022"
+    },
+    "43221677113531": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Supreme Rivalry Booster Pack"
+    },
+    "43392534839483": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 179.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Power Absorbed Booster Box"
+    },
+    "43392563937467": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Power Absorbed - Premium Pack"
+    },
+    "43392583631035": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Starter Deck #1 - Ultimate Awakened Power"
+    },
+    "43392604504251": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Starter Deck #2 - Proud Warrior"
+    },
+    "43392614498491": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 499.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Power Absorbed Collector's Booster Box"
+    },
+    "43393028751547": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 8.95,
+      "title": "Dragon Ball Super - Dawn of the Z-Legends Booster Pack"
+    },
+    "43626849435835": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Ultimate Deck 2023"
+    },
+    "43834468597947": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 289.95,
+      "title": "Dragon Ball Super - Collector's Selection Vol.3"
+    },
+    "43920043507899": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 5.95,
+      "title": "Dragon Ball Super - Zenkai Series 2 - Fighter's Ambition Booster Pack"
+    },
+    "43982892269755": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Zenkai Series 4 - Wild Resurgence Booster Box"
+    },
+    "43982894432443": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Zenkai Series 4 - Wild Resurgence Premium Pack"
+    },
+    "44053731311803": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 159.95,
+      "title": "Dragon Ball Super - Carddass Premium Edition Set Vol.1"
+    },
+    "44335226716347": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 184.95,
+      "title": "Dragon Ball Super - Carddass Premium Edition Set Vol.2"
+    },
+    "44512539476155": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Zenkai Series 5 - Critical Blow Booster Box"
+    },
+    "44512543998139": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Zenkai Series 5 - Critical Blow Premium Pack"
+    },
+    "44543164186811": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 8.95,
+      "title": "Dragon Ball Super - Zenkai Series 3 - Power Absorbed Booster Pack"
+    },
+    "44543205834939": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 109.95,
+      "title": "Dragon Ball Super - Premium Anniversary Box 2023"
+    },
+    "44609704460475": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 184.95,
+      "title": "Dragon Ball Super - Carddass Premium Edition Set Vol.3"
+    },
+    "44609705640123": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 184.95,
+      "title": "Dragon Ball Super - Carddass Premium Edition Set Vol.4"
+    },
+    "44619083972795": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 99.95,
+      "title": "Dragon Ball Super - Zenkai Series 6 - Perfect Combination Booster Box"
+    },
+    "44619084005563": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Zenkai Series 6: Perfect Combination - Premium Pack"
+    },
+    "44714479517883": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Zenkai Series 5 - Starter Deck - Final Radiance"
+    },
+    "44731248640187": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 599.95,
+      "title": "Dragon Ball Super - Fusion World Set 1: Awakened Pulse Booster Box"
+    },
+    "44748706709691": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 1399.95,
+      "title": "Dragon Ball Super - Zenkai Series 5 - Critical Blow Booster Case"
+    },
+    "44749229654203": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 1149.95,
+      "title": "Dragon Ball Super - Zenkai Series 6: Perfect Combination - Booster Case"
+    },
+    "44757569011899": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 1 - Son Goku"
+    },
+    "44757571272891": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 2 - Vegeta"
+    },
+    "44757571469499": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 3 - Broly"
+    },
+    "44757571502267": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 19.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 4 - Frieza"
+    },
+    "44775440023739": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 124.95,
+      "title": "Dragon Ball Super - Masters Zenkai Series EX 7 - Beyond Generations Booster Box"
+    },
+    "44805713199291": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 259.95,
+      "title": "Dragon Ball Super - Fusion World Set 2 - Blazing Aura Booster Box"
+    },
+    "44828550889659": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 824.95,
+      "title": "Dragon Ball Super - Masters Zenkai Series EX 8 - Legend of the Dragon Balls Booster Box"
+    },
+    "45611256185019": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 399.95,
+      "title": "Dragon Ball Super - Masters Zenkai Series EX Set 7 - Beyond Generations - Collector Booster Box"
+    },
+    "46204875538619": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 139.95,
+      "title": "Dragon Ball Super - Fusion World Set 3 - Raging Roar Booster Box"
+    },
+    "46204876161211": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Fusion World Set 4 - Ultra Limit Booster Box"
+    },
+    "46256635969723": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 229.95,
+      "title": "Dragon Ball Super - Fusion World Set 5 - New Adventure Booster Box"
+    },
+    "46256636199099": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 129.95,
+      "title": "Dragon Ball Super - Masters Zenkai Series EX 9 - Ultimate Advent Booster Box"
+    },
+    "46256636297403": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 124.95,
+      "title": "Dragon Ball Super - Premium Anniversary Box 2024"
+    },
+    "46256636461243": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 39.95,
+      "title": "Dragon Ball Super - Cardcase Fusion World V1"
+    },
+    "46269229531323": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 17.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 5 - Bardock"
+    },
+    "46276126015675": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 179.95,
+      "title": "Dragon Ball Super - Masters Zenkai Series EX 10 - History of Z Booster Box"
+    },
+    "46322762088635": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 6 - Son Goku (Mini)"
+    },
+    "46341518262459": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 369.95,
+      "title": "Dragon Ball Super - Fusion World Set 6 - Rivals Clash Booster Box"
+    },
+    "46341519212731": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 12.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 8 - Vegeta (Mini) Super Saiyan 3"
+    },
+    "46349212942523": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 9.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 7 - Vegeta (Mini)"
+    },
+    "46366496260283": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 1119.95,
+      "title": "Dragon Ball Super - Fusion World - 1st Anniversary Set"
+    },
+    "46384694984891": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 12.95,
+      "title": "Dragon Ball Super - Fusion World Set 2 - Blazing Aura Booster Pack"
+    },
+    "46385200988347": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 32.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 9 - Shallot"
+    },
+    "46385208623291": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 79.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 10 - Giblet"
+    },
+    "46392077516987": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 139.95,
+      "title": "Dragon Ball Super - Premium Anniversary Box 2025"
+    },
+    "46402600501435": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Fusion World Manga 01 Booster Box"
+    },
+    "46454297526459": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 10.95,
+      "title": "Dragon Ball Super - Fusion World Set 5 - New Adventure Booster Pack"
+    },
+    "46456193679547": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 269.95,
+      "title": "Dragon Ball Super - Fusion World Set 7 - Wish For Shenron Booster Box"
+    },
+    "46477044383931": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 22.95,
+      "title": "Dragon Ball Super - Expansion Set #17 - Saiyan Boost"
+    },
+    "46499669770427": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 279.95,
+      "title": "Dragon Ball Super - Masters - BT28 - Prismatic Clash Set 1 Booster Box"
+    },
+    "46597042798779": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 24.95,
+      "title": "Dragon Ball Super - Cross Spirits - Premium Pack Set 05"
+    },
+    "46605903954107": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 559.95,
+      "title": "Dragon Ball Super - Fusion World Manga 02 Booster Box"
+    },
+    "46607884681403": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 7.95,
+      "title": "Dragon Ball Super - Fusion World Set 6 - Rival's Clash Booster Pack"
+    },
+    "46621458104507": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 279.95,
+      "title": "Dragon Ball Super - Masters - BT29 - Fearsome Rivals Set 2 Booster Box"
+    },
+    "46681754501307": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 309.95,
+      "title": "Dragon Ball Super - Fusion World Set 8 - Saiyan's Pride Booster Box"
+    },
+    "46725339578555": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 8.95,
+      "title": "Dragon Ball Super - Fusion World Manga 01 Booster Pack"
+    },
+    "46897677697211": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 329.95,
+      "title": "Dragon Ball Super - Masters - BT30 - Three Glorious Fighters Set 3 Booster Box"
+    },
+    "46929199857851": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 12.95,
+      "title": "Dragon Ball Super - Masters - BT28 - Prismatic Clash Set 1 Booster Pack"
+    },
+    "46940066316475": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 49.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 11 - The Phase of Evolution"
+    },
+    "46940071690427": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 49.95,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 12 - The Beat of Ki"
+    },
+    "46955554406587": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 729.95,
+      "title": "Dragon Ball Super - Fusion World Set 9 - Dual Evolution Booster Box"
+    },
+    "46973857923259": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 12.95,
+      "title": "Dragon Ball Super - Fusion World Set 7 - Wish for Shenron Booster Pack"
+    },
+    "47205691162811": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 399.95,
+      "title": "Dragon Ball Super - Fusion World Set 10 - Cross Force Booster Box"
+    },
+    "47271755972795": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 11.95,
+      "title": "Dragon Ball Super - Fusion World Set 8 - Saiyan's Pride Booster Pack"
+    },
+    "47289863078075": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 189.95,
+      "title": "Dragon Ball Super - Masters - BT31 - New Series Set 4 Booster Box (Pre-Order)"
+    },
+    "47326017552571": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 11.95,
+      "title": "Dragon Ball Super - Masters - BT29 - Fearsome Rivals Set 2 Booster Pack"
+    },
+    "47394576957627": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 154.95,
+      "title": "Dragon Ball Super - Fusion World - Story Booster Vol.1 (Pre-Order)"
+    },
+    "47419115077819": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World - 2nd Anniversary Set (Pre-Order)"
+    },
+    "47494831636667": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World Set 11 - Booster Box (Pre-Order)"
+    },
+    "47564858130619": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 6.95,
+      "title": "Dragon Ball Super - Vermilion Bloodline 2nd Edition Booster Pack"
+    },
+    "47618005467323": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 14.95,
+      "title": "Dragon Ball Super - Masters - BT30 - Three Glorious Fighters Set 3 Booster Pack"
+    },
+    "47674050478267": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 13 (Pre-Order)"
+    },
+    "47674053394619": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World Starter Deck 14 (Pre-Order)"
+    },
+    "47709327163579": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Masters - BT32 - New Series Set 5 Booster Box (Pre-Order)"
+    },
+    "47779856384187": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 66.95,
+      "title": "Dragon Ball Super - Fusion World FB-01 Awakened Pulse Japanese Booster Box"
+    },
+    "47779870605499": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 57.95,
+      "title": "Dragon Ball Super - Fusion World FB-02 Blazing Aura Japanese Booster Box"
+    },
+    "47779877683387": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 78.95,
+      "title": "Dragon Ball Super - Fusion World FB-03 Raging Road Japanese Booster Box"
+    },
+    "47779878404283": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 82.95,
+      "title": "Dragon Ball Super - Fusion World FB-04 Ultra Limit Japanese Booster Box"
+    },
+    "47779879682235": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 156.95,
+      "title": "Dragon Ball Super - Fusion World FB-09 Dual Evolution Japanese Booster Box"
+    },
+    "47977886777531": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 18.95,
+      "title": "Dragon Ball Super - Fusion World Set 10 - Cross Force Booster Pack"
+    },
+    "48034681389243": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World - Story Booster Vol.2 (Pre-Order)"
+    },
+    "48034689974459": {
+      "in_stock": false,
+      "is_preorder": true,
+      "price": 0.0,
+      "title": "Dragon Ball Super - Fusion World Set 12 - Booster Box (Pre-Order)"
+    },
+    "48095287823": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 29.95,
+      "title": "Dragon Ball Super - Galactic Battle - Booster Pack"
+    },
+    "48270921999": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 399.95,
+      "title": "Dragon Ball Super - Union Force - Booster Box"
+    },
+    "48270937039": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 44.95,
+      "title": "Dragon Ball Super - Union Force - Special Pack"
+    },
+    "49772340111": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 199.95,
+      "title": "Dragon Ball Super - Draft Box 1"
+    },
+    "877008453647": {
+      "in_stock": false,
+      "is_preorder": false,
+      "price": 11.95,
+      "title": "Dragon Ball Super - Union Force - Booster Pack"
+    }
+  }
+}
