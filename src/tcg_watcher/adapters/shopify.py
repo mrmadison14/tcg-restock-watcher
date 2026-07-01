@@ -3,7 +3,7 @@ from ..config import Store
 from ..models import Product
 
 _SEALED_MARKERS = (
-    "booster box", "elite trainer", "etb", "booster bundle", "bundle",
+    "booster box", "elite trainer", "etb", "booster bundle",
     "collection", "case", "tin", "blister", "booster pack",
 )
 _PREORDER_MARKERS = ("preorder", "pre-order", "pre order")
@@ -41,8 +41,8 @@ def _to_products(store: Store, it: dict, franchise: str | None) -> list[Product]
         out.append(
             Product(
                 store=store.key,
-                product_id=str(it.get("id")),
-                variant_id=str(v.get("id")),
+                product_id=str(it["id"]),
+                variant_id=str(v["id"]),
                 title=title,
                 price=float(v.get("price")),
                 currency=store.currency,

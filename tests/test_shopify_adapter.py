@@ -1,3 +1,4 @@
+import pytest
 from tcg_watcher.config import Store
 from tcg_watcher.adapters.shopify import fetch_products
 
@@ -88,3 +89,39 @@ def test_full_crawl_early_stops_on_short_page():
         return {"products": []}
     fetch_products(store, http_get)
     assert calls == [1]
+
+
+def test_bare_bundle_marker_does_not_flag_sealed():
+    store = Store(key="d", base_url="https://d.test", platform="shopify", currency="USD")
+    page = {"products": [
+        {"id": 200, "handle": "sleeve-bundle", "title": "Ultra Pro Card Sleeve Bundle",
+         "product_type": "Accessories", "tags": [], "images": [],
+         "variants": [{"id": 8001, "title": "Default Title", "price": "9.99", "available": True}]},
+        {"id": 201, "handle": "booster-bundle", "title": "Prismatic Evolutions Booster Bundle",
+         "product_type": "", "tags": [], "images": [],
+         "variants": [{"id": 8002, "title": "Default Title", "price": "26.99", "available": True}]},
+    ]}
+    prods = fetch_products(store, make_http_get({1: page}))
+    sealed = {p.variant_id: p.is_sealed for p in prods}
+    assert sealed["8001"] is False   # bare "bundle" must not flag sealed
+    assert sealed["8002"] is True    # "booster bundle" still flags sealed
+
+
+def test_missing_product_id_crashes():
+    store = Store(key="d", base_url="https://d.test", platform="shopify", currency="USD")
+    page = {"products": [
+        {"handle": "no-id", "title": "Mystery Booster Box", "product_type": "", "tags": [], "images": [],
+         "variants": [{"id": 7001, "title": "Default Title", "price": "1.00", "available": True}]},
+    ]}
+    with pytest.raises(KeyError):
+        fetch_products(store, make_http_get({1: page}))
+
+
+def test_missing_variant_id_crashes():
+    store = Store(key="d", base_url="https://d.test", platform="shopify", currency="USD")
+    page = {"products": [
+        {"id": 300, "handle": "v-no-id", "title": "Mystery Booster Box", "product_type": "", "tags": [], "images": [],
+         "variants": [{"title": "Default Title", "price": "1.00", "available": True}]},
+    ]}
+    with pytest.raises(KeyError):
+        fetch_products(store, make_http_get({1: page}))
