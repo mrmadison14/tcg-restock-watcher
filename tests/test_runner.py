@@ -64,3 +64,9 @@ def test_disabled_store_skipped(tmp_path: Path):
     store = Store(key="off", base_url="https://off.test", platform="shopify", currency="USD", enabled=False)
     report = run_once(cfg(store), make_http_get({}), (lambda x: None), (lambda x: None), tmp_path, "t0")
     assert report.stores_ok == 0 and report.stores_failed == 0
+
+def test_unknown_platform_counts_as_failed(tmp_path: Path):
+    store = Store(key="weird", base_url="https://weird.test", platform="bigcommerce", currency="USD")
+    report = run_once(cfg(store), make_http_get({}), (lambda x: None), (lambda x: None), tmp_path, "t0")
+    assert report.stores_failed == 1
+    assert report.stores_ok == 0
