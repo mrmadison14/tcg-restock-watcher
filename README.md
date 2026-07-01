@@ -18,11 +18,12 @@ per store: fetch sealed products → diff vs last snapshot → classify events
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (8)
+## Stores (9)
 
 | Store | Fetch mode | Franchises |
 |---|---|---|
 | collectorsrow.cards | curated sealed collections | Pokémon |
+| collectorstore.com | curated sealed collections | Pokémon, One Piece |
 | hobbiesville.com | curated sealed collections | Pokémon, One Piece, Dragon Ball |
 | deckoutgaming.ca | curated sealed collections | Pokémon, One Piece |
 | skyboxct.com | curated sealed collections | Pokémon |
@@ -32,8 +33,8 @@ per store: fetch sealed products → diff vs last snapshot → classify events
 | matrixtcg.com | full-crawl + sealed filter | all (small catalog) |
 
 Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
-aren't cleanly targetable (add handles to its config if found). **collectorstore.com** was
-dropped (Funko-heavy, no clean sealed TCG). **tcgsorted** (shop.app) is deferred (no resolvable
+aren't cleanly targetable (add handles to its config if found). **collectorstore.com** uses its
+`games-pokemon` / `games-one-piece` collections (all sealed). **tcgsorted** (shop.app) is deferred (no resolvable
 storefront). The 3 non-Shopify sites (Wix ×2, rarecandy) are Phase 2.
 
 ## The Cloudflare 429 story (why it's built this way)
