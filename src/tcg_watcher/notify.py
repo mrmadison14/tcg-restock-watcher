@@ -21,6 +21,28 @@ def route_loud(event: Event) -> bool:
     return event.type in _LOUD_TYPES
 
 
+def route_deal_or_urgent(event: Event) -> bool:
+    v = event.verdict
+    if v is not None and v.status == "deal":
+        return True
+    return event.type in _LOUD_TYPES
+
+
+def _market_line(event: Event) -> str:
+    v = event.verdict
+    if v is None or v.status == "na" or v.market_usd is None or v.store_usd is None:
+        return "n/a"
+    if v.status == "deal":
+        return f"🔥 {v.pct_under * 100:.0f}% under market (≈US${v.store_usd:.2f} vs US${v.market_usd:.2f})"
+    if v.pct_under is not None and v.pct_under > 0:
+        rel = f"{v.pct_under * 100:.0f}% under market"
+    elif v.pct_under is not None and v.pct_under < 0:
+        rel = f"{-v.pct_under * 100:.0f}% above market"
+    else:
+        rel = "at market"
+    return f"{rel} (≈US${v.store_usd:.2f} vs US${v.market_usd:.2f})"
+
+
 def build_embed(event: Event) -> dict:
     p = event.product
     cur = f"{p.currency} {p.price:.2f}"
@@ -33,6 +55,7 @@ def build_embed(event: Event) -> dict:
         {"name": "Store", "value": p.store, "inline": True},
         {"name": "Price", "value": price_line, "inline": True},
         {"name": "Franchise", "value": p.franchise or "—", "inline": True},
+        {"name": "Market", "value": _market_line(event), "inline": True},
     ]
     embed = {
         "title": f"{p.title} — {_LABEL[event.type]}"[:256],

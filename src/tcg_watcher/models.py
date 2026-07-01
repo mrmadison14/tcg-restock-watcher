@@ -11,6 +11,16 @@ class EventType(str, Enum):
 
 
 @dataclass(frozen=True)
+class Verdict:
+    status: str
+    market_usd: float | None
+    store_usd: float | None
+    pct_under: float | None
+    matched_name: str | None
+    currency: str
+
+
+@dataclass(frozen=True)
 class Product:
     store: str
     product_id: str
@@ -34,3 +44,4 @@ class Event:
     product: Product
     previous_price: float | None = None
     previous_in_stock: bool | None = None
+    verdict: "Verdict | None" = None

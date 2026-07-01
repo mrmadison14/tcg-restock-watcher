@@ -89,3 +89,31 @@ def test_curated_store_trusts_collection_products(tmp_path: Path):
     assert "cur" in report.seeded
     snap = load_snapshot(snapshot_path(tmp_path, "cur"))
     assert "7" in snap["variants"]
+
+
+def test_run_once_enriches_and_routes_deal_loud(tmp_path):
+    from tcg_watcher.models import Verdict
+    from tcg_watcher.config import Config, Store
+    from tcg_watcher.runner import run_once
+
+    class _StubOracle:
+        def verdict(self, product):
+            return Verdict("deal", 100.0, 50.0, 0.5, product.title, product.currency)
+
+    store = Store(key="s", base_url="https://s.test", platform="shopify", currency="USD")
+    config = Config(stores=(store,), franchise_synonyms={"pokemon": ("pokemon",)},
+                    max_events_per_store=25, price_epsilon=0.01)
+
+    page = {"products": [{"id": 1, "handle": "h", "title": "Pokemon Booster Box",
+                          "product_type": "", "tags": ["Pokemon"], "images": [],
+                          "variants": [{"id": 9, "title": "Default Title", "price": "50.00", "available": True}]}]}
+
+    def http_get(url, params=None):
+        return page if (params or {}).get("page", 1) == 1 else {"products": []}
+
+    (tmp_path / "s.json").write_text('{"seeded": true, "last_run": "t", "variants": {}}')
+
+    loud, quiet = [], []
+    run_once(config, http_get, loud.append, quiet.append, tmp_path, "t", oracle=_StubOracle())
+    assert len(loud) == 1 and loud[0]["content"] == "@here"
+    assert quiet == []
