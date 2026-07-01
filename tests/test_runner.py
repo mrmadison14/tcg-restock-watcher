@@ -70,3 +70,8 @@ def test_unknown_platform_counts_as_failed(tmp_path: Path):
     report = run_once(cfg(store), make_http_get({}), (lambda x: None), (lambda x: None), tmp_path, "t0")
     assert report.stores_failed == 1
     assert report.stores_ok == 0
+
+def test_now_iso_helper_format():
+    from tcg_watcher.__main__ import now_iso
+    s = now_iso()
+    assert s.endswith("Z") and "T" in s and len(s) == 20  # YYYY-MM-DDTHH:MM:SSZ
