@@ -1,5 +1,5 @@
 from __future__ import annotations
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 from .config import Config
@@ -7,7 +7,7 @@ from .adapters import shopify
 from .filtering import filter_franchises, keep_sealed
 from .state import load_snapshot, build_snapshot, save_snapshot, snapshot_path
 from .diff import detect_events
-from .notify import send_events
+from .notify import send_events, route_deal_or_urgent
 
 _ADAPTERS = {"shopify": shopify.fetch_products}
 
@@ -26,7 +26,7 @@ class RunReport:
         )
 
 
-def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso) -> RunReport:
+def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso, oracle=None) -> RunReport:
     report = RunReport()
     state_dir = Path(state_dir)
 
@@ -60,8 +60,10 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
             continue
 
         events = detect_events(watched, prev, config.price_epsilon)
+        if oracle is not None:
+            events = [replace(e, verdict=oracle.verdict(e.product)) for e in events]
         report.events_sent += send_events(
-            events, post_loud, post_quiet, config.max_events_per_store
+            events, post_loud, post_quiet, config.max_events_per_store, route=route_deal_or_urgent
         )
         save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
         report.stores_ok += 1
