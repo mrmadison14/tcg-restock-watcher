@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:20:22Z",
+  "last_run": "2026-07-01T16:25:15Z",
   "seeded": true,
   "variants": {
     "39876094885948": {
@@ -1217,13 +1217,13 @@
     "39892251213884": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 1260.0,
+      "price": 1055.0,
       "title": "Pokemon TCG: XY - Evolutions Elite Trainer Box (Mega Blastoise)"
     },
     "39892251312188": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 934.0,
+      "price": 887.0,
       "title": "Pokemon TCG: XY - Evolutions Elite Trainer Box (Mega Charizard Y)"
     },
     "39893517402172": {
@@ -2675,7 +2675,7 @@
     "40649768337468": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 362.0,
+      "price": 352.0,
       "title": "Pokemon TCG: Sun and Moon - Burning Shadows Elite Trainer Box"
     },
     "40649768370236": {
@@ -2705,7 +2705,7 @@
     "40655436808252": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 178.0,
+      "price": 100.0,
       "title": "Pokemon TCG: Sword and Shield - Silver Lance Booster Box (Japanese)"
     },
     "40658010734652": {
@@ -2717,7 +2717,7 @@
     "40658810306620": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 36.0,
+      "price": 33.0,
       "title": "Pokemon TCG: 2023 Back to School Pencil Box"
     },
     "40658810470460": {
@@ -2729,19 +2729,19 @@
     "40662313009212": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 310.0,
+      "price": 306.0,
       "title": "Pokemon TCG: Eevee Evolutions Exclusive Premium Collection"
     },
     "40663698767932": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 87.0,
+      "price": 85.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Poster Collection Box"
     },
     "40663698800700": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 620.0,
+      "price": 652.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Elite Trainer Box"
     },
     "40663698866236": {
@@ -2759,13 +2759,13 @@
     "40663698931772": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 126.0,
+      "price": 130.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Alakazam ex Box"
     },
     "40663698964540": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 982.0,
+      "price": 981.0,
       "title": "Pokemon TCG: Scarlet and Violet - 151 Ultra Premium Collection Box"
     },
     "40664941559868": {
@@ -3185,7 +3185,7 @@
     "40925293674556": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 109.0,
+      "price": 121.0,
       "title": "Pokemon Scarlet and Violet: Paldea Adventure Chest"
     },
     "40972450463804": {
@@ -3197,7 +3197,7 @@
     "40972450529340": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 126.0,
+      "price": 120.0,
       "title": "Pokemon Scarlet and Violet: Temporal Forces Elite Trainer Box (Walking Wake)"
     },
     "40972450562108": {
@@ -3209,7 +3209,7 @@
     "40972450627644": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 346.0,
+      "price": 345.0,
       "title": "Pokemon Scarlet and Violet: Temporal Forces Booster Box"
     },
     "40972450660412": {
@@ -3293,7 +3293,7 @@
     "41197897351228": {
       "in_stock": true,
       "is_preorder": false,
-      "price": 393.0,
+      "price": 390.0,
       "title": "Pokemon Scarlet and Violet: Twilight Masquerade Booster Box"
     },
     "41197897449532": {
@@ -3311,7 +3311,7 @@
     "41224290730044": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 52.0,
+      "price": 53.0,
       "title": "Pokemon Scarlet and Violet: Vibrant Paldea Mini Tin (Ceruledge and Gloomy)"
     },
     "41224290795580": {
@@ -3389,7 +3389,7 @@
     "41799263715388": {
       "in_stock": false,
       "is_preorder": false,
-      "price": 140.0,
+      "price": 136.0,
       "title": "Pokemon Scarlet and Violet: Shrouded Fable Elite Trainer Box"
     },
     "41799263911996": {
