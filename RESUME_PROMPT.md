@@ -10,7 +10,7 @@ I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-res
 
 🟢 LIVE + autonomous + concurrency-safe — and now **clobber-safe for concurrent non-`state/` pushes**. `main` HEAD advances via the Actions bot's `state:`/`data:` commits (expected, not drift); this session's fix commits are `73f62b9` (fix) + `ad25dea` (restore), now under later bot commits. This session: found & fixed a **live doc-clobber data-loss bug** (off the decision-tree), then triaged the user's store-list image for easy Shopify adds.
 - **commit-state clobber fix (the big one):** `watch.yml` did `git reset --soft origin/main`, keeping the runner's stale index; since `reconcile` only re-materializes `state/`, a concurrent human push's non-`state/` files (the session-3 handoff docs) got committed as deletions. Fix: **`git reset --mixed`** re-bases the index onto the fetched tip → only `state/` diffs are ever staged. Extracted to **`scripts/commit_state.sh`** (+ `RECONCILE_CMD` seam); `watch.yml` calls it; new **`tests/test_commit_state.py`** (RED on `--soft`, GREEN on `--mixed`). Restored the 4 clobbered files. Prod-verified (2 fixed runs + 2 bot state commits, docs intact).
-- **store triage:** of 14 domains in the store-list image, 2 already tracked (rarecandy, collectorstore); **9 are Shopify = easy config-only adds** (3kcollectables, doubleinfinitygaming, paladincards20, realgoodeal, shinypax, shopchieffpokeman, spoilsandloot, tygerstcgden, zulusgames). Not-easy: blowoutcards (non-Shopify, big), missionreadycollectibles (401), tcgsorted (shop.app, domain TBD). **8 added + seeded live** (`ok=18 failed=0`): 6 full-crawl + realgoodeal (590) / zulusgames (95) curated; doubleinfinitygaming skipped (graded-singles). **18 stores** total.
+- **store triage:** of 14 domains in the store-list image, 2 already tracked (rarecandy, collectorstore); **9 are Shopify = easy config-only adds** (3kcollectables, doubleinfinitygaming, paladincards20, realgoodeal, shinypax, shopchieffpokeman, spoilsandloot, tygerstcgden, zulusgames). Not-easy: blowoutcards (non-Shopify, big), missionreadycollectibles (401), tcgsorted (shop.app, domain TBD). **10 added + seeded live** (`ok=20 failed=0`): 7 full-crawl + realgoodeal / zulusgames / doubleinfinitygaming curated. tcgsorted → `shop.tcgsorted.com` (apex 404s); doubleinfinitygaming via its sealed-only "new and hot" collections. Ruled out: blowoutcards (Imperva JS-WAF), missionreadycollectibles (merchant password-lock). **20 stores** total.
 - **rarecandy** (session 3): parses `__NEXT_DATA__` Apollo cache from `/shop`+`/discover`; ~51 sealed variants. **PAT rotated**; **Discord inter-post delay** live (`post_delay_seconds`, default 1.0s).
 
 ## Uncommitted / in-flight state
@@ -24,7 +24,7 @@ I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-res
 1. `SESSION_HISTORY.md` — session-4 entry (top) = full arc + next steps.
 2. `docs/superpowers/PHASE2_SCOPING.md` — Phase 2 (Wix ×2) feasibility + effort (the main open work).
 3. `README.md` — as-built overview (10 stores, sealed-only, 429 story).
-4. `config.toml` — 18 stores + curated collections + `[pricing]` + `[thresholds]`.
+4. `config.toml` — 20 stores + curated collections + `[pricing]` + `[thresholds]`.
 
 ## Verification commands (run first to confirm no drift)
 ```bash
@@ -35,7 +35,7 @@ uv run pytest -q                                    # expect: 107 passed
 gh run list --workflow=watch --limit 5              # expect: recent runs = success (was ~38% failing pre-`2c8be31`)
 gh run list --workflow=build-index --limit 2        # expect: daily run success
 ```
-If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-conflict and doc-clobber failures are fixed; a new failure is more likely a transient fetch or the PAT expiring. If tests < 107 or stores ≠ 18, STOP and reconcile against the docs above before changing anything.
+If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-conflict and doc-clobber failures are fixed; a new failure is more likely a transient fetch or the PAT expiring. If tests < 107 or stores ≠ 20, STOP and reconcile against the docs above before changing anything.
 
 ## Key reference values (no credentials)
 | Thing | Value |
@@ -43,7 +43,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 | HEAD (indicative) | session-4 fix `73f62b9` + restore `ad25dea` (advances via bot commits) |
 | Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
 | Tests | 107 passing |
-| Stores | 18 (17 Shopify + rarecandy Next.js) |
+| Stores | 20 (19 Shopify + rarecandy Next.js) |
 | Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
 | Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
 | cron-job.org PAT | ✅ **rotated 2026-07-01** (fine-grained, Actions r+w, this repo). Rotate again before its expiry. Runbook: `docs/PAT_ROTATION.md` |
@@ -70,7 +70,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 - A launchd pinger was prepared but **NOT loaded** (`~/.claude/scripts/tcg-watch-ping.sh` + `~/Library/LaunchAgents/com.mrmadison.tcg-watch-ping.plist`) — superseded by cron-job.org.
 
 ## Decision tree — pick your next move
-(A) ✅ **DONE (session 4): 8 of 9 added + seeded live** (`3kcollectables`, `paladincards20`, `shopchieffpokeman`, `spoilsandloot`, `shinypax`, `tygerstcgden` = full-crawl; `realgoodeal`, `zulusgames` = curated sealed collections). `doubleinfinitygaming` **skipped** — graded-singles catalog, no clean sealed collections. Follow-ups if wanted: add One Piece / Dragon Ball collections where the full-crawl stores carry them; resolve `tcgsorted` (shop.app) real domain; investigate `missionreadycollectibles` (`/products.json` 401) and `blowoutcards` (non-Shopify, big → bespoke adapter).
+(A) ✅ **DONE (session 4): 10 stores added + seeded live, all follow-ups resolved.** Full-crawl: `3kcollectables`, `paladincards20`, `shopchieffpokeman`, `spoilsandloot`, `shinypax`, `tygerstcgden`, `tcgsorted` (=`shop.tcgsorted.com`). Curated: `realgoodeal` (+`dragon-ball-super`, `pokemon-sealed-cases`), `zulusgames` (+`pokemon-scarlet-violet`, `pokemon-imported-product`), `doubleinfinitygaming` (sealed-only "new and hot" collections). **Not addable:** `blowoutcards` (Magento + Imperva JS-challenge WAF → needs headless browser), `missionreadycollectibles` (merchant storefront password-lock). No open store follow-ups.
 (B) **Phase 2 — Wix ×2** (`pokelegendstcg` + `bulbacards`): the harder non-Shopify work. Per `docs/superpowers/PHASE2_SCOPING.md`, both are Wix Stores whose SSR HTML only exposes page 1 (~16 items); the full catalog needs an access-token + storefront **GraphQL POST** → requires a POST-capable `http` helper (extend `make_httpx_get`). Decide **full-GraphQL** (real coverage, ~2–2.5d) vs **best-effort SSR** (~1d, low value). Make the gallery route config-driven (bulbacards `/shop` 404s) and verify Wix id-stability before enabling alerts. One shared `adapters/wix.py` serves both sites.
 (C) **Widen rarecandy** beyond the ~85 browse-surface listings if the `rareFindCatalog(page)` GraphQL path can be made to work (introspection currently 400).
 (D) Something else — describe.
