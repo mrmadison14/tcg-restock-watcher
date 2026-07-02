@@ -32,6 +32,12 @@ def products_from_apollo(store: Store, apollo: dict) -> list[Product]:
         product = apollo.get(ref) if ref else None
         if product is None:
             continue
+        seller = rf.get("store")
+        if isinstance(seller, dict) and "__ref" in seller:
+            seller = apollo.get(seller["__ref"])
+        seller_slug = seller.get("slug") if isinstance(seller, dict) else None
+        if seller_slug is None:
+            continue
         tags = _norm_tags(product.get("tags") or ())
         thumb = product.get("thumbnail") or {}
         out.append(
@@ -43,7 +49,7 @@ def products_from_apollo(store: Store, apollo: dict) -> list[Product]:
                 price=float(product["price"]),
                 currency=store.currency,
                 in_stock=(product.get("quantity") or 0) > 0,
-                url=f"{store.base_url}/{rf['slug']}",
+                url=f"{store.base_url}/{seller_slug}/shop/{rf['slug']}",
                 image=thumb.get("thumbnail"),
                 tags=tags,
                 is_preorder=bool(product.get("isPreorder")),

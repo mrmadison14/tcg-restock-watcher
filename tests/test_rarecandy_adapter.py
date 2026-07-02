@@ -29,7 +29,7 @@ def test_maps_core_fields():
     assert p.in_stock is True
     assert p.is_preorder is False
     assert p.is_sealed is True
-    assert p.url == ("https://rarecandy.com/"
+    assert p.url == ("https://rarecandy.com/ninetalestradingcompany/shop/"
                      "bundle-1-assorted-ascended-heroes-mega-ex-box-and-1-first-partner-series-1-box-65659177")
     assert p.image == "https://images.rarecandy.com/tr:n-thumbnail/stores/352/inventory/17818486043501.png"
 
@@ -67,9 +67,35 @@ def test_extract_apollo_missing_returns_empty():
 
 def _apollo_with_tags(tags):
     return {
-        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"}},
+        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"},
+                       "store": {"__ref": "Store:S"}},
         "Product:X": {"id": 1, "name": "Test", "price": 1.0, "quantity": 1, "tags": tags},
+        "Store:S": {"id": 5, "slug": "somestore", "name": "Some Store"},
     }
+
+
+def test_url_is_store_slug_shop_path():
+    b = _by_vid()
+    assert b["217226"].url == "https://rarecandy.com/pokejpn/shop/abyss-eye-japanese-booster-box-81fb6611"
+    assert b["217220"].url.startswith("https://rarecandy.com/otakuanimegoods/shop/")
+
+
+def test_inline_store_object_used_for_url():
+    apollo = {
+        "RareFind:y": {"id": "vY", "slug": "y-slug", "product": {"__ref": "Product:Y"},
+                       "store": {"__typename": "Store", "slug": "inlinestore"}},
+        "Product:Y": {"id": 2, "name": "Y", "price": 2.0, "quantity": 1, "tags": ["pokemon", "sealed"]},
+    }
+    prods = rarecandy.products_from_apollo(_store(), apollo)
+    assert prods[0].url == "https://rarecandy.com/inlinestore/shop/y-slug"
+
+
+def test_unresolvable_store_skips_listing():
+    apollo = {
+        "RareFind:z": {"id": "vZ", "slug": "z-slug", "product": {"__ref": "Product:Z"}, "store": None},
+        "Product:Z": {"id": 3, "name": "Z", "price": 3.0, "quantity": 1, "tags": ["pokemon", "sealed"]},
+    }
+    assert rarecandy.products_from_apollo(_store(), apollo) == []
 
 
 def test_singles_tag_excluded_from_sealed():
