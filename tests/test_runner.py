@@ -118,6 +118,22 @@ def test_post_failure_one_store_others_ok(tmp_path: Path):
     assert load_snapshot(snapshot_path(tmp_path, "b"))["last_run"] == "t1"
 
 
+def test_reentry_after_dropout_fires_no_event(tmp_path: Path):
+    store = Store(key="rot", base_url="https://rot.test", platform="shopify", currency="USD")
+    present = make_http_get({"rot.test": shopify_page(True)})
+    absent = make_http_get({"rot.test": {"products": []}})
+
+    run_once(cfg(store), present, (lambda x: None), (lambda x: None), tmp_path, "t0")
+
+    gone = run_once(cfg(store), absent, (lambda x: None), (lambda x: None), tmp_path, "t1")
+    assert gone.events_sent == 0
+
+    loud, quiet = [], []
+    back = run_once(cfg(store), present, loud.append, quiet.append, tmp_path, "t2")
+    assert back.events_sent == 0
+    assert loud == [] and quiet == []
+
+
 def test_run_once_enriches_and_routes_deal_loud(tmp_path):
     from tcg_watcher.models import Verdict
     from tcg_watcher.config import Config, Store

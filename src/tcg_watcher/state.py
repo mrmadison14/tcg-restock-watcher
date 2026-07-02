@@ -1,7 +1,10 @@
 from __future__ import annotations
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
 from .models import Product
+
+_CARRYOVER_TTL = timedelta(days=14)
 
 
 def snapshot_path(state_dir: Path, store_key: str) -> Path:
@@ -25,6 +28,32 @@ def build_snapshot(products: list[Product], now_iso: str) -> dict:
         }
         for p in products
     }
+    return {"seeded": True, "last_run": now_iso, "variants": variants}
+
+
+def _parse_ts(value) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def merge_snapshot(prev: dict, products: list[Product], now_iso: str) -> dict:
+    now = _parse_ts(now_iso)
+    variants: dict = {}
+    if prev.get("seeded"):
+        for vid, entry in prev.get("variants", {}).items():
+            seen = _parse_ts(entry.get("last_seen"))
+            if "last_seen" not in entry:
+                entry = {**entry, "last_seen": now_iso}
+            elif now is not None and seen is not None and now - seen > _CARRYOVER_TTL:
+                continue
+            variants[vid] = entry
+    fresh = build_snapshot(products, now_iso)
+    for vid, entry in fresh["variants"].items():
+        variants[vid] = {**entry, "last_seen": now_iso}
     return {"seeded": True, "last_run": now_iso, "variants": variants}
 
 

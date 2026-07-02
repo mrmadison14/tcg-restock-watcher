@@ -5,7 +5,7 @@ from pathlib import Path
 from .config import Config
 from .adapters import shopify, rarecandy
 from .filtering import filter_franchises, keep_sealed
-from .state import load_snapshot, build_snapshot, save_snapshot, snapshot_path
+from .state import load_snapshot, merge_snapshot, save_snapshot, snapshot_path
 from .diff import detect_events
 from .notify import send_events, route_deal_or_urgent
 
@@ -53,7 +53,7 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
         prev = load_snapshot(snapshot_path(state_dir, store.key))
 
         if not prev.get("seeded"):
-            save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
+            save_snapshot(snapshot_path(state_dir, store.key), merge_snapshot(prev, watched, now_iso))
             report.seeded.append(store.key)
             report.stores_ok += 1
             print(f"[{store.key}] seeded {len(watched)} watched variants (no alerts)")
@@ -73,6 +73,6 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
             report.stores_failed += 1
             print(f"[{store.key}] post failed: {type(exc).__name__}: {exc}")
         finally:
-            save_snapshot(snapshot_path(state_dir, store.key), build_snapshot(watched, now_iso))
+            save_snapshot(snapshot_path(state_dir, store.key), merge_snapshot(prev, watched, now_iso))
 
     return report
