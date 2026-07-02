@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-02T01:31:07Z",
+  "last_run": "2026-07-02T01:39:06Z",
   "seeded": true,
   "variants": {
     "48782703427752": {
@@ -2175,7 +2175,7 @@
       "title": "Pokemon: XY Roaring Skies Sleeved Booster Pack (Random)"
     },
     "53956981751976": {
-      "in_stock": true,
+      "in_stock": false,
       "is_preorder": false,
       "price": 11.99,
       "title": "Pokemon: McDonald's 2024 Match & Battle Pack"

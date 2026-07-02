@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-02T01:31:07Z",
+  "last_run": "2026-07-02T01:39:06Z",
   "seeded": true,
   "variants": {
     "34594642198692": {
@@ -6469,6 +6469,12 @@
       "is_preorder": false,
       "price": 54.99,
       "title": "Pokemon SM Burning Shadows Sleeved Booster Pack (Random Art)"
+    },
+    "54875788018036": {
+      "in_stock": true,
+      "is_preorder": false,
+      "price": 99.99,
+      "title": "Pokemon XY Primal Clash Ocean's Core Theme Deck"
     }
   }
 }
