@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T23:55:17Z",
+  "last_run": "2026-07-02T00:00:26Z",
   "seeded": true,
   "variants": {
     "40552050000037": {
@@ -711,7 +711,7 @@
       "title": "Pokémon TCG: Ninja Spinner: Booster Display (Japanese)"
     },
     "47674544849061": {
-      "in_stock": false,
+      "in_stock": true,
       "is_preorder": false,
       "price": 199.99,
       "title": "Pokémon TCG: Chaos Rising: Booster Display"
