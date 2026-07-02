@@ -42,7 +42,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 |---|---|
 | HEAD (indicative) | session-4 fix `73f62b9` + restore `ad25dea` (advances via bot commits) |
 | Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
-| Tests | 109 passing |
+| Tests | 128 passing |
 | Stores | 20 (19 Shopify + rarecandy Next.js) |
 | Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
 | Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
@@ -66,6 +66,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 - **rarecandy:** `__NEXT_DATA__` → `props.pageProps.__APOLLO_STATE__`; iterate `RareFind:` entities → their `Product` ref; url = base/`{rareFind.slug}` (store-prefixed & `/product/` both 404); franchise tags `onepiece`/`dbz` normalized to `one piece`/`dragon ball` so `filter_franchises` matches. GraphQL host `api.rarecandy.com/graphql` introspection is 400 → HTML route only; no pagination in HTML → ~85 browse-surface listings, not the full catalog. **`is_sealed` = `sealed` tag AND NOT `singles` tag** — rarecandy tags graded slabs / named single cards with a catch-all dump that *includes* `sealed`, so the `singles` exclusion is load-bearing (removing it re-admits CGC/PSA singles into the sealed feed).
 - Discord `@here` needs `allowed_mentions:{parse:["everyone"]}`; poster retries 429 `Retry-After` + proactive `post_delay_seconds` between posts.
 - Box-vs-`case` fuzzy trap: `match.best_match` rejects size-qualifier mismatches via `_SIZE_TOKENS` — don't remove that guard.
+- **Snapshots are carry-over, not replace** (`state.merge_snapshot`, both runner save paths): variants that leave the fetch surface stay in state with a `last_seen` stamp (pruned after 14 days) so rotation re-entry doesn't re-fire NEW/PREORDER. This killed rarecandy's ~2,000 repeat posts/day (its `/shop`+`/discover` browse surfaces rotate the catalog every run). Don't revert to `build_snapshot` in the runner; unparseable `last_seen`/`now_iso` stamps are tolerated (kept, no prune).
 - tcgcsv 401s default-UA fetchers; the Chrome UA in `http.py` bypasses it. GitHub free-tier throttles frequent `schedule` crons (~2–3h) — that's why cron-job.org does the 5-min cadence (paying GitHub does NOT help).
 - A launchd pinger was prepared but **NOT loaded** (`~/.claude/scripts/tcg-watch-ping.sh` + `~/Library/LaunchAgents/com.mrmadison.tcg-watch-ping.plist`) — superseded by cron-job.org.
 
