@@ -20,7 +20,7 @@ per store: fetch sealed products → diff vs last snapshot → classify events
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (20)
+## Stores (25)
 
 | Store | Fetch mode | Franchises |
 |---|---|---|
@@ -44,11 +44,16 @@ per store: fetch sealed products → diff vs last snapshot → classify events
 | zulusgames.com | curated sealed collections | Pokémon |
 | shop.tcgsorted.com | full-crawl + sealed filter | Pokémon (small) |
 | doubleinfinitygaming.com | curated "new and hot" collections | Pokémon, One Piece, Dragon Ball |
+| safari-zone.com | full-crawl + sealed filter | all (small catalog) |
+| tcg-stadium.com | full-crawl + sealed filter | all (small catalog) |
+| royalsakuratcg.com | full-crawl + sealed filter | all (small, JP-focused) |
+| 763collectibles.com | full-crawl + sealed filter | all (sealed-focused, ~920 watched) |
+| www.smokeandmirrorshobby.com | curated sealed collections | Pokémon (EN+JP), Dragon Ball |
 
 Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
 aren't cleanly targetable (add handles to its config if found). **collectorstore.com** uses its
 `games-pokemon` / `games-one-piece` collections (all sealed). **tcgsorted** (shop.app) is deferred (no resolvable
-storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopify adapter; the remaining Wix ×2 are Phase 2 (see `docs/superpowers/PHASE2_SCOPING.md`). Session-4 added **10 stores** from the store-list image: 7 full-crawl + 3 curated (**realgoodeal**, **zulusgames**, **doubleinfinitygaming** — big/singles-heavy, so curated to clean sealed collections; doubleinfinitygaming uses its sealed-only "new and hot" staging collections since its full catalog is graded-singles). **shop.tcgsorted.com** is the real storefront behind the `shop.app/m/tcgsorted` link (apex 404s). Not added: **blowoutcards** (Magento behind an Imperva JS-challenge WAF — would need a headless browser), **missionreadycollectibles** (merchant password-locked storefront).
+storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopify adapter; the remaining Wix ×2 are Phase 2 (see `docs/superpowers/PHASE2_SCOPING.md`). Session-4 added **10 stores** from the store-list image: 7 full-crawl + 3 curated (**realgoodeal**, **zulusgames**, **doubleinfinitygaming** — big/singles-heavy, so curated to clean sealed collections; doubleinfinitygaming uses its sealed-only "new and hot" staging collections since its full catalog is graded-singles). **shop.tcgsorted.com** is the real storefront behind the `shop.app/m/tcgsorted` link (apex 404s). A second store-list image added 5 more (session 4): `safarizone`, `tcgstadium`, `royalsakuratcg`, `763collectibles` full-crawl + `smokeandmirrorshobby` curated (big graded/singles catalog; its `one-piece` collection was rejected for accessory contamination). Not added: **blowoutcards** (Magento behind an Imperva JS-challenge WAF — would need a headless browser), **missionreadycollectibles** (merchant password-locked storefront), **smokemon07** (live-rips/PSA-slab store, nothing trackable).
 
 ## The Cloudflare 429 story (why it's built this way)
 

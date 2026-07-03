@@ -188,6 +188,41 @@ collections = [
   "dragon ball:dragon-ball-fusion-world",
 ]
 
+[[stores]]
+key = "safarizone"
+base_url = "https://safari-zone.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "tcgstadium"
+base_url = "https://tcg-stadium.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "royalsakuratcg"
+base_url = "https://royalsakuratcg.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "763collectibles"
+base_url = "https://763collectibles.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "smokeandmirrorshobby"
+base_url = "https://www.smokeandmirrorshobby.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:pokemon",
+  "pokemon:pokemon-japanese-booster-boxes",
+  "dragon ball:shop-all-dragon-ball-super-tcg",
+]
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]
