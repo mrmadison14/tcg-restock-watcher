@@ -24,7 +24,7 @@ I'm resuming work on `tcg-restock-watcher` at `/Users/jmadison/workspace/tcg-res
 1. `SESSION_HISTORY.md` — session-4 entry (top) = full arc + next steps.
 2. `docs/superpowers/PHASE2_SCOPING.md` — Phase 2 (Wix ×2) feasibility + effort (the main open work).
 3. `README.md` — as-built overview (10 stores, sealed-only, 429 story).
-4. `config.toml` — 20 stores + curated collections + `[pricing]` + `[thresholds]`.
+4. `config.toml` — 25 stores + curated collections + `[pricing]` + `[thresholds]`.
 
 ## Verification commands (run first to confirm no drift)
 ```bash
@@ -35,7 +35,7 @@ uv run pytest -q                                    # expect: 107 passed
 gh run list --workflow=watch --limit 5              # expect: recent runs = success (was ~38% failing pre-`2c8be31`)
 gh run list --workflow=build-index --limit 2        # expect: daily run success
 ```
-If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-conflict and doc-clobber failures are fixed; a new failure is more likely a transient fetch or the PAT expiring. If tests < 107 or stores ≠ 20, STOP and reconcile against the docs above before changing anything.
+If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-conflict and doc-clobber failures are fixed; a new failure is more likely a transient fetch or the PAT expiring. If tests < 131 or stores ≠ 25, STOP and reconcile against the docs above before changing anything.
 
 ## Key reference values (no credentials)
 | Thing | Value |
@@ -43,7 +43,7 @@ If `watch` runs show `failure`, run `gh run view <id> --log-failed`. The rebase-
 | HEAD (indicative) | session-4 fix `73f62b9` + restore `ad25dea` (advances via bot commits) |
 | Repo | github.com/mrmadison14/tcg-restock-watcher (public) |
 | Tests | 131 passing |
-| Stores | 20 (19 Shopify + rarecandy Next.js) |
+| Stores | 25 (24 Shopify + rarecandy Next.js) |
 | Workflows | `watch.yml` (cron+dispatch; **concurrency-safe commit-state retry loop**, `timeout-minutes: 10`; commits `state/`), `build-index.yml` (daily 20:30 UTC; commits `data/`), `spike.yml` (manual) |
 | Autonomous trigger | cron-job.org job → POST `…/actions/workflows/watch.yml/dispatches` body `{"ref":"main"}` every 5 min |
 | cron-job.org PAT | ✅ **rotated 2026-07-01** (fine-grained, Actions r+w, this repo). Rotate again before its expiry. Runbook: `docs/PAT_ROTATION.md` |
