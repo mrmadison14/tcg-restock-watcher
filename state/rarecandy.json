@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-04T03:40:19Z",
+  "last_run": "2026-07-04T03:45:16Z",
   "seeded": true,
   "variants": {
     "110506": {
@@ -40,7 +40,7 @@
     "111186": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 599000.0,
       "title": "Pokemon 1st Edition Base Set Booster Box"
     },
@@ -589,6 +589,13 @@
       "last_seen": "2026-07-04T03:40:19Z",
       "price": 14.99,
       "title": "PRISMATIC EVOLUTIONS Pokémon Booster Pack"
+    },
+    "1793": {
+      "in_stock": false,
+      "is_preorder": false,
+      "last_seen": "2026-07-04T03:45:16Z",
+      "price": 109.99,
+      "title": "Pokemon 2022 Japanese Sword & Shield High Class Pack VSTAR Universe Booster Box S12a"
     },
     "17949": {
       "in_stock": true,
@@ -1741,7 +1748,7 @@
     "216186": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 60.0,
       "title": "Pokémon Pitch Black Sleeved Booster Pack Art Set"
     },
@@ -2084,14 +2091,14 @@
     "217226": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 94.99,
       "title": "Abyss Eye Japanese Booster Box"
     },
     "217227": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 139.99,
       "title": "Mega Dream EX Booster Box"
     },
@@ -2119,7 +2126,7 @@
     "217246": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 109.99,
       "title": "Pitch Black Elite Trainer Box"
     },
@@ -2147,14 +2154,14 @@
     "217250": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 299.99,
       "title": "Pitch Black Booster Box"
     },
     "217251": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 74.99,
       "title": "Pitch Black Booster Bundle"
     },
@@ -2182,49 +2189,49 @@
     "217265": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 299.99,
       "title": "BUNDLE: Prismatic Evolutions Elite Trainer Box & Prismatic Evolutions Booster Bundle"
     },
     "217266": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 114.99,
       "title": "BUNDLE: Chaos Rising Elite Trainer Box & Chaos Rising Booster Bundle"
     },
     "217267": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 249.99,
       "title": "BUNDLE: Ascended Heroes Elite Trainer Box & First Partner Series 1"
     },
     "217268": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 64.75,
       "title": "Mega Greninja ex Premium Collection"
     },
     "217269": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 124.99,
       "title": "BUNDLE: 1 ASSORTED ASCENDED HEROES 2-PACK BLISTER & 1 ASCENDED HEROES BOOSTER BUNDLE"
     },
     "217270": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 49.99,
       "title": "BUNDLE: 1 ASSORTED Mega Moonlit Tin & 1 ASSORTED Lumiose City Mini Tin"
     },
     "217271": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:40:19Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 249.99,
       "title": "BUNDLE: Chaos Rising Booster Box & Chaos Rising Single Pack Blister"
     },
@@ -2259,7 +2266,7 @@
     "6626": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-04T03:35:18Z",
+      "last_seen": "2026-07-04T03:45:16Z",
       "price": 299.99,
       "title": "SURGING SPARKS Booster Box Pokémon "
     },
