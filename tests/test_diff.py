@@ -59,3 +59,34 @@ def test_no_price_change_when_out_of_stock():
     prev = snap({"v1": {"price": 10.0, "in_stock": True, "title": "T", "is_preorder": False}})
     events = detect_events([mk("v1", 8.0, False)], prev)  # price moved but now out of stock
     assert events == []
+
+def test_price_change_suppressed_below_min_pct():
+    # algorithmic $5 drift on a $500 box = 1% < 5% floor -> noise, no event
+    prev = snap({"v1": {"price": 500.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 505.0, True)], prev, epsilon=0.01, min_pct=0.05)
+    assert events == []
+
+def test_price_change_fires_at_or_above_min_pct():
+    # real 6% move clears the 5% floor
+    prev = snap({"v1": {"price": 500.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 530.0, True)], prev, epsilon=0.01, min_pct=0.05)
+    assert [e.type for e in events] == [EventType.PRICE_CHANGE]
+    assert events[0].previous_price == 500.0
+
+def test_min_pct_uses_old_price_as_base():
+    # exactly at the floor (5% of 500 = 25) fires; just under does not
+    prev = snap({"v1": {"price": 500.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    assert detect_events([mk("v1", 525.0, True)], prev, epsilon=0.01, min_pct=0.05)
+    assert detect_events([mk("v1", 524.99, True)], prev, epsilon=0.01, min_pct=0.05) == []
+
+def test_min_pct_zero_is_backwards_compatible():
+    # default behaviour: any move beyond epsilon fires
+    prev = snap({"v1": {"price": 10.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 10.10, True)], prev, epsilon=0.01)
+    assert [e.type for e in events] == [EventType.PRICE_CHANGE]
+
+def test_min_pct_free_item_still_fires():
+    # old price 0 -> percentage undefined; any priced move should still fire (no div-by-zero)
+    prev = snap({"v1": {"price": 0.0, "in_stock": True, "title": "T", "is_preorder": False}})
+    events = detect_events([mk("v1", 5.0, True)], prev, epsilon=0.01, min_pct=0.05)
+    assert [e.type for e in events] == [EventType.PRICE_CHANGE]

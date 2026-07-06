@@ -59,7 +59,7 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
             print(f"[{store.key}] seeded {len(watched)} watched variants (no alerts)")
             continue
 
-        events = detect_events(watched, prev, config.price_epsilon)
+        events = detect_events(watched, prev, config.price_epsilon, config.price_change_pct)
         if oracle is not None:
             events = [replace(e, verdict=oracle.verdict(e.product)) for e in events]
         try:

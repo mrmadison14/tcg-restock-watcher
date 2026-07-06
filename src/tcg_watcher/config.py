@@ -32,6 +32,7 @@ class Config:
     max_events_per_store: int
     price_epsilon: float
     post_delay_seconds: float = 0.0
+    price_change_pct: float = 0.05
     pricing: "PricingConfig | None" = None
 
 
@@ -68,5 +69,6 @@ def load_config(path: Path) -> Config:
         max_events_per_store=thresholds["max_events_per_store"],
         price_epsilon=thresholds["price_epsilon"],
         post_delay_seconds=thresholds.get("post_delay_seconds", 0.0),
+        price_change_pct=thresholds.get("price_change_pct", 0.05),
         pricing=pricing,
     )

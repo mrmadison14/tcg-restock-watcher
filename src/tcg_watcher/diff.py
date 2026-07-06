@@ -3,7 +3,7 @@ from .models import Product, Event, EventType
 
 
 def detect_events(
-    current: list[Product], previous: dict, epsilon: float = 0.01
+    current: list[Product], previous: dict, epsilon: float = 0.01, min_pct: float = 0.0
 ) -> list[Event]:
     if not previous.get("seeded"):
         return []
@@ -32,7 +32,9 @@ def detect_events(
             )
             continue
 
-        if p.in_stock and abs(p.price - old["price"]) > epsilon:
+        moved = abs(p.price - old["price"])
+        pct = moved / old["price"] if old["price"] > 0 else float("inf")
+        if p.in_stock and moved > epsilon and pct >= min_pct:
             events.append(
                 Event(
                     type=EventType.PRICE_CHANGE,

@@ -245,6 +245,7 @@ pokemon = ["pokemon", "pokémon"]
 [thresholds]
 max_events_per_store = 25
 price_epsilon = 0.01
+price_change_pct = 0.05
 post_delay_seconds = 1.0
 
 [pricing]

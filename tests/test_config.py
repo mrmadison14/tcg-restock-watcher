@@ -37,6 +37,7 @@ price_epsilon = 0.01
     assert cfg.max_events_per_store == 25
     assert cfg.price_epsilon == 0.01
     assert cfg.post_delay_seconds == 0.0
+    assert cfg.price_change_pct == 0.05  # default when omitted
 
 
 def test_load_config_collections(tmp_path: Path):
