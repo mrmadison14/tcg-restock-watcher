@@ -108,6 +108,42 @@ def test_sealed_without_singles_is_sealed():
     assert prods[0].is_sealed is True
 
 
+def _apollo_named(name, tags):
+    return {
+        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"},
+                       "store": {"__ref": "Store:S"}},
+        "Product:X": {"id": 1, "name": name, "price": 1.0, "quantity": 1, "tags": tags},
+        "Store:S": {"id": 5, "slug": "somestore", "name": "Some Store"},
+    }
+
+
+def _sealed(name, tags=("pokemon", "sealed")):
+    return rarecandy.products_from_apollo(_store(), _apollo_named(name, list(tags)))[0].is_sealed
+
+
+def test_accessory_titles_excluded_from_sealed():
+    for name in [
+        "Ultra Pro Elite Series Playmat",
+        "Vault X Premium Exo-Tec Zip Binder - 9 Pocket",
+        '3" x 4" Premium Toploaders 130pt (10 Pack)',
+        "Dragon Shield Deck Box",
+        "9-Pocket Portfolio Album",
+    ]:
+        assert _sealed(name) is False, name
+
+
+def test_sleeved_booster_pack_stays_sealed():
+    # 'Sleeved Booster Pack' is a sealed product, NOT an accessory sleeve
+    assert _sealed("EVOLVING SKIES Sleeved Booster Pack") is True
+
+
+def test_catchall_tagged_etb_stays_sealed():
+    # real sealed ETB swept into a catch-all tag dump incl. accessories/merch:
+    # title-based guard must NOT drop it (tag-based exclusion would)
+    tags = ["pokemon", "accessories", "merch", "sealed", "japanese", "mtg"]
+    assert _sealed("Perfect Order Elite Trainer Box - ME03", tags) is True
+
+
 def test_fetch_products_unions_surfaces_and_dedupes():
     payload = {"props": {"pageProps": {"__APOLLO_STATE__": _apollo()}}}
     html = '<script id="__NEXT_DATA__" type="application/json">' + json.dumps(payload) + "</script>"

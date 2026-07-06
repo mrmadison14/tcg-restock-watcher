@@ -9,6 +9,16 @@ _log = logging.getLogger(__name__)
 _SURFACES = ("/shop", "/discover")
 _NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL)
 _FRANCHISE_TAG = {"onepiece": "one piece", "dbz": "dragon ball"}
+_ACCESSORY_MARKERS = (
+    "playmat", "play mat", "binder", "toploader", "top loader",
+    "deck box", "deckbox", "portfolio", "penny sleeve", "card sleeves",
+    "deck protector", "dice set", "damage counter",
+)
+
+
+def _is_accessory(name: str) -> bool:
+    low = name.lower()
+    return any(m in low for m in _ACCESSORY_MARKERS)
 
 
 def extract_apollo(html: str) -> dict:
@@ -39,13 +49,14 @@ def products_from_apollo(store: Store, apollo: dict) -> list[Product]:
         if seller_slug is None:
             continue
         tags = _norm_tags(product.get("tags") or ())
+        name = product.get("name", "")
         thumb = product.get("thumbnail") or {}
         out.append(
             Product(
                 store=store.key,
                 product_id=str(product["id"]),
                 variant_id=str(rf["id"]),
-                title=product.get("name", ""),
+                title=name,
                 price=float(product["price"]),
                 currency=store.currency,
                 in_stock=(product.get("quantity") or 0) > 0,
@@ -53,7 +64,7 @@ def products_from_apollo(store: Store, apollo: dict) -> list[Product]:
                 image=thumb.get("thumbnail"),
                 tags=tags,
                 is_preorder=bool(product.get("isPreorder")),
-                is_sealed="sealed" in tags and "singles" not in tags,
+                is_sealed="sealed" in tags and "singles" not in tags and not _is_accessory(name),
             )
         )
     return out
