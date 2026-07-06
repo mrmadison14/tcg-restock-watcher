@@ -223,6 +223,20 @@ collections = [
   "dragon ball:shop-all-dragon-ball-super-tcg",
 ]
 
+[[stores]]
+key = "pkmncolosseum"
+base_url = "https://pkmncolosseum.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:all-pokemon-sealed",
+  "pokemon:sealed-booster-packs",
+  "pokemon:booster-boxes",
+  "pokemon:elite-trainer-boxes",
+  "pokemon:collection-boxes",
+  "pokemon:booster-packs",
+]
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]

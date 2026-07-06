@@ -4,6 +4,18 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-06 (session 5) — +1 store (pkmncolosseum) from a third store-list image, 🟢 LIVE
+
+Resumed via `/resume-session` (verification green: 131 tests, `watch`/`build-index` runs success, tree clean after `git pull --rebase`). Noted `watch` run durations creeping up (6m44s→8m12s vs the `timeout-minutes: 10` cap) — flagged, not yet acted on.
+
+Chose decision-tree **B (add stores)** against **two new store-list images** (Smokemon07 YouTube descriptions, 07-03 + 07-06). Cross-referenced every domain in both against the tracked 25: all were already tracked or previously ruled out (`missionreadycollectibles` = password-lock, `smokemon07` = live-rips) **except one new domain — `pkmncolosseum.com`**.
+
+**Probe → dry-run → curate (the standard pipeline).** `pkmncolosseum.com` = Shopify (`dead-draw-gaming.myshopify.com`), **USD**, Dead Draw Gaming's **Pokémon-only** store. Page 1 of `/products.json` is all singles (`Best Selling`=10,304, `All Sets`=5,984) → a **curate** store, not full-crawl. Found clean sealed collections (`products_count`: `all-pokemon-sealed` 268, `sealed-booster-packs`/"Sealed Product" 441, `booster-boxes` 49, `elite-trainer-boxes` 40, `collection-boxes` 110, `booster-packs` 106). **Note:** the collection `/products.json` endpoint returns only currently-*available* items, so the live watched set is far smaller than `products_count` — most of the catalog is presently sold out. Dry-run through the **real** `shopify.fetch_products` (which dedups overlapping collections by `variant_id`, adapter L96–105): **9 deduped watched variants, 0 singles contamination, all Pokémon, all in stock** (real UPCs/ETBs/bundles/booster boxes/battle decks). 9 is just current availability; the broad collection set future-proofs coverage as types restock. The "dragon" collections are Pokémon sets (Dragon Majesty, Dragons Exalted), not Dragon Ball TCG; no One Piece.
+
+**Edits (local, awaiting commit/push):** `config.toml` (+`pkmncolosseum` curated block, 6 collections), `README.md` (25→26, table row, notes). **→ 26 stores.** New store seeds silently on the next `watch` run (carry-over snapshot fix → no first-run burst); no manual state-drop needed (that's only for expanding an already-seeded store).
+
+---
+
 ## 2026-07-01 → 07-06 (session 4) — clobber fix + WS1 hardening merge + 15 stores added + rarecandy dedup & link fixes, 🟢 LIVE
 
 Resumed from the session-3 handoff. Verification-first per the handoff — and the opening `git pull --rebase` immediately surfaced a **live data-loss bug not in the decision tree**: bot commit `4f94e04` (child of the human handoff commit `83d58da`) had **deleted `docs/superpowers/PHASE2_SCOPING.md` + `docs/PAT_ROTATION.md` and reverted `SESSION_HISTORY.md`/`RESUME_PROMPT.md`**. Root-caused, fixed (TDD), restored the files, verified in prod.
