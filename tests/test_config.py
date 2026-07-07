@@ -115,6 +115,18 @@ def test_pricing_parsed(tmp_path):
     assert pr.categories["dragon ball"] == (23, 27, 80)
 
 
+def test_franchise_field_parsed(tmp_path):
+    f = tmp_path / "c.toml"
+    f.write_text(BASE.replace('platform = "shopify"', 'platform = "wix"\nfranchise = "pokemon"'))
+    assert load_config(f).stores[0].franchise == "pokemon"
+
+
+def test_franchise_defaults_to_none(tmp_path):
+    f = tmp_path / "c.toml"
+    f.write_text(BASE)
+    assert load_config(f).stores[0].franchise is None
+
+
 def test_post_delay_seconds_parsed(tmp_path):
     f = tmp_path / "c.toml"
     f.write_text(BASE.replace("price_epsilon = 0.01", "price_epsilon = 0.01\npost_delay_seconds = 1.5"))

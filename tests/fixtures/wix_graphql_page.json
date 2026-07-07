@@ -1,0 +1,91 @@
+{
+ "data": {
+  "catalog": {
+   "category": {
+    "productsWithMetaData": {
+     "totalCount": 5,
+     "list": [
+      {
+       "id": "ec9519ff-e220-8123-c33a-f2d2b5c26a04",
+       "name": "Mega Greninja ex Premium Collection",
+       "urlPart": "mega-greninja-ex-premium-collection",
+       "price": 49.99,
+       "isInStock": true,
+       "ribbon": "",
+       "sku": "",
+       "productType": "physical",
+       "media": [
+        {
+         "url": "6e6f92_e74d1dce4a304f4b8f7d3c13a74da213~mv2.png"
+        }
+       ]
+      },
+      {
+       "id": "680f8573-3b4f-698f-39ea-acfdff6f30d0",
+       "name": "Mega Battle Deck - Mega Gengar/Diancie ex",
+       "urlPart": "mega-battle-deck-mega-gengar-diancie-ex",
+       "price": 39.99,
+       "isInStock": true,
+       "ribbon": "Preorder Release 11/14",
+       "sku": "",
+       "productType": "physical",
+       "media": [
+        {
+         "url": "6e6f92_ce536c50f26e4eda9429195f0c0dd746~mv2.png"
+        }
+       ]
+      },
+      {
+       "id": "201a7e40-e0cd-357f-a83c-427bffab31cc",
+       "name": "Preorder: Advant Holiday Calender 2023",
+       "urlPart": "preorder-advant-holiday-calender-2023",
+       "price": 49.99,
+       "isInStock": false,
+       "ribbon": "",
+       "sku": "",
+       "productType": "physical",
+       "media": [
+        {
+         "url": "6e6f92_3214a9dab6954d92bef4271aa9322029~mv2.jpg"
+        },
+        {
+         "url": "6e6f92_75999dc189374260985e88bff4e0cd08~mv2.jpg"
+        }
+       ]
+      },
+      {
+       "id": "ce74181d-0326-b11d-2e53-112f104dcea7",
+       "name": "Pitch Black Booster Box",
+       "urlPart": "pitch-black-booster-box",
+       "price": 239.0,
+       "isInStock": false,
+       "ribbon": "",
+       "sku": "",
+       "productType": "physical",
+       "media": [
+        {
+         "url": "6e6f92_eb454721098848f6b7b732e22b923420~mv2.jpg"
+        }
+       ]
+      },
+      {
+       "id": "01977a10-212a-5c10-e119-b4793217d084",
+       "name": "FA/SS URSHIFU V #151 MINT 9 ",
+       "urlPart": "fa-ss-urshifu-v-151-mint-9",
+       "price": 25.0,
+       "isInStock": true,
+       "ribbon": "",
+       "sku": "",
+       "productType": "physical",
+       "media": [
+        {
+         "url": "6e6f92_4e9a691ff86048cb8c0e17356d6da83a~mv2.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

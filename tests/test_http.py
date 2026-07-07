@@ -14,9 +14,18 @@ class FakeClient:
     def __init__(self, items):
         self._items = list(items)
         self.calls = 0
+        self.posts = []
 
     def get(self, url, params=None):
         self.calls += 1
+        item = self._items.pop(0)
+        if isinstance(item, Exception):
+            raise item
+        return item
+
+    def post(self, url, params=None, json=None, headers=None):
+        self.calls += 1
+        self.posts.append({"url": url, "params": params, "json": json, "headers": headers})
         item = self._items.pop(0)
         if isinstance(item, Exception):
             raise item
@@ -87,6 +96,55 @@ def test_as_text_returns_body_text():
     client = FakeClient([httpx.Response(200, text="<html>hi</html>", request=req)])
     get = make_httpx_get(retries=0, min_interval=0, client=client, sleep=lambda s: None)
     assert get("http://x", as_text=True) == "<html>hi</html>"
+
+
+def test_post_json_sends_body_and_returns_json():
+    client = FakeClient([resp(200, {"data": {"ok": 1}})])
+    get = make_httpx_get(retries=0, min_interval=0, client=client, sleep=lambda s: None)
+    out = get.post_json("http://x/api", {"query": "q"}, params={"o": "op"}, headers={"Authorization": "tok"})
+    assert out == {"data": {"ok": 1}}
+    assert client.posts == [
+        {"url": "http://x/api", "params": {"o": "op"}, "json": {"query": "q"}, "headers": {"Authorization": "tok"}}
+    ]
+
+
+def test_post_json_retries_on_429_with_retry_after():
+    slept = []
+    client = FakeClient([resp(429, headers={"retry-after": "5"}), resp(200, {"ok": 1})])
+    get = make_httpx_get(retries=2, min_interval=0, retry_after_cap=30,
+                         client=client, sleep=lambda s: slept.append(s))
+    assert get.post_json("http://x", {}) == {"ok": 1}
+    assert 5 in slept
+
+
+def test_post_json_400_not_retried():
+    client = FakeClient([resp(400)])
+    get = make_httpx_get(retries=2, min_interval=0, client=client, sleep=lambda s: None)
+    with pytest.raises(httpx.HTTPStatusError):
+        get.post_json("http://x", {})
+    assert client.calls == 1
+
+
+def test_post_json_transport_error_is_retried():
+    client = FakeClient([httpx.ConnectTimeout("t"), resp(200, {"ok": 1})])
+    get = make_httpx_get(retries=2, backoff=0, min_interval=0, client=client, sleep=lambda s: None)
+    assert get.post_json("http://x", {}) == {"ok": 1}
+    assert client.calls == 2
+
+
+def test_post_json_shares_throttle_with_get():
+    slept = []
+    clock = {"t": 0.0}
+    def mono():
+        return clock["t"]
+    def slp(s):
+        slept.append(s)
+        clock["t"] += s
+    client = FakeClient([resp(200, {"a": 1}), resp(200, {"b": 2})])
+    get = make_httpx_get(retries=0, min_interval=2.5, client=client, sleep=slp, monotonic=mono)
+    get("http://x")
+    get.post_json("http://y", {})
+    assert any(abs(s - 2.5) < 1e-9 for s in slept)
 
 
 def test_throttle_spaces_requests():

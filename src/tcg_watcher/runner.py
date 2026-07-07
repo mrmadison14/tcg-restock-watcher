@@ -3,13 +3,17 @@ from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 from .config import Config
-from .adapters import shopify, rarecandy
+from .adapters import shopify, rarecandy, wix
 from .filtering import filter_franchises, keep_sealed
 from .state import load_snapshot, merge_snapshot, save_snapshot, snapshot_path
 from .diff import detect_events
 from .notify import send_events, route_deal_or_urgent
 
-_ADAPTERS = {"shopify": shopify.fetch_products, "rarecandy": rarecandy.fetch_products}
+_ADAPTERS = {
+    "shopify": shopify.fetch_products,
+    "rarecandy": rarecandy.fetch_products,
+    "wix": wix.fetch_products,
+}
 
 
 @dataclass

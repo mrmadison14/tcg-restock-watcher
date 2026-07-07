@@ -1,0 +1,10 @@
+{
+ "apps": {
+  "1380b703-ce81-ff05-f115-39571d94dfcd": {
+   "instance": "test-instance-token-not-real"
+  },
+  "22bef345-3c5b-4c18-b782-74d4085112ff": {
+   "instance": "other-app-token-ignored"
+  }
+ }
+}

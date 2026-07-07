@@ -237,6 +237,20 @@ collections = [
   "pokemon:booster-packs",
 ]
 
+[[stores]]
+key = "pokelegendstcg"
+base_url = "https://pokelegendstcg.com"
+platform = "wix"
+currency = "USD"
+franchise = "pokemon"
+
+[[stores]]
+key = "bulbacards"
+base_url = "https://bulbacards.com"
+platform = "wix"
+currency = "USD"
+franchise = "pokemon"
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]

@@ -30,14 +30,14 @@ def make_httpx_get(
         client = httpx.Client(timeout=30.0, headers={"User-Agent": _UA}, follow_redirects=True)
     last = {"t": None}
 
-    def get(url, params=None, as_text=False):
+    def request(send):
         for attempt in range(retries + 1):
             if last["t"] is not None:
                 wait = min_interval - (monotonic() - last["t"])
                 if wait > 0:
                     sleep(wait)
             try:
-                resp = client.get(url, params=params)
+                resp = send()
             except httpx.TransportError:
                 last["t"] = monotonic()
                 if attempt < retries:
@@ -50,8 +50,17 @@ def make_httpx_get(
                 sleep(ra if ra is not None else backoff * (2 ** attempt))
                 continue
             resp.raise_for_status()
-            return resp.text if as_text else resp.json()
+            return resp
 
+    def get(url, params=None, as_text=False):
+        resp = request(lambda: client.get(url, params=params))
+        return resp.text if as_text else resp.json()
+
+    def post_json(url, body, params=None, headers=None):
+        resp = request(lambda: client.post(url, params=params, json=body, headers=headers))
+        return resp.json()
+
+    get.post_json = post_json
     return get
 
 
