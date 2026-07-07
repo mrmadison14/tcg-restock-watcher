@@ -4,6 +4,24 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-06 (session 6) — Phase 2 ✅: Wix ×2 (pokelegendstcg + bulbacards) via full-catalog storefront GraphQL, 🟢 LIVE
+
+Resumed via `/resume-session` on the **Fable model** (verification green: 139 tests, 26 stores, runs healthy) and executed decision-tree **A** — the `docs/superpowers/PHASE2_HANDOFF.md` brief. Owner sign-offs obtained up front: **(A) full-catalog GraphQL** over best-effort SSR, the **`http.py` POST helper**, and push-enabled (silent-seed flow, matching every prior store add).
+
+**Probes flipped two scoping assumptions.** (1) **No gallery route needed at all** — the all-products category (`00000000-000000-000000-000000000001`) via storefront GraphQL serves the full catalog, so bulbacards' `/shop` 404 is moot and the planned `shop_path` config field was dropped unbuilt. (2) **pokelegends' catalog is genuinely 13 products** (`numOfProducts=344` is a stale counter; `onlyVisible=false` also returns 13) — all sealed Pokémon; bulbacards = 349 real products. Token mint (`/_api/v1/access-tokens` → `apps[<wix-stores appDefId>].instance`) + `POST /_api/wix-ecommerce-storefront-web/api?o=getFilteredProducts&s=WixStoresWebClient` work unauthenticated with the project Chrome UA on both sites; ids identical across fetches ~1h apart on fresh tokens.
+
+**Franchise gap → config-declared blanket tag.** Both stores are 100% Pokémon (0 OP/DBZ titles in 362 products) but titles rarely name the franchise — title-tier matching keeps only 43/225 sealed items (~80% miss, e.g. 'Mega Greninja ex Premium Collection'). New optional **`Store.franchise`** field; the adapter tags every product with it so `filter_franchises` matches on tier-1 tags (mirrors rarecandy's tag normalization). Runner and `filtering.py` untouched. Use only for single-franchise stores.
+
+**No accessory guard (N2 re-checked against this catalog):** all 8 accessory-flagged sealed-pass names on bulbacards (Binder Collections ×4, Sleeved Boosters ×3, Premium Playmat Collection) are **official sealed product lines** a guard would false-drop; zero graded/singles noise passes the markers. Added a `"trainer box"` marker to catch the store-typo'd 'Pitch Black EliteTrainer Box'.
+
+**Build (TDD, +22 → 161 tests, commit `54408028`).** `http.py`: retry/throttle loop factored into a shared `request()`; the returned `get` now carries **`get.post_json(url, body, params, headers)`** on the same client/throttle/Retry-After/UA machinery (+5) — runner and existing adapters untouched. `config.py`: `franchise` field (+2). **`adapters/wix.py`**: token mint → paginated `getFilteredProducts` (100/page, `_MAX_PAGES` 20) → `Product` (Wix id → both ids; `/product-page/{urlPart}` url; `static.wixstatic.com/media/` image; ribbon+name preorder markers; title sealed markers; blanket franchise tag); GraphQL errors raise (+15 incl. pagination, page-cap, empty-page, error-raise, stable-ids, and a runner-filter integration case). Registered `"wix"` in `runner._ADAPTERS`. Fixtures = trimmed real bulbacards captures.
+
+**Live verification.** Dry-run through the real adapter+filters: pokelegends 13→13 watched, bulbacards 349→**213 watched** (33 in stock), 0 duplicate ids, URLs/images verified. Prod: run `28834896655` seeded both silently (`[pokelegendstcg] seeded 13` / `[bulbacards] seeded 213`, `ok=28 failed=0`); run+1 re-seeded silently (raced the seed's state push — harmless); one hour on, steady state **`13 watched, 0 events` / `213 watched, 0 events`** — no phantom-id events. → **28 stores.**
+
+**Close of session 6:** 🟢 LIVE, **28 stores, 161 tests** green, **Phase 2 complete** — every non-Shopify store named in the design spec has shipped. Remaining ideas: widen rarecandy past its ~85 browse-surface listings if `rareFindCatalog` GraphQL opens up; more store-list images as they arrive; rotate the cron-job.org PAT before expiry (`docs/PAT_ROTATION.md`).
+
+---
+
 ## 2026-07-06 (session 5) — +1 store (pkmncolosseum) from a third store-list image, 🟢 LIVE
 
 Resumed via `/resume-session` (verification green: 131 tests, `watch`/`build-index` runs success, tree clean after `git pull --rebase`). Noted `watch` run durations creeping up (6m44s→8m12s vs the `timeout-minutes: 10` cap) — flagged, not yet acted on.
