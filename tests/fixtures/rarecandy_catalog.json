@@ -1,0 +1,191 @@
+{
+ "data": {
+  "rareFindCatalog": {
+   "count": 20,
+   "page": 1,
+   "pageSize": 20,
+   "totalCount": 453,
+   "showStoreName": true,
+   "rareFinds": [
+    {
+     "id": 217110,
+     "slug": "gem-3-booster-box-s-chinese-d03b8cba",
+     "store": {
+      "id": 38,
+      "name": "PokeJPN",
+      "slug": "pokejpn"
+     },
+     "product": {
+      "id": 298485,
+      "name": "Gem 3 Booster Box (S-Chinese)",
+      "price": 89.99,
+      "quantity": 3,
+      "tags": [
+       "pokemon",
+       "japanese",
+       "sealed"
+      ],
+      "categories": [
+       "pokemon",
+       "japanese",
+       "sealed"
+      ],
+      "isPreorder": false,
+      "thumbnail": {
+       "thumbnail": "https://images.rarecandy.com/tr:n-thumbnail/stores/38/inventory/17821774671691.jpeg"
+      }
+     }
+    },
+    {
+     "id": 217324,
+     "slug": "en-sp4-supporter-pack-4-booster-box-or-grand-archive-tcg-f2ce776a",
+     "store": {
+      "id": 357,
+      "name": "Luna Hobby Store",
+      "slug": "lunahobbystore"
+     },
+     "product": {
+      "id": 298837,
+      "name": "[EN] SP4 Supporter Pack 4 Booster Box | Grand Archive TCG",
+      "price": 80,
+      "quantity": 50,
+      "tags": [
+       "sealed",
+       "english"
+      ],
+      "categories": [
+       "sealed",
+       "english"
+      ],
+      "isPreorder": false,
+      "thumbnail": {
+       "thumbnail": "https://images.rarecandy.com/tr:n-thumbnail/stores/357/inventory/17833473143041.png"
+      }
+     }
+    },
+    {
+     "id": 18610,
+     "slug": "pokemon-center-tohoku-hiroshima-and-fukuoka-special-boxes-2025-jp-52f47bd9",
+     "store": {
+      "id": 421,
+      "name": "OtakuAnimeGoods",
+      "slug": "otakuanimegoods"
+     },
+     "product": {
+      "id": 59638,
+      "name": "Pokemon Center Tohoku, Hiroshima, and Fukuoka Special Boxes 2025 (JP)",
+      "price": 620,
+      "quantity": 5,
+      "tags": [
+       "pokemon",
+       "japanese",
+       "exclusives",
+       "sealed"
+      ],
+      "categories": [
+       "pokemon",
+       "japanese",
+       "exclusives",
+       "sealed"
+      ],
+      "isPreorder": false,
+      "thumbnail": {
+       "thumbnail": "https://rarecandy-prod-bucket.s3.us-east-2.amazonaws.com/stores/421/inventory/17565454896911.png"
+      }
+     }
+    },
+    {
+     "id": 217323,
+     "slug": "2026-one-piece-29th-anniversary-weekly-shonen-jump-luffy-promo-normal-version-fbc9aea5",
+     "store": {
+      "id": 421,
+      "name": "OtakuAnimeGoods",
+      "slug": "otakuanimegoods"
+     },
+     "product": {
+      "id": 298836,
+      "name": "2026 Japanese One Piece 29th Anniversary Weekly Shonen Jump Luffy Promo (Normal Version)",
+      "price": 45,
+      "quantity": 110,
+      "tags": [
+       "onepiece",
+       "exclusives",
+       "singles",
+       "sealed",
+       "japanese"
+      ],
+      "categories": [
+       "onepiece",
+       "exclusives",
+       "singles",
+       "sealed",
+       "japanese"
+      ],
+      "isPreorder": false,
+      "thumbnail": {
+       "thumbnail": "https://images.rarecandy.com/tr:n-thumbnail/stores/421/inventory/17833255058831.png"
+      }
+     }
+    },
+    {
+     "id": 19192,
+     "slug": "outlaws-of-thunder-junction-magic-the-gathering-play-booster-pack-5ce733ab",
+     "store": {
+      "id": 88,
+      "name": "Collectible Ventures",
+      "slug": "collectibleventures"
+     },
+     "product": {
+      "id": 61667,
+      "name": "OUTLAWS OF THUNDER JUNCTION Magic The Gathering Play Booster Pack",
+      "price": 4.99,
+      "quantity": 36,
+      "tags": [
+       "mtg",
+       "sealed",
+       "english"
+      ],
+      "categories": [
+       "mtg",
+       "sealed",
+       "english"
+      ],
+      "isPreorder": false,
+      "thumbnail": {
+       "thumbnail": "https://rarecandy-prod-bucket.s3.us-east-2.amazonaws.com/stores/88/inventory/17597201094431.png"
+      }
+     }
+    },
+    {
+     "id": 217246,
+     "slug": "preorder-mega-evolution-elite-trainer-box-en-abc123",
+     "store": {
+      "id": 352,
+      "name": "Ninetales Trading Company",
+      "slug": "ninetalestradingcompany"
+     },
+     "product": {
+      "id": 298900,
+      "name": "Mega Evolution Elite Trainer Box (EN) Preorder",
+      "price": 59.99,
+      "quantity": 0,
+      "tags": [
+       "pokemon",
+       "english",
+       "sealed"
+      ],
+      "categories": [
+       "pokemon",
+       "english",
+       "sealed"
+      ],
+      "isPreorder": true,
+      "thumbnail": {
+       "thumbnail": "https://images.rarecandy.com/tr:n-thumbnail/stores/352/inventory/17828837261561.png"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

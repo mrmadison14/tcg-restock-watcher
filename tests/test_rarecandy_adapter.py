@@ -1,125 +1,110 @@
 import json
-import logging
 from pathlib import Path
+
+import pytest
 
 from tcg_watcher.config import Store
 from tcg_watcher.adapters import rarecandy
+from tcg_watcher.filtering import filter_franchises, keep_sealed
 
-FIXTURE = Path(__file__).parent / "fixtures" / "rarecandy_apollo.json"
+FIXTURE = Path(__file__).parent / "fixtures" / "rarecandy_catalog.json"
 
 
 def _store():
     return Store(key="rarecandy", base_url="https://rarecandy.com", platform="rarecandy", currency="USD")
 
 
-def _apollo():
+def _catalog():
     return json.loads(FIXTURE.read_text(encoding="utf-8"))
 
 
-def _by_vid():
-    return {p.variant_id: p for p in rarecandy.products_from_apollo(_store(), _apollo())}
+def _page(rarefinds, total, page=1, pagesize=20):
+    return {"data": {"rareFindCatalog": {
+        "count": len(rarefinds), "page": page, "pageSize": pagesize,
+        "totalCount": total, "showStoreName": True, "rareFinds": rarefinds,
+    }}}
 
+
+def _fake_http(pages):
+    calls = []
+
+    def get(url, params=None, as_text=False):
+        raise AssertionError("rarecandy must not use plain GET")
+
+    def post_json(url, body, params=None, headers=None):
+        calls.append({"url": url, "body": body})
+        i = body["variables"]["page"] - 1
+        if i < len(pages):
+            return pages[i]
+        return _page([], pages[0]["data"]["rareFindCatalog"]["totalCount"], page=i + 1)
+
+    get.post_json = post_json
+    return get, calls
+
+
+def _by_vid():
+    http, _ = _fake_http([_catalog()])
+    return {p.variant_id: p for p in rarecandy.fetch_products(_store(), http)}
+
+
+def _rf(name, tags, quantity=1, rid=1, slug="s-slug", store_slug="somestore", preorder=False, price=1.0):
+    return {
+        "id": rid, "slug": slug,
+        "store": {"id": 5, "name": "Some Store", "slug": store_slug},
+        "product": {"id": 900 + rid, "name": name, "price": price, "quantity": quantity,
+                    "tags": list(tags), "categories": list(tags), "isPreorder": preorder,
+                    "thumbnail": {"thumbnail": "https://img.example/x.png"}},
+    }
+
+
+def _sealed(name, tags=("pokemon", "sealed")):
+    return rarecandy.products_from_catalog(_store(), [_rf(name, list(tags))])[0].is_sealed
+
+
+# --- field mapping ---
 
 def test_maps_core_fields():
-    p = _by_vid()["217222"]
-    assert p.product_id == "298699"
-    assert p.title.startswith("BUNDLE: 1 ASSORTED")
-    assert p.price == 141.99
+    p = _by_vid()["217110"]
+    assert p.product_id == "298485"
+    assert p.variant_id == "217110"
+    assert p.title == "Gem 3 Booster Box (S-Chinese)"
+    assert p.price == 89.99
     assert p.currency == "USD"
     assert p.in_stock is True
     assert p.is_preorder is False
     assert p.is_sealed is True
-    assert p.url == ("https://rarecandy.com/ninetalestradingcompany/shop/"
-                     "bundle-1-assorted-ascended-heroes-mega-ex-box-and-1-first-partner-series-1-box-65659177")
-    assert p.image == "https://images.rarecandy.com/tr:n-thumbnail/stores/352/inventory/17818486043501.png"
+    assert p.url == "https://rarecandy.com/pokejpn/shop/gem-3-booster-box-s-chinese-d03b8cba"
+    assert p.image == "https://images.rarecandy.com/tr:n-thumbnail/stores/38/inventory/17821774671691.jpeg"
 
 
 def test_franchise_tags_normalized():
-    b = _by_vid()
-    assert "one piece" in b["217220"].tags
-    assert "dragon ball" in b["217216"].tags
-    assert "pokemon" in b["217222"].tags
+    assert "one piece" in _by_vid()["217323"].tags
 
 
 def test_out_of_stock_quantity_zero():
-    assert _by_vid()["217226"].in_stock is False
+    assert _by_vid()["217246"].in_stock is False
 
 
 def test_preorder_flag_from_is_preorder():
     assert _by_vid()["217246"].is_preorder is True
 
 
-def test_returns_all_listings_including_unwatched():
-    assert len(_by_vid()) == 6
-
-
-def test_extract_apollo_from_html():
-    apollo = {"Product:1": {"__typename": "Product"}}
-    payload = {"props": {"pageProps": {"__APOLLO_STATE__": apollo}}}
-    html = ('<html><body><script id="__NEXT_DATA__" type="application/json">'
-            + json.dumps(payload) + "</script></body></html>")
-    assert rarecandy.extract_apollo(html) == apollo
-
-
-def test_extract_apollo_missing_returns_empty():
-    assert rarecandy.extract_apollo("<html>no next data here</html>") == {}
-
-
-def _apollo_with_tags(tags):
-    return {
-        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"},
-                       "store": {"__ref": "Store:S"}},
-        "Product:X": {"id": 1, "name": "Test", "price": 1.0, "quantity": 1, "tags": tags},
-        "Store:S": {"id": 5, "slug": "somestore", "name": "Some Store"},
-    }
-
-
-def test_url_is_store_slug_shop_path():
-    b = _by_vid()
-    assert b["217226"].url == "https://rarecandy.com/pokejpn/shop/abyss-eye-japanese-booster-box-81fb6611"
-    assert b["217220"].url.startswith("https://rarecandy.com/otakuanimegoods/shop/")
-
-
-def test_inline_store_object_used_for_url():
-    apollo = {
-        "RareFind:y": {"id": "vY", "slug": "y-slug", "product": {"__ref": "Product:Y"},
-                       "store": {"__typename": "Store", "slug": "inlinestore"}},
-        "Product:Y": {"id": 2, "name": "Y", "price": 2.0, "quantity": 1, "tags": ["pokemon", "sealed"]},
-    }
-    prods = rarecandy.products_from_apollo(_store(), apollo)
-    assert prods[0].url == "https://rarecandy.com/inlinestore/shop/y-slug"
-
-
-def test_unresolvable_store_skips_listing():
-    apollo = {
-        "RareFind:z": {"id": "vZ", "slug": "z-slug", "product": {"__ref": "Product:Z"}, "store": None},
-        "Product:Z": {"id": 3, "name": "Z", "price": 3.0, "quantity": 1, "tags": ["pokemon", "sealed"]},
-    }
-    assert rarecandy.products_from_apollo(_store(), apollo) == []
-
-
 def test_singles_tag_excluded_from_sealed():
-    prods = rarecandy.products_from_apollo(_store(), _apollo_with_tags(["pokemon", "singles", "sealed"]))
-    assert prods[0].is_sealed is False
+    assert _by_vid()["217323"].is_sealed is False
 
 
 def test_sealed_without_singles_is_sealed():
-    prods = rarecandy.products_from_apollo(_store(), _apollo_with_tags(["pokemon", "sealed"]))
-    assert prods[0].is_sealed is True
+    assert _by_vid()["18610"].is_sealed is True
 
 
-def _apollo_named(name, tags):
-    return {
-        "RareFind:x": {"id": "vX", "slug": "x", "product": {"__ref": "Product:X"},
-                       "store": {"__ref": "Store:S"}},
-        "Product:X": {"id": 1, "name": name, "price": 1.0, "quantity": 1, "tags": tags},
-        "Store:S": {"id": 5, "slug": "somestore", "name": "Some Store"},
-    }
+def test_url_uses_store_slug_and_rarefind_slug():
+    assert _by_vid()["18610"].url == (
+        "https://rarecandy.com/otakuanimegoods/shop/"
+        "pokemon-center-tohoku-hiroshima-and-fukuoka-special-boxes-2025-jp-52f47bd9"
+    )
 
 
-def _sealed(name, tags=("pokemon", "sealed")):
-    return rarecandy.products_from_apollo(_store(), _apollo_named(name, list(tags)))[0].is_sealed
-
+# --- sealed heuristic (carried over from the Apollo-era contract) ---
 
 def test_accessory_titles_excluded_from_sealed():
     for name in [
@@ -133,41 +118,96 @@ def test_accessory_titles_excluded_from_sealed():
 
 
 def test_sleeved_booster_pack_stays_sealed():
-    # 'Sleeved Booster Pack' is a sealed product, NOT an accessory sleeve
     assert _sealed("EVOLVING SKIES Sleeved Booster Pack") is True
 
 
 def test_catchall_tagged_etb_stays_sealed():
-    # real sealed ETB swept into a catch-all tag dump incl. accessories/merch:
-    # title-based guard must NOT drop it (tag-based exclusion would)
     tags = ["pokemon", "accessories", "merch", "sealed", "japanese", "mtg"]
     assert _sealed("Perfect Order Elite Trainer Box - ME03", tags) is True
 
 
-def test_fetch_products_unions_surfaces_and_dedupes():
-    payload = {"props": {"pageProps": {"__APOLLO_STATE__": _apollo()}}}
-    html = '<script id="__NEXT_DATA__" type="application/json">' + json.dumps(payload) + "</script>"
-    calls = []
-
-    def fake_get(url, params=None, as_text=False):
-        calls.append((url, as_text))
-        return html
-
-    prods = rarecandy.fetch_products(_store(), fake_get)
-    assert len({p.variant_id for p in prods}) == 6
-    assert len(prods) == 6
-    assert len(calls) >= 2
-    assert all(as_text for (_url, as_text) in calls)
+def test_unresolvable_store_slug_skips_listing():
+    rf = _rf("X", ["pokemon", "sealed"])
+    rf["store"] = None
+    assert rarecandy.products_from_catalog(_store(), [rf]) == []
 
 
-def test_fetch_products_warns_on_nonempty_html_no_products(caplog):
-    html = "<html><body>totally different layout, no next data</body></html>"
+# --- franchise filtering happens in the runner, not the adapter ---
 
-    def fake_get(url, params=None, as_text=False):
-        return html
+def test_adapter_returns_nonfranchise_sealed_runner_drops_it():
+    # MTG sealed: adapter keeps it (is_sealed True); runner's franchise filter drops it
+    mtg = _by_vid()["19192"]
+    assert mtg.is_sealed is True
+    synonyms = {"pokemon": ("pokemon", "pokémon"),
+                "one piece": ("one piece", "one-piece"),
+                "dragon ball": ("dragon ball", "dragonball")}
+    watched = keep_sealed(filter_franchises(list(_by_vid().values()), synonyms))
+    titles = {p.title for p in watched}
+    assert "OUTLAWS OF THUNDER JUNCTION Magic The Gathering Play Booster Pack" not in titles
+    assert "Gem 3 Booster Box (S-Chinese)" in titles
 
-    with caplog.at_level(logging.WARNING):
-        prods = rarecandy.fetch_products(_store(), fake_get)
-    assert prods == []
-    assert any("no products extracted" in r.message for r in caplog.records)
-    assert any("rarecandy" in r.getMessage() for r in caplog.records)
+
+# --- pagination ---
+
+def test_fetch_paginates_and_stops_on_empty_page():
+    p1 = _page([_rf("A", ["pokemon", "sealed"], rid=1), _rf("B", ["pokemon", "sealed"], rid=2)], total=999)
+    http, calls = _fake_http([p1])  # page 2 auto-returns empty -> stop
+    prods = rarecandy.fetch_products(_store(), http)
+    assert len(prods) == 2
+    assert len(calls) == 2
+
+
+def test_fetch_stops_at_total_count():
+    pages = [
+        _page([_rf(f"P{i}", ["pokemon", "sealed"], rid=i) for i in range(0, 20)], total=40, page=1),
+        _page([_rf(f"P{i}", ["pokemon", "sealed"], rid=i) for i in range(20, 40)], total=40, page=2),
+    ]
+    http, calls = _fake_http(pages)
+    prods = rarecandy.fetch_products(_store(), http)
+    assert len(prods) == 40
+    assert len(calls) == 2  # stops once seen >= totalCount, no 3rd request
+
+
+def test_fetch_respects_max_pages_cap():
+    # every page returns 20 fresh ids and totalCount is effectively unbounded
+    pages = [_page([_rf(f"p{pg}_{i}", ["pokemon", "sealed"], rid=pg * 100 + i) for i in range(20)],
+                   total=10 ** 9, page=pg + 1) for pg in range(rarecandy._MAX_PAGES + 5)]
+    http, calls = _fake_http(pages)
+    rarecandy.fetch_products(_store(), http)
+    assert len(calls) == rarecandy._MAX_PAGES
+
+
+def test_fetch_dedupes_by_rarefind_id():
+    shared = _rf("dup", ["pokemon", "sealed"], rid=7)
+    pages = [_page([shared, _rf("a", ["pokemon", "sealed"], rid=1)], total=999, page=1),
+             _page([shared, _rf("b", ["pokemon", "sealed"], rid=2)], total=999, page=2)]
+    http, _ = _fake_http(pages)  # page 3 empty
+    prods = rarecandy.fetch_products(_store(), http)
+    assert len({p.variant_id for p in prods}) == 3
+
+
+def test_fetch_sends_sealed_newest_query():
+    http, calls = _fake_http([_catalog()])
+    rarecandy.fetch_products(_store(), http)
+    body = calls[0]["body"]
+    assert calls[0]["url"] == "https://api.rarecandy.com/graphql"
+    assert body["operationName"] == "RareFindCatalog"
+    assert body["variables"]["page"] == 1
+    assert body["variables"]["filters"] == {"categories": ["sealed"], "sortBy": "newest"}
+
+
+def test_graphql_errors_raise():
+    def get(url, params=None, as_text=False):
+        raise AssertionError("no GET")
+
+    def post_json(url, body, params=None, headers=None):
+        return {"errors": [{"message": "An unknown error has occurred", "code": "UNKNOWN"}]}
+
+    get.post_json = post_json
+    with pytest.raises(RuntimeError):
+        rarecandy.fetch_products(_store(), get)
+
+
+def test_registered_in_runner():
+    from tcg_watcher import runner
+    assert runner._ADAPTERS["rarecandy"] is rarecandy.fetch_products

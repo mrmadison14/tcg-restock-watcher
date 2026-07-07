@@ -4,6 +4,24 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-06 (session 7) — rarecandy widened ~85 → ~237 watched via the real Apollo GraphQL API, 🟢 LIVE
+
+Same session, decision-tree **C** on the Opus model. Goal: widen rarecandy past the ~85 browse-surface listings the `/shop`+`/discover` `__NEXT_DATA__` scrape sees. The handoff flagged `rareFindCatalog(page)` GraphQL as the path "if it can be made to work (introspection 400)."
+
+**Spike cracked the API (introspection stays closed; didn't need it).** The Apollo cache's `ROOT_QUERY` records the site's own query signatures — `rareFindCatalog({"page":1})` is real. The exact query **document** (field selections + `RareFindFilters` arg) lives in JS chunk `9311-*.js`: `query RareFindCatalog($page: Int!, $filters: RareFindFilters)`. The endpoint is **`api.rarecandy.com/graphql`** (from `_app` bundle; same-origin `/graphql` and `/api/graphql` are SPA/404). My first POST failed ("unknown error") only because it was **anonymous with a nullable `$page`** — sending `operationName: "RareFindCatalog"` + `$page: Int!` works bare (no auth/headers). Response carries `totalCount`/`pageSize` → clean server-side pagination.
+
+**Filter model (probed live):** the filter field is **`categories`** (values `pokemon`/`onepiece`/`dbz`/`sealed`/`singles`/`accessories`/`mtg`/`lorcana`/`ws`/…); `sortBy:"newest"`. **Multi-category ORs, not ANDs** (`pokemon+sealed`=575 > `sealed`=453), so I can't get "pokemon AND sealed" server-side. Tightest scope = single `categories:["sealed"]` (**453 items, 23 pages @20/pg**); franchise filtering stays **client-side** in the runner (`filter_franchises` already does it — drops the MTG/Lorcana/GA sealed that share the marketplace). Confirmed clean pagination bounds: page 23 returns the 13-item tail, page 24 returns 0 (stop).
+
+**Build (TDD, rewrite, +2 → 163 tests).** Replaced the HTML/`__NEXT_DATA__` scrape entirely (removed `extract_apollo`/`products_from_apollo`/`_SURFACES`). New `fetch_products` paginates `api.rarecandy.com/graphql` via the session-6 **`http_get.post_json`** (inherits the 2.5s throttle/Retry-After/Chrome-UA), `filters={categories:["sealed"], sortBy:"newest"}`, stopping on empty page / `len(seen) >= totalCount` / `_MAX_PAGES=40` cap, dedup by rareFind id. New `products_from_catalog` maps the inline GraphQL shape (no `__ref` resolution) → `Product`. **All the sealed-heuristic logic carried over unchanged**: `is_sealed = "sealed" in tags AND "singles" not in tags AND not title-accessory`; franchise-tag normalization (`onepiece`→`one piece`, `dbz`→`dragon ball`); URL `base/{store.slug}/shop/{rareFind.slug}`; `in_stock = quantity>0`. Tests rewritten against a trimmed real GraphQL capture (Pokémon-sealed, One Piece+singles→excluded, MTG-sealed→adapter-keeps-runner-drops, preorder+q=0).
+
+**Live dry-run.** Real API through the throttled client: **453 sealed fetched → 237 watched after franchise filter** (pokemon 215, one piece 21, dragon ball 1), all in stock, 8 preorders, 0 duplicate ids, URLs/images verified. **~62s** for the 23-page fetch (adds ~55s to the run vs. the old 2 GETs; new run ~6 min, under the 20-min cap).
+
+**Re-seed (seeded-store expansion).** rarecandy was already seeded (~79 variants); dropped `state/rarecandy.json` so the ~158 newly-visible variants seed **silently** rather than firing a NEW/PREORDER burst (the established drop-state pattern; even without it the `max_events_per_store=25` flood cap collapses to one quiet #tracker line). Commit `<pending>`.
+
+**Close of session 7:** 🟢 LIVE, **28 stores, 163 tests** green. rarecandy coverage ~3× (79→237 watched). Remaining rarecandy headroom: the marketplace holds ~1497 total listings; we scope to sealed (~450) by design. Next ideas unchanged: more store-list images; rotate the cron-job.org PAT before expiry.
+
+---
+
 ## 2026-07-06 (session 6) — Phase 2 ✅: Wix ×2 (pokelegendstcg + bulbacards) via full-catalog storefront GraphQL, 🟢 LIVE
 
 Resumed via `/resume-session` on the **Fable model** (verification green: 139 tests, 26 stores, runs healthy) and executed decision-tree **A** — the `docs/superpowers/PHASE2_HANDOFF.md` brief. Owner sign-offs obtained up front: **(A) full-catalog GraphQL** over best-effort SSR, the **`http.py` POST helper**, and push-enabled (silent-seed flow, matching every prior store add).
