@@ -73,9 +73,9 @@ def test_404_not_retried():
     assert client.calls == 1
 
 
-def test_honors_retry_after_header():
+def test_honors_retry_after_on_retryable_5xx():
     slept = []
-    client = FakeClient([resp(429, headers={"retry-after": "7"}), resp(200, {"ok": 1})])
+    client = FakeClient([resp(503, headers={"retry-after": "7"}), resp(200, {"ok": 1})])
     get = make_httpx_get(retries=2, backoff=1.0, min_interval=0, retry_after_cap=30,
                          client=client, sleep=lambda s: slept.append(s))
     assert get("http://x") == {"ok": 1}
@@ -84,11 +84,33 @@ def test_honors_retry_after_header():
 
 def test_retry_after_capped():
     slept = []
-    client = FakeClient([resp(429, headers={"retry-after": "999"}), resp(200, {"ok": 1})])
+    client = FakeClient([resp(503, headers={"retry-after": "999"}), resp(200, {"ok": 1})])
     get = make_httpx_get(retries=2, min_interval=0, retry_after_cap=30,
                          client=client, sleep=lambda s: slept.append(s))
     assert get("http://x") == {"ok": 1}
     assert 30 in slept
+
+
+def test_429_fails_fast_in_get():
+    # Cloudflare rate-limits GitHub runner IPs; retrying a 429 in-run just burns
+    # Retry-After sleeps and stretches the run. Fail fast — the next dispatch is the retry.
+    slept = []
+    client = FakeClient([resp(429, headers={"retry-after": "30"})] * 4)
+    get = make_httpx_get(retries=3, min_interval=0, client=client, sleep=lambda s: slept.append(s))
+    with pytest.raises(httpx.HTTPStatusError):
+        get("http://x")
+    assert client.calls == 1
+    assert slept == []
+
+
+def test_429_fails_fast_in_post_json():
+    slept = []
+    client = FakeClient([resp(429, headers={"retry-after": "30"})] * 4)
+    get = make_httpx_get(retries=3, min_interval=0, client=client, sleep=lambda s: slept.append(s))
+    with pytest.raises(httpx.HTTPStatusError):
+        get.post_json("http://x", {})
+    assert client.calls == 1
+    assert slept == []
 
 
 def test_as_text_returns_body_text():
@@ -108,9 +130,9 @@ def test_post_json_sends_body_and_returns_json():
     ]
 
 
-def test_post_json_retries_on_429_with_retry_after():
+def test_post_json_retries_on_503_with_retry_after():
     slept = []
-    client = FakeClient([resp(429, headers={"retry-after": "5"}), resp(200, {"ok": 1})])
+    client = FakeClient([resp(503, headers={"retry-after": "5"}), resp(200, {"ok": 1})])
     get = make_httpx_get(retries=2, min_interval=0, retry_after_cap=30,
                          client=client, sleep=lambda s: slept.append(s))
     assert get.post_json("http://x", {}) == {"ok": 1}

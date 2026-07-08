@@ -3,7 +3,7 @@ import time
 import httpx
 
 _UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
-_RETRY_STATUS = {429, 500, 502, 503, 504}
+_RETRY_STATUS = {500, 502, 503, 504}
 
 
 def _retry_after_seconds(resp, cap):

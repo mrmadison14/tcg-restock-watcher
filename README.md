@@ -62,9 +62,16 @@ storefront). **rarecandy** (Next.js marketplace) shipped as the first non-Shopif
 
 GitHub's datacenter IPs get rate-limited (HTTP 429) by Cloudflare when crawling large catalogs.
 Two things keep us under the limit: **(1) sealed-only** fetching (~40 requests/run, not ~300+),
-and **(2) a polite HTTP layer** — a minimum interval between requests (2.5s), honoring
-`Retry-After`, and exponential-backoff retries. A full run takes ~2–3 min (mostly the throttle),
-well under the 5-min cron.
+and **(2) a polite HTTP layer** — a minimum interval between requests (2.5s) and honoring
+`Retry-After` / exponential-backoff retries for transient **5xx** errors.
+
+**429 is fail-fast, not retried** (fetch path only; the Discord poster still honors `Retry-After`).
+When Cloudflare rate-limits the shared runner IP, retrying a 429 *in-run* only burns `Retry-After`
+sleeps (up to ~90s/store) and stretches the run past the 5-min cadence, so runs collide and the
+concurrency guard cancels them. Since the watcher redispatches every ~5 min, **the next run is the
+retry** — a far longer, more polite backoff than any in-run retry. A blocked store just skips the
+cycle (the runner isolates per-store failures) and returns next run. A full run takes ~6–9 min
+(throttle-bound), well under the 20-min job cap.
 
 ## Setup (already done, for reference)
 
@@ -120,8 +127,8 @@ uv run pytest -v                      # 161 tests
 
 - Shopify reports **in/out of stock only**, not quantity.
 - **GitHub cron is best-effort (~5–15 min)** — not for sub-minute drop sniping.
-- Transient failures: the HTTP layer retries; a store still failing is isolated (logged, skipped)
-  and retried next cycle.
+- Transient failures: the HTTP layer retries **5xx/transport** errors; **429 fails fast** (see the
+  Cloudflare section). A store still failing is isolated (logged, skipped) and retried next cycle.
 - A **Discord post failure is fatal for that run** (fail-loud, non-idempotent): the failing
   store's snapshot isn't saved, so those events re-alert next run rather than being lost.
 - Snapshot commits every ~5 min **grow repo history** over time (acceptable for Phase 1).

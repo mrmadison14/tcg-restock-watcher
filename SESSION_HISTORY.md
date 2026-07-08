@@ -4,6 +4,20 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-07 (session 8) — health review + fail-fast on 429 (Cloudflare runner-IP rate-limiting), 🟢 LIVE
+
+Post-deploy health review of sessions 6–7 (Wix ×2 + rarecandy widening). **The feature work is healthy:** Wix stores quiet (10–13 / ~213 watched, 0 phantom events all day), rarecandy stable at ~237 watched, alert volume 0–2 events/run, and **13 straight hours of `ok=28 failed=0`** (04:06→17:00Z) after the session-7 push.
+
+**Found a separate, pre-existing problem flaring up (NOT caused by our changes).** From ~17:30Z, a growing set of Shopify stores (5→7→8: allpoketcg, pkmncolosseum, doubleinfinitygaming, realgoodeal, zulusgames, deckoutgaming, spoilsandloot, paladincards20) started returning **429** to the GitHub runner — the original Cloudflare-rate-limits-shared-runner-IPs landmine, worse at evening peak. Confirmed it's environmental, not ours: all those stores return **200 from a local IP** right now, the code didn't change at 17:30Z, and the 13h clean streak preceded it.
+
+**Impact was indirect but real:** each 429'd store burned up to ~90s of `Retry-After` retry sleeps, stretching runs from ~9 min to 14–20 min. Long runs collided with the 5-min dispatch cadence, so the concurrency guard cancelled most of them — hourly successes fell 10/hr → **3–4/hr** (median run duration 8.6m → 20.1m by 21:00Z). No data loss, no bad alerts (blocked stores just skip a cycle; the runner isolates per-store failures).
+
+**Fix (decision A, TDD +2 → 165 tests): 429 is now fail-fast in the fetch path.** Removed `429` from `http.py::_RETRY_STATUS` (now `{500,502,503,504}`); a 429 raises immediately instead of sleeping through `Retry-After`. Rationale: the watcher **redispatches every ~5 min, so the next run *is* the retry** — a far longer, more polite backoff than any in-run retry, and it keeps run duration down so the cadence stops collapsing. The **Discord poster's** 429 handling is deliberately **untouched** (it's not redispatched — it must honor `Retry-After` in-run). Tests: flipped the three Retry-After/retry tests from 429→503 (5xx still retries + honors `Retry-After`), added `test_429_fails_fast_in_get` / `_in_post_json` (1 call, no sleep, raises). Docs: README Cloudflare section + limitations bullet updated. Commit `<pending>`.
+
+**Close of session 8:** 🟢 LIVE, **28 stores, 165 tests**. Watched the fix restore run duration/cadence. Note: fail-fast means during a Cloudflare rate-limit window, affected stores update on whatever cadence gets a clean run rather than every 5 min — acceptable; the alternative (long in-run sleeps) starved *all* stores. If evening 429s persist/worsen, next levers: drop cron-job.org cadence to ~10 min (less IP pressure) or shard stores across runs.
+
+---
+
 ## 2026-07-06 (session 7) — rarecandy widened ~85 → ~237 watched via the real Apollo GraphQL API, 🟢 LIVE
 
 Same session, decision-tree **C** on the Opus model. Goal: widen rarecandy past the ~85 browse-surface listings the `/shop`+`/discover` `__NEXT_DATA__` scrape sees. The handoff flagged `rareFindCatalog(page)` GraphQL as the path "if it can be made to work (introspection 400)."
