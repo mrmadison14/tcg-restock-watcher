@@ -12,10 +12,12 @@ per store: fetch sealed products → diff vs last snapshot → classify events
         → Discord (loud/quiet) → reconcile + commit snapshot
 ```
 
-- `.github/workflows/watch.yml` runs `python -m tcg_watcher` every ~5 min and commits updated
-  `state/*.json` snapshots back to `main`. The commit step is **concurrency-safe**: when runs
-  overlap, it reconciles each snapshot by newest `last_run` (`tcg_watcher.reconcile`) and retries
-  the push, so parallel runs never conflict or clobber one another's state.
+- `.github/workflows/watch.yml` runs `python -m tcg_watcher` and commits updated
+  `state/*.json` snapshots back to `main`. The ~5-min cadence is driven by a **cron-job.org**
+  `workflow_dispatch` (GitHub throttles free-tier `schedule:` crons to ~2–3h); the workflow's own
+  hourly `schedule:` cron is kept only as a **backstop** if cron-job.org stops. The commit step is
+  **concurrency-safe**: when runs overlap, it reconciles each snapshot by newest `last_run`
+  (`tcg_watcher.reconcile`) and retries the push, so parallel runs never conflict or clobber state.
 - **Sealed-only, by design.** Individual singles are intentionally out of scope — they're not
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.

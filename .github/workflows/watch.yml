@@ -1,7 +1,9 @@
 name: watch
 on:
   schedule:
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+    # Hourly backstop only (GitHub throttles free-tier schedules to ~2-3h anyway).
+    # cron-job.org drives the real ~5-min cadence via workflow_dispatch.
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:

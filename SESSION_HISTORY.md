@@ -4,6 +4,18 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-09 (session 9) — diagnosed 4 "failures" (GitHub runner-acquisition, not us) + made the schedule cron an explicit backstop, 🟢 LIVE
+
+Health-check on reported run failures. **Root cause: GitHub-side, not our code.** 4 `watch` runs failed 10:20–12:20Z, all with the annotation **"The job was not acquired by Runner of type hosted even after multiple attempts"** — GitHub couldn't provision a hosted runner; the job waited GitHub's fixed ~15-min acquisition window (every failure was exactly `15m1s`) then was marked `failure`. **The watcher code never executed** on those runs → no fetch, no state commit, no Discord posts, no data loss/corruption. All 4 were `workflow_dispatch` (cron-job.org). Intermittent (other runs in the window succeeded), self-healed by ~12:20Z; since then all green, ~3.7-min runs. This is the same self-healing logic as the 429 fix — a failed dispatch just means the next ~5-min dispatch is the retry.
+
+**Dispatch-architecture finding.** Trigger breakdown of the last 200 runs: **194 `workflow_dispatch` (cron-job.org) vs 6 `schedule` (GitHub)** — the GitHub `schedule:` cron fires only ~every 2.7h (free-tier throttling, as long suspected), so it contributes ~3% of dispatches and is effectively a sparse backstop, not a co-driver. Considered removing it; **kept it** — near-zero cost, and it's the only fallback if cron-job.org dies (expired PAT / outage) → watcher would degrade to ~hourly instead of going dark. Removing it would not have prevented the runner-acquisition failures anyway.
+
+**Change (CI only, no code):** set the `watch.yml` `schedule:` cron from every-5-min (`2,7,12,…`) to **hourly (`0 * * * *`)** with a comment documenting intent — it's a backstop; cron-job.org drives the real cadence. GitHub throttles it to ~2.7h either way, so behavior is unchanged, but it stops the occasional superseded/cancelled `schedule` run and makes the architecture explicit. README dispatch description + limitations updated. 165 tests still green (no Python touched). Commit `<pending>`.
+
+**Close of session 9:** 🟢 LIVE, **28 stores, 165 tests**. No code defect found; the "failures" were transient GitHub runner capacity. Standing watch-list unchanged (rotate cron-job.org PAT before expiry; evening Cloudflare 429s on some stores now fail-fast and isolate cleanly).
+
+---
+
 ## 2026-07-07 (session 8) — health review + fail-fast on 429 (Cloudflare runner-IP rate-limiting), 🟢 LIVE
 
 Post-deploy health review of sessions 6–7 (Wix ×2 + rarecandy widening). **The feature work is healthy:** Wix stores quiet (10–13 / ~213 watched, 0 phantom events all day), rarecandy stable at ~237 watched, alert volume 0–2 events/run, and **13 straight hours of `ok=28 failed=0`** (04:06→17:00Z) after the session-7 push.
