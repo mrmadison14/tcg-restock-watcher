@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Local residential-IP runner (Option C). Install: see docs/LOCAL_RUNNER.md.
+     __RUNNER_CLONE__ is replaced with the dedicated clone path at install time. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mrmadison.tcg-restock-watcher</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/sh</string>
+    <string>__RUNNER_CLONE__/scripts/run_local.sh</string>
+  </array>
+  <key>StartInterval</key>
+  <integer>300</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/jmadison/Library/Logs/tcg-restock-watcher.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/jmadison/Library/Logs/tcg-restock-watcher.launchd.log</string>
+</dict>
+</plist>
