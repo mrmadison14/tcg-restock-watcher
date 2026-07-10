@@ -4,8 +4,12 @@
 # it hard-resets to origin/main). Reads Discord webhooks from a gitignored .envrc.
 set -eu
 
+# launchd runs with a minimal PATH — make uv (and any child-script `uv` calls,
+# e.g. commit_state.sh's reconcile) resolvable.
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
-UV="${TCG_UV:-/Users/jmadison/.local/bin/uv}"
+UV="${TCG_UV:-$HOME/.local/bin/uv}"
 LOG="${TCG_LOG:-$HOME/Library/Logs/tcg-restock-watcher.log}"
 ts() { date -u +%Y-%m-%dT%H:%M:%SZ; }
 
