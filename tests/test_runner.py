@@ -91,6 +91,29 @@ def test_curated_store_trusts_collection_products(tmp_path: Path):
     assert "7" in snap["variants"]
 
 
+def test_filter_collections_applies_sealed_and_franchise_filter(tmp_path: Path):
+    # scoped-collection store (big multi-hobby): fetch only named collections but STILL
+    # drop non-sealed accessories and non-franchise items (galactictoys case).
+    store = Store(key="gx", base_url="https://gx.test", platform="shopify", currency="USD",
+                  collections=("pokemon:pk-tcg",), filter_collections=True)
+    def http_get(url, params=None):
+        if (params or {}).get("page", 1) != 1:
+            return {"products": []}
+        return {"products": [
+            {"id": 1, "handle": "a", "title": "Pokemon Surging Sparks ETB", "product_type": "", "tags": ["pokemon"],
+             "images": [], "variants": [{"id": 10, "title": "Default Title", "price": "50", "available": True}]},
+            {"id": 2, "handle": "b", "title": "Pokemon Coin Keychain", "product_type": "", "tags": ["pokemon"],
+             "images": [], "variants": [{"id": 11, "title": "Default Title", "price": "5", "available": True}]},
+            {"id": 3, "handle": "c", "title": "Gundam Model Kit", "product_type": "", "tags": [],
+             "images": [], "variants": [{"id": 12, "title": "Default Title", "price": "30", "available": True}]},
+        ]}
+    run_once(cfg(store), http_get, (lambda x: None), (lambda x: None), tmp_path, "t0")
+    snap = load_snapshot(snapshot_path(tmp_path, "gx"))
+    assert "10" in snap["variants"]      # sealed pokemon kept
+    assert "11" not in snap["variants"]  # pokemon accessory (no sealed marker) dropped
+    assert "12" not in snap["variants"]  # non-franchise item dropped
+
+
 def test_post_failure_one_store_others_ok(tmp_path: Path):
     a = Store(key="a", base_url="https://a.test", platform="shopify", currency="USD")
     b = Store(key="b", base_url="https://b.test", platform="shopify", currency="USD")

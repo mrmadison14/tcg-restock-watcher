@@ -115,6 +115,25 @@ def test_pricing_parsed(tmp_path):
     assert pr.categories["dragon ball"] == (23, 27, 80)
 
 
+def test_filter_collections_parsed(tmp_path):
+    f = tmp_path / "c.toml"
+    f.write_text(
+        BASE.replace(
+            'platform = "shopify"',
+            'platform = "shopify"\ncollections = ["pokemon:pk-tcg"]\nfilter_collections = true',
+        )
+    )
+    s = load_config(f).stores[0]
+    assert s.collections == ("pokemon:pk-tcg",)
+    assert s.filter_collections is True
+
+
+def test_filter_collections_defaults_false(tmp_path):
+    f = tmp_path / "c.toml"
+    f.write_text(BASE)
+    assert load_config(f).stores[0].filter_collections is False
+
+
 def test_franchise_field_parsed(tmp_path):
     f = tmp_path / "c.toml"
     f.write_text(BASE.replace('platform = "shopify"', 'platform = "wix"\nfranchise = "pokemon"'))

@@ -1,4 +1,5 @@
 from __future__ import annotations
+import re
 from ..config import Store
 from ..models import Product
 
@@ -13,7 +14,7 @@ _MAX_PAGES = 50
 
 def _has_marker(text: str, markers: tuple[str, ...]) -> bool:
     low = text.lower()
-    return any(m in low for m in markers)
+    return any(re.search(rf"\b{re.escape(m)}\b", low) for m in markers)
 
 
 def _is_preorder(title: str, tags: tuple[str, ...]) -> bool:

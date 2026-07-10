@@ -107,6 +107,24 @@ def test_bare_bundle_marker_does_not_flag_sealed():
     assert sealed["8002"] is True    # "booster bundle" still flags sealed
 
 
+def test_marker_matching_respects_word_boundaries():
+    # "tin" must not match inside "setting"; a real "Tin" must still flag sealed.
+    store = Store(key="d", base_url="https://d.test", platform="shopify", currency="USD")
+    page = {"products": [
+        {"id": 1, "handle": "a", "title": "Figuarts ZERO Luffy Setting Sail for the New World",
+         "product_type": "Figures", "tags": [], "images": [],
+         "variants": [{"id": 1, "title": "Default Title", "price": "50", "available": True}]},
+        {"id": 2, "handle": "b", "title": "Mega Moonlit Tin", "product_type": "", "tags": [], "images": [],
+         "variants": [{"id": 2, "title": "Default Title", "price": "25", "available": True}]},
+        {"id": 3, "handle": "c", "title": "Vintage Showcase Poster", "product_type": "", "tags": [], "images": [],
+         "variants": [{"id": 3, "title": "Default Title", "price": "10", "available": True}]},
+    ]}
+    sealed = {p.variant_id: p.is_sealed for p in fetch_products(store, make_http_get({1: page}))}
+    assert sealed["1"] is False   # "setting" must not match "tin"
+    assert sealed["2"] is True    # real "Tin" still sealed
+    assert sealed["3"] is False   # "showcase" must not match "case"
+
+
 def test_missing_product_id_crashes():
     store = Store(key="d", base_url="https://d.test", platform="shopify", currency="USD")
     page = {"products": [

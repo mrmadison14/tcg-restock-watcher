@@ -238,6 +238,23 @@ collections = [
 ]
 
 [[stores]]
+key = "sakurascardshop"
+base_url = "https://sakurascardshop.com"
+platform = "shopify"
+currency = "USD"
+
+[[stores]]
+key = "galactictoys"
+base_url = "https://galactictoys.com"
+platform = "shopify"
+currency = "USD"
+filter_collections = true
+collections = [
+  "pokemon:pokemon-tcg",
+  "pokemon:pre-orders",
+]
+
+[[stores]]
 key = "pokelegendstcg"
 base_url = "https://pokelegendstcg.com"
 platform = "wix"

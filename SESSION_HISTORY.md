@@ -4,6 +4,23 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-09 (session 10) — +2 stores (sakurascardshop, galactictoys) + `filter_collections` mode + word-boundary sealed-match fix, 🟢 LIVE
+
+New store-list image. Cross-referenced all domains against the tracked 28: 9 already tracked; **missionreadycollectibles** still `401` (password-lock, unchanged); **tradingcardmarket** = sports-card/singles store (skip); **forgeandfiregaming** = **BigCommerce** (no `/products.json`; would need a new adapter — skip). Two viable adds:
+
+- **sakurascardshop.com** — small Shopify (309 catalog), USD (Round Rock TX), Pokémon Center exclusives. Full-crawl + filter → **29 watched** (25 Pokémon + 4 One Piece), 0 singles contamination. Straight config add.
+- **galactictoys.com** — big multi-hobby Shopify (Warhammer/Gundam/figures/MTG/model-kits). No clean franchise-sealed collection exists. James supplied two collection URLs (`pokemon-tcg`, `pre-orders`). Probing them: `pokemon-tcg` = 119 Pokémon items (sealed + some accessories); `pre-orders` = 127 items but **~96% figures/Gundam/MTG**, only ~3 Pokémon TCG. Curated mode trusts collections verbatim → would flood the feed. 
+
+**New adapter mode `filter_collections` (TDD).** Added a `Store.filter_collections` bool: when set with `collections`, the runner fetches only those collections **but still applies `keep_sealed(filter_franchises(...))`**. So galactic is scoped to 2 cheap collection fetches (no giant full-crawl, respects the "never full-crawl a big store" rule) yet drops the Warhammer/Gundam/figures/MTG/accessories. Runner condition changed to `if store.collections and not store.filter_collections: trust else filter`. → galactic **86 watched, all Pokémon sealed**.
+
+**Latent bug found + fixed (word boundaries).** galactic's dry-run leaked a *Tamashii Figuarts One Piece Luffy figure* — because the sealed-marker match was a bare substring, so `"tin"` matched "set**tin**g" ("Setting Sail…") and `"case"` matched "show**case**". Fixed `shopify._has_marker` to **word-boundary** match (`\bmarker\b`); real "Tin"/"Case"/"ETB" still match, "setting"/"showcase" no longer do. General win — removes substring false-positives at every full-crawl/scoped store. (Note: `wix.py` has its own marker matcher with the same latent pattern; not hit by current Wix catalogs, left for later.) Decided **against** a broad accessory guard: the Pin/Poster/Binder/Playmat "Collections" at galactic are *legit sealed* Pokémon product lines (ship with packs), so guarding them would wrongly drop real product.
+
+**Verified live (dry-run through real adapter+filters):** sakura 309→29, galactic 243→86 (0 non-Pokémon, 0 figure leaks); full-crawl stores unregressed (allpoketcg 294, thepokehive 45, matrixtcg 5). Both new stores seed silently on first run (new stores, no state to drop). **169 tests** green. Commit `<pending>`.
+
+**Close of session 10:** 🟢 LIVE, **30 stores, 169 tests**. New reusable capability (`filter_collections`) for big multi-hobby Shopify stores. Standing watch-list unchanged (rotate cron-job.org PAT before expiry).
+
+---
+
 ## 2026-07-09 (session 9) — diagnosed 4 "failures" (GitHub runner-acquisition, not us) + made the schedule cron an explicit backstop, 🟢 LIVE
 
 Health-check on reported run failures. **Root cause: GitHub-side, not our code.** 4 `watch` runs failed 10:20–12:20Z, all with the annotation **"The job was not acquired by Runner of type hosted even after multiple attempts"** — GitHub couldn't provision a hosted runner; the job waited GitHub's fixed ~15-min acquisition window (every failure was exactly `15m1s`) then was marked `failure`. **The watcher code never executed** on those runs → no fetch, no state commit, no Discord posts, no data loss/corruption. All 4 were `workflow_dispatch` (cron-job.org). Intermittent (other runs in the window succeeded), self-healed by ~12:20Z; since then all green, ~3.7-min runs. This is the same self-healing logic as the 429 fix — a failed dispatch just means the next ~5-min dispatch is the retry.

@@ -13,6 +13,7 @@ class Store:
     enabled: bool = True
     collections: tuple[str, ...] = ()
     franchise: str | None = None
+    filter_collections: bool = False
 
 
 @dataclass(frozen=True)
@@ -48,6 +49,7 @@ def load_config(path: Path) -> Config:
             enabled=s.get("enabled", True),
             collections=tuple(s.get("collections", [])),
             franchise=s.get("franchise"),
+            filter_collections=s.get("filter_collections", False),
         )
         for s in data["stores"]
     )

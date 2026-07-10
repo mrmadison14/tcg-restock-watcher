@@ -49,7 +49,7 @@ def run_once(config: Config, http_get, post_loud, post_quiet, state_dir, now_iso
             print(f"[{store.key}] adapter failed: {type(exc).__name__}: {exc}")
             continue
 
-        if store.collections:
+        if store.collections and not store.filter_collections:
             watched = products
         else:
             watched = keep_sealed(filter_franchises(products, config.franchise_synonyms))
