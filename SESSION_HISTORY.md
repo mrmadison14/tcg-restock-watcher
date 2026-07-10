@@ -4,6 +4,20 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-10 (session 12) — beat the evening Cloudflare 429 storm: Mac (launchd) residential-IP runner LIVE, 🟢 LIVE
+
+The evening 429 storm worsened to `ok=3 failed=25` (only the non-Cloudflare stores — rarecandy's `api.` host + the 2 Wix stores — got through). Root-caused (again) to **GitHub's shared runner-IP reputation with Cloudflare**, confirmed: same fetches succeed from a normal IP, and it's purely peak-hours IP throttling. Scoped fixes in `docs/superpowers/EGRESS_IP_SCOPING.md` (proxy / VPS / Mac). **Owner chose Option C: run from the Mac's residential IP via launchd, GitHub Actions as the asleep backstop.**
+
+**Built (`fa6a3efc`, `8056e70d`):** `scripts/run_local.sh` (launchd wrapper: hard-reset to origin, run watcher, `commit_state.sh`, log OK/FAIL; refuses a dirty tree so it can't be run from the dev checkout), `ops/…plist` template (StartInterval 300, RunAtLoad), `docs/LOCAL_RUNNER.md`. Runs from a **dedicated shallow clone** `~/workspace/tcg-restock-watcher-runner` (separate from the dev checkout so the 5-min job never collides with editing). Webhooks live in a gitignored `.envrc` (mode 0600) — sourced from prior session logs with the owner's explicit OK, mapped by context (`…153261`=#deals, `…119240`=#tracker), and validated live (both **204** via httpx+UA; a UA-less urllib test had 403'd — Discord's edge quirk, not stale).
+
+**Live results:** residential IP → **`ok=31 failed=0`** (vs GitHub's `ok=3 failed=25` same peak). New stores seeded silently (sakura 28, galactic 101, tradingcardmarket 450). First run posted a modest **38-event catch-up** (real changes missed during the blackout; flood-capped, biggest zulusgames 14).
+
+**GOTCHA fixed (`8056e70d`):** first run's watcher succeeded but **`commit_state.sh` failed under launchd — `uv: command not found`** (launchd's minimal PATH lacks `~/.local/bin`; the wrapper used absolute `uv` but the child `commit_state.sh` calls bare `uv` for its reconcile). State didn't push → would have re-fired the 38 alerts every run. Fix: `export PATH="$HOME/.local/bin:…"` at the top of `run_local.sh`. Recovery: unloaded agent → ran `commit_state.sh` with `uv` on PATH to push the post-run state (`09005c8`, no re-fire) → pushed the fix → reloaded. Verified fixed run: `OK`, `ok=31 failed=0 events_sent=1` (only a genuine skyboxct change — no re-fire), `commit_state pushed on attempt 1`. Secret-safe: 0 webhook strings in logs or tracked files.
+
+**Close of session 12:** 🟢 LIVE, **31 stores, 169 tests**. Mac launchd runner (`com.mrmadison.tcg-restock-watcher`, ~6.5-min effective cadence) is primary; GitHub Actions is the asleep backstop. **Open owner action:** slow/pause the cron-job.org 5-min dispatch so GitHub stops 429-flailing at peak (concurrency-safe either way; it's just failure-email noise). Rotate cron-job.org PAT before expiry still stands.
+
+---
+
 ## 2026-07-09 (session 11) — +tradingcardmarket + galactic One Piece (both via `filter_collections`), 🟢 LIVE
 
 Follow-on to session 10 with more franchise-collection URLs. Both leaned on the session-10 `filter_collections` mode — no code change, config-only.
