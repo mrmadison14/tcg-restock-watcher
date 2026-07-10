@@ -22,7 +22,7 @@ per store: fetch sealed products → diff vs last snapshot → classify events
   what you preorder/restock, and their catalogs (tens of thousands of cards) trip Cloudflare
   rate-limits. Fetching only sealed keeps each run to ~40 requests.
 
-## Stores (30)
+## Stores (31)
 
 | Store | Fetch mode | Franchises |
 |---|---|---|
@@ -55,7 +55,8 @@ per store: fetch sealed products → diff vs last snapshot → classify events
 | pokelegendstcg.com | Wix storefront GraphQL (full catalog) | Pokémon |
 | bulbacards.com | Wix storefront GraphQL (full catalog) | Pokémon |
 | sakurascardshop.com | full-crawl + sealed filter | Pokémon, One Piece |
-| galactictoys.com | scoped collections + sealed filter | Pokémon |
+| galactictoys.com | scoped collections + sealed filter | Pokémon, One Piece |
+| tradingcardmarket.com | scoped collections + sealed filter | Pokémon, One Piece |
 
 Notes: **401games** exposes a clean Dragon Ball sealed collection; its Pokémon/One Piece sealed
 aren't cleanly targetable (add handles to its config if found). **collectorstore.com** uses its

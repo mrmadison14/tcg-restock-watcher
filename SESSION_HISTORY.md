@@ -4,6 +4,19 @@ Chronological log of meaningful work, decisions, and state. Newest session on to
 
 ---
 
+## 2026-07-09 (session 11) — +tradingcardmarket + galactic One Piece (both via `filter_collections`), 🟢 LIVE
+
+Follow-on to session 10 with more franchise-collection URLs. Both leaned on the session-10 `filter_collections` mode — no code change, config-only.
+
+- **tradingcardmarket.com** — previously skipped as a sports-card/singles store, but James supplied its `pokemon`, `one-piece`, and `presell` collection URLs. Scoped to those 3 with `filter_collections=true`: fetched 764 → **450 watched** (412 Pokémon + 38 One Piece). Contamination scan: **0 graded/`#`/PSA/CGC** titles slipped; the 110 "collection"-only matches are all legit sealed Collection/Premium/Pin Collection *Boxes*. The sports-card + singles bulk is dropped by the franchise+sealed filter. USD. (Note: its presell items are titled "(Presell)" not "preorder", so they alert as new-listing/restock rather than PREORDER_OPEN — `presell` isn't in `_PREORDER_MARKERS`; left as-is, optional polish.)
+- **galactictoys.com** — added its `one-piece-tcg` collection (16 One Piece booster packs/boxes) alongside the existing `pokemon-tcg`/`pre-orders`. Now **102 watched** (86 Pokémon + 16 One Piece).
+
+Verified via `load_config` + real adapter dry-run (31 stores parse; counts above). New stores/collections seed silently on first run. **169 tests** green (config-only change). Commit `<pending>`.
+
+**Close of session 11:** 🟢 LIVE, **31 stores, 169 tests**. `filter_collections` is now the go-to for extracting Pokémon/OP/DBZ sealed from big mixed-catalog Shopify stores (galactic, tradingcardmarket). Standing watch-list unchanged.
+
+---
+
 ## 2026-07-09 (session 10) — +2 stores (sakurascardshop, galactictoys) + `filter_collections` mode + word-boundary sealed-match fix, 🟢 LIVE
 
 New store-list image. Cross-referenced all domains against the tracked 28: 9 already tracked; **missionreadycollectibles** still `401` (password-lock, unchanged); **tradingcardmarket** = sports-card/singles store (skip); **forgeandfiregaming** = **BigCommerce** (no `/products.json`; would need a new adapter — skip). Two viable adds:

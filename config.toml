@@ -251,7 +251,20 @@ currency = "USD"
 filter_collections = true
 collections = [
   "pokemon:pokemon-tcg",
+  "one piece:one-piece-tcg",
   "pokemon:pre-orders",
+]
+
+[[stores]]
+key = "tradingcardmarket"
+base_url = "https://tradingcardmarket.com"
+platform = "shopify"
+currency = "USD"
+filter_collections = true
+collections = [
+  "pokemon:pokemon",
+  "one piece:one-piece",
+  "pokemon:presell",
 ]
 
 [[stores]]
