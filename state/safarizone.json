@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-17T23:45:19Z",
+  "last_run": "2026-07-17T23:55:53Z",
   "seeded": true,
   "variants": {
     "44409592185014": {
@@ -12,28 +12,28 @@
     "44473547260086": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 530.99,
       "title": "Pokemon: SV10 Destined Rivals Booster Box"
     },
     "45020166586550": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 30.0,
       "title": "Pokemon TCG: First Partner Illustration Collection - Series 2"
     },
     "45021553623222": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 11.0,
       "title": "Pokemon TCG: SV08 Surging Sparks Sleeved Booster Pack"
     },
     "45025345929398": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 179.99,
       "title": "Pokemon TCG: ME05 Pitch Black Booster Box"
     },
@@ -47,7 +47,7 @@
     "45152355156150": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 65.0,
       "title": "Pokemon TCG: ME04 Chaos Rising Elite Trainer Box"
     },
@@ -75,7 +75,7 @@
     "45186596241590": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 194.99,
       "title": "Pokemon TCG: ME04 Chaos Rising Booster Box"
     },
@@ -103,7 +103,7 @@
     "45268387430582": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-17T23:45:19Z",
+      "last_seen": "2026-07-17T23:55:53Z",
       "price": 80.0,
       "title": "Pokemon TCG: 30th Anniversary Elite Trainer Box"
     }
