@@ -1,3392 +1,3392 @@
 {
-  "last_run": "2026-07-21T08:55:18Z",
+  "last_run": "2026-07-21T09:20:23Z",
   "seeded": true,
   "variants": {
     "48782703427752": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 174.99,
       "title": "Pokemon: Sword & Shield Brilliant Stars Elite Trainer Box"
     },
     "49073125982376": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 619.99,
       "title": "Pokemon: Sword & Shield Charizard Ultra Premium Collection"
     },
     "49414493012136": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 449.99,
       "title": "Pokemon: Celebrations Elite Trainer Box"
     },
     "49414611730600": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 259.99,
       "title": "Pokemon: Pokemon Go Pokemon Center Exclusive Elite Trainer Box Plus"
     },
     "49566154391720": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 349.99,
       "title": "One Piece TCG: 500 Years in the Future Booster Box [OP-07]"
     },
     "49566155636904": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "One Piece TCG: Wings of the Captain Booster Box (OP-06)"
     },
     "49566161109160": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 879.99,
       "title": "One Piece TCG: Memorial Collection Extra Booster Box (EB-01)"
     },
     "49566161698984": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1099.99,
       "title": "One Piece TCG: Awakening of the New Era Booster Box [OP-05]"
     },
     "49566162813096": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5899.99,
       "title": "One Piece TCG: Romance Dawn Booster Box [OP-01] (Wave 1)"
     },
     "49566506385576": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon:  Scarlet & Violet Build & Battle Stadium"
     },
     "49566507106472": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 194.99,
       "title": "Pokemon: Scarlet & Violet 151 Booster Bundle *Loose*"
     },
     "49566507761832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 462.99,
       "title": "Pokemon: Japanese 151 Booster Box (sv2a)"
     },
     "49566509105320": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 112.99,
       "title": "Pokemon: Japanese Clay Burst Booster Box (sv2D)"
     },
     "49566509695144": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Leafeon VStar Special Collection Box"
     },
     "49566510350504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Crimson Haze Booster Pack (sv5a)"
     },
     "49566510973096": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 106.99,
       "title": "Pokemon: Japanese Ancient Roar Booster Box (sv4K)"
     },
     "49566511693992": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Clay Burst Booster Pack (sv2D)"
     },
     "49566512316584": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 107.99,
       "title": "Pokemon: Japanese Future Flash Booster Box (sv4M)"
     },
     "49566512906408": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.49,
       "title": "Pokemon: Japanese Incandescent Arcana Booster Pack (s11a)"
     },
     "49566513561768": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Future Flash Booster Pack (sv4m)"
     },
     "49566514118824": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Ancient Roar Booster Pack (sv4K)"
     },
     "49566514774184": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 124.99,
       "title": "Pokemon: Japanese Crimson Haze Booster Box (sv5A)"
     },
     "49566516674728": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 98.99,
       "title": "Pokemon: Japanese Cyber Judge Booster Box (sv5M)"
     },
     "49566517264552": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Japanese Incandescent Arcana Booster Box (s11a)"
     },
     "49566517297320": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 26.99,
       "title": "Pokémon: Sword & Shield Crown Zenith Booster Pack"
     },
     "49566518476968": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Galarian Rapidash V Box"
     },
     "49566519066792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Paldean Fates ex Tins [Charizard ex]"
     },
     "49566521426088": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Scarlet & Violet Paldean Fates Booster Bundle"
     },
     "49566522015912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Japanese Paradigm Trigger Booster Box (s12)"
     },
     "49566523326632": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 10.99,
       "title": "Pokemon: Pokemon Go Booster Pack"
     },
     "49566523883688": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 124.99,
       "title": "Pokemon: Japanese Mask of Change Booster Box (sv6)"
     },
     "49566523916456": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Pokemon Go Elite Trainer Box"
     },
     "49566524539048": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 126.99,
       "title": "Pokemon: Japanese Raging Surf Booster Box (sv3a)"
     },
     "49566525096104": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Scarlet & Violet Paldean Fates Mini Tins [Random]"
     },
     "49566526963880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Mask of Change Booster Pack (sv6)"
     },
     "49566527520936": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 106.99,
       "title": "Pokemon: Japanese Night Wanderer Booster Box (sv6a)"
     },
     "49566527553704": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "Pokemon: Japanese Paradigm Trigger Booster Pack (s12)"
     },
     "49566528143528": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Pokemon GO Premier Deck Holder Collection (Dragonite VSTAR)"
     },
     "49566528766120": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "Pokemon: Paradox Clash Tin (Random)"
     },
     "49566529421480": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Raging Surf Booster Pack (sv3a)"
     },
     "49566530076840": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Booster Pack (SV04)"
     },
     "49566530633896": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 379.99,
       "title": "Pokemon: Scarlet & Violet Twilight Masquerade Booster Box (SV06)"
     },
     "49566530666664": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Scarlet & Violet Obsidian Flames Booster Pack"
     },
     "49566531256488": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 15.99,
       "title": "Pokemon: Scarlet & Violet Paldea Evolved Booster Pack"
     },
     "49566531911848": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 489.99,
       "title": "Pokemon: Scarlet & Violet: Paldean Fates Elite Trainer Box"
     },
     "49566532468904": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119.99,
       "title": "Pokemon: Scarlet & Violet Twilight Masquerade Elite Trainer Box (SV06)"
     },
     "49566534336680": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Japanese Scarlet ex Booster Box (sv1S)"
     },
     "49566534402216": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Scarlet ex Booster Pack (sv1S)"
     },
     "49566535024808": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet: Obsidian Flames Build & Battle Stadium"
     },
     "49566535221416": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 419.99,
       "title": "Pokemon: Scarlet & Violet Obsidian Flames Booster Box"
     },
     "49566536433832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 194.99,
       "title": "Pokemon: Japanese Shiny Star V Booster Box (s4a)"
     },
     "49566536990888": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 10.99,
       "title": "Pokemon: Scarlet & Violet Base Set Booster Pack"
     },
     "49566537023656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 94.99,
       "title": "Pokemon: Scarlet & Violet 151 Poster Collection"
     },
     "49566538236072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Scarlet & Violet: Paldean Fates Tech Sticker Collection (Random) (SV4.5)"
     },
     "49566538825896": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 189.99,
       "title": "Pokemon: Japanese Ruler of the Black Flame Booster Box (sv3)"
     },
     "49566540660904": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Shining Fates Elite Trainer Box"
     },
     "49566540824744": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 174.99,
       "title": "Pokemon: Japanese Shiny Treasures Booster Box (sv4A)"
     },
     "49566541381800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Scarlet & Violet Obsidian Flames Elite Trainer Box"
     },
     "49566541414568": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1049.99,
       "title": "Pokemon: Scarlet & Violet 151 Ultra-Premium Collection"
     },
     "49566541971624": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 23.99,
       "title": "Pokemon: Scarlet & Violet Paldean Fates Booster Pack"
     },
     "49566543118504": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 6.99,
       "title": "Pokemon: Japanese Ruler of the Black Flame Booster Pack (sv3)"
     },
     "49566543708328": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Booster Box (SV04)"
     },
     "49566543741096": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "Pokemon: Japanese Snow Hazard Booster Box (sv2P)"
     },
     "49566544298152": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 106.99,
       "title": "Pokemon: Japanese Stellar Miracle Booster Box (sv7)"
     },
     "49566544855208": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.49,
       "title": "Pokemon: Japanese Snow Hazard Booster Pack (sv2P)"
     },
     "49566544920744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Stellar Miracle Booster Pack (sv7)"
     },
     "49566545477800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Sword & Shield Chilling Reign Booster Pack"
     },
     "49566546133160": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Sword & Shield Darkness Ablaze Elite Trainer Box"
     },
     "49566546755752": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Japanese Triple Beat Booster Box (sv1a)"
     },
     "49566547378344": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: Sword & Shield Base Set Booster Pack"
     },
     "49566548132008": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: Sword & Shield Darkness Ablaze Booster Pack"
     },
     "49566548164776": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 104.99,
       "title": "Pokemon: Japanese Violet ex Booster Box (sv1V)"
     },
     "49566548721832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Sword & Shield Lost Origin Elite Trainer Box"
     },
     "49566548787368": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 62.99,
       "title": "Pokemon: Scarlet & Violet Twilight Masquerade Build & Battle Kit (SV06)"
     },
     "49566550327464": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Sword & Shield: Astral Radiance Booster Pack"
     },
     "49566550982824": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "Pokemon: Sword & Shield Brilliant Stars Booster Pack"
     },
     "49566551539880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 174.99,
       "title": "Pokemon: Sword & Shield: Astral Radiance Elite Trainer Box"
     },
     "49566551605416": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Sword & Shield Vivid Voltage Booster Pack"
     },
     "49566552228008": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.99,
       "title": "Pokemon: Japanese Triple Beat Booster Pack (sv1a)"
     },
     "49566552785064": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 15.99,
       "title": "Pokemon: Sword & Shield Silver Tempest Booster Pack"
     },
     "49566552817832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Sword & Shield: Lost Origin Booster Pack"
     },
     "49566554030248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Scarlet & Violet Temporal Forces Booster Pack (SV05)"
     },
     "49566554620072": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Sword & Shield: Rebel Clash Booster Pack"
     },
     "49566555340968": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 289.99,
       "title": "Pokemon: Sword & Shield: Battle Styles Booster Box"
     },
     "49566556553384": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 284.99,
       "title": "Pokemon: Japanese VStar Universe Booster Box (s12a)"
     },
     "49566556618920": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Sword & Shield Fusion Strike Booster Pack"
     },
     "49566557175976": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 124.99,
       "title": "Pokemon: Japanese Wild Force Booster Box (sv5K)"
     },
     "49566557241512": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Violet ex Booster Pack (sv1V)"
     },
     "49566558388392": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Scarlet & Violet Temporal Forces Booster Box (SV05)"
     },
     "49566558421160": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 309.99,
       "title": "Pokemon: Japanese VMAX Climax Booster Box (s8b)"
     },
     "49567865012392": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Ultra Pro: Elite Series: Pikachu Alcove Flip Deck Box for Pokémon"
     },
     "49567961841832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Ultra Pro: Galar Alcove Click Deck Box for Pokemon"
     },
     "49567969116328": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 41.99,
       "title": "Ultra Pro: Sinnoh Alcove Click Deck Box for Pokemon"
     },
     "49567971705000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Ultra Pro: Kanto Alcove Click Deck Box for Pokemon"
     },
     "49567980159144": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.0,
       "title": "Pokemon: Crown Zenith Playmat"
     },
     "49613875118248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Booster Pack"
     },
     "49644012044456": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Night Wanderer Booster Pack (sv6a)"
     },
     "49644217663656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "Pokemon: Japanese 151 Booster Pack (sv2a)"
     },
     "49644289097896": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Wild Force Booster Pack (sv5K)"
     },
     "49644419317928": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 829.99,
       "title": "Pokemon: Sword & Shield: Lost Origin Booster Box"
     },
     "49644533940392": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 32.99,
       "title": "Pokemon: Paradox Destinies Tin (Random)"
     },
     "49646775402664": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 224.99,
       "title": "Pokemon: Crown Zenith Premium Figure Collection  (Random)"
     },
     "49657277087912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "Pokemon: Japanese Shiny Treasures Booster Pack (sv4A)"
     },
     "49657322766504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Japanese Shiny Star V Booster Pack (s4a)"
     },
     "49657467207848": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "One Piece TCG: Two Legends Booster Pack [OP-08]"
     },
     "49657623216296": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 36.99,
       "title": "One Piece TCG: Memorial Collection Extra Booster Pack (EB-01)"
     },
     "49657849741480": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Scarlet & Violet Stellar Crown Booster Pack"
     },
     "49718516056232": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Scarlet & Violet Obsidian Flames Booster Bundle"
     },
     "49718584737960": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Sword & Shield: Battle Styles Elite Trainer Box (Rapid Strike Urshifu)"
     },
     "49718800679080": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 659.99,
       "title": "Pokemon: Sword & Shield Brilliant Stars Booster Box"
     },
     "49718823977128": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 389.99,
       "title": "Pokemon: Sword & Shield: Darkness Ablaze Booster Box"
     },
     "49809459740840": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 529.99,
       "title": "Pokemon: Scarlet & Violet Paldea Evolved Booster Box"
     },
     "49810845958312": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Japanese Paradise Dragona Booster Box (sv7a)"
     },
     "49810846843048": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.99,
       "title": "Pokemon: Japanese Paradise Dragona Booster Pack (sv7a)"
     },
     "49847022977192": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Arceus V Figure Collection"
     },
     "49847279386792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 124.99,
       "title": "One Piece TCG: Japanese 500 Years in the Future Booster Box [OP-07]"
     },
     "49847631151272": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Origin Forme Dialga VStar Premium Collection"
     },
     "49847652450472": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Origin Forme Palkia VStar Premium Collection"
     },
     "49848082989224": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Crown Zenith Sea & Sky Premium Collection"
     },
     "49928620802216": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Charizard ex Super Premium Collector Box"
     },
     "49930769760424": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 22.99,
       "title": "Pokemon: Champion's Path Booster Pack"
     },
     "50013163290792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Paldea Adventure Chest"
     },
     "50064713482408": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Scarlet & Violet 151 Mini Tin (Random)"
     },
     "50101235056808": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Q4 2024 Poke Ball Tin (Random)"
     },
     "50195999719592": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 289.99,
       "title": "Pokemon: Japanese Supercharged Breaker Booster Box (sv8)"
     },
     "50196000309416": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 10.99,
       "title": "Pokemon: Japanese Supercharged Breaker Booster Pack (sv8)"
     },
     "50232511791272": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: Scarlet & Violet Shrouded Fable Booster Pack"
     },
     "50232555208872": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 16.99,
       "title": "Pokemon: Shining Fates Booster Pack"
     },
     "50313296511144": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Booster Box"
     },
     "50313320202408": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Booster Bundle"
     },
     "50313323970728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Elite Trainer Box"
     },
     "50327838195880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Build & Battle Kit"
     },
     "50365022503080": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 949.99,
       "title": "One Piece TCG: The Best - Premium Booster Box [PRB-01]"
     },
     "50408274722984": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1399.99,
       "title": "Pokemon: Celebrations Ultra-Premium Collection"
     },
     "50469022924968": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "One Piece TCG: Soundloader V1 - Monkey.D.Luffy"
     },
     "50469036196008": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "One Piece TCG: Soundloader V2 - Enel"
     },
     "50469132861608": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 114.99,
       "title": "Pokemon: Scarlet & Violet Paldea Evolved Booster Bundle"
     },
     "50523542978728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 279.99,
       "title": "Pokemon: Terapagos ex Ultra-Premium Collection"
     },
     "50583977623720": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Scarlet & Violet Twilight Masquerade Booster Pack (SV06)"
     },
     "50584141267112": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Sword & Shield: Chilling Reign Elite Trainer Box (Shadow Rider)"
     },
     "50584176165032": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 374.99,
       "title": "Pokemon: Crown Zenith Elite Trainer Box"
     },
     "50589796925608": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 134.99,
       "title": "One Piece TCG: Japanese Royal Bloodline Booster Box [OP-10]"
     },
     "50710597992616": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Japanese VStar Universe Booster Pack (s12a)"
     },
     "50737751392424": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 209.99,
       "title": "Pokemon: Celebrations Lance's Charizard V Tin"
     },
     "50761942171816": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "One Piece TCG: Emperors in the New World Booster Box [OP-09]"
     },
     "50761980051624": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Japanese Terastal Festival Booster Box (SV8a)"
     },
     "50769694097576": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Booster Pack"
     },
     "50883226009768": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Scarlet & Violet 151 Booster Pack"
     },
     "51120890904744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Binder Collection"
     },
     "51120892444840": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 177.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Elite Trainer Box"
     },
     "51120892543144": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Poster Collection"
     },
     "51120893264040": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Tech Sticker Collection (Random)"
     },
     "51146944053416": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 13.5,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Booster Pack"
     },
     "51227868168360": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1399.99,
       "title": "Pokemon: Scarlet & Violet: 151 Elite Trainer Box Pokemon Center Exclusive"
     },
     "51228110422184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Cyber Judge Booster Pack (sv5m)"
     },
     "51229552148648": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 96.99,
       "title": "Pokemon: Japanese Battle Partners Booster Box (sv9) (No Promo)"
     },
     "51229584883880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Battle Partners Booster Pack (sv9)"
     },
     "51262572789928": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: 151 KOREAN Booster Box (sv2a)"
     },
     "51262576132264": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 224.99,
       "title": "Pokemon: Eevee Heroes KOREAN Booster Box (s6a)"
     },
     "51262577377448": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Eevee Heroes KOREAN Booster Pack (s6a)"
     },
     "51262578032808": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 101.99,
       "title": "Pokemon: Shiny Treasures ex KOREAN Booster Box (sv4a)"
     },
     "51262579966120": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 94.99,
       "title": "Pokemon: Terastal Festival KOREAN Booster Box (sv8a)"
     },
     "51262581899432": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: VStar Universe KOREAN Booster Box (s12a)"
     },
     "51274145595560": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Galar Pals Mini Tins (Random)"
     },
     "51274346922152": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: First Partner Collector's Binder"
     },
     "51274480615592": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "Pokemon: Sun & Moon Burning Shadows Elite Trainer Box"
     },
     "51274560635048": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Celebrations Special Collection [Pikachu V-Union]"
     },
     "51274586357928": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Champion's Path Elite Trainer Box"
     },
     "51274680467624": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Crimson Invasion Elite Trainer Box"
     },
     "51274740957352": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 319.99,
       "title": "Pokemon: Pikachu & Zekrom GX Premium Collection"
     },
     "51282290802856": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 529.99,
       "title": "Pokemon: Sword & Shield Chilling Reign Booster Box"
     },
     "51282303385768": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 539.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon]"
     },
     "51282343231656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Elite Trainer Box [Leafeon/Umbreon/Jolteon/Flareon]"
     },
     "51284145012904": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 269.99,
       "title": "Pokemon: Vmax Dragons Premium Collection"
     },
     "51284165886120": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: XY: Evolutions Booster Pack"
     },
     "51284219461800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "Pokemon: Sword & Shield Elite Trainer Box Plus (Zamazenta)"
     },
     "51297729740968": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "Pokemon: Japanese Terastal Festival Booster Pack (Sv8a)"
     },
     "51354633896104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 189.99,
       "title": "Pokemon: Japanese Dark Phantasma Booster Box (S10a)"
     },
     "51354650345640": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Japanese Dark Phantasma Booster Pack (s10a)"
     },
     "51354697531560": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Japanese Jet Black Spirit Booster Box (s6K)"
     },
     "51354726727848": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Jet Black Geist Booster Pack (s6K)"
     },
     "51354837156008": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 229.99,
       "title": "Pokemon: Japanese Pokemon GO Booster Box (S10b)"
     },
     "51355094483112": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Japanese Silver Lance Booster Box (s6H)"
     },
     "51355096744104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Silver Lance Booster Pack (s6H)"
     },
     "51355153727656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 104.99,
       "title": "Pokemon: Japanese Space Juggler Booster Box (s10P)"
     },
     "51355154350248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Space Juggler Booster Pack (s10P)"
     },
     "51355284766888": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1099.99,
       "title": "Pokemon: Sword & Shield Fusion Strike Booster Box"
     },
     "51355458404520": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Japanese Time Gazer Booster Box (s10D)"
     },
     "51355461812392": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Japanese Time Gazer Booster Pack (s10D)"
     },
     "51384616157352": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "One Piece TCG: Japanese Anime 25th Anniversary Collection Booster Box [EB-02]"
     },
     "51395273293992": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 419.99,
       "title": "Pokemon: Scarlet & Violet 151 Blooming Waters Box"
     },
     "51395305832616": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Mini Tins *Random*"
     },
     "51395316678824": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Surprise Box"
     },
     "51395612737704": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 239.99,
       "title": "Pokemon: Prismatic Evolutions Mini Tin Display Box"
     },
     "51397637603496": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 559.99,
       "title": "Pokemon: Hidden Fates Elite Trainer Box"
     },
     "51454606934184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 23.99,
       "title": "Pokemon: XY Steam Siege Booster Pack"
     },
     "51479994138792": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Blue Sky Stream Korean Booster Box (s7R)"
     },
     "51480052400296": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Fusion Arts Korean Booster Box"
     },
     "51510121398440": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "Pokemon: XY BREAKthrough Booster Pack"
     },
     "51510172942504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "Pokemon: Celebrations Booster Pack"
     },
     "51511732273320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 649.99,
       "title": "Pokemon: Scarlet & Violet: 151 Elite Trainer Box"
     },
     "51511866589352": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 619.99,
       "title": "Pokemon: Scarlet & Violet Paldea Evolved Elite Trainer Box Pokemon Center Exclusive"
     },
     "51571848052904": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Sun & Moon Crimson Invasion Booster Pack"
     },
     "51571997343912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "Pokemon: Sun & Moon Forbidden Light Booster Pack"
     },
     "51572031291560": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Sun & Moon Guardians Rising Booster Pack"
     },
     "51572082245800": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Scarlet & Violet 151 Alakazam ex Collection"
     },
     "51572116717736": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Scarlet & Violet 151 Zapdos ex Collection"
     },
     "51572150501544": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 32.99,
       "title": "Pokemon: Sun & Moon Burning Shadows Booster Pack"
     },
     "51572213350568": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: Sun & Moon Cosmic Eclipse Booster Pack"
     },
     "51572241268904": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 47.99,
       "title": "Pokemon: Sun & Moon Ultra Prism Booster Pack"
     },
     "51572263649448": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 23.99,
       "title": "Pokemon: Sun and Moon Base Booster Pack"
     },
     "51572299563176": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Sword & Shield Battle Styles Booster Pack"
     },
     "51572373225640": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "Pokemon: Sun & Moon Unbroken Bonds Booster Pack"
     },
     "51673269698728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Combined Powers Premium Collection"
     },
     "51685550260392": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "Pokemon: Sword & Shield Crown Zenith Shiny Zacian Premium Figure Collection"
     },
     "51685674713256": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 349.99,
       "title": "Pokemon: Sword & Shield Crown Zenith Shiny Zamazenta Premium Figure Collection"
     },
     "51721586409640": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Booster Bundle (SV8.5)"
     },
     "51762317394088": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 214.99,
       "title": "One Piece TCG: Japanese A Fist of Divine Speed Booster Box [OP-11]"
     },
     "51810655666344": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Japanese Heat Wave Arena Booster Box (sv9a)"
     },
     "51810656288936": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 6.99,
       "title": "Pokemon: Japanese Heat Wave Arena Booster Pack (sv9a)"
     },
     "51857366319272": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "Pokemon: Kanto Friends Mini Tin (Random)"
     },
     "51872985710760": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "One Piece TCG: Japanese The Best Premium Booster Box [PRB-01]"
     },
     "51882843111592": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 324.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Enhanced Booster Box"
     },
     "51883090313384": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Booster Bundle (SV09)"
     },
     "51894863659176": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "One Piece TCG: Royal Blood Booster Box [OP-10]"
     },
     "51894939713704": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "One Piece TCG: Black Sabo Sleeves (70ct)"
     },
     "51894948790440": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Captain Kid Sleeves"
     },
     "51895005479080": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "One Piece TCG: Sniper King Sleeves"
     },
     "51895667982504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "One Piece TCG: Ex Gear 5 Starter Deck [ST-21]"
     },
     "51896178147496": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Pokemon Center Elite Trainer Box"
     },
     "51944899412136": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Booster Pack"
     },
     "51976915878056": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Hop's Zacian ex Box"
     },
     "51977268166824": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 20.99,
       "title": "Pokemon: Japanese Eevee Heroes Booster Pack (s6a)"
     },
     "52022135980200": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.99,
       "title": "Pokemon: Blue Sky Stream Korean Booster Pack (s7R)"
     },
     "52100811358376": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 189.99,
       "title": "Pokemon: Celebrations Dark Sylveon V Box Set"
     },
     "52100899340456": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: 151 Binder Collection"
     },
     "52101092212904": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Celebrations Deluxe Pin Collection"
     },
     "52101260017832": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Celebrations Premium Figure Collection [Pikachu VMax]"
     },
     "52101691637928": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Crown Zenith Special Collection [Unown V & Lugia V]"
     },
     "52117654044840": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 324.99,
       "title": "Pokemon: Eevee Evolutions Premium Collection"
     },
     "52117767028904": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 524.99,
       "title": "Pokemon: Sword & Shield Fusion Strike Pokemon Center Elite Trainer Box"
     },
     "52117994406056": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Hidden Fates Booster Pack"
     },
     "52118024093864": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Legendary Warriors Premium Collection"
     },
     "52118814884008": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Pokemon Go Pin Collection [Bulbasaur]"
     },
     "52118920003752": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Pokemon Go Pin Collection [Charmander]"
     },
     "52118948937896": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Pokemon Go Pin Collection [Squirtle]"
     },
     "52119078895784": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Pokemon Go Tin [Pikachu]"
     },
     "52119191945384": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Reshiram & Charizard GX Premium Collection"
     },
     "52126607376552": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Pokemon Center Elite Trainer Box [Iron Valiant]"
     },
     "52126634344616": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 259.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Pokemon Center Elite Trainer Box [Roaring Moon]"
     },
     "52126710661288": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 629.99,
       "title": "Pokemon: Scarlet & Violet Paldean Fates Pokemon Center Elite Trainer Box"
     },
     "52126910644392": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 230.0,
       "title": "Pokemon: Scarlet & Violet Shrouded Fable Greninja ex Special Illustration Collection"
     },
     "52126938333352": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet Shrouded Fable Kingdra ex Special Illustration Collection"
     },
     "52251272478888": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 349.99,
       "title": "Pokemon: Gengar Ex Box [See Pictures for Condition]"
     },
     "52251718090920": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Sword & Shield Rebel Clash Booster Box"
     },
     "52251744108712": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 349.99,
       "title": "Pokemon: Sword & Shield Vivid Voltage Booster Box"
     },
     "52251795882152": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 569.99,
       "title": "Pokemon: Sword & Shield Silver Tempest Booster Box"
     },
     "52251833335976": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Sword & Shield Vivid Voltage Elite Trainer Box"
     },
     "52308494254248": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 229.99,
       "title": "Pokemon: Japanese Glory of Team Rocket Booster Box (SV10)"
     },
     "52308494844072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "Pokemon: Japanese Glory of Team Rocket Booster Pack"
     },
     "52319411699880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Scarlet & Violet Temporal Forces Pokemon Center Elite Trainer Box [Walking Wake]"
     },
     "52319524913320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Scarlet & Violet Shrouded Fable Pokemon Center Elite Trainer Box"
     },
     "52366610137256": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 71.99,
       "title": "Pokemon: Sun & Moon Unified Minds Booster Pack"
     },
     "52366772437160": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 339.99,
       "title": "Pokemon: Sun & Moon Team Up Booster Pack"
     },
     "52369547591848": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "One Piece TCG: Illustration Box Vol. 1"
     },
     "52369600381096": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "One Piece TCG: Illustration Box Vol. 2"
     },
     "52369947230376": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Celebrations Pokemon Center Elite Trainer Box"
     },
     "52370137448616": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 209.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Pokemon Center Elite Trainer Box"
     },
     "52435318833320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "One Piece TCG:  Anime 25th Anniversary Collection Extra Booster Box (EB-02)"
     },
     "52568036180136": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 279.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Super Premium Collection"
     },
     "52611593109672": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1.99,
       "title": "Pokemon: Heat Wave Arena KOREAN Booster Pack"
     },
     "52653806649512": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 549.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Booster Box (SV10)"
     },
     "52653807829160": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 76.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Booster Bundle (SV10)"
     },
     "52653809139880": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Elite Trainer Box"
     },
     "52712752808104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 639.99,
       "title": "One Piece TCG: A Fist of Divine Speed Booster Box [OP-11]"
     },
     "52737007976616": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Booster Pack (SV10)"
     },
     "52820215005352": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 31.99,
       "title": "One Piece TCG: Green - Jewelry Bonney Starter Deck [ST-24]"
     },
     "52820363051176": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Black - Marshall.D.Teach Starter Deck [ST-27]"
     },
     "52824454496424": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 254.99,
       "title": "Pokemon: Japanese Black Bolt Booster Box (sv11B)"
     },
     "52824499814568": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 13.99,
       "title": "Pokemon: Japanese Black Bolt Booster Pack (sv11B)"
     },
     "52824511053992": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 224.99,
       "title": "Pokemon: Japanese White Flare Booster Box (sv11W)"
     },
     "52824512135336": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Japanese White Flare Booster Pack (sv11W)"
     },
     "52938328998056": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "One Piece TCG: Crocodile 70ct Sleeves"
     },
     "52938460758184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1599.99,
       "title": "One Piece TCG: Super Prerelease Starter Deck 1: Straw Hat Crew *READ DESCRIPTION*"
     },
     "52938511253672": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "One Piece TCG: Super Prerelease Starter Deck 4: Animal Kingdom Pirates"
     },
     "52938758619304": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Sword & Shield Base Set Elite Trainer Box [Zamazenta]"
     },
     "52948679426216": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Celebrations Collection Lance's Charizard V"
     },
     "53031197049000": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Sleeved Booster Pack (SV10)"
     },
     "53058260205736": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 899.99,
       "title": "One Piece TCG: Premium Card Collection - 25th Edition"
     },
     "53058346680488": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "One Piece TCG: Premium Card Collection - Best Selection Vol. 1"
     },
     "53058425094312": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "One Piece TCG: Premium Card Collection - Film Red"
     },
     "53058455470248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "One Piece TCG: Premium Card Collection - Live Action Edition"
     },
     "53067192467624": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "Pokemon: Team Rocket's Mewtwo ex Box"
     },
     "53067236769960": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Charizard ex Special Collection Box Set"
     },
     "53154459943080": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: 2024 Pokémon World Championships Deck (Fernando Cifuentes, Crushing Thorn)"
     },
     "53202261606568": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 209.99,
       "title": "Pokemon: Crown Zenith Pikachu Vmax Premium Collection"
     },
     "53221740544168": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Scarlet & Violet Black Bolt Binder Collection"
     },
     "53221783830696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Scarlet & Violet Unova Mini Tin (Random)"
     },
     "53221783896232": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Unova Poster Collection"
     },
     "53224015462568": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Scarlet & Violet White Flare Binder Collection"
     },
     "53224160592040": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 16.99,
       "title": "Pokemon: Scarlet & Violet White Flare Booster Pack"
     },
     "53224169767080": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 15.99,
       "title": "Pokemon: Scarlet & Violet Black Bolt Booster Pack"
     },
     "53224344879272": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: Masks of Ogerpon Premium Collection Box"
     },
     "53226806640808": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: 2014 EX Power Trio Tin [Venusaur]"
     },
     "53226819256488": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1999.99,
       "title": "Pokemon: Sun & Moon Celestial Storm Elite Trainer Box"
     },
     "53231110619304": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 23.99,
       "title": "Pokemon: Scarlet & Violet Journey Together 3-Pack Blister Pack (Random)"
     },
     "53234095030440": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Evolution Celebration Tin [Glaceon]"
     },
     "53234102370472": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Evolution Celebration Tin [Leafeon]"
     },
     "53234104271016": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Evolution Celebration Tin [Sylveon]"
     },
     "53234151456936": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 449.99,
       "title": "Pokemon: Hidden Fates Poke Ball Collection [Shiny Metagross]"
     },
     "53234160042152": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Hidden Fates Poke Ball Collection [Shiny Zoroark]"
     },
     "53234172395688": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1199.99,
       "title": "Pokemon: Hidden Fates Ultra-Premium Collection"
     },
     "53234181570728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Shiny Kalos Tin [Xerneas Ex]"
     },
     "53234200936616": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Shiny Kalos Tin [Yveltal Ex]"
     },
     "53234412978344": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: 2015 Powers Beyond Hoopa EX Tin"
     },
     "53234590253224": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 424.99,
       "title": "Pokemon: Sword & Shield: Zacian & Zamazenta Ultra Premium Collection"
     },
     "53286732759208": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 41.99,
       "title": "Pokemon: Scarlet & Violet Black Bolt Tech Sticker Collection"
     },
     "53286791577768": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Scarlet & Violet White Flare Tech Sticker Collection"
     },
     "53286838141096": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Unova Victini Illustration Collection"
     },
     "53294745157800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 314.99,
       "title": "Pokemon: Flareon VMAX Premium Collection"
     },
     "53332797128872": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 113.99,
       "title": "Pokemon: Japanese Mega Brave Booster Box (m1L)"
     },
     "53332799094952": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 104.99,
       "title": "Pokemon: Japanese Mega Symphonia Booster Box (M1s)"
     },
     "53346107588776": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 279.99,
       "title": "One Piece TCG: Japanese Legacy of the Master Booster Box [OP-12]"
     },
     "53346118893736": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "One Piece TCG: Japanese The Best 2 Premium Booster Box [PRB-02]"
     },
     "53365509390504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 16.99,
       "title": "One Piece TCG: Straw Hat Crew Sleeves (70ct)"
     },
     "53367344464040": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 18.99,
       "title": "Pokemon: Sword & Shield Brilliant Stars Sleeved Booster Pack"
     },
     "53401886458024": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Mega Brave Booster Pack"
     },
     "53401900384424": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Mega Symphonia Japanese Booster Pack"
     },
     "53410333229224": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2074.99,
       "title": "Pokemon: Scarlet & Violet 151 Booster Bundle Sealed Display"
     },
     "53410434875560": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Shining Fates Mad Party Pin Collection [Galarian Mr. Rime]"
     },
     "53410455224488": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Shining Fates Premium Collection Box [Shiny Crobat]"
     },
     "53410614542504": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 409.99,
       "title": "Pokemon: Arceus VSTAR Ultra-Premium Collection"
     },
     "53410732769448": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 259.99,
       "title": "Pokemon: Astral Radiance Pokemon Center Elite Trainer Box"
     },
     "53419063345320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 124.99,
       "title": "Pokemon: Blastoise VMAX Battle Box"
     },
     "53419083038888": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 239.99,
       "title": "Pokemon: Celebrations Collectors Chest"
     },
     "53419093885096": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Celebrations Lance's Charizard V International Tin"
     },
     "53419272929448": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 639.99,
       "title": "Pokemon: Crown Zenith Elite Trainer Box Pokemon Center Exclusive"
     },
     "53419318902952": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 21.99,
       "title": "Pokemon: Detective Pikachu 2-Card Booster Pack"
     },
     "53419641602216": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2199.99,
       "title": "Pokemon: Eevee Heroes Gym Collection Box"
     },
     "53419691933864": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Eternatus VMAX Premium Collection"
     },
     "53419897454760": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Jolteon VMAX Premium Collection"
     },
     "53419911250088": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: Kleavor VStar Special Collection Box"
     },
     "53420057362600": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "Pokemon: Lucario VStar Special Collection Box"
     },
     "53420094914728": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Marnie Premium Tournament Collection"
     },
     "53422200389800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1779.9,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Elite Trainer Box Sealed Case"
     },
     "53422743322792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Scarlet & Violet Obsidian Flames 3-Pack Blister [Eevee]"
     },
     "53422854504616": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "Pokemon: Scarlet & Violet Stellar Crown 3-Pack Blister Pack [Random]"
     },
     "53422964146344": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Scarlet & Violet Surging Sparks Pokemon Center Elite Trainer Box"
     },
     "53423131984040": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Sword & Shield Base Set Elite Trainer Box [Zacian]"
     },
     "53431052566696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Sword & Shield Chilling Reign Blister Pack [Morpeko]"
     },
     "53431302422696": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2599.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Booster Box"
     },
     "53431976788136": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Sword & Shield Lost Origin 3-Pack Blister [Regigigas]"
     },
     "53431992582312": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Sword & Shield Lost Origin 3-Pack Blister [Weavile]"
     },
     "53432030789800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 449.99,
       "title": "Pokemon: Sword & Shield: Astral Radiance Booster Box"
     },
     "53432218550440": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 999.99,
       "title": "Pokemon: V Strikers Tin [Empoleon]"
     },
     "53432242569384": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 364.99,
       "title": "Pokemon: Vaporeon VMAX Premium Collection"
     },
     "53432251646120": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Venusaur VMAX Battle Box"
     },
     "53454858289320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "One Piece TCG: Legacy of the Master Booster Box (OP-12)"
     },
     "53454961017000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 77.99,
       "title": "Pokemon: Black Bolt KOREAN Booster Box"
     },
     "53454972321960": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 77.99,
       "title": "Pokemon: White Flare KOREAN Booster Box"
     },
     "53491732676776": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Deoxys VMax & VStar Battle Box"
     },
     "53492322140328": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2799.99,
       "title": "Pokemon: XY: Evolutions Booster Box"
     },
     "53531842511016": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 749.99,
       "title": "Pokemon: Scarlet & Violet Destined Rivals Build & Battle 10ct Display Box"
     },
     "53541669535912": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "One Piece TCG: Illustration Box V3"
     },
     "53543153434792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: 2025 Holiday Calendar"
     },
     "53544148140200": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "One Piece: Mystery Series 4 Figpin"
     },
     "53577426206888": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "One Piece TCG: Japanese Carrying On His Will Booster Box [OP-13]"
     },
     "53680488743080": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "One Piece TCG: Ace & Newgate Starter Deck [ST-22]"
     },
     "53688600920232": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Team Rocket Tin (Random)"
     },
     "53755391312040": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 57.99,
       "title": "Pokemon: Mega Evolution Build & Battle Kit"
     },
     "53856474267816": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 329.99,
       "title": "Pokemon: Mega Evolution Base Set Enhanced Booster Box (With Box Topper) (ME01)"
     },
     "53857331839144": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Mega Evolution Base Set Booster Bundle (ME01)"
     },
     "53857451671720": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Mega Evolution 3-Pack Blister (Random)"
     },
     "53858872918184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Mega Evolution Base Set Booster Pack (ME01)"
     },
     "53859000713384": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Mega Heroes Mini Tin (Random)"
     },
     "53950262411432": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: XY Primal Clash Sleeved Booster Pack (Random)"
     },
     "53950291837096": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: XY Roaring Skies Sleeved Booster Pack (Random)"
     },
     "53956981751976": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: McDonald's 2024 Match & Battle Pack"
     },
     "53969856594088": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Japanese Inferno X Booster Box (M2)"
     },
     "53970596561064": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.49,
       "title": "Pokemon: Inferno X Japanese Booster Pack (M2)"
     },
     "53972773241000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "Pokemon: Mega Evolution Base Set Elite Trainer Box (Random) (ME01)"
     },
     "53973086109864": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "One Piece TCG: Learn Together Deck (LT-01)"
     },
     "53981390340264": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "One Piece TCG: The Best Vol.2 Premium Booster Box [PRB-02]"
     },
     "54002750914728": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Lucario ex & Tyranitar ex Premium Collection"
     },
     "54067337593000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "One Piece TCG: Pillars of Strength Booster Box [OP-03]"
     },
     "54067533906088": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1999.99,
       "title": "Pokemon: 5th Anniversary Box Set Chinese Hong Kong Sealed Exclusive"
     },
     "54067742376104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "Pokemon: XY Breakpoint Sleeved Booster Pack"
     },
     "54076859318440": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Journey Together REGULAR Booster Box"
     },
     "54243454615720": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Scarlet & Violet 151 Mini Tin Display of 10"
     },
     "54255417295016": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 57.99,
       "title": "Pokemon: Mega Evolution Phantasmal Flames Build & Battle Kit (ME02)"
     },
     "54255488827560": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 459.99,
       "title": "Pokemon: Mega Evolution Phantasmal Flames Booster Box (ME02)"
     },
     "54255729344680": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 629.99,
       "title": "One Piece TCG: Paramount War Booster Box [OP-02]"
     },
     "54255876112552": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 549.99,
       "title": "Pokemon: Destined Rivals Pokemon Center Elite Trainer Box"
     },
     "54255950758056": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 324.99,
       "title": "Pokemon: Scarlet & Violet Black Bolt Pokemon Center Elite Trainer Box"
     },
     "54311534198952": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "One Piece TCG: Japanese Heroines Edition Booster Box [EB-03]"
     },
     "54312030470312": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 439.99,
       "title": "One Piece TCG: Carrying On His Will Booster Box (OP-13)"
     },
     "54446594556072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 84.99,
       "title": "Pokemon: Phantasmal Flames Booster Bundle"
     },
     "54446618116264": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 154.99,
       "title": "Pokemon: Mega Evolution Phantasmal Flames Elite Trainer Box (ME02)"
     },
     "54465411580072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "Pokemon: Trainer's Toolkit 2025"
     },
     "54467218735272": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1799.99,
       "title": "Pokemon: Paldean Fates Booster Bundle Sealed Display"
     },
     "54480973594792": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1649.99,
       "title": "Pokemon: Brushfire Theme Deck [Gold Stripe]"
     },
     "54482071945384": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 289.99,
       "title": "Pokemon: Mega Charizard X ex Ultra Premium Collection"
     },
     "54534863913128": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Gyarados ex Premium Collection"
     },
     "54534883868840": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 239.99,
       "title": "Pokemon: Mega Evolution Pokemon Center Elite Trainer Box [Gardevoir]"
     },
     "54545374576808": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119999.99,
       "title": "One Piece TCG: Romance Dawn [OPO1][Wave 1] Booster Box Case *See Pictures For Condition*"
     },
     "54568345043112": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Venusaur ex & Blastoise ex Premium Collection"
     },
     "54582302441640": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Japanese Tohoku Box"
     },
     "54582322004136": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 189.99,
       "title": "Pokemon: Japanese Hiroshima Box"
     },
     "54582341370024": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Japanese Fukuoka Box"
     },
     "54612095140008": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 279.99,
       "title": "Pokemon: Scarlet & Violet White Flare Pokemon Center Elite Trainer Box"
     },
     "54731079123112": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 134.99,
       "title": "Pokemon: Japanese Mega Dream Booster Box (M2a)"
     },
     "54731093639336": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Japanese Mega Dream Booster Pack"
     },
     "54731105403048": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "Pokemon: Mega Venusaur ex Premium Collection"
     },
     "54741806612648": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "One Piece TCG: Japanese The Azure Sea's Seven Booster Box [OP-14]"
     },
     "54741957279912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 23.99,
       "title": "Pokemon: Pokeball Q4 2025 Tin (Random)"
     },
     "54744445288616": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Phantasmal Flames Build & Battle 10ct Display Box"
     },
     "54744478122152": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 10.99,
       "title": "Pokemon: Phantasmal Flames Booster Pack"
     },
     "54757219795112": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Scarlet & Violet Prismatic Evolutions Elite Trainer Box *$40 Price Tag Printed, See Pictures*"
     },
     "54757406671016": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 42.99,
       "title": "Pokemon: Fall 2025 Collector Chest"
     },
     "54836084342952": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 474.99,
       "title": "Pokemon: XY: Evolutions Elite Trainer Box (Blastoise) #1 *See Pictures for Details*"
     },
     "54837264973992": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: Mega Gengar ex Mega Battle Deck"
     },
     "54888966652072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: Mega Evolution Build & Battle 10ct Display Box"
     },
     "54891809374376": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "One Piece TCG: Japanese Two Legends Booster Box [OP-08]"
     },
     "54947862642856": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "One Piece TCG: Carrying On His Will Booster Pack [OP-13]"
     },
     "54947914875048": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Trick or Trade BOOster Bundle 2023"
     },
     "55022965162152": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: McDonald's 2021 Promo Pack"
     },
     "55022999732392": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: McDonald's 2022 Match & Battle Pack"
     },
     "55111244578984": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 254.99,
       "title": "One Piece TCG: The Azure Sea's Seven Booster Box [OP-14]"
     },
     "55181463781544": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon 2021 Trainers Toolkit"
     },
     "55181467746472": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Trainer's Toolkit 2020"
     },
     "55181470007464": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2599.99,
       "title": "Pokemon: Premium Trainers XY Collection"
     },
     "55187560202408": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119.99,
       "title": "One Piece TCG: Illustration Box Vol. 5 (IB-05)"
     },
     "55187575799976": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "One Piece TCG: Illustration Box Vol. 6 (IB-06)"
     },
     "55191870996648": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 32.99,
       "title": "One Piece TCG: Azure Sea's Seven Double Pack [OP-14]"
     },
     "55220948664488": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "One Piece TCG: Tin Pack Set Vol. 2 (Random)"
     },
     "55220990541992": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 41.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Tech Sticker Collection (Random)"
     },
     "55220992377000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Pokemon Day 2026 Collection Box"
     },
     "55223215718568": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: Japanese Nihil Zero Booster Box (M3)"
     },
     "55223684333736": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 13.99,
       "title": "Pokemon: Ascended Heroes Booster Pack (ME2.5)"
     },
     "55233120927912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 319.99,
       "title": "One Piece TCG: Extra Booster: Heroines Edition Booster Box (EB-03)"
     },
     "55233407058088": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "One Piece TCG: Japanese Emperors in the New World Booster Box (OP-09)"
     },
     "55235368059048": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Celebrations Collection Dark Sylveon V"
     },
     "55235382378664": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "Pokemon: Team Rocket's Moltres ex Ultra Premium Collection"
     },
     "55257574310056": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 539.99,
       "title": "One Piece TCG: Kingdoms of Intrigue Booster Box [OP-04]"
     },
     "55263391940776": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 399.99,
       "title": "Pokemon: Sword & Shield Fusion Strike Elite Trainer Box"
     },
     "55263818776744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119.99,
       "title": "Pokemon: XY Ancient Origins Booster Pack"
     },
     "55264146817192": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Shining Legends Booster Pack"
     },
     "55264205242536": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: V Heroes Tin [Sylveon V] [International Edition]"
     },
     "55264277168296": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 25.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes 2-Pack Blister (Random) (ME2.5)"
     },
     "55264282181800": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 183.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Elite Trainer Box (ME2.5)"
     },
     "55264290472104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Mini Tin (Random) (ME2.5)"
     },
     "55264302825640": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Mega Charizard Tin (Random)"
     },
     "55266134065320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: Chinese Gemstone Volume 3 Booster Box"
     },
     "55266158903464": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Chinese Sweet Dreams Sleeping Series Eeveelution Blind Box"
     },
     "55276471582888": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 112.99,
       "title": "One Piece TCG: Japanese Egghead Crisis Booster Box (EB-04)"
     },
     "55279292514472": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Collect 151 Slim Box - Surprise"
     },
     "55293900882088": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "One Piece TCG: Royal Blood Korean Booster Box (OP-10)"
     },
     "55309093601448": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Gemstones Volume 4 Booster Box"
     },
     "55309096616104": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Chinese Gemstones Volume 2 Booster Box"
     },
     "55309114704040": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Chinese 151 Vol.3 Surprise Chinese Jumbo Pack Booster Box"
     },
     "55309121880232": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "One Piece TCG: Korean Two Legends Booster Box (OPK-08)"
     },
     "55309127778472": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "One Piece TCG: Korean Kingdom of Plots Booster Box (OPK-04)"
     },
     "55309133349032": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "One Piece TCG: Korean Pillars of Strength Booster Box (OPK-03)"
     },
     "55309280477352": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Prismatic Evolutions Sam's Club Bundle [1 Bundle + 1 Surprise Box]"
     },
     "55309298172072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet Base Set Elite Trainer Box [Scarlet]"
     },
     "55309343326376": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet Base Set Elite Trainer Box [Violet]"
     },
     "55309354565800": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Trainers Rival Battle Deck [Marnie]"
     },
     "55311833923752": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "One Piece Chinese 2026 New Year Red Envelope - Sanji"
     },
     "55311836184744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "One Piece Japanese 3rd Anniversary Treasure Pack"
     },
     "55312153772200": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 111.99,
       "title": "Pokemon: Mega Dream KOREAN Booster Box"
     },
     "55321756631208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 68.99,
       "title": "Pokemon: Glory of Team Rocket KOREAN Booster Box"
     },
     "55321999016104": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 26.99,
       "title": "Pokemon: Chinese Card Display Gift Box *Random*"
     },
     "55321999343784": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "Pokemon: Chinese Blade Awakening Jumbo Booster Box (CSV7C)"
     },
     "55321999409320": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 47.99,
       "title": "Pokemon: Chinese Arcane Truth Jumbo Booster Box (CSV6C)"
     },
     "55322132316328": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 36.99,
       "title": "Pokemon: Chinese 2026 Lunar New Year Gift Box"
     },
     "55322136477864": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 52.99,
       "title": "Pokemon: Chinese Sword & Shield Brave Stars Jumbo Booster Box \"Lucario\" (CS5bC)"
     },
     "55322136707240": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Chinese Sword & Shield Brave Stars Jumbo Booster Box Typhlosion\" (CS5aC)"
     },
     "55322136838312": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Chinese Sword & Shield Brave Stars Jumbo Booster Pack \"Typhlosion\" (CS5aC)"
     },
     "55322151813288": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 209.99,
       "title": "Pokemon: Chinese Gemstone Badge Set Box"
     },
     "55322152403112": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119.99,
       "title": "Pokemon: Chinese Travel Journey Gift Box - Mew"
     },
     "55322153713832": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 119.99,
       "title": "Pokemon: Chinese Travel Journey Gift Box - Charizard"
     },
     "55322153910440": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese 151 Dream Figure Box *Random*"
     },
     "55323653210280": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 184.99,
       "title": "Pokemon: Mega Evolution Perfect Order Booster Box (ME03)"
     },
     "55323653439656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 33.99,
       "title": "Pokemon: Mega Evolution Perfect Order Build & Battle Kit (ME03)"
     },
@@ -3400,1498 +3400,1498 @@
     "55328152879272": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1049.99,
       "title": "Pokemon: Scarlet & Violet 151 Ultra-Premium Collection #1 *See Pictures for Details*"
     },
     "55328201572520": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 106.99,
       "title": "Pokemon: Japanese Ninja Spinner Booster Box (M4)"
     },
     "55328208453800": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3.99,
       "title": "Pokemon: Japanese Ninja Spinner Booster Pack (M4)"
     },
     "55328610582696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 3000.0,
       "title": "One Piece TCG: Super Prerelease Starter Deck Set (1-4)"
     },
     "55328965492904": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "One Piece TCG: Japanese Adventure on Kami's Island Booster Box (OP-15)"
     },
     "55336636055720": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Deluxe Pin Collection"
     },
     "55336658895016": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "Pokemon: First Partner Illustration Collection - Series 1"
     },
     "55336686092456": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 159.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Premium Poster Collection (Random)"
     },
     "55342752792744": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Chinese Reward Round Jumbo Booster Box (CSV4C)"
     },
     "55342939373736": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Reward Round Slim Booster Box (CSV4C)"
     },
     "55343067005096": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Chinese Dark Crystal Blaze Jumbo Booster Box (CSV5C)"
     },
     "55343093448872": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Dark Crystal Blaze Slim Booster Box (CSV5C)"
     },
     "55343135719592": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Arcane Truth Chinese Slim Booster Box (CSV6C)"
     },
     "55345479221416": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4399.99,
       "title": "Pokemon: Roaring Skies Booster Box"
     },
     "55345546035368": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Bright Fantasy Slim Booster Box (CSV8C)"
     },
     "55345546068136": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "Pokemon: Chinese Bright Fantasy Jumbo Booster Box (CSV8C)"
     },
     "55348210925736": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 829.99,
       "title": "Pokemon: Mega Evolution Perfect Order 144ct Sleeved Booster Case (ME03)"
     },
     "55348211024040": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 37.99,
       "title": "Pokemon: Mega Evolution Perfect Order Booster Bundle (ME03)"
     },
     "55348211089576": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Mega Evolution Perfect Order Elite Trainer Box (ME03)"
     },
     "55348365033640": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Greninja ex & Kingdra ex Special Collection"
     },
     "55348366803112": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Lugia & Latias ex Premium Collection"
     },
     "55354742210728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 94.99,
       "title": "Pokemon: Perfect Order Checklane Blister Inner Case (16ct)"
     },
     "55354747781288": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "Pokemon: Mega Evolution Perfect Order 3-Pack Blister (ME03)"
     },
     "55354755612840": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: 2026 Q1 Mini Portfolio (Phantasmal Flames)"
     },
     "55355081883816": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Mega Diancie ex Mega Battle Deck"
     },
     "55355977433256": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "One Piece TCG: The Best - Premium Booster Pack [PRB-01]"
     },
     "55356018622632": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Chinese Pikachu Cheek Rub Plush & Card Blind Box"
     },
     "55358581047464": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: Blastoise GX Premium Collection"
     },
     "55358706090152": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Chinese Scarlet & Violet Fearless Terastal Slim Booster Box"
     },
     "55358817697960": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 32.99,
       "title": "Pokemon: Chinese Scarlet & Violet Blade Awakening Slim Booster Box"
     },
     "55358830117032": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "Pokemon: Sword & Shield Brilliant Stars Blister (Eevee)"
     },
     "55358947131560": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: 2 Pack Blister [1 S&S Base, 1 Darkness Ablaze]"
     },
     "55359019057320": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 259.99,
       "title": "One Piece TCG Adventure on Kami's Island Booster Box (OP-15)"
     },
     "55362850521256": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5.99,
       "title": "Pokemon: Mega Evolution Perfect Order Sleeved Booster Pack"
     },
     "55366108709032": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4.99,
       "title": "Pokemon: Mega Evolution Perfect Order Booster Pack"
     },
     "55367661846696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Brook & Laboon Sleeves (70ct)"
     },
     "55367664763048": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Roronoa Zoro Sleeves (70ct)"
     },
     "55375383199912": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 499.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box (ME2.5)"
     },
     "55375442608296": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "One Piece TCG: Paramount War Chinese Booster Box (OPC-02)"
     },
     "55375460925608": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "One Piece TCG: Romance Dawn Chinese Booster Box (OPC-01)"
     },
     "55375549726888": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Chinese Yuan Mew Nine Colors Gathering Slim Booster Box (CS4bC)"
     },
     "55375590359208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Chinese Peng Umbreon Nine Colors Gathering Slim Booster Box (CS4aC)"
     },
     "55375767240872": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1949.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Elite Trainer Box (ME2.5) - Sealed Case of 10"
     },
     "55378467618984": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "One Piece TCG: Double Pack Set Vol. 10 (DP-10)"
     },
     "55384060526760": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 16.99,
       "title": "Pokemon: Chinese Card Display Set Gift Box - Eevee (Random)"
     },
     "55384068980904": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Chinese Card Display Set Gift Box - Charizard (Random)"
     },
     "55384122884264": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "One Piece TCG: Korean Paramount War Booster Box (OPK-02)"
     },
     "55384134484136": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Chinese Eevee V Premium Gift Box Bundle \"Jolteon\""
     },
     "55384135336104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Chinese Eevee V Premium Gift Box Bundle \"Vaporeon\""
     },
     "55384135893160": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Chinese Eevee V Premium Gift Box Bundle \"Flareon\""
     },
     "55384145363112": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 52.99,
       "title": "Pokemon: Korean Mega Symphonia Booster Box (m1S)"
     },
     "55384146968744": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 56.99,
       "title": "Pokemon: Korean Mega Brave Booster Box (m1L)"
     },
     "55384233345192": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11199.99,
       "title": "One Piece TCG: Memorial Collection Extra Booster Box Sealed Case of 12 (EB-01)"
     },
     "55388156166312": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 21.99,
       "title": "Pokemon: Chinese Collect 151 Surprise Coin Set"
     },
     "55404811485352": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Mega Evolution Perfect Order Pokemon Center Elite Trainer Box (ME03)"
     },
     "55407116091560": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 64.99,
       "title": "One Piece TCG: Korean 500 Years in the Future Booster Box (OPK-07)"
     },
     "55407160131752": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "One Piece TCG: Korean Anime 25th Collection Booster Box (EBK-02)"
     },
     "55424896434344": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 239.99,
       "title": "Pokemon: 151 Sam's Club Bundle [4 Mini Tins + 4 Promos] - Pack 2"
     },
     "55424932642984": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 279.99,
       "title": "Pokemon: Mega Evolution Pokemon Center Elite Trainer Box [Lucario]"
     },
     "55424956989608": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Checklane Blister Pack"
     },
     "55424964591784": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: Scarlet & Violet Twilight Masquerade Checklane Blister Pack"
     },
     "55427578986664": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Roaring Moon ex Box #1 *See Pictures for Condition*"
     },
     "55427778019496": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 729.99,
       "title": "Pokemon: Sword & Shield: Lost Origin Booster Box #1 *See Pictures for Condition*"
     },
     "55427778478248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 449.99,
       "title": "Pokemon: Scarlet & Violet Paldea Evolved Booster Box #1 *See Pictures for Condition*"
     },
     "55427779854504": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 569.99,
       "title": "Pokemon: Sword & Shield Chilling Reign Booster Box #1 *See Picture for Condition*"
     },
     "55427785425064": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 569.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Elite Trainer Box [Leafeon/Umbreon/Jolteon/Flareon] #1 *See Pictures for Condition*"
     },
     "55427786571944": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 569.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Elite Trainer Box [Leafeon/Umbreon/Jolteon/Flareon] #2 *See Pictures for Condition*"
     },
     "55452466118824": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Booster Bundle"
     },
     "55452472836264": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 55.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Mega EX Box (Random)"
     },
     "55457384399016": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 67.99,
       "title": "One Piece TCG: Adventure on Kami's Island Chinese Booster Box (OPC-15)"
     },
     "55457458389160": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "One Piece TCG: Premium Card Collection - Best Selection Vol. 3"
     },
     "55457463533736": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1799.99,
       "title": "One Piece TCG: Japanese 2nd Anniversary Set"
     },
     "55457465893032": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Scarlet & Violet Temporal Forces Elite Trainer Box [Walking Wake]"
     },
     "55457467826344": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Scarlet & Violet Temporal Forces Elite Trainer Box [Iron Leaves]"
     },
     "55459761225896": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 13000.0,
       "title": "One Piece TCG: Awakening of the New Era Booster Box [OP-05] Case of 12 #1"
     },
     "55479198875816": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "One Piece TCG: Adventure on Kami's Island Chinese 6ct Pack Box (OPC-15)"
     },
     "55483586379944": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2.99,
       "title": "Pokemon: Japanese Nihil Zero Booster Pack (M3)"
     },
     "55483614855336": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 8.99,
       "title": "Pokemon: Scarlet & Violet Journey Together Blister Pack [Yanma]"
     },
     "55483632124072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Sword & Shield Chilling Reign Elite Trainer Box [Ice Rider Calyrex]"
     },
     "55483651063976": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: XY BREAKthrough 3-Card Booster Pack"
     },
     "55483654242472": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: XY Furious Fists Sleeved Booster Pack [Lucario Art]"
     },
     "55483659288744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Elite Trainer Box [Iron Valiant]"
     },
     "55483664531624": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 149.99,
       "title": "Pokemon: Scarlet & Violet Paradox Rift Elite Trainer Box [Roaring Moon]"
     },
     "55483666006184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Sword & Shield Battle Styles Blister Pack [Arrokuda]"
     },
     "55483677147304": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 549.99,
       "title": "Pokemon: Heart Gold Soul Silver Triumphant Blister Pack #1"
     },
     "55483677180072": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 549.99,
       "title": "Pokemon: Heart Gold Soul Silver Triumphant Blister Pack #2"
     },
     "55484466790568": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "Pokemon: Chinese Pikachu Villain Figure (Random)"
     },
     "55484501721256": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2249.99,
       "title": "Pokemon: Mega Evolution Ascended Heroes Booster Bundle Case of 25"
     },
     "55498731552936": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 5399.99,
       "title": "Pokemon: Japanese 151 Sealed Case (12 Boxes)"
     },
     "55498758586536": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Enhanced 2-Pack Blister [Moltres, Zapdos, & Articuno]"
     },
     "55501406109864": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese V-Union Pikachu Gift Box"
     },
     "55501455065256": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Chinese Gemstones Volume 5 Booster Box"
     },
     "55501805977768": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 187.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Booster Box (ME04)"
     },
     "55510347907240": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 4899.99,
       "title": "Pokemon: Japanese 151 Sealed Case (12 Boxes) #1 *See Description*"
     },
     "55521509343400": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Scarlet & Violet 151 Mini Tin 5-pack (Magneton)"
     },
     "55521513832616": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Azure Legends Tin [Dialga ex] (International Version)"
     },
     "55521518026920": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Azure Legends Tin [Kyogre ex] (International Version)"
     },
     "55521518551208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "Pokemon: Azure Legends Tin [Xerneas ex] (International Version)"
     },
     "55521541718184": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 15.99,
       "title": "Pokemon: Knock Out Collection [Suicune]"
     },
     "55521546109096": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Unova Heavy Hitters Premium Collection"
     },
     "55526912983208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 51.99,
       "title": "Pokemon: Mega Zygarde ex Premium Collection"
     },
     "55526925467816": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 21.99,
       "title": "Pokemon: Mega Evolution Chaos Rising 3-Pack Blister (ME04)"
     },
     "55526929465512": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 37.99,
       "title": "Pokémon: Mega Evolution Chaos Rising Booster Bundle (ME04)"
     },
     "55526938902696": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 71.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Elite Trainer Box (ME04)"
     },
     "55526945456296": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 949.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Sleeved Booster Case 144ct (ME04)"
     },
     "55535606333608": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 599.99,
       "title": "Pokemon: Scarlet & Violet: 151 Elite Trainer Box #2 *See Pictures for Condition*"
     },
     "55535608332456": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 429.99,
       "title": "Pokemon: Celebrations Elite Trainer Box #2 *See Pictures for Condition*"
     },
     "55535610233000": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 574.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon] #3 *See Picture for Condition*"
     },
     "55535612592296": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 2399.99,
       "title": "Pokemon: Sword & Shield Evolving Skies Booster Box #2 *See Pictures for Condition*"
     },
     "55535627206824": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Eevee Evolutions Premium Collection #1 *See Pictures for Condition*"
     },
     "55535640641704": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Celebrations Special Collection V Memories #2 *See Pictures for Condition*"
     },
     "55535651389608": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Mewtwo V-Union Special Collection #1 *See Pictures for Condition*"
     },
     "55538834997416": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1599.99,
       "title": "Pokemon Sun & Moon Ultra Prism Booster Box"
     },
     "55538842665128": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: 2022 Pokémon World Championships Deck (André Chiasson, The Shape of Mew)"
     },
     "55538913771688": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 69.99,
       "title": "Pokemon: Infernape V Box"
     },
     "55538932416680": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Professor Juniper Premium Tournament Collection"
     },
     "55549062643880": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Checklane Blister Inner Case (16ct)"
     },
     "55561549349032": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 97.99,
       "title": "Pokemon: Japanese Abyss Eye Booster Box (m5)"
     },
     "55566395048104": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 32.99,
       "title": "One Piece TCG: Soundloader 2026 Ace & Sabo Edition"
     },
     "55580990177448": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 164.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box"
     },
     "55581032022184": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 7.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Sleeved Booster Pack"
     },
     "55581181444264": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 169.99,
       "title": "Pokemon: Zygarde Complete Form Pin Collection"
     },
     "55583211061416": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 179.99,
       "title": "Pokemon: Sword & Shield Silver Tempest Elite Trainer Box #1"
     },
     "55583215648936": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Mewtwo V-Union Special Collection #2 *See Pictures for Condition*"
     },
     "55583217909928": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Reshiram & Charizard GX Premium Collection #1 *See Pictures for Condition*"
     },
     "55587868508328": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 26.99,
       "title": "Pokemon: Mega Moonlit Tin (Random)"
     },
     "55587873751208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "Pokemon: Lumiose City Mini Tin (Random)"
     },
     "55589157175464": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 89.99,
       "title": "Pokemon: 2025 World Championship Decks (Set of Four)"
     },
     "55589185421480": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 37.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Build & Battle Kit"
     },
     "55627854676136": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon TCG: First Partner Illustration Collection Series 2"
     },
     "55627880169640": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon TCG: Mega Lucario EX League Battle Deck"
     },
     "55630616461480": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "One Piece TCG: The Time of Battle Booster Box (OP-16)"
     },
     "55633950277800": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 17.99,
       "title": "One Piece TCG+ Store Edition Vol.2 - Tony Tony.Chopper (70-Pack)"
     },
     "55645317693608": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 44.99,
       "title": "One Piece TCG: Luffy & Ace Starter Deck (ST-30)"
     },
     "55647849873576": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 0.0,
       "title": "One Piece TCG: The World's Strongest Warriors (OP-17) *Expected Release Date 08-28-2026*"
     },
     "55684492034216": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Mega Greninja ex Premium Collection"
     },
     "55685874843816": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Sword & Shield Silver Tempest 3-Pack Blister [Togetic]"
     },
     "55685876220072": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Sword & Shield Silver Tempest 3-Pack Blister [Manaphy]"
     },
     "55685895553192": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Sword & Shield Elite Trainer Box Plus (Zacian)"
     },
     "55685930614952": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 219.99,
       "title": "Pokemon: Neo Genesis Cold Fusion Theme Deck *See Pictures for Condition*"
     },
     "55706820772008": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "One Piece TCG: Adventure on Kami's Island Booster Pack"
     },
     "55709765402792": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Luffy & Ace Sleeves (70ct)"
     },
     "55709766287528": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Impel Down Sleeves (70ct)"
     },
     "55709766615208": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Three Admirals Sleeves (70ct)"
     },
     "55709766975656": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 9.99,
       "title": "One Piece TCG: Yamato Sleeves (70ct)"
     },
     "55731779469480": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Eeveelution Pendant Gift Box"
     },
     "55732467335336": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Eeveelution Badge Set"
     },
     "55732706082984": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Coin Box (Glaceon)"
     },
     "55732706115752": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Coin Box (Umbreon)"
     },
     "55732706181288": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Coin Box (Eevee)"
     },
     "55732706214056": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 14.99,
       "title": "Pokemon: Chinese Terastal Grand Gathering CSV9.5C Coin Box (Sylveon)"
     },
     "55733129380008": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Eevee"
     },
     "55733129904296": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Espeon"
     },
     "55733130002600": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Flareon"
     },
     "55733130494120": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Glaceon"
     },
     "55733130690728": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Umbreon"
     },
     "55733130821800": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Sylveon"
     },
     "55733131051176": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Jolteon"
     },
     "55733131280552": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Leafeon"
     },
     "55733131542696": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Binder Set Gift Box – Vaporeon"
     },
     "55734021619880": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 109.99,
       "title": "Pokemon: Chinese Terastal Gathering Booster Box (CSV9.5C)"
     },
     "55736300929192": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 29.99,
       "title": "Funism Pokemon Relax & Enjoy! Eevee Blind Box"
     },
     "55746515632296": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 77.99,
       "title": "Pokemon: Mega Evolution Pitch Black Elite Trainer Box (ME05)"
     },
     "55746524086440": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 40.0,
       "title": "Pokemon: Mega Evolution Pitch Black Build & Battle Kit (ME05)"
     },
     "55746526642344": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 21.99,
       "title": "Pokemon: Mega Evolution Pitch Black 3-Pack Blister (ME05)"
     },
     "55746530541736": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 227.99,
       "title": "Pokemon: Mega Evolution Pitch Black Booster Box (ME05)"
     },
     "55746531197096": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Mega Evolution Pitch Black Booster Bundle (ME05)"
     },
     "55746608201896": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 114.99,
       "title": "Pokemon: Mega Evolution Pitch Black Checklane Blister Inner Case (16ct) (ME05)"
     },
     "55746714468520": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 899.99,
       "title": "Pokemon: Mega Evolution Pitch Black 144ct Sleeved Booster Case (ME05)"
     },
     "55747759308968": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 6.99,
       "title": "Pokemon: Mega Evolution Chaos Rising Booster Pack"
     },
     "55750834290856": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 22.99,
       "title": "One Piece TCG: Carrying on His Will Sleeved Booster Pack [OP-13]"
     },
     "55754127114408": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 139.99,
       "title": "One Piece TCG: Japanese The Time of Battle Booster Box (OP-16)"
     },
     "55754204938408": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 39.99,
       "title": "Pokemon: Chinese 2026 Dragon Boat Festival Gift Box"
     },
     "55754284499112": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "Pokemon: Japanese Sword & Shield Precious Collector Box"
     },
     "55754511253672": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 129.99,
       "title": "Pokemon: Japanese Paradigm Trigger Mystery Box"
     },
     "55754565157032": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Chinese Stellar Crystal Jumbo Booster Box (CSV9C)"
     },
     "55754686660776": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: Chinese Gemstone Badge Set Pack"
     },
     "55754919116968": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Klara Premium Tournament Collection"
     },
     "55760842653864": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 949.99,
       "title": "One Piece TCG: Emperors in the New World Double Pack Display of 8 [DP-06]"
     },
     "55760843735208": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "One Piece TCG: A Fist of Divine Speed Double Pack Display of 8 [DP-07]"
     },
     "55760845078696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 13.99,
       "title": "One Piece TCG: Extra Booster: Heroines Edition Sleeved Booster Pack (EB-03)"
     },
     "55760854122664": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 10.99,
       "title": "One Piece TCG: The Time of Battle Sleeved Booster Pack (OP-16)"
     },
     "55760869589160": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 25.99,
       "title": "One Piece TCG: Double Pack Set Volume 11 (OP-16)"
     },
     "55760884727976": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "One Piece TCG: Romance Dawn Sleeved Booster Pack [OP-01] *Pre-Errata*"
     },
     "55760909533352": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1999.99,
       "title": "One Piece TCG: Japanese 3rd Anniversary Set"
     },
     "55760914383016": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 22.99,
       "title": "One Piece TCG: Pillars of Strength Booster Pack [OP-03]"
     },
     "55760973824168": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 11.99,
       "title": "One Piece TCG: The Azure Sea's Seven Sleeved Booster Pack [OP-14]"
     },
     "55760977068200": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 54.99,
       "title": "One Piece TCG: Kingdoms of Intrigue Sleeved Booster Pack [OP-04]"
     },
     "55761587503272": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 21.99,
       "title": "Pokemon: 2-Pack Blister [Team Rocket's Articuno, Zapdos & Tyranitar]"
     },
     "55761588322472": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 19.99,
       "title": "Pokemon: 2023 Pokémon World Championships Deck (Tord Reklev, Psychic Elegance)"
     },
     "55761590190248": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 24.99,
       "title": "Pokemon: 2025 World Championship Deck Liao Fu Guan [Joltdengo]"
     },
     "55761594220712": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 749.99,
       "title": "Pokemon: Tag Team Tin [Eevee & Snorlax GX]"
     },
     "55761623285928": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Unbroken Bonds Checklane Blister [Pikachu Promo]"
     },
     "55761623318696": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 99.99,
       "title": "Pokemon: Unbroken Bonds Checklane Blister [Eevee Promo]"
     },
     "55761627152552": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 12.99,
       "title": "Pokemon: Perfect Order Checklane Blister (Random)"
     },
     "55761631281320": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Hidden Fates Elite Tin [Gyarados GX]"
     },
     "55761631314088": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Hidden Fates Elite Tin [Raichu GX]"
     },
     "55761631445160": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 199.99,
       "title": "Pokemon: Hidden Fates Elite Tin [Charizard GX]"
     },
     "55761635442856": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 22.99,
       "title": "Pokemon: 2025 World Championship Deck Riley McKay [Flutter Devo Gardevoir]"
     },
     "55765007466664": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 699.99,
       "title": "Pokemon: Kanto Power Collection (Dragonite)"
     },
     "55765034893480": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 49.99,
       "title": "Pokemon: Chinese Sword & Shield Brilliant Counterattack Booster Box"
     },
     "55765316632744": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 249.99,
       "title": "Pokemon: Paldean Fates Great Tusk & Iron Treads ex Premium Collection"
     },
     "55765318271144": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 1.99,
       "title": "Pokemon: Chinese Sword & Shield Scorching Skies Booster Pack"
     },
     "55765419622568": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 71.99,
       "title": "Pokemon: Chinese Sword & Shield Shadow of The Blue Sea Standard Booster Box \"Giratina\" (CS6bC)"
     },
     "55765423915176": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 72.99,
       "title": "Pokemon: Chinese Sword & Shield Shadow of The Blue Sea Standard Booster Box \"Lugia\" (CS6aC)"
     },
     "55765436530856": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Topps The First Movie Pack Sealed (Black Label)"
     },
     "55765469757608": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 74.99,
       "title": "Pokemon: Chinese Brilliant Energy Mew Gift Box"
     },
     "55765537718440": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 79.99,
       "title": "Pokemon: Chinese Vivid Portrayals Slim Booster Box - Charizard (CS2aC)"
     },
     "55765547614376": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 299.99,
       "title": "Pokemon: Kanto Friends Mini Tins 5-Pack"
     },
     "55765717647528": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Eeveelution Storage Box - Leafeon"
     },
     "55765718335656": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Eeveelution Storage Box - Sylveon"
     },
     "55765718925480": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 27.99,
       "title": "Pokemon: Chinese Terastal Gathering CSV9.5C Eeveelution Storage Box - Glaceon"
     },
     "55772356640936": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 34.99,
       "title": "Pokemon: Chinese Chasing Glory Together Slim Booster Box (CSV10C)"
     },
     "55772356673704": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-21T08:55:18Z",
+      "last_seen": "2026-07-21T09:20:23Z",
       "price": 59.99,
       "title": "Pokemon: Chinese Chasing Glory Together Jumbo Booster Box (CSV10C)"
     }
