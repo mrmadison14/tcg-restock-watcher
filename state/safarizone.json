@@ -1,46 +1,46 @@
 {
-  "last_run": "2026-07-30T21:46:01Z",
+  "last_run": "2026-07-30T21:52:35Z",
   "seeded": true,
   "variants": {
     "41916784279734": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 250.0,
       "title": "Pokemon: SV01 Scarlet & Violet Base Booster Box"
     },
     "42790922420406": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 325.0,
       "title": "Pokemon TCG: SV06 Twilight Masquerade Booster Box"
     },
     "43358068572342": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 260.0,
       "title": "Pokemon TCG: SV08 Surging Sparks Booster Box"
     },
     "44472862539958": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 260.0,
       "title": "Pokemon: SV07 Stellar Crown - Booster Box"
     },
     "44473544474806": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 240.0,
       "title": "Pokemon: SV09 Journey Together Booster Box - NOT Enhanced // NO PROMO"
     },
     "44473546080438": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:45:03Z",
+      "last_seen": "2026-07-30T19:51:49Z",
       "price": 215.0,
       "title": "Pokemon: SV09 Journey Together Booster Box - Enhanced"
     },
@@ -117,7 +117,7 @@
     "45188866670774": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-07-30T19:04:29Z",
+      "last_seen": "2026-07-30T19:11:11Z",
       "price": 400.0,
       "title": "Lorcana TCG - First Chapter Booster Box"
     },
