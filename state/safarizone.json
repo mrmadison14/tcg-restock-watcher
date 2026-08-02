@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-02T13:15:18Z",
+  "last_run": "2026-08-02T13:38:23Z",
   "seeded": true,
   "variants": {
     "41916784279734": {
@@ -127,6 +127,13 @@
       "last_seen": "2026-07-20T14:05:21Z",
       "price": 38.0,
       "title": "Pokemon TCG: Pitch Black Booster Bundle"
+    },
+    "45303801970870": {
+      "in_stock": true,
+      "is_preorder": false,
+      "last_seen": "2026-08-02T13:38:23Z",
+      "price": 230.0,
+      "title": "Pokemon TCG: ME05 Pitch Black Booster Box & ETB Combo"
     }
   }
 }
