@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-02T23:56:11Z",
+  "last_run": "2026-08-03T03:10:26Z",
   "seeded": true,
   "variants": {
     "41916784279734": {
@@ -114,13 +114,6 @@
       "price": 400.0,
       "title": "Lorcana TCG - First Chapter Booster Box"
     },
-    "45268387430582": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-07-20T00:00:29Z",
-      "price": 80.0,
-      "title": "Pokemon TCG: 30th Anniversary Elite Trainer Box"
-    },
     "45268436648118": {
       "in_stock": false,
       "is_preorder": false,
@@ -131,7 +124,7 @@
     "45303801970870": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-08-02T23:56:11Z",
+      "last_seen": "2026-08-03T03:10:26Z",
       "price": 230.0,
       "title": "Pokemon TCG: ME05 Pitch Black Booster Box & ETB Combo"
     }
