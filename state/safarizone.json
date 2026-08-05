@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-05T16:53:53Z",
+  "last_run": "2026-08-05T17:00:43Z",
   "seeded": true,
   "variants": {
     "41916784279734": {
@@ -47,21 +47,14 @@
     "44494774796470": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-08-05T16:53:53Z",
+      "last_seen": "2026-08-05T17:00:43Z",
       "price": 159.99,
       "title": "Pokemon TCG: ME03 Perfect Order Booster Box"
-    },
-    "45138828066998": {
-      "in_stock": true,
-      "is_preorder": true,
-      "last_seen": "2026-08-05T15:15:31Z",
-      "price": 25.0,
-      "title": "Pokemon TCG: First Partner Illustration Collection - Series 3 - Preorder"
     },
     "45186596241590": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-08-05T16:53:53Z",
+      "last_seen": "2026-08-05T17:00:43Z",
       "price": 169.99,
       "title": "Pokemon TCG: ME04 Chaos Rising Booster Box"
     },
