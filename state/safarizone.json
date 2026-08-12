@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-12T01:13:19Z",
+  "last_run": "2026-08-12T01:20:01Z",
   "seeded": true,
   "variants": {
     "41916784279734": {
@@ -138,7 +138,7 @@
     "45327009120438": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-08-12T01:13:19Z",
+      "last_seen": "2026-08-12T01:20:01Z",
       "price": 425.0,
       "title": "Pokemon TCG: Paldean Fates International Tin SET"
     },
@@ -215,21 +215,21 @@
     "45348623581366": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-08-12T01:13:19Z",
+      "last_seen": "2026-08-12T01:20:01Z",
       "price": 50.0,
       "title": "Pokemon TCG: 30th Anniversary Poster Collection - Preorder"
     },
     "45348659888310": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-08-12T01:13:19Z",
+      "last_seen": "2026-08-12T01:20:01Z",
       "price": 20.0,
       "title": "Pokemon TCG: 30th Anniversary Knock Out Collection - Preorder"
     },
     "45348669423798": {
       "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-08-12T01:13:19Z",
+      "last_seen": "2026-08-12T01:20:01Z",
       "price": 100.0,
       "title": "Pokemon TCG: 30th Celebration ETB - Preorder"
     }
