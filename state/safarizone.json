@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-24T13:55:45Z",
+  "last_run": "2026-08-24T14:02:49Z",
   "seeded": true,
   "variants": {
     "43860802240694": {
@@ -218,13 +218,6 @@
       "last_seen": "2026-08-17T13:35:17Z",
       "price": 28.0,
       "title": "Pokemon TCG: Scarlet & Violet 3 Pack Blister [Dondozo]"
-    },
-    "45345462780086": {
-      "in_stock": false,
-      "is_preorder": false,
-      "last_seen": "2026-08-10T13:57:13Z",
-      "price": 190.0,
-      "title": "Pokemon TCG: Hidden Fates Tin Charizard GX"
     },
     "45348623581366": {
       "in_stock": true,
