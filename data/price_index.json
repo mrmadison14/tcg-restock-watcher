@@ -6,7 +6,7 @@
     },
     "5th anniversary set box premium edition": {
       "display_name": "5th Anniversary Set Box - Premium Edition",
-      "market_usd": 168.44
+      "market_usd": 171.22
     },
     "5th anniversary zenkai booster pack premium edition": {
       "display_name": "5th Anniversary Zenkai Booster Pack - Premium Edition",
@@ -90,7 +90,7 @@
     },
     "awakened pulse booster box": {
       "display_name": "Awakened Pulse Booster Box",
-      "market_usd": 371.3
+      "market_usd": 367.58
     },
     "awakened pulse booster box case": {
       "display_name": "Awakened Pulse Booster Box Case",
@@ -122,7 +122,7 @@
     },
     "bardock awakened instincts event pack 16": {
       "display_name": "Bardock, Awakened Instincts (Event Pack 16)",
-      "market_usd": 6.85
+      "market_usd": 7.46
     },
     "bardock destiny changing willpower": {
       "display_name": "Bardock, Destiny-Changing Willpower",
@@ -242,7 +242,7 @@
     },
     "broly ultimate agent of destruction premium edition": {
       "display_name": "Broly, Ultimate Agent of Destruction (Premium Edition)",
-      "market_usd": 103.4
+      "market_usd": 100.5
     },
     "bulma fighting for vegeta": {
       "display_name": "Bulma, Fighting for Vegeta",
@@ -378,7 +378,7 @@
     },
     "cross force booster box": {
       "display_name": "Cross Force Booster Box",
-      "market_usd": 213.8
+      "market_usd": 213.21
     },
     "cross force booster box case": {
       "display_name": "Cross Force Booster Box Case",
@@ -386,7 +386,7 @@
     },
     "cross force booster pack": {
       "display_name": "Cross Force Booster Pack",
-      "market_usd": 9.23
+      "market_usd": 9.18
     },
     "cross force sleeved booster pack cell": {
       "display_name": "Cross Force Sleeved Booster Pack [Cell]",
@@ -407,10 +407,6 @@
     "cross spirits booster box": {
       "display_name": "Cross Spirits Booster Box",
       "market_usd": 103.32
-    },
-    "cross spirits booster box case": {
-      "display_name": "Cross Spirits Booster Box Case",
-      "market_usd": 884.99
     },
     "cross spirits booster pack": {
       "display_name": "Cross Spirits Booster Pack",
@@ -456,6 +452,10 @@
       "display_name": "Dawn of the Z-Legends Premium Pack Set 09",
       "market_usd": 22.34
     },
+    "dawn of the z legends premium pack set 09 display": {
+      "display_name": "Dawn of the Z-Legends Premium Pack Set 09 Display",
+      "market_usd": 180.0
+    },
     "debilitating volley": {
       "display_name": "Debilitating Volley",
       "market_usd": 0.25
@@ -490,7 +490,7 @@
     },
     "demon god putine scheming": {
       "display_name": "Demon God Putine, Scheming",
-      "market_usd": 0.44
+      "market_usd": 0.38
     },
     "demon god putine umbral might": {
       "display_name": "Demon God Putine, Umbral Might",
@@ -498,7 +498,7 @@
     },
     "dende guardian s destiny": {
       "display_name": "Dende, Guardian's Destiny",
-      "market_usd": 0.1
+      "market_usd": 0.08
     },
     "destined conclusion hero": {
       "display_name": "Destined Conclusion Hero",
@@ -538,7 +538,7 @@
     },
     "dormant potential unleashed gift collection 2022": {
       "display_name": "Dormant Potential Unleashed (Gift Collection 2022)",
-      "market_usd": 7.68
+      "market_usd": 7.54
     },
     "dr arinsu dr arinsu concocting schemes": {
       "display_name": "Dr. Arinsu // Dr. Arinsu, Concocting Schemes",
@@ -554,7 +554,7 @@
     },
     "dual evolution booster box": {
       "display_name": "Dual Evolution Booster Box",
-      "market_usd": 481.85
+      "market_usd": 476.83
     },
     "dual evolution booster box case": {
       "display_name": "Dual Evolution Booster Box Case",
@@ -562,11 +562,11 @@
     },
     "dual evolution booster pack": {
       "display_name": "Dual Evolution Booster Pack",
-      "market_usd": 12.2
+      "market_usd": 12.29
     },
     "dual evolution sleeved booster pack": {
       "display_name": "Dual Evolution Sleeved Booster Pack",
-      "market_usd": 17.52
+      "market_usd": 17.9
     },
     "duplicate vegeta unchanging instincts": {
       "display_name": "(Duplicate) Vegeta, Unchanging Instincts",
@@ -574,7 +574,7 @@
     },
     "dyspo thwarting the enemy": {
       "display_name": "Dyspo, Thwarting the Enemy",
-      "market_usd": 1.07
+      "market_usd": 1.11
     },
     "eis shenron reanimating evil": {
       "display_name": "Eis Shenron, Reanimating Evil",
@@ -606,7 +606,7 @@
     },
     "expansion deck box set 23 premium anniversary box 2023": {
       "display_name": "Expansion Deck Box Set 23: Premium Anniversary Box 2023",
-      "market_usd": 74.25
+      "market_usd": 74.19
     },
     "expansion deck box set 23 premium anniversary box 2023 display": {
       "display_name": "Expansion Deck Box Set 23: Premium Anniversary Box 2023 Display",
@@ -614,7 +614,7 @@
     },
     "expansion deck box set 24 premium 7th anniversary box 2024": {
       "display_name": "Expansion Deck Box Set 24: Premium 7th Anniversary Box 2024",
-      "market_usd": 139.91
+      "market_usd": 138.71
     },
     "expansion deck box set 25 premium anniversary box 2025": {
       "display_name": "Expansion Deck Box Set 25: Premium Anniversary Box 2025",
@@ -630,15 +630,15 @@
     },
     "fearsome rivals booster box": {
       "display_name": "Fearsome Rivals Booster Box",
-      "market_usd": 204.86
+      "market_usd": 204.97
     },
     "fearsome rivals booster box case": {
       "display_name": "Fearsome Rivals Booster Box Case",
-      "market_usd": 1761.9
+      "market_usd": 1763.33
     },
     "fearsome rivals booster pack": {
       "display_name": "Fearsome Rivals Booster Pack",
-      "market_usd": 4.88
+      "market_usd": 4.99
     },
     "fighter s ambition booster box": {
       "display_name": "Fighter's Ambition Booster Box",
@@ -650,7 +650,7 @@
     },
     "fighter s ambition premium pack set 10": {
       "display_name": "Fighter's Ambition Premium Pack Set 10",
-      "market_usd": 21.32
+      "market_usd": 21.27
     },
     "first kamehameha mighty blast championship 2025 finals premium pack": {
       "display_name": "First Kamehameha, Mighty Blast (Championship 2025 Finals Premium Pack)",
@@ -670,7 +670,7 @@
     },
     "frieza golden movie collection": {
       "display_name": "Frieza - Golden (Movie Collection)",
-      "market_usd": 12.49
+      "market_usd": 14.0
     },
     "frieza tiny aggressor": {
       "display_name": "Frieza, Tiny Aggressor",
@@ -678,7 +678,7 @@
     },
     "frieza waiting to see": {
       "display_name": "Frieza, Waiting To See",
-      "market_usd": 0.51
+      "market_usd": 0.52
     },
     "frigid blast putine": {
       "display_name": "Frigid Blast Putine",
@@ -710,7 +710,7 @@
     },
     "gamma 2 executing justice": {
       "display_name": "Gamma 2, Executing Justice",
-      "market_usd": 0.33
+      "market_usd": 0.27
     },
     "garlic jr final form of everlasting darkness": {
       "display_name": "Garlic Jr., Final Form of Everlasting Darkness",
@@ -758,7 +758,7 @@
     },
     "great saiyaman protecting worldly life": {
       "display_name": "Great Saiyaman, Protecting Worldly Life",
-      "market_usd": 0.44
+      "market_usd": 0.5
     },
     "hatchhyack hatred everlasting": {
       "display_name": "Hatchhyack, Hatred Everlasting",
@@ -798,7 +798,7 @@
     },
     "impact beyond dimensions booster box": {
       "display_name": "Impact Beyond Dimensions Booster Box",
-      "market_usd": 183.15
+      "market_usd": 182.88
     },
     "impact beyond dimensions booster box case": {
       "display_name": "Impact Beyond Dimensions Booster Box Case",
@@ -862,11 +862,11 @@
     },
     "limit ultra kamehameha mighty blast championship 2025 finals premium pack": {
       "display_name": "Limit Ultra Kamehameha, Mighty Blast (Championship 2025 Finals Premium Pack)",
-      "market_usd": 22.42
+      "market_usd": 23.06
     },
     "magnificent collection broly ver expansion set forsaken warrior": {
       "display_name": "Magnificent Collection: Broly Ver. Expansion Set - Forsaken Warrior",
-      "market_usd": 51.73
+      "market_usd": 52.08
     },
     "mai supporting a comrade": {
       "display_name": "Mai, Supporting a Comrade",
@@ -930,7 +930,7 @@
     },
     "manipulating god champa": {
       "display_name": "Manipulating God Champa",
-      "market_usd": 0.08
+      "market_usd": 0.09
     },
     "martinne angel of universe 12": {
       "display_name": "Martinne, Angel of Universe 12",
@@ -994,7 +994,7 @@
     },
     "new adventure booster box": {
       "display_name": "New Adventure Booster Box",
-      "market_usd": 195.57
+      "market_usd": 195.79
     },
     "new adventure booster box case": {
       "display_name": "New Adventure Booster Box Case",
@@ -1098,7 +1098,7 @@
     },
     "pilaf plotting world domination": {
       "display_name": "Pilaf, Plotting World Domination",
-      "market_usd": 0.05
+      "market_usd": 0.04
     },
     "pilaf tiny warrior son goku": {
       "display_name": "Pilaf // Tiny Warrior Son Goku",
@@ -1194,7 +1194,7 @@
     },
     "realm of the gods booster box": {
       "display_name": "Realm of the Gods Booster Box",
-      "market_usd": 297.23
+      "market_usd": 301.05
     },
     "realm of the gods booster box case": {
       "display_name": "Realm of the Gods Booster Box Case",
@@ -1270,7 +1270,7 @@
     },
     "rivals clash booster box": {
       "display_name": "Rivals Clash Booster Box",
-      "market_usd": 585.5
+      "market_usd": 590.25
     },
     "rivals clash booster pack": {
       "display_name": "Rivals Clash Booster Pack",
@@ -1358,7 +1358,7 @@
     },
     "son gohan son gohan protecting the weak slr": {
       "display_name": "Son Gohan // Son Gohan, Protecting the Weak (SLR)",
-      "market_usd": 19.53
+      "market_usd": 19.82
     },
     "son gohan trunks ss son gohan trunks warriors meeting a challenge": {
       "display_name": "Son Gohan & Trunks // SS Son Gohan & Trunks, Warriors Meeting a Challenge",
@@ -1502,7 +1502,7 @@
     },
     "ss gogeta light shining through hell premium alt art card set 2024 vol 1": {
       "display_name": "SS Gogeta, Light Shining Through Hell (Premium Alt-Art Card Set 2024 Vol.1)",
-      "market_usd": 35.46
+      "market_usd": 33.03
     },
     "ss gogeta overflowing fighting spirit ultra bout series tournament pack vol 2": {
       "display_name": "SS Gogeta, Overflowing Fighting Spirit (Ultra-Bout Series Tournament Pack Vol.2)",
@@ -1534,7 +1534,7 @@
     },
     "ss son gohan defeating the demon 2023 championship finals celebration pack deluxe set": {
       "display_name": "SS Son Gohan, Defeating the Demon (2023 Championship Finals Celebration Pack Deluxe Set)",
-      "market_usd": 5.19
+      "market_usd": 5.22
     },
     "ss son gohan defeating the demon deluxe pack 2026 vol 1": {
       "display_name": "SS Son Gohan, Defeating the Demon (Deluxe Pack 2026 Vol.1)",
@@ -1638,7 +1638,7 @@
     },
     "ss2 son gohan trigger to fierce rage 2023 championship finals zenkai premium pack": {
       "display_name": "SS2 Son Gohan, Trigger to Fierce Rage (2023 Championship Finals Zenkai Premium Pack)",
-      "market_usd": 1.59
+      "market_usd": 1.74
     },
     "ss2 son goku destined battle": {
       "display_name": "SS2 Son Goku, Destined Battle",
@@ -1666,7 +1666,7 @@
     },
     "ss3 gogeta thwarting the dark empire gold stamped": {
       "display_name": "SS3 Gogeta, Thwarting the Dark Empire (Gold Stamped)",
-      "market_usd": 0.89
+      "market_usd": 0.92
     },
     "ss3 gogeta thwarting the dark empire winner stamp": {
       "display_name": "SS3 Gogeta, Thwarting the Dark Empire (Winner Stamp)",
@@ -1726,7 +1726,7 @@
     },
     "ss4 gogeta thwarting the dark empire spr": {
       "display_name": "SS4 Gogeta, Thwarting the Dark Empire (SPR)",
-      "market_usd": 12.24
+      "market_usd": 11.84
     },
     "ss4 son goku blasting through the demon realm scr": {
       "display_name": "SS4 Son Goku, Blasting Through the Demon Realm (SCR)",
@@ -1734,7 +1734,7 @@
     },
     "ss4 son goku cross dimensional fighting spirit": {
       "display_name": "SS4 Son Goku, Cross Dimensional Fighting Spirit",
-      "market_usd": 3.16
+      "market_usd": 3.2
     },
     "ss4 son goku cross dimensional fighting spirit 2026 championship regionals top 16": {
       "display_name": "SS4 Son Goku, Cross-Dimensional Fighting Spirit (2026 Championship Regionals Top 16)",
@@ -1750,7 +1750,7 @@
     },
     "ss4 son goku thwarting the dark empire": {
       "display_name": "SS4 Son Goku, Thwarting the Dark Empire",
-      "market_usd": 0.15
+      "market_usd": 0.14
     },
     "ss4 son goku vs nuova shenron clash with a soldier premium alt art set 2025 vol 2": {
       "display_name": "SS4 Son Goku Vs Nuova Shenron, Clash With a Soldier (Premium Alt-Art Set 2025 Vol.2)",
@@ -1790,7 +1790,7 @@
     },
     "ss4 vegeta thwarting the dark empire event pack 11": {
       "display_name": "SS4 Vegeta, Thwarting the Dark Empire (Event Pack 11)",
-      "market_usd": 1.05
+      "market_usd": 1.06
     },
     "ssb gogeta blistering barrage": {
       "display_name": "SSB Gogeta, Blistering Barrage",
@@ -1822,7 +1822,7 @@
     },
     "ssb vegeta surmounting the impossible 2023 championship finals celebration pack deluxe set": {
       "display_name": "SSB Vegeta, Surmounting the Impossible (2023 Championship Finals Celebration Pack Deluxe Set)",
-      "market_usd": 3.51
+      "market_usd": 3.81
     },
     "ssb vegeta surmounting the impossible premium alt art set 2025 vol 1": {
       "display_name": "SSB Vegeta, Surmounting the Impossible (Premium Alt-Art Set 2025 Vol.1)",
@@ -1846,7 +1846,7 @@
     },
     "story booster 01 booster box": {
       "display_name": "Story Booster 01 Booster Box",
-      "market_usd": 423.13
+      "market_usd": 414.35
     },
     "story booster 01 booster box case": {
       "display_name": "Story Booster 01 Booster Box Case",
@@ -1854,11 +1854,11 @@
     },
     "story booster 01 booster pack": {
       "display_name": "Story Booster 01 Booster Pack",
-      "market_usd": 19.79
+      "market_usd": 20.49
     },
     "story booster 01 sleeved booster pack": {
       "display_name": "Story Booster 01 Sleeved Booster Pack",
-      "market_usd": 19.48
+      "market_usd": 19.9
     },
     "su roas fighting maiden": {
       "display_name": "Su Roas, Fighting Maiden",
@@ -1882,7 +1882,7 @@
     },
     "supreme kai of time righting history": {
       "display_name": "Supreme Kai of Time, Righting History",
-      "market_usd": 2.13
+      "market_usd": 2.17
     },
     "supreme kai of time righting history winner": {
       "display_name": "Supreme Kai of Time, Righting History (Winner)",
@@ -1906,7 +1906,7 @@
     },
     "supreme rivalry premium pack set 04 display": {
       "display_name": "Supreme Rivalry Premium Pack Set 04 Display",
-      "market_usd": 83.13
+      "market_usd": 87.96
     },
     "tapion beginning of destiny": {
       "display_name": "Tapion, Beginning of Destiny",
@@ -2030,7 +2030,7 @@
     },
     "ultimate advent booster box": {
       "display_name": "Ultimate Advent Booster Box",
-      "market_usd": 529.26
+      "market_usd": 537.2
     },
     "ultimate advent booster pack": {
       "display_name": "Ultimate Advent Booster Pack",
@@ -2054,7 +2054,7 @@
     },
     "ultimate squad premium pack set 08 display": {
       "display_name": "Ultimate Squad Premium Pack Set 08 Display",
-      "market_usd": 87.72
+      "market_usd": 88.8
     },
     "ultra instinct goku s kamehameha": {
       "display_name": "Ultra Instinct Goku's Kamehameha",
@@ -2170,7 +2170,7 @@
     },
     "vegeta devastating alliance": {
       "display_name": "Vegeta, Devastating Alliance",
-      "market_usd": 0.07
+      "market_usd": 0.06
     },
     "vegeta protecting his loved ones": {
       "display_name": "Vegeta, Protecting His Loved Ones",
@@ -2214,7 +2214,7 @@
     },
     "vegito fighting spirit rush": {
       "display_name": "Vegito, Fighting Spirit Rush",
-      "market_usd": 0.58
+      "market_usd": 0.61
     },
     "vegito scheme halting zenkai series tournament pack vol 9": {
       "display_name": "Vegito, Scheme Halting (Zenkai Series Tournament Pack Vol.9)",
@@ -2226,7 +2226,7 @@
     },
     "vermilion bloodline booster box second edition": {
       "display_name": "Vermilion Bloodline Booster Box [Second Edition]",
-      "market_usd": 77.53
+      "market_usd": 78.1
     },
     "vermilion bloodline premium pack set 02": {
       "display_name": "Vermilion Bloodline Premium Pack Set 02",
@@ -2294,7 +2294,7 @@
     },
     "wish for shenron booster box": {
       "display_name": "Wish For Shenron Booster Box",
-      "market_usd": 348.39
+      "market_usd": 346.83
     },
     "wish for shenron booster pack": {
       "display_name": "Wish For Shenron Booster Pack",
@@ -2302,7 +2302,7 @@
     },
     "world martial arts booster box": {
       "display_name": "Dragon Ball Super - World Martial Arts Booster Box",
-      "market_usd": 85.26
+      "market_usd": 85.92
     },
     "world martial arts booster pack": {
       "display_name": "Dragon Ball Super - World Martial Arts Booster Pack",
@@ -2334,7 +2334,7 @@
     },
     "zamasu plotting eradication": {
       "display_name": "Zamasu, Plotting Eradication",
-      "market_usd": 0.12
+      "market_usd": 0.1
     },
     "zamasu wishing for extinction zenkai series tournament pack vol 3": {
       "display_name": "Zamasu, Wishing for Extinction (Zenkai Series Tournament Pack Vol.3)",
@@ -2360,7 +2360,7 @@
     },
     "a fist of divine speed booster box": {
       "display_name": "A Fist of Divine Speed Booster Box",
-      "market_usd": 632.38
+      "market_usd": 628.94
     },
     "a fist of divine speed booster box case": {
       "display_name": "A Fist of Divine Speed Booster Box Case",
@@ -2368,15 +2368,15 @@
     },
     "a fist of divine speed booster pack": {
       "display_name": "A Fist of Divine Speed Booster Pack",
-      "market_usd": 12.61
+      "market_usd": 12.64
     },
     "a fist of divine speed sleeved booster pack": {
       "display_name": "A Fist of Divine Speed - Sleeved Booster Pack",
-      "market_usd": 32.12
+      "market_usd": 32.6
     },
     "adventure on kami s island booster box": {
       "display_name": "Adventure on Kami's Island Booster Box",
-      "market_usd": 255.37
+      "market_usd": 254.6
     },
     "adventure on kami s island booster box case": {
       "display_name": "Adventure on Kami's Island Booster Box Case",
@@ -2384,23 +2384,23 @@
     },
     "adventure on kami s island booster pack": {
       "display_name": "Adventure on Kami's Island Booster Pack",
-      "market_usd": 7.64
+      "market_usd": 7.59
     },
     "adventure on kami s island sleeved booster pack": {
       "display_name": "Adventure on Kami's Island - Sleeved Booster Pack",
-      "market_usd": 14.51
+      "market_usd": 14.53
     },
     "ain premium card collection best selection vol 3": {
       "display_name": "Ain (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 2.44
+      "market_usd": 2.45
     },
     "arlong premium card collection live action edition": {
       "display_name": "Arlong (Premium Card Collection -Live Action Edition-)",
-      "market_usd": 2.89
+      "market_usd": 3.64
     },
     "atmos premium card collection best selection vol 3": {
       "display_name": "Atmos (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 2.76
+      "market_usd": 2.72
     },
     "awakening of the new era booster box": {
       "display_name": "Awakening of the New Era - Booster Box",
@@ -2412,11 +2412,11 @@
     },
     "awakening of the new era booster pack": {
       "display_name": "Awakening of the New Era - Booster Pack",
-      "market_usd": 34.28
+      "market_usd": 34.35
     },
     "awakening of the new era sleeved booster pack": {
       "display_name": "Awakening of the New Era - Sleeved Booster Pack",
-      "market_usd": 73.08
+      "market_usd": 73.23
     },
     "baby 5 premium card collection best selection vol 3": {
       "display_name": "Baby 5 (Premium Card Collection -Best Selection Vol. 3-)",
@@ -2424,11 +2424,11 @@
     },
     "baby 5 premium card collection best selection vol 5": {
       "display_name": "Baby 5 (Premium Card Collection -Best Selection Vol. 5-)",
-      "market_usd": 19.11
+      "market_usd": 19.22
     },
     "barrier premium card collection best selection vol 2": {
       "display_name": "Barrier!! (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 1.52
+      "market_usd": 1.49
     },
     "black maria premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Black Maria (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
@@ -2436,7 +2436,7 @@
     },
     "blast breath premium card collection best selection vol 1": {
       "display_name": "Blast Breath (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 3.77
+      "market_usd": 3.75
     },
     "blaze slice premium card collection best selection vol 5": {
       "display_name": "Blaze Slice (Premium Card Collection -Best Selection Vol. 5-)",
@@ -2444,23 +2444,23 @@
     },
     "boa hancock gift collection 2023": {
       "display_name": "Boa Hancock (Gift Collection 2023)",
-      "market_usd": 64.3
+      "market_usd": 63.94
     },
     "boa hancock premium card collection best selection vol 2": {
       "display_name": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 32.29
+      "market_usd": 31.9
     },
     "brook premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Brook (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 21.29
+      "market_usd": 21.53
     },
     "brook premium card collection film red edition": {
       "display_name": "Brook (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 16.08
+      "market_usd": 16.68
     },
     "buena festa premium card collection best selection vol 1": {
       "display_name": "Buena Festa (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 1.46
+      "market_usd": 1.43
     },
     "buggy premium card collection best selection vol 6": {
       "display_name": "Buggy (Premium Card Collection -Best Selection Vol. 6-)",
@@ -2472,11 +2472,11 @@
     },
     "capone gang bege premium card collection best selection vol 2": {
       "display_name": "Capone\"Gang\"Bege (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 1.03
+      "market_usd": 1.01
     },
     "carrying on his will booster box": {
       "display_name": "Carrying On His Will Booster Box",
-      "market_usd": 480.07
+      "market_usd": 480.63
     },
     "carrying on his will booster box case": {
       "display_name": "Carrying On His Will Booster Box Case",
@@ -2484,11 +2484,11 @@
     },
     "carrying on his will booster pack": {
       "display_name": "Carrying On His Will Booster Pack",
-      "market_usd": 12.31
+      "market_usd": 12.59
     },
     "carrying on his will sleeved booster pack": {
       "display_name": "Carrying On His Will Sleeved Booster Pack",
-      "market_usd": 19.22
+      "market_usd": 19.38
     },
     "charlotte amande premium card collection best selection vol 1": {
       "display_name": "Charlotte Amande (Premium Card Collection -Best Selection Vol. 1-)",
@@ -2508,11 +2508,11 @@
     },
     "curly dadan premium card collection best selection vol 1": {
       "display_name": "Curly.Dadan (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 3.2
+      "market_usd": 3.09
     },
     "dereshi premium card collection best selection vol 4": {
       "display_name": "Dereshi! (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 11.56
+      "market_usd": 11.6
     },
     "devil fruits collection vol 1": {
       "display_name": "Devil Fruits Collection Vol. 1",
@@ -2528,7 +2528,7 @@
     },
     "disappointed premium card collection best selection vol 6": {
       "display_name": "Disappointed? (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 8.74
+      "market_usd": 8.51
     },
     "don card donquixote rosinante devil fruits collection vol 3": {
       "display_name": "DON!! Card (Donquixote Rosinante) (Devil Fruits Collection Vol. 3)",
@@ -2548,11 +2548,11 @@
     },
     "don card sabo devil fruits collection vol 2": {
       "display_name": "DON!! Card (Sabo) (Devil Fruits Collection Vol. 2)",
-      "market_usd": 6.59
+      "market_usd": 6.62
     },
     "don card tin pack set vol 1 gol d roger": {
       "display_name": "DON!! Card (Tin Pack Set Vol. 1 -Gol.D.Roger-)",
-      "market_usd": 1.86
+      "market_usd": 1.78
     },
     "don card tin pack set vol 1 monkey d luffy": {
       "display_name": "DON!! Card (Tin Pack Set Vol. 1 -Monkey.D.Luffy-)",
@@ -2564,7 +2564,7 @@
     },
     "dr hogback premium card collection best selection vol 3": {
       "display_name": "Dr. Hogback (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 2.45
+      "market_usd": 2.42
     },
     "dracule mihawk premium card collection live action edition": {
       "display_name": "Dracule Mihawk (Premium Card Collection -Live Action Edition-)",
@@ -2572,7 +2572,7 @@
     },
     "edward newgate premium card collection 6 assort vol 1": {
       "display_name": "Edward.Newgate (Premium Card Collection -6 assort vol.1-)",
-      "market_usd": 7.21
+      "market_usd": 7.13
     },
     "el thor premium card collection best selection vol 2": {
       "display_name": "El Thor (Premium Card Collection -Best Selection Vol. 2-)",
@@ -2580,11 +2580,11 @@
     },
     "el thor premium card collection best selection vol 6": {
       "display_name": "El Thor (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 14.37
+      "market_usd": 14.31
     },
     "electrical luna premium card collection best selection vol 5": {
       "display_name": "Electrical Luna (Premium Card Collection -Best Selection Vol. 5-)",
-      "market_usd": 33.41
+      "market_usd": 33.93
     },
     "emperors in the new world booster box": {
       "display_name": "Emperors in the New World - Booster Box",
@@ -2596,15 +2596,15 @@
     },
     "emperors in the new world booster pack": {
       "display_name": "Emperors in the New World - Booster Pack",
-      "market_usd": 16.44
+      "market_usd": 16.48
     },
     "emperors in the new world sleeved booster pack": {
       "display_name": "Emperors in the New World - Sleeved Booster Pack",
-      "market_usd": 37.91
+      "market_usd": 37.99
     },
     "emporio ivankov premium card collection best selection vol 3": {
       "display_name": "Emporio.Ivankov (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 3.61
+      "market_usd": 3.62
     },
     "enchanting vertigo dance": {
       "display_name": "Enchanting Vertigo Dance",
@@ -2612,11 +2612,11 @@
     },
     "eustass captain kid premium card collection best selection vol 6": {
       "display_name": "Eustass\"Captain\"Kid (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 1.54
+      "market_usd": 1.55
     },
     "eustass captain kid premium card collection leader collection": {
       "display_name": "Eustass\"Captain\"Kid (Premium Card Collection -Leader Collection-)",
-      "market_usd": 18.9
+      "market_usd": 17.25
     },
     "extra booster anime 25th collection box": {
       "display_name": "Extra Booster: Anime 25th Collection Box",
@@ -2632,7 +2632,7 @@
     },
     "extra booster heroines edition sleeved booster pack": {
       "display_name": "Extra Booster: One Piece Heroines Edition Sleeved Booster Pack",
-      "market_usd": 19.2
+      "market_usd": 19.07
     },
     "fighting fish": {
       "display_name": "Fighting Fish",
@@ -2644,7 +2644,7 @@
     },
     "fleeting lullaby": {
       "display_name": "Fleeting Lullaby",
-      "market_usd": 0.2
+      "market_usd": 0.21
     },
     "fleeting lullaby starter deck 11 uta deck battle": {
       "display_name": "Fleeting Lullaby (Starter Deck 11: Uta Deck Battle)",
@@ -2652,23 +2652,23 @@
     },
     "for fun premium card collection best selection vol 6": {
       "display_name": "For Fun (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 17.15
+      "market_usd": 15.87
     },
     "franky gift collection 2023": {
       "display_name": "Franky (Gift Collection 2023)",
-      "market_usd": 14.16
+      "market_usd": 13.52
     },
     "franky premium card collection film red edition": {
       "display_name": "Franky (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 7.05
+      "market_usd": 7.01
     },
     "fukurou premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Fukurou (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 1.41
+      "market_usd": 1.38
     },
     "gastino": {
       "display_name": "Gastino",
-      "market_usd": 0.1
+      "market_usd": 0.11
     },
     "gift collection 2023": {
       "display_name": "Gift Collection 2023",
@@ -2680,15 +2680,15 @@
     },
     "gift collection 2023 promotion pack": {
       "display_name": "Gift Collection 2023 Promotion Pack",
-      "market_usd": 201.44
+      "market_usd": 209.59
     },
     "gum gum giant gavel premium card collection best selection vol 2": {
       "display_name": "Gum-Gum Giant Gavel (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 2.66
+      "market_usd": 2.65
     },
     "gum gum lightning premium card collection best selection vol 4": {
       "display_name": "Gum-Gum Lightning (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 23.6
+      "market_usd": 23.45
     },
     "gum gum mole pistol premium card collection best selection vol 5": {
       "display_name": "Gum-Gum Mole Pistol (Premium Card Collection -Best Selection Vol. 5-)",
@@ -2700,7 +2700,7 @@
     },
     "hina premium card collection best selection vol 2": {
       "display_name": "Hina (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 11.95
+      "market_usd": 11.96
     },
     "hina premium card collection best selection vol 5": {
       "display_name": "Hina (Premium Card Collection -Best Selection Vol. 5-)",
@@ -2720,15 +2720,15 @@
     },
     "jack premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Jack (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 1.64
+      "market_usd": 1.65
     },
     "jinbe gift collection 2023": {
       "display_name": "Jinbe (Gift Collection 2023)",
-      "market_usd": 7.95
+      "market_usd": 7.87
     },
     "jinbe premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Jinbe (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 4.89
+      "market_usd": 4.87
     },
     "jinbe premium card collection film red edition": {
       "display_name": "Jinbe (Premium Card Collection -ONE PIECE FILM RED Edition-)",
@@ -2744,11 +2744,11 @@
     },
     "karasu premium card collection best selection vol 2": {
       "display_name": "Karasu (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 4.0
+      "market_usd": 3.92
     },
     "kikunojo premium card collection best selection vol 2": {
       "display_name": "Kikunojo (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 21.02
+      "market_usd": 20.02
     },
     "kingdoms of intrigue booster box": {
       "display_name": "Kingdoms of Intrigue - Booster Box",
@@ -2764,11 +2764,11 @@
     },
     "kouzuki momonosuke premium card collection best selection vol 4": {
       "display_name": "Kouzuki Momonosuke (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 4.13
+      "market_usd": 4.19
     },
     "kouzuki oden premium card collection best selection vol 5": {
       "display_name": "Kouzuki Oden (Premium Card Collection -Best Selection Vol. 5-)",
-      "market_usd": 4.21
+      "market_usd": 4.39
     },
     "kuina premium card collection best selection vol 5": {
       "display_name": "Kuina (Premium Card Collection -Best Selection Vol. 5-)",
@@ -2776,7 +2776,7 @@
     },
     "laffitte premium card collection best selection vol 4": {
       "display_name": "Laffitte (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 12.71
+      "market_usd": 12.39
     },
     "legacy of the master booster box": {
       "display_name": "Legacy of the Master Booster Box",
@@ -2788,11 +2788,11 @@
     },
     "legacy of the master booster pack": {
       "display_name": "Legacy of the Master Booster Pack",
-      "market_usd": 8.68
+      "market_usd": 8.64
     },
     "legacy of the master sleeved booster pack": {
       "display_name": "Legacy of the Master - Sleeved Booster Pack",
-      "market_usd": 16.32
+      "market_usd": 16.23
     },
     "leo premium card collection 6 assort vol 1": {
       "display_name": "Leo (Premium Card Collection -6 assort vol.1-)",
@@ -2804,11 +2804,11 @@
     },
     "love love mellow premium card collection best selection vol 1": {
       "display_name": "Love-Love Mellow (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 30.34
+      "market_usd": 29.77
     },
     "makino premium card collection best selection vol 3": {
       "display_name": "Makino (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 4.82
+      "market_usd": 4.79
     },
     "memorial collection booster box": {
       "display_name": "Memorial Collection - Booster Box",
@@ -2820,23 +2820,23 @@
     },
     "merry go premium card collection best selection vol 5": {
       "display_name": "Merry Go (Premium Card Collection -Best Selection Vol. 5-)",
-      "market_usd": 12.31
+      "market_usd": 13.09
     },
     "miss valentine mikita": {
       "display_name": "Miss.Valentine(Mikita)",
-      "market_usd": 0.18
+      "market_usd": 0.19
     },
     "miss valentine mikita dash pack": {
       "display_name": "Miss.Valentine(Mikita) (Dash Pack)",
-      "market_usd": 1.86
+      "market_usd": 1.78
     },
     "miss valentine mikita tournament pack 2026 vol 3": {
       "display_name": "Miss.Valentine(Mikita) (Tournament Pack 2026 Vol. 3)",
-      "market_usd": 0.69
+      "market_usd": 0.57
     },
     "miss valentine mikita winner pack 2026 vol 3": {
       "display_name": "Miss.Valentine(Mikita) (Winner Pack 2026 Vol. 3)",
-      "market_usd": 4.08
+      "market_usd": 4.02
     },
     "monkey d luffy 047 premium card collection live action edition": {
       "display_name": "Monkey.D.Luffy (047) (Premium Card Collection -Live Action Edition-)",
@@ -2876,7 +2876,7 @@
     },
     "monkey d luffy tin pack set vol 2": {
       "display_name": "Monkey.D.Luffy (Tin Pack Set Vol. 2)",
-      "market_usd": 10.75
+      "market_usd": 10.45
     },
     "more pizza premium card collection best selection vol 4": {
       "display_name": "More Pizza!! (Premium Card Collection -Best Selection Vol. 4-)",
@@ -2884,23 +2884,23 @@
     },
     "nami gift collection 2023": {
       "display_name": "Nami (Gift Collection 2023)",
-      "market_usd": 110.17
+      "market_usd": 108.73
     },
     "nami premium card collection best selection vol 1": {
       "display_name": "Nami (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 37.74
+      "market_usd": 37.37
     },
     "nami premium card collection best selection vol 4": {
       "display_name": "Nami (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 128.47
+      "market_usd": 126.43
     },
     "nami premium card collection best selection vol 6": {
       "display_name": "Nami (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 32.19
+      "market_usd": 31.56
     },
     "nami premium card collection film red edition": {
       "display_name": "Nami (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 35.05
+      "market_usd": 34.31
     },
     "nami premium card collection live action edition": {
       "display_name": "Nami (Premium Card Collection -Live Action Edition-)",
@@ -2908,11 +2908,11 @@
     },
     "nico robin gift collection 2023": {
       "display_name": "Nico Robin (Gift Collection 2023)",
-      "market_usd": 47.93
+      "market_usd": 47.57
     },
     "nico robin premium card collection film red edition": {
       "display_name": "Nico Robin (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 23.73
+      "market_usd": 23.29
     },
     "okiku premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Okiku (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
@@ -2924,15 +2924,15 @@
     },
     "otama premium card collection best selection vol 6": {
       "display_name": "Otama (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 8.05
+      "market_usd": 8.04
     },
     "pacifista premium card collection best selection vol 1": {
       "display_name": "Pacifista (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 1.74
+      "market_usd": 1.66
     },
     "paradise waterfall premium card collection best selection vol 1": {
       "display_name": "Paradise Waterfall (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 5.57
+      "market_usd": 5.65
     },
     "paramount war booster box": {
       "display_name": "Paramount War - Booster Box",
@@ -2948,11 +2948,11 @@
     },
     "perfume femur premium card collection best selection vol 4": {
       "display_name": "Perfume Femur (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 15.13
+      "market_usd": 14.98
     },
     "perona premium card collection best selection vol 4": {
       "display_name": "Perona (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 9.72
+      "market_usd": 9.73
     },
     "pillars of strength booster box": {
       "display_name": "Pillars of Strength - Booster Box",
@@ -2968,19 +2968,19 @@
     },
     "portgas d ace gift collection 2023": {
       "display_name": "Portgas.D.Ace (Gift Collection 2023)",
-      "market_usd": 22.19
+      "market_usd": 21.94
     },
     "portgas d ace premium card collection best selection vol 3": {
       "display_name": "Portgas.D.Ace (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 8.3
+      "market_usd": 8.28
     },
     "portgas d ace premium card collection leader collection": {
       "display_name": "Portgas.D.Ace (Premium Card Collection -Leader Collection-)",
-      "market_usd": 65.1
+      "market_usd": 64.98
     },
     "portgas d ace tin pack set vol 2": {
       "display_name": "Portgas.D.Ace (Tin Pack Set Vol. 2)",
-      "market_usd": 1.75
+      "market_usd": 1.73
     },
     "premium booster booster box": {
       "display_name": "Premium Booster - Booster Box",
@@ -2992,15 +2992,15 @@
     },
     "premium booster booster pack": {
       "display_name": "Premium Booster - Booster Pack",
-      "market_usd": 31.63
+      "market_usd": 32.0
     },
     "premium booster sleeved booster pack": {
       "display_name": "Premium Booster - Sleeved Booster Pack",
-      "market_usd": 55.13
+      "market_usd": 55.44
     },
     "premium booster vol 2 booster box": {
       "display_name": "Premium Booster Vol. 2 - Booster Box",
-      "market_usd": 393.01
+      "market_usd": 392.62
     },
     "premium booster vol 2 booster box case": {
       "display_name": "Premium Booster Vol. 2 - Booster Box Case",
@@ -3008,11 +3008,11 @@
     },
     "premium booster vol 2 booster pack": {
       "display_name": "Premium Booster Vol. 2 - Booster Pack",
-      "market_usd": 12.84
+      "market_usd": 12.91
     },
     "premium booster vol 2 sleeved booster pack": {
       "display_name": "Premium Booster Vol. 2 - Sleeved Booster Pack",
-      "market_usd": 25.19
+      "market_usd": 25.23
     },
     "premium card collection 25th edition": {
       "display_name": "Premium Card Collection 25th Edition",
@@ -3048,11 +3048,11 @@
     },
     "premium card collection best selection vol 6": {
       "display_name": "Premium Card Collection -Best Selection Vol. 6-",
-      "market_usd": 84.94
+      "market_usd": 84.75
     },
     "premium card collection film red edition": {
       "display_name": "Premium Card Collection -ONE PIECE FILM RED Edition-",
-      "market_usd": 258.8
+      "market_usd": 261.85
     },
     "premium card collection leader collection": {
       "display_name": "Premium Card Collection -Leader Collection-",
@@ -3072,7 +3072,7 @@
     },
     "raise max premium card collection best selection vol 3": {
       "display_name": "Raise Max (Premium Card Collection -Best Selection Vol. 3-)",
-      "market_usd": 1.5
+      "market_usd": 1.43
     },
     "romance dawn booster box wave 1 blue": {
       "display_name": "Romance Dawn - Booster Box (Wave 1 - Blue)",
@@ -3092,11 +3092,11 @@
     },
     "roronoa zoro gift collection 2023": {
       "display_name": "Roronoa Zoro (Gift Collection 2023)",
-      "market_usd": 38.87
+      "market_usd": 38.75
     },
     "roronoa zoro premium card collection best selection vol 6": {
       "display_name": "Roronoa Zoro (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 22.04
+      "market_usd": 21.96
     },
     "roronoa zoro premium card collection film red edition": {
       "display_name": "Roronoa Zoro (Premium Card Collection -ONE PIECE FILM RED Edition-)",
@@ -3116,7 +3116,7 @@
     },
     "royal blood booster pack": {
       "display_name": "Royal Blood Booster Pack",
-      "market_usd": 8.91
+      "market_usd": 8.93
     },
     "royal blood sleeved booster pack": {
       "display_name": "Royal Blood - Sleeved Booster Pack",
@@ -3136,27 +3136,27 @@
     },
     "sabo premium card collection leader collection": {
       "display_name": "Sabo (Premium Card Collection -Leader Collection-)",
-      "market_usd": 27.2
+      "market_usd": 26.74
     },
     "sabo tin pack set vol 2": {
       "display_name": "Sabo (Tin Pack Set Vol. 2)",
-      "market_usd": 1.18
+      "market_usd": 1.19
     },
     "saint mjosgard premium card collection best selection vol 6": {
       "display_name": "Saint Mjosgard (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 6.0
+      "market_usd": 6.38
     },
     "saint shalria premium card collection best selection vol 5": {
       "display_name": "Saint Shalria (Premium Card Collection -Best Selection Vol. 5-)",
-      "market_usd": 16.6
+      "market_usd": 18.35
     },
     "sanji gift collection 2023": {
       "display_name": "Sanji (Gift Collection 2023)",
-      "market_usd": 23.67
+      "market_usd": 22.94
     },
     "sanji premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Sanji (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 5.81
+      "market_usd": 5.75
     },
     "sanji premium card collection best selection vol 6": {
       "display_name": "Sanji (Premium Card Collection -Best Selection Vol. 6-)",
@@ -3164,7 +3164,7 @@
     },
     "sanji premium card collection film red edition": {
       "display_name": "Sanji (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 14.88
+      "market_usd": 14.35
     },
     "sanji premium card collection live action edition": {
       "display_name": "Sanji (Premium Card Collection -Live Action Edition-)",
@@ -3172,7 +3172,7 @@
     },
     "scratchmen apoo premium card collection best selection vol 6": {
       "display_name": "Scratchmen Apoo (Premium Card Collection -Best Selection Vol. 6-)",
-      "market_usd": 1.56
+      "market_usd": 1.46
     },
     "sentomaru premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Sentomaru (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
@@ -3184,15 +3184,15 @@
     },
     "shanks premium card collection film red edition": {
       "display_name": "Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 15.04
+      "market_usd": 14.47
     },
     "shanks premium card collection live action edition": {
       "display_name": "Shanks (Premium Card Collection -Live Action Edition-)",
-      "market_usd": 3.57
+      "market_usd": 3.6
     },
     "shirahoshi premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Shirahoshi (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
-      "market_usd": 8.73
+      "market_usd": 8.71
     },
     "tashigi premium card collection bandai card games fest 23 24 edition": {
       "display_name": "Tashigi (Premium Card Collection -BANDAI CARD GAMES Fest. 23-24 Edition-)",
@@ -3200,7 +3200,7 @@
     },
     "the azure sea s seven booster box": {
       "display_name": "The Azure Sea's Seven Booster Box",
-      "market_usd": 264.25
+      "market_usd": 264.22
     },
     "the azure sea s seven booster box case": {
       "display_name": "The Azure Sea's Seven Booster Box Case",
@@ -3212,11 +3212,11 @@
     },
     "the azure sea s seven sleeved booster pack": {
       "display_name": "The Azure Sea's Seven Sleeved Booster Pack",
-      "market_usd": 12.26
+      "market_usd": 12.2
     },
     "the billion fold world trichiliocosm premium card collection best selection vol 2": {
       "display_name": "The Billion-fold World Trichiliocosm (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 15.2
+      "market_usd": 15.89
     },
     "the extinguishes all sound created by your influence technique": {
       "display_name": "The \"Extinguishes All Sound Created by Your Influence\" Technique",
@@ -3228,19 +3228,19 @@
     },
     "the time of battle booster box": {
       "display_name": "The Time of Battle Booster Box",
-      "market_usd": 221.08
+      "market_usd": 220.47
     },
     "the time of battle booster box case": {
       "display_name": "The Time of Battle Booster Box Case",
-      "market_usd": 2352.55
+      "market_usd": 2369.91
     },
     "the time of battle booster pack": {
       "display_name": "The Time of Battle Booster Pack",
-      "market_usd": 6.69
+      "market_usd": 6.93
     },
     "the time of battle sleeved booster pack": {
       "display_name": "The Time of Battle Sleeved Booster Pack",
-      "market_usd": 10.14
+      "market_usd": 10.09
     },
     "the world s continuation": {
       "display_name": "The World's Continuation",
@@ -3252,19 +3252,19 @@
     },
     "the world s strongest warriors booster box": {
       "display_name": "The World's Strongest Warriors Booster Box",
-      "market_usd": 404.4
+      "market_usd": 393.1
     },
     "the world s strongest warriors booster box case": {
       "display_name": "The World's Strongest Warriors Booster Box Case",
-      "market_usd": 4305.05
+      "market_usd": 4293.05
     },
     "the world s strongest warriors booster pack": {
       "display_name": "The World's Strongest Warriors Booster Pack",
-      "market_usd": 13.98
+      "market_usd": 13.42
     },
     "thunder bolt premium card collection best selection vol 1": {
       "display_name": "Thunder Bolt (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 1.86
+      "market_usd": 1.84
     },
     "tin pack set vol 1 display": {
       "display_name": "One Piece Tin Pack Set Vol. 1 Display",
@@ -3284,7 +3284,7 @@
     },
     "tin pack set vol 2 display": {
       "display_name": "One Piece Tin Pack Set Vol. 2 Display",
-      "market_usd": 489.33
+      "market_usd": 492.84
     },
     "tin pack set vol 2 display case": {
       "display_name": "One Piece Tin Pack Set Vol. 2 Display Case",
@@ -3296,7 +3296,7 @@
     },
     "tin pack set vol 2 portgas d ace": {
       "display_name": "One Piece Tin Pack Set Vol. 2 -Portgas.D.Ace-",
-      "market_usd": 48.91
+      "market_usd": 48.79
     },
     "tin pack set vol 2 sabo": {
       "display_name": "One Piece Tin Pack Set Vol. 2 -Sabo-",
@@ -3312,7 +3312,7 @@
     },
     "tony tony chopper premium card collection film red edition": {
       "display_name": "Tony Tony.Chopper (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 38.82
+      "market_usd": 38.33
     },
     "trafalgar law gift collection 2023": {
       "display_name": "Trafalgar Law (Gift Collection 2023)",
@@ -3320,7 +3320,7 @@
     },
     "tsuru premium card collection best selection vol 1": {
       "display_name": "Tsuru (Premium Card Collection -Best Selection Vol. 1-)",
-      "market_usd": 1.4
+      "market_usd": 1.38
     },
     "two legends booster box": {
       "display_name": "Two Legends - Booster Box",
@@ -3336,7 +3336,7 @@
     },
     "two legends sleeved booster pack": {
       "display_name": "Two Legends - Sleeved Booster Pack",
-      "market_usd": 14.86
+      "market_usd": 14.89
     },
     "ulti premium card collection best selection vol 3": {
       "display_name": "Ulti (Premium Card Collection -Best Selection Vol. 3-)",
@@ -3344,7 +3344,7 @@
     },
     "usopp premium card collection film red edition": {
       "display_name": "Usopp (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 8.54
+      "market_usd": 8.44
     },
     "usopp premium card collection live action edition": {
       "display_name": "Usopp (Premium Card Collection -Live Action Edition-)",
@@ -3352,7 +3352,7 @@
     },
     "uta gift collection 2023": {
       "display_name": "Uta (Gift Collection 2023)",
-      "market_usd": 16.21
+      "market_usd": 16.04
     },
     "uta op01 005 premium card collection uta": {
       "display_name": "Uta - OP01-005 (Premium Card Collection -Uta-)",
@@ -3360,7 +3360,7 @@
     },
     "uta op02 120 premium card collection uta": {
       "display_name": "Uta - OP02-120 (Premium Card Collection -Uta-)",
-      "market_usd": 15.88
+      "market_usd": 15.68
     },
     "uta p 011 premium card collection uta": {
       "display_name": "Uta - P-011 (Premium Card Collection -Uta-)",
@@ -3368,11 +3368,11 @@
     },
     "uta p 031 premium card collection uta": {
       "display_name": "Uta - P-031 (Premium Card Collection -Uta-)",
-      "market_usd": 12.73
+      "market_usd": 12.64
     },
     "uta premium card collection film red edition": {
       "display_name": "Uta (Premium Card Collection -ONE PIECE FILM RED Edition-)",
-      "market_usd": 8.72
+      "market_usd": 8.49
     },
     "uta st05 004 premium card collection uta": {
       "display_name": "Uta - ST05-004 (Premium Card Collection -Uta-)",
@@ -3396,23 +3396,23 @@
     },
     "wings of the captain booster box case": {
       "display_name": "Wings of the Captain - Booster Box Case",
-      "market_usd": 4143.33
+      "market_usd": 4240.0
     },
     "wings of the captain booster pack": {
       "display_name": "Wings of the Captain - Booster Pack",
-      "market_usd": 12.35
+      "market_usd": 12.71
     },
     "wings of the captain sleeved booster pack": {
       "display_name": "Wings of the Captain - Sleeved Booster Pack",
-      "market_usd": 23.7
+      "market_usd": 23.62
     },
     "x drake premium card collection best selection vol 2": {
       "display_name": "X.Drake (Premium Card Collection -Best Selection Vol. 2-)",
-      "market_usd": 1.47
+      "market_usd": 1.45
     },
     "yamato gift collection 2023": {
       "display_name": "Yamato (Gift Collection 2023)",
-      "market_usd": 26.38
+      "market_usd": 25.8
     },
     "yamato premium card collection 6 assort vol 1": {
       "display_name": "Yamato (Premium Card Collection -6 assort vol.1-)",
@@ -3420,13 +3420,13 @@
     },
     "yamato premium card collection best selection vol 4": {
       "display_name": "Yamato (Premium Card Collection -Best Selection Vol. 4-)",
-      "market_usd": 17.72
+      "market_usd": 17.26
     }
   },
   "pokemon": {
     "151 alakazam ex collection": {
       "display_name": "151: Alakazam ex Collection",
-      "market_usd": 112.93
+      "market_usd": 113.31
     },
     "151 binder collection": {
       "display_name": "151 Binder Collection",
@@ -3434,7 +3434,7 @@
     },
     "151 booster bundle": {
       "display_name": "151 Booster Bundle",
-      "market_usd": 180.0
+      "market_usd": 179.56
     },
     "151 booster bundle bulk case": {
       "display_name": "151 Booster Bundle Bulk Case",
@@ -3442,7 +3442,7 @@
     },
     "151 booster bundle display": {
       "display_name": "151 Booster Bundle Display",
-      "market_usd": 1978.42
+      "market_usd": 1952.72
     },
     "151 booster bundle display case": {
       "display_name": "151 Booster Bundle Display Case",
@@ -3450,7 +3450,7 @@
     },
     "151 booster pack": {
       "display_name": "151 Booster Pack",
-      "market_usd": 29.58
+      "market_usd": 29.5
     },
     "151 center elite trainer box exclusive": {
       "display_name": "151 Pokemon Center Elite Trainer Box (Exclusive)",
@@ -3466,7 +3466,7 @@
     },
     "151 collection zapdos ex case": {
       "display_name": "151 Collection Zapdos ex Case",
-      "market_usd": 810.39
+      "market_usd": 838.7
     },
     "151 elite trainer box": {
       "display_name": "151 Elite Trainer Box",
@@ -3478,11 +3478,11 @@
     },
     "151 mini tin arcanine omanyte": {
       "display_name": "151 Mini Tin [Arcanine & Omanyte]",
-      "market_usd": 53.74
+      "market_usd": 53.98
     },
     "151 mini tin display": {
       "display_name": "151 Mini Tin Display",
-      "market_usd": 542.74
+      "market_usd": 541.94
     },
     "151 mini tin display case": {
       "display_name": "151 Mini Tin Display Case",
@@ -3494,7 +3494,7 @@
     },
     "151 mini tin electabuzz magnemites": {
       "display_name": "151 Mini Tin [Electabuzz & Magnemites]",
-      "market_usd": 51.08
+      "market_usd": 51.2
     },
     "151 mini tin gengar poliwag": {
       "display_name": "151 Mini Tin [Gengar & Poliwag]",
@@ -3506,7 +3506,7 @@
     },
     "151 mini tin hitmonlee kadabra": {
       "display_name": "151 Mini Tin [Hitmonlee & Kadabra]",
-      "market_usd": 50.78
+      "market_usd": 51.25
     },
     "151 mini tin machamp cubone": {
       "display_name": "151 Mini Tin [Machamp & Cubone]",
@@ -3514,19 +3514,19 @@
     },
     "151 mini tin magneton ekans": {
       "display_name": "151 Mini Tin [Magneton & Ekans]",
-      "market_usd": 50.71
+      "market_usd": 50.62
     },
     "151 mini tin slowpoke sandshrew": {
       "display_name": "151 Mini Tin [Slowpoke & Sandshrew]",
-      "market_usd": 51.63
+      "market_usd": 51.81
     },
     "151 mini tin weezing scyther": {
       "display_name": "151 Mini Tin [Weezing & Scyther]",
-      "market_usd": 51.89
+      "market_usd": 52.41
     },
     "151 poster collection": {
       "display_name": "151 Poster Collection",
-      "market_usd": 85.45
+      "market_usd": 85.21
     },
     "151 poster collection case": {
       "display_name": "151 Poster Collection Case",
@@ -3534,7 +3534,7 @@
     },
     "151 ultra premium collection": {
       "display_name": "151 Ultra-Premium Collection",
-      "market_usd": 933.37
+      "market_usd": 934.09
     },
     "151 ultra premium collection case": {
       "display_name": "151 Ultra-Premium Collection Case",
@@ -3542,7 +3542,7 @@
     },
     "151 zapdos ex collection": {
       "display_name": "151: Zapdos ex Collection",
-      "market_usd": 121.25
+      "market_usd": 121.45
     },
     "2 booster packs celebi collector s pin": {
       "display_name": "2 Booster Packs & Celebi Collector's Pin",
@@ -3566,7 +3566,7 @@
     },
     "2 pack blister pack oddish gloom vileplume": {
       "display_name": "2-Pack Blister Pack [Oddish, Gloom, & Vileplume]",
-      "market_usd": 18.59
+      "market_usd": 18.72
     },
     "2 pack blister pack team rocket s articuno zapdos tyranitar": {
       "display_name": "2-Pack Blister Pack [Team Rocket's Articuno, Zapdos & Tyranitar]",
@@ -3602,11 +3602,11 @@
     },
     "30th celebration 2 pack blister": {
       "display_name": "30th Celebration 2-Pack Blister",
-      "market_usd": 52.66
+      "market_usd": 52.6
     },
     "30th celebration binder collection": {
       "display_name": "30th Celebration Binder Collection",
-      "market_usd": 64.22
+      "market_usd": 64.1
     },
     "30th celebration binder collection case": {
       "display_name": "30th Celebration Binder Collection Case",
@@ -3614,15 +3614,15 @@
     },
     "30th celebration booster bundle": {
       "display_name": "30th Celebration Booster Bundle",
-      "market_usd": 89.88
+      "market_usd": 89.89
     },
     "30th celebration booster bundle case": {
       "display_name": "30th Celebration Booster Bundle Case",
-      "market_usd": 2399.43
+      "market_usd": 2398.37
     },
     "30th celebration center elite trainer box": {
       "display_name": "30th Celebration Pokemon Center Elite Trainer Box",
-      "market_usd": 493.92
+      "market_usd": 493.12
     },
     "30th celebration classic collection pack": {
       "display_name": "30th Celebration Classic Collection Pack",
@@ -3630,7 +3630,7 @@
     },
     "30th celebration ditto premium collection": {
       "display_name": "30th Celebration Ditto Premium Collection",
-      "market_usd": 201.67
+      "market_usd": 201.13
     },
     "30th celebration elite trainer box": {
       "display_name": "30th Celebration Elite Trainer Box",
@@ -3642,19 +3642,19 @@
     },
     "30th celebration ex tin sylveon ex": {
       "display_name": "30th Celebration ex Tin [Sylveon ex]",
-      "market_usd": 96.69
+      "market_usd": 78.14
     },
     "30th celebration figure collection mew": {
       "display_name": "30th Celebration Figure Collection [Mew]",
-      "market_usd": 126.43
+      "market_usd": 126.31
     },
     "30th celebration figure collection mewtwo": {
       "display_name": "30th Celebration Figure Collection [Mewtwo]",
-      "market_usd": 98.08
+      "market_usd": 97.93
     },
     "30th celebration knock out collection": {
       "display_name": "30th Celebration Knock Out Collection",
-      "market_usd": 29.16
+      "market_usd": 29.0
     },
     "30th celebration knock out collection case": {
       "display_name": "30th Celebration Knock Out Collection Case",
@@ -3662,11 +3662,11 @@
     },
     "30th celebration mini tin day pikachu": {
       "display_name": "30th Celebration Mini Tin [Day Pikachu]",
-      "market_usd": 78.32
+      "market_usd": 75.74
     },
     "30th celebration mini tin display": {
       "display_name": "30th Celebration Mini Tin Display",
-      "market_usd": 281.88
+      "market_usd": 280.57
     },
     "30th celebration mini tin display case": {
       "display_name": "30th Celebration Mini Tin Display Case",
@@ -3686,7 +3686,7 @@
     },
     "30th celebration mini tin mew": {
       "display_name": "30th Celebration Mini Tin [Mew]",
-      "market_usd": 74.83
+      "market_usd": 72.57
     },
     "30th celebration mini tin mewtwo": {
       "display_name": "30th Celebration Mini Tin [Mewtwo]",
@@ -3702,7 +3702,7 @@
     },
     "30th celebration mini tin umbreon": {
       "display_name": "30th Celebration Mini Tin [Umbreon]",
-      "market_usd": 78.48
+      "market_usd": 76.28
     },
     "30th celebration mini tin zapdos": {
       "display_name": "30th Celebration Mini Tin [Zapdos]",
@@ -3710,23 +3710,23 @@
     },
     "30th celebration poster collection": {
       "display_name": "30th Celebration Poster Collection",
-      "market_usd": 60.36
+      "market_usd": 59.84
     },
     "30th celebration tech sticker collection alolan exeggutor": {
       "display_name": "30th Celebration Tech Sticker Collection [Alolan Exeggutor]",
-      "market_usd": 36.51
+      "market_usd": 37.65
     },
     "30th celebration tech sticker collection lucario": {
       "display_name": "30th Celebration Tech Sticker Collection [Lucario]",
-      "market_usd": 41.1
+      "market_usd": 39.92
     },
     "30th celebration tech sticker collection set of 2": {
       "display_name": "30th Celebration Tech Sticker Collection [Set of 2]",
-      "market_usd": 87.37
+      "market_usd": 80.59
     },
     "30th celebration tin greninja ex": {
       "display_name": "30th Celebration Tin [Greninja ex]",
-      "market_usd": 74.38
+      "market_usd": 72.44
     },
     "30th celebration ultra premium collection case": {
       "display_name": "30th Celebration Ultra-Premium Collection Case",
@@ -3734,15 +3734,15 @@
     },
     "30th celebration ultra premium collection day": {
       "display_name": "30th Celebration Ultra-Premium Collection [Day]",
-      "market_usd": 406.05
+      "market_usd": 404.71
     },
     "30th celebration ultra premium collection night": {
       "display_name": "30th Celebration Ultra-Premium Collection [Night]",
-      "market_usd": 531.12
+      "market_usd": 530.98
     },
     "aaron s collection": {
       "display_name": "Aaron's Collection",
-      "market_usd": 0.59
+      "market_usd": 0.61
     },
     "aaron s collection 2009 tsubasa nakamura": {
       "display_name": "Aaron's Collection - 2009 (Tsubasa Nakamura)",
@@ -3754,11 +3754,11 @@
     },
     "abyss eye booster box": {
       "display_name": "Abyss Eye Booster Box",
-      "market_usd": 84.22
+      "market_usd": 83.92
     },
     "abyss eye booster pack": {
       "display_name": "Abyss Eye Booster Pack",
-      "market_usd": 2.94
+      "market_usd": 2.97
     },
     "alola collection lunala": {
       "display_name": "Alola Collection [Lunala]",
@@ -3792,10 +3792,6 @@
       "display_name": "Ancient Roar Booster Pack",
       "market_usd": 3.44
     },
-    "arceus booster pack": {
-      "display_name": "Arceus Booster Pack",
-      "market_usd": 434.12
-    },
     "arceus v figure collection": {
       "display_name": "Arceus V Figure Collection",
       "market_usd": 149.25
@@ -3826,11 +3822,11 @@
     },
     "ascended heroes booster bundle": {
       "display_name": "Ascended Heroes Booster Bundle",
-      "market_usd": 86.55
+      "market_usd": 86.03
     },
     "ascended heroes booster bundle case": {
       "display_name": "Ascended Heroes Booster Bundle Case",
-      "market_usd": 2102.91
+      "market_usd": 2171.95
     },
     "ascended heroes booster bundle display": {
       "display_name": "Ascended Heroes Booster Bundle Display",
@@ -3838,7 +3834,7 @@
     },
     "ascended heroes booster pack": {
       "display_name": "Ascended Heroes Booster Pack",
-      "market_usd": 13.97
+      "market_usd": 13.99
     },
     "ascended heroes center elite trainer box exclusive": {
       "display_name": "Ascended Heroes Pokemon Center Elite Trainer Box (Exclusive)",
@@ -3846,15 +3842,15 @@
     },
     "ascended heroes elite trainer box": {
       "display_name": "Ascended Heroes Elite Trainer Box",
-      "market_usd": 167.11
+      "market_usd": 166.56
     },
     "ascended heroes elite trainer box case": {
       "display_name": "Ascended Heroes Elite Trainer Box Case",
-      "market_usd": 1696.61
+      "market_usd": 1742.39
     },
     "ascended heroes first partners deluxe pin collection": {
       "display_name": "Ascended Heroes First Partners Deluxe Pin Collection",
-      "market_usd": 64.76
+      "market_usd": 66.1
     },
     "ascended heroes first partners deluxe pin collection case": {
       "display_name": "Ascended Heroes First Partners Deluxe Pin Collection Case",
@@ -3862,15 +3858,15 @@
     },
     "ascended heroes focused fighters premium collection sam s club": {
       "display_name": "Ascended Heroes Focused Fighters Premium Collection (Sam's Club)",
-      "market_usd": 235.2
+      "market_usd": 236.08
     },
     "ascended heroes mini tin clefairy chikorita": {
       "display_name": "Ascended Heroes Mini Tin [Clefairy & Chikorita]",
-      "market_usd": 35.58
+      "market_usd": 35.74
     },
     "ascended heroes mini tin display": {
       "display_name": "Ascended Heroes Mini Tin Display",
-      "market_usd": 299.09
+      "market_usd": 298.77
     },
     "ascended heroes mini tin display case": {
       "display_name": "Ascended Heroes Mini Tin Display Case",
@@ -3878,7 +3874,7 @@
     },
     "ascended heroes mini tin pikachu tepig": {
       "display_name": "Ascended Heroes Mini Tin [Pikachu & Tepig]",
-      "market_usd": 34.32
+      "market_usd": 34.29
     },
     "ascended heroes mini tin riolu darumaka": {
       "display_name": "Ascended Heroes Mini Tin [Riolu & Darumaka]",
@@ -3894,11 +3890,11 @@
     },
     "ascended heroes mini tins 5 pack": {
       "display_name": "Ascended Heroes Mini Tins 5-Pack",
-      "market_usd": 166.56
+      "market_usd": 167.1
     },
     "ascended heroes tin case": {
       "display_name": "Ascended Heroes Tin Case",
-      "market_usd": 382.68
+      "market_usd": 378.47
     },
     "ascended heroes tin mega emboar ex": {
       "display_name": "Ascended Heroes Tin [Mega Emboar ex]",
@@ -3906,7 +3902,7 @@
     },
     "ascended heroes tin mega feraligatr ex": {
       "display_name": "Ascended Heroes Tin [Mega Feraligatr ex]",
-      "market_usd": 70.56
+      "market_usd": 70.74
     },
     "ascended heroes tin mega meganium ex": {
       "display_name": "Ascended Heroes Tin [Mega Meganium ex]",
@@ -3954,7 +3950,7 @@
     },
     "astral radiance center elite trainer box exclusive": {
       "display_name": "Astral Radiance Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 230.61
+      "market_usd": 225.52
     },
     "astral radiance elite trainer box": {
       "display_name": "Astral Radiance Elite Trainer Box",
@@ -3974,7 +3970,7 @@
     },
     "astral radiance single pack blister oricorio": {
       "display_name": "Astral Radiance Single Pack Blister [Oricorio]",
-      "market_usd": 12.16
+      "market_usd": 12.35
     },
     "astral radiance single pack blister set of 2": {
       "display_name": "Astral Radiance Single Pack Blister [Set of 2]",
@@ -3986,11 +3982,11 @@
     },
     "astral radiance sleeved booster pack": {
       "display_name": "Astral Radiance Sleeved Booster Pack",
-      "market_usd": 12.6
+      "market_usd": 12.66
     },
     "astral radiance sleeved booster pack art bundle set of 5": {
       "display_name": "Astral Radiance Sleeved Booster Pack Art Bundle [Set of 5]",
-      "market_usd": 57.17
+      "market_usd": 57.49
     },
     "astral radiance sleeved booster pack case": {
       "display_name": "Astral Radiance Sleeved Booster Pack Case",
@@ -4010,7 +4006,7 @@
     },
     "azure legends tin kyogre ex": {
       "display_name": "Azure Legends Tin [Kyogre ex]",
-      "market_usd": 43.96
+      "market_usd": 44.01
     },
     "azure legends tin kyogre ex international version": {
       "display_name": "Azure Legends Tin [Kyogre ex] (International Version)",
@@ -4038,11 +4034,11 @@
     },
     "base set 2 booster pack": {
       "display_name": "Base Set 2 Booster Pack",
-      "market_usd": 411.24
+      "market_usd": 418.4
     },
     "base set booster pack revised unlimited edition": {
       "display_name": "Base Set Booster Pack [Revised Unlimited Edition]",
-      "market_usd": 823.35
+      "market_usd": 838.2
     },
     "base set shadowless 1st edition booster pack": {
       "display_name": "Pokemon Base Set (Shadowless) [1st Edition] Booster Pack",
@@ -4062,11 +4058,11 @@
     },
     "basic fighting energy 014": {
       "display_name": "Basic Fighting Energy - 014",
-      "market_usd": 0.12
+      "market_usd": 0.13
     },
     "basic fighting energy 014 cosmos holo": {
       "display_name": "Basic Fighting Energy - 014 (Cosmos Holo)",
-      "market_usd": 0.72
+      "market_usd": 0.71
     },
     "basic fighting energy 022": {
       "display_name": "Basic Fighting Energy - 022",
@@ -4102,7 +4098,7 @@
     },
     "basic fighting energy cosmos holo": {
       "display_name": "Basic Fighting Energy (Cosmos Holo)",
-      "market_usd": 0.66
+      "market_usd": 0.65
     },
     "basic fighting energy cracked ice holo": {
       "display_name": "Basic Fighting Energy (Cracked Ice Holo)",
@@ -4118,7 +4114,7 @@
     },
     "basic fighting energy mee 006 cosmos holo": {
       "display_name": "Basic Fighting Energy - MEE 006 (Cosmos Holo)",
-      "market_usd": 0.89
+      "market_usd": 0.87
     },
     "basic fighting energy mirror holo": {
       "display_name": "Basic Fighting Energy (Mirror Holo)",
@@ -4127,10 +4123,6 @@
     "basic fighting energy terastal pattern": {
       "display_name": "Basic Fighting Energy (Terastal Pattern)",
       "market_usd": 1.0
-    },
-    "basic fighting energy tyranitar stamped": {
-      "display_name": "Basic Fighting Energy (Tyranitar Stamped)",
-      "market_usd": 0.99
     },
     "battle heart tin magearna ex": {
       "display_name": "Battle Heart Tin [Magearna EX]",
@@ -4146,7 +4138,7 @@
     },
     "battle partner booster pack": {
       "display_name": "Battle Partner Booster Pack",
-      "market_usd": 3.8
+      "market_usd": 3.73
     },
     "battle partners booster box": {
       "display_name": "Battle Partners Booster Box",
@@ -4194,11 +4186,11 @@
     },
     "battle styles elite trainer box set of 2": {
       "display_name": "Battle Styles Elite Trainer Box [Set of 2]",
-      "market_usd": 241.14
+      "market_usd": 245.0
     },
     "battle styles elite trainer box single strike urshifu red": {
       "display_name": "Battle Styles Elite Trainer Box [Single Strike Urshifu] (Red)",
-      "market_usd": 126.03
+      "market_usd": 126.64
     },
     "battle styles single pack blister charmander": {
       "display_name": "Battle Styles Single Pack Blister [Charmander]",
@@ -4206,7 +4198,7 @@
     },
     "battle styles sleeved booster pack": {
       "display_name": "Battle Styles Sleeved Booster Pack",
-      "market_usd": 10.19
+      "market_usd": 10.13
     },
     "battle styles sleeved booster pack art bundle set of 4": {
       "display_name": "Battle Styles Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -4230,11 +4222,11 @@
     },
     "black bolt booster box": {
       "display_name": "Black Bolt Booster Box",
-      "market_usd": 167.62
+      "market_usd": 167.42
     },
     "black bolt booster bundle": {
       "display_name": "Black Bolt Booster Bundle",
-      "market_usd": 96.43
+      "market_usd": 96.36
     },
     "black bolt booster bundle case": {
       "display_name": "Black Bolt Booster Bundle Case",
@@ -4250,7 +4242,7 @@
     },
     "black bolt center elite trainer box exclusive": {
       "display_name": "Black Bolt Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 276.4
+      "market_usd": 275.69
     },
     "black bolt deluxe booster box": {
       "display_name": "Black Bolt Deluxe Booster Box",
@@ -4262,7 +4254,7 @@
     },
     "black bolt elite trainer box": {
       "display_name": "Black Bolt Elite Trainer Box",
-      "market_usd": 165.24
+      "market_usd": 165.23
     },
     "black bolt elite trainer box case": {
       "display_name": "Black Bolt Elite Trainer Box Case",
@@ -4270,7 +4262,7 @@
     },
     "black bolt tech sticker collection": {
       "display_name": "Black Bolt Tech Sticker Collection",
-      "market_usd": 47.32
+      "market_usd": 48.32
     },
     "blastoise gx premium collection": {
       "display_name": "Blastoise GX Premium Collection",
@@ -4282,7 +4274,7 @@
     },
     "blooming waters premium collection": {
       "display_name": "Blooming Waters Premium Collection",
-      "market_usd": 330.45
+      "market_usd": 330.36
     },
     "blue sky stream booster box": {
       "display_name": "Blue Sky Stream Booster Box",
@@ -4314,15 +4306,15 @@
     },
     "brilliant stars 3 pack blister glaceon": {
       "display_name": "Brilliant Stars 3 Pack Blister [Glaceon]",
-      "market_usd": 51.91
+      "market_usd": 51.87
     },
     "brilliant stars 3 pack blister leafeon": {
       "display_name": "Brilliant Stars 3 Pack Blister [Leafeon]",
-      "market_usd": 49.67
+      "market_usd": 50.12
     },
     "brilliant stars booster box": {
       "display_name": "Brilliant Stars Booster Box",
-      "market_usd": 584.79
+      "market_usd": 582.99
     },
     "brilliant stars booster box case": {
       "display_name": "Brilliant Stars Booster Box Case",
@@ -4338,7 +4330,7 @@
     },
     "brilliant stars center elite trainer box exclusive": {
       "display_name": "Brilliant Stars Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 261.13
+      "market_usd": 259.73
     },
     "brilliant stars center elite trainer box exclusive case": {
       "display_name": "Brilliant Stars Pokemon Center Elite Trainer Box (Exclusive) Case",
@@ -4390,7 +4382,7 @@
     },
     "brock s scouting 179 159": {
       "display_name": "Brock's Scouting - 179/159",
-      "market_usd": 1.84
+      "market_usd": 1.75
     },
     "brock s scouting 2025 liao fu guan": {
       "display_name": "Brock's Scouting - 2025 (Liao Fu Guan)",
@@ -4422,7 +4414,7 @@
     },
     "burning shadows elite trainer box": {
       "display_name": "Burning Shadows Elite Trainer Box",
-      "market_usd": 322.44
+      "market_usd": 323.42
     },
     "burning shadows sleeved booster pack": {
       "display_name": "Burning Shadows Sleeved Booster Pack",
@@ -4450,7 +4442,7 @@
     },
     "captivating poke puff": {
       "display_name": "Captivating Poke Puff",
-      "market_usd": 0.21
+      "market_usd": 0.22
     },
     "card 151 booster box": {
       "display_name": "Pokemon Card 151 Booster Box",
@@ -4458,7 +4450,7 @@
     },
     "card 151 booster pack": {
       "display_name": "Pokemon Card 151 Booster Pack",
-      "market_usd": 19.28
+      "market_usd": 19.47
     },
     "celebi 029 ex collector s carry tin": {
       "display_name": "Celebi - 029 (EX Collector's Carry Tin)",
@@ -4466,7 +4458,7 @@
     },
     "celebrations booster pack": {
       "display_name": "Celebrations Booster Pack",
-      "market_usd": 37.92
+      "market_usd": 37.3
     },
     "celebrations center elite trainer box case exclusive": {
       "display_name": "Celebrations Pokemon Center Elite Trainer Box Case (Exclusive)",
@@ -4486,7 +4478,7 @@
     },
     "celebrations collection dark sylveon v": {
       "display_name": "Celebrations Collection [Dark Sylveon V]",
-      "market_usd": 162.65
+      "market_usd": 163.65
     },
     "celebrations collection dragapult prime": {
       "display_name": "Celebrations Collection [Dragapult Prime]",
@@ -4502,11 +4494,11 @@
     },
     "celebrations deluxe pin collection zacian lv x": {
       "display_name": "Celebrations Deluxe Pin Collection [Zacian LV. X]",
-      "market_usd": 135.73
+      "market_usd": 136.32
     },
     "celebrations elite trainer box": {
       "display_name": "Celebrations Elite Trainer Box",
-      "market_usd": 361.18
+      "market_usd": 359.7
     },
     "celebrations elite trainer box case": {
       "display_name": "Celebrations Elite Trainer Box Case",
@@ -4554,7 +4546,7 @@
     },
     "celebrations mini tin sinnoh": {
       "display_name": "Celebrations Mini Tin [Sinnoh]",
-      "market_usd": 53.21
+      "market_usd": 53.95
     },
     "celebrations mini tin unova": {
       "display_name": "Celebrations Mini Tin [Unova]",
@@ -4562,7 +4554,7 @@
     },
     "celebrations premium figure collection pikachu vmax": {
       "display_name": "Celebrations Premium Figure Collection [Pikachu VMAX]",
-      "market_usd": 297.09
+      "market_usd": 296.97
     },
     "celebrations premium playmat collection pikachu v union": {
       "display_name": "Celebrations Premium Playmat Collection [Pikachu V-UNION]",
@@ -4598,7 +4590,11 @@
     },
     "celestial storm booster pack": {
       "display_name": "Celestial Storm Booster Pack",
-      "market_usd": 60.06
+      "market_usd": 61.04
+    },
+    "celestial storm booster pack art bundle set of 4": {
+      "display_name": "Celestial Storm Booster Pack Art Bundle [Set of 4]",
+      "market_usd": 289.5
     },
     "celestial storm elite trainer box": {
       "display_name": "Celestial Storm Elite Trainer Box",
@@ -4618,7 +4614,7 @@
     },
     "champion s path booster pack": {
       "display_name": "Champion's Path Booster Pack",
-      "market_usd": 18.88
+      "market_usd": 18.97
     },
     "champion s path booster pack art bundle set of 4": {
       "display_name": "Champion's Path Booster Pack Art Bundle [Set of 4]",
@@ -4634,7 +4630,7 @@
     },
     "champion s path elite trainer box": {
       "display_name": "Champion's Path Elite Trainer Box",
-      "market_usd": 219.73
+      "market_usd": 219.33
     },
     "champion s path elite trainer box case": {
       "display_name": "Champion's Path Elite Trainer Box Case",
@@ -4666,7 +4662,7 @@
     },
     "champion s path premium collection marnie": {
       "display_name": "Champion's Path Premium Collection [Marnie]",
-      "market_usd": 133.36
+      "market_usd": 133.66
     },
     "champion s path special pin collection circhester": {
       "display_name": "Champion's Path Special Pin Collection [Circhester]",
@@ -4686,15 +4682,15 @@
     },
     "chaos rising booster box": {
       "display_name": "Chaos Rising Booster Box",
-      "market_usd": 187.1
+      "market_usd": 184.19
     },
     "chaos rising booster box case": {
       "display_name": "Chaos Rising Booster Box Case",
-      "market_usd": 1058.45
+      "market_usd": 1062.69
     },
     "chaos rising booster bundle": {
       "display_name": "Chaos Rising Booster Bundle",
-      "market_usd": 36.77
+      "market_usd": 36.63
     },
     "chaos rising booster bundle case": {
       "display_name": "Chaos Rising Booster Bundle Case",
@@ -4702,19 +4698,19 @@
     },
     "chaos rising booster pack": {
       "display_name": "Chaos Rising Booster Pack",
-      "market_usd": 5.52
+      "market_usd": 5.54
     },
     "chaos rising booster pack art bundle set of 4": {
       "display_name": "Chaos Rising Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 26.66
+      "market_usd": 26.71
     },
     "chaos rising center elite trainer box": {
       "display_name": "Chaos Rising Pokemon Center Elite Trainer Box",
-      "market_usd": 133.11
+      "market_usd": 134.65
     },
     "chaos rising elite trainer box": {
       "display_name": "Chaos Rising Elite Trainer Box",
-      "market_usd": 70.72
+      "market_usd": 67.03
     },
     "chaos rising elite trainer box case": {
       "display_name": "Chaos Rising Elite Trainer Box Case",
@@ -4722,11 +4718,11 @@
     },
     "chaos rising premium checklane blister flygon line": {
       "display_name": "Chaos Rising Premium Checklane Blister [Flygon Line]",
-      "market_usd": 16.47
+      "market_usd": 16.29
     },
     "chaos rising premium checklane blister pawmot line": {
       "display_name": "Chaos Rising Premium Checklane Blister [Pawmot Line]",
-      "market_usd": 15.49
+      "market_usd": 15.33
     },
     "chaos rising single pack blister reshiram moltres": {
       "display_name": "Chaos Rising Single Pack Blister [Reshiram/Moltres]",
@@ -4734,7 +4730,7 @@
     },
     "chaos rising single pack blister toxel": {
       "display_name": "Chaos Rising Single Pack Blister [Toxel]",
-      "market_usd": 7.52
+      "market_usd": 7.51
     },
     "chaos rising single pack blister zacian mimikyu": {
       "display_name": "Chaos Rising Single Pack Blister [Zacian/Mimikyu]",
@@ -4746,7 +4742,7 @@
     },
     "chaos rising sleeved booster pack art bundle set of 4": {
       "display_name": "Chaos Rising Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 27.82
+      "market_usd": 27.65
     },
     "charizard 3 110 wotc legendary collection": {
       "display_name": "Charizard - 3/110 (WotC Legendary Collection)",
@@ -4762,7 +4758,7 @@
     },
     "charizard ex special collection": {
       "display_name": "Charizard ex Special Collection",
-      "market_usd": 61.17
+      "market_usd": 61.96
     },
     "charizard ex super premium collection": {
       "display_name": "Charizard ex Super-Premium Collection",
@@ -4770,7 +4766,7 @@
     },
     "charmander 18 147 premium collection promo": {
       "display_name": "Charmander - 18/147 (Premium Collection Promo)",
-      "market_usd": 5.67
+      "market_usd": 5.79
     },
     "charmander sidekick collection": {
       "display_name": "Charmander Sidekick Collection",
@@ -4778,7 +4774,7 @@
     },
     "charmeleon 19 147 premium collection promo": {
       "display_name": "Charmeleon - 19/147 (Premium Collection Promo)",
-      "market_usd": 2.86
+      "market_usd": 2.91
     },
     "checklane 2 pack blister archaludon 3 tab": {
       "display_name": "Checklane 2-Pack Blister [Archaludon] (3-tab)",
@@ -4786,7 +4782,7 @@
     },
     "checklane 2 pack blister pawmot 3 tab": {
       "display_name": "Checklane 2-Pack Blister [Pawmot] (3-tab)",
-      "market_usd": 20.46
+      "market_usd": 21.37
     },
     "checklane 2 pack pin blister celebi": {
       "display_name": "Checklane 2-Pack Pin Blister [Celebi]",
@@ -4810,7 +4806,7 @@
     },
     "chilling reign 3 pack blister snorlax": {
       "display_name": "Chilling Reign 3 Pack Blister [Snorlax]",
-      "market_usd": 56.15
+      "market_usd": 56.61
     },
     "chilling reign booster box": {
       "display_name": "Chilling Reign Booster Box",
@@ -4822,7 +4818,7 @@
     },
     "chilling reign booster pack": {
       "display_name": "Chilling Reign Booster Pack",
-      "market_usd": 11.66
+      "market_usd": 11.68
     },
     "chilling reign booster pack art bundle set of 5": {
       "display_name": "Chilling Reign Booster Pack Art Bundle [Set of 5]",
@@ -4842,7 +4838,7 @@
     },
     "chilling reign elite trainer box set of 2": {
       "display_name": "Chilling Reign Elite Trainer Box [Set of 2]",
-      "market_usd": 282.69
+      "market_usd": 285.35
     },
     "chilling reign elite trainer box shadow rider calyrex": {
       "display_name": "Chilling Reign Elite Trainer Box [Shadow Rider Calyrex]",
@@ -4862,7 +4858,7 @@
     },
     "chilling reign sleeved booster pack": {
       "display_name": "Chilling Reign Sleeved Booster Pack",
-      "market_usd": 19.37
+      "market_usd": 19.64
     },
     "chilling reign sleeved booster pack art bundle set of 5": {
       "display_name": "Chilling Reign Sleeved Booster Pack Art Bundle [Set of 5]",
@@ -4870,7 +4866,7 @@
     },
     "chimchar 56 100 platinum": {
       "display_name": "Chimchar - 56/100 [Platinum]",
-      "market_usd": 8.83
+      "market_usd": 8.8
     },
     "clair s mantine": {
       "display_name": "Clair's Mantine",
@@ -4898,7 +4894,7 @@
     },
     "coating metal energy": {
       "display_name": "Coating Metal Energy",
-      "market_usd": 0.1
+      "market_usd": 0.12
     },
     "code card 151 alakazam ex collection": {
       "display_name": "Code Card - 151: Alakazam ex Collection",
@@ -5070,7 +5066,7 @@
     },
     "code card brilliant stars elite trainer box": {
       "display_name": "Code Card - Brilliant Stars Elite Trainer Box",
-      "market_usd": 0.09
+      "market_usd": 0.1
     },
     "code card brilliant stars single pack blister eevee": {
       "display_name": "Code Card - Brilliant Stars Single Pack Blister [Eevee]",
@@ -5146,7 +5142,7 @@
     },
     "code card celestial storm elite trainer box": {
       "display_name": "Code Card - Celestial Storm Elite Trainer Box",
-      "market_usd": 3.5
+      "market_usd": 3.67
     },
     "code card champion s path booster pack": {
       "display_name": "Code Card - Champion's Path Booster Pack",
@@ -5322,7 +5318,7 @@
     },
     "code card darkness ablaze elite trainer box": {
       "display_name": "Code Card - Darkness Ablaze Elite Trainer Box",
-      "market_usd": 0.25
+      "market_usd": 0.31
     },
     "code card darkness ablaze single pack blister pikachu": {
       "display_name": "Code Card - Darkness Ablaze Single Pack Blister [Pikachu]",
@@ -5366,7 +5362,7 @@
     },
     "code card destined rivals elite trainer box": {
       "display_name": "Code Card - Destined Rivals Elite Trainer Box",
-      "market_usd": 0.3
+      "market_usd": 0.29
     },
     "code card destined rivals premium checklane blister togekiss": {
       "display_name": "Code Card - Destined Rivals Premium Checklane Blister [Togekiss]",
@@ -5470,7 +5466,7 @@
     },
     "code card evolutions booster pack": {
       "display_name": "Code Card - Evolutions Booster Pack",
-      "market_usd": 0.05
+      "market_usd": 0.06
     },
     "code card evolving skies 3 pack blister eiscue": {
       "display_name": "Code Card - Evolving Skies 3 Pack Blister [Eiscue]",
@@ -5538,7 +5534,7 @@
     },
     "code card flashfire booster pack": {
       "display_name": "Code Card - Flashfire Booster Pack",
-      "market_usd": 0.19
+      "market_usd": 0.2
     },
     "code card forbidden light booster pack": {
       "display_name": "Code Card - Forbidden Light Booster Pack",
@@ -5546,7 +5542,7 @@
     },
     "code card furious fists booster pack": {
       "display_name": "Code Card - Furious Fists Booster Pack",
-      "market_usd": 0.44
+      "market_usd": 0.42
     },
     "code card fusion strike 3 pack blister eevee": {
       "display_name": "Code Card - Fusion Strike 3 Pack Blister [Eevee]",
@@ -5738,7 +5734,7 @@
     },
     "code card journey together elite trainer box": {
       "display_name": "Code Card - Journey Together Elite Trainer Box",
-      "market_usd": 0.18
+      "market_usd": 0.19
     },
     "code card journey together single pack blister archaludon": {
       "display_name": "Code Card - Journey Together Single Pack Blister [Archaludon]",
@@ -5782,7 +5778,7 @@
     },
     "code card legendary treasures booster pack": {
       "display_name": "Code Card - Legendary Treasures Booster Pack",
-      "market_usd": 0.39
+      "market_usd": 0.49
     },
     "code card legendary warriors premium collection": {
       "display_name": "Code Card - Legendary Warriors Premium Collection",
@@ -6266,7 +6262,7 @@
     },
     "code card plasma freeze booster pack": {
       "display_name": "Code Card - Plasma Freeze Booster Pack",
-      "market_usd": 0.25
+      "market_usd": 0.3
     },
     "code card power partnership tin garchomp giratina gx": {
       "display_name": "Code Card - Power Partnership Tin [Garchomp & Giratina GX]",
@@ -6378,7 +6374,7 @@
     },
     "code card roaring skies booster pack": {
       "display_name": "Code Card - Roaring Skies Booster Pack",
-      "market_usd": 0.11
+      "market_usd": 0.1
     },
     "code card scarlet violet 3 pack blister arcanine": {
       "display_name": "Code Card - Scarlet & Violet 3 Pack Blister [Arcanine]",
@@ -6766,7 +6762,7 @@
     },
     "code card terapagos ex ultra premium collection": {
       "display_name": "Code Card - Terapagos ex Ultra-Premium Collection",
-      "market_usd": 2.02
+      "market_usd": 1.75
     },
     "code card triple whammy tin darkrai": {
       "display_name": "Code Card - Triple Whammy Tin [Darkrai]",
@@ -6778,7 +6774,7 @@
     },
     "code card triple whammy tin tyranitar": {
       "display_name": "Code Card - Triple Whammy Tin [Tyranitar]",
-      "market_usd": 0.06
+      "market_usd": 0.07
     },
     "code card tsareena ex premium collection": {
       "display_name": "Code Card - Tsareena ex Premium Collection",
@@ -6962,7 +6958,7 @@
     },
     "code card xy breakpoint booster pack": {
       "display_name": "Code Card - XY BREAKpoint Booster Pack",
-      "market_usd": 0.11
+      "market_usd": 0.12
     },
     "code card xy breakthrough booster pack": {
       "display_name": "Code Card - XY BREAKthrough Booster Pack",
@@ -7014,7 +7010,7 @@
     },
     "cosmic eclipse booster pack": {
       "display_name": "Cosmic Eclipse Booster Pack",
-      "market_usd": 75.41
+      "market_usd": 75.45
     },
     "cosmic eclipse booster pack art bundle set of 4": {
       "display_name": "Cosmic Eclipse Booster Pack Art Bundle [Set of 4]",
@@ -7070,11 +7066,11 @@
     },
     "costco scarlet violet paldean fates mini tin 5 pack": {
       "display_name": "Costco Pokemon Scarlet & Violet Paldean Fates Mini Tin 5-pack",
-      "market_usd": 300.05
+      "market_usd": 307.74
     },
     "costco surging sparks 2 pack trainer box and booster bundle": {
       "display_name": "Costco Pokemon Surging Sparks 2-Pack Trainer Box and Booster Bundle",
-      "market_usd": 176.22
+      "market_usd": 175.97
     },
     "crimson haze booster box": {
       "display_name": "Crimson Haze Booster Box",
@@ -7118,7 +7114,7 @@
     },
     "crown zenith booster bundle": {
       "display_name": "Crown Zenith Booster Bundle",
-      "market_usd": 218.95
+      "market_usd": 219.55
     },
     "crown zenith booster bundle case": {
       "display_name": "Crown Zenith Booster Bundle Case",
@@ -7126,11 +7122,11 @@
     },
     "crown zenith booster pack": {
       "display_name": "Crown Zenith Booster Pack",
-      "market_usd": 25.81
+      "market_usd": 26.13
     },
     "crown zenith center elite trainer box plus": {
       "display_name": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
-      "market_usd": 570.02
+      "market_usd": 572.78
     },
     "crown zenith center elite trainer box plus case": {
       "display_name": "Crown Zenith Pokemon Center Elite Trainer Box Plus Case",
@@ -7150,11 +7146,11 @@
     },
     "crown zenith elite trainer box": {
       "display_name": "Crown Zenith Elite Trainer Box",
-      "market_usd": 328.23
+      "market_usd": 327.76
     },
     "crown zenith elite trainer box case": {
       "display_name": "Crown Zenith Elite Trainer Box Case",
-      "market_usd": 3510.33
+      "market_usd": 3574.12
     },
     "crown zenith mini tin bede hatenna": {
       "display_name": "Crown Zenith Mini Tin [Bede & Hatenna]",
@@ -7178,7 +7174,7 @@
     },
     "crown zenith mini tin marnie morpeko": {
       "display_name": "Crown Zenith Mini Tin [Marnie & Morpeko]",
-      "market_usd": 52.45
+      "market_usd": 53.39
     },
     "crown zenith mini tin set of 5": {
       "display_name": "Crown Zenith Mini Tin [Set of 5]",
@@ -7206,7 +7202,7 @@
     },
     "crown zenith premium figure collection set of 2": {
       "display_name": "Crown Zenith Premium Figure Collection [Set of 2]",
-      "market_usd": 631.74
+      "market_usd": 635.7
     },
     "crown zenith premium figure collection shiny zacian": {
       "display_name": "Crown Zenith Premium Figure Collection [Shiny Zacian]",
@@ -7214,7 +7210,7 @@
     },
     "crown zenith premium figure collection shiny zamazenta": {
       "display_name": "Crown Zenith Premium Figure Collection [Shiny Zamazenta]",
-      "market_usd": 330.26
+      "market_usd": 332.06
     },
     "crown zenith special collection unown v lugia v": {
       "display_name": "Crown Zenith Special Collection [Unown V & Lugia V]",
@@ -7250,7 +7246,7 @@
     },
     "crown zenith tin set of 3": {
       "display_name": "Crown Zenith Tin [Set of 3]",
-      "market_usd": 372.53
+      "market_usd": 376.51
     },
     "crown zenith tin set of 3 international version": {
       "display_name": "Crown Zenith Tin [Set of 3] (International Version)",
@@ -7310,7 +7306,7 @@
     },
     "dark raichu 7 110 wotc legendary collection": {
       "display_name": "Dark Raichu - 7/110 (WotC Legendary Collection)",
-      "market_usd": 21.91
+      "market_usd": 22.75
     },
     "darkness ablaze 3 pack blister eevee": {
       "display_name": "Darkness Ablaze 3 Pack Blister [Eevee]",
@@ -7330,7 +7326,7 @@
     },
     "darkness ablaze booster pack": {
       "display_name": "Darkness Ablaze Booster Pack",
-      "market_usd": 10.25
+      "market_usd": 10.17
     },
     "darkness ablaze booster pack art bundle set of 4": {
       "display_name": "Darkness Ablaze Booster Pack Art Bundle [Set of 4]",
@@ -7362,7 +7358,7 @@
     },
     "darkness ablaze sleeved booster pack": {
       "display_name": "Darkness Ablaze Sleeved Booster Pack",
-      "market_usd": 11.92
+      "market_usd": 11.96
     },
     "darkness ablaze sleeved booster pack art bundle set of 4": {
       "display_name": "Darkness Ablaze Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -7374,15 +7370,15 @@
     },
     "day 2026 collection": {
       "display_name": "Pokemon Day 2026 Collection",
-      "market_usd": 37.56
+      "market_usd": 37.65
     },
     "day 2026 collection case": {
       "display_name": "Pokemon Day 2026 Collection Case",
-      "market_usd": 212.84
+      "market_usd": 215.64
     },
     "delta reign booster box": {
       "display_name": "Delta Reign Booster Box",
-      "market_usd": 289.33
+      "market_usd": 253.79
     },
     "delta reign booster bundle": {
       "display_name": "Delta Reign Booster Bundle",
@@ -7394,7 +7390,7 @@
     },
     "delta reign elite trainer box": {
       "display_name": "Delta Reign Elite Trainer Box",
-      "market_usd": 177.46
+      "market_usd": 163.65
     },
     "destined rivals 3 pack blister kangaskhan": {
       "display_name": "Destined Rivals 3 Pack Blister [Kangaskhan]",
@@ -7410,15 +7406,15 @@
     },
     "destined rivals booster box": {
       "display_name": "Destined Rivals Booster Box",
-      "market_usd": 417.64
+      "market_usd": 417.41
     },
     "destined rivals booster box case": {
       "display_name": "Destined Rivals Booster Box Case",
-      "market_usd": 2584.65
+      "market_usd": 2553.65
     },
     "destined rivals booster bundle": {
       "display_name": "Destined Rivals Booster Bundle",
-      "market_usd": 69.35
+      "market_usd": 69.38
     },
     "destined rivals booster bundle case": {
       "display_name": "Destined Rivals Booster Bundle Case",
@@ -7426,11 +7422,11 @@
     },
     "destined rivals booster pack": {
       "display_name": "Destined Rivals Booster Pack",
-      "market_usd": 9.25
+      "market_usd": 9.1
     },
     "destined rivals booster pack art bundle set of 4": {
       "display_name": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 38.61
+      "market_usd": 38.45
     },
     "destined rivals build battle box": {
       "display_name": "Destined Rivals Build & Battle Box",
@@ -7442,23 +7438,23 @@
     },
     "destined rivals center elite trainer box exclusive": {
       "display_name": "Destined Rivals Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 500.61
+      "market_usd": 496.01
     },
     "destined rivals elite trainer box": {
       "display_name": "Destined Rivals Elite Trainer Box",
-      "market_usd": 122.98
+      "market_usd": 119.95
     },
     "destined rivals elite trainer box case": {
       "display_name": "Destined Rivals Elite Trainer Box Case",
-      "market_usd": 1235.58
+      "market_usd": 1221.47
     },
     "destined rivals fun pack": {
       "display_name": "Destined Rivals Fun Pack",
-      "market_usd": 5.35
+      "market_usd": 5.38
     },
     "destined rivals half booster box": {
       "display_name": "Destined Rivals Half Booster Box",
-      "market_usd": 295.82
+      "market_usd": 298.06
     },
     "destined rivals premium checklane blister gastrodon": {
       "display_name": "Destined Rivals Premium Checklane Blister [Gastrodon]",
@@ -7486,11 +7482,11 @@
     },
     "destined rivals sleeved booster case": {
       "display_name": "Destined Rivals Sleeved Booster Case",
-      "market_usd": 1601.6
+      "market_usd": 1603.63
     },
     "destined rivals sleeved booster pack": {
       "display_name": "Destined Rivals Sleeved Booster Pack",
-      "market_usd": 10.87
+      "market_usd": 10.83
     },
     "destined rivals sleeved booster pack art bundle set of 4": {
       "display_name": "Destined Rivals Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -7498,7 +7494,7 @@
     },
     "detective pikachu booster pack": {
       "display_name": "Detective Pikachu Booster Pack",
-      "market_usd": 22.71
+      "market_usd": 22.95
     },
     "detective pikachu on the case figure collection": {
       "display_name": "Detective Pikachu On the Case Figure Collection",
@@ -7570,7 +7566,7 @@
     },
     "dragon majesty elite trainer box": {
       "display_name": "Dragon Majesty Elite Trainer Box",
-      "market_usd": 1367.99
+      "market_usd": 1256.49
     },
     "dragon majesty pin collection latias": {
       "display_name": "Dragon Majesty Pin Collection [Latias]",
@@ -7586,11 +7582,11 @@
     },
     "dragonite dragons tin": {
       "display_name": "Dragonite Dragons Tin",
-      "market_usd": 69.64
+      "market_usd": 71.01
     },
     "dragons exalted booster pack": {
       "display_name": "Dragons Exalted Booster Pack",
-      "market_usd": 338.92
+      "market_usd": 340.54
     },
     "dratini": {
       "display_name": "Dratini",
@@ -7604,6 +7600,10 @@
       "display_name": "Dratini - 002/020",
       "market_usd": 9.42
     },
+    "dratini 009 020": {
+      "display_name": "Dratini - 009/020",
+      "market_usd": 7.0
+    },
     "dratini 025 053": {
       "display_name": "Dratini - 025/053",
       "market_usd": 0.99
@@ -7614,7 +7614,7 @@
     },
     "dratini 052 109": {
       "display_name": "Dratini - 052/109",
-      "market_usd": 3.71
+      "market_usd": 3.73
     },
     "dratini 053 109": {
       "display_name": "Dratini - 053/109",
@@ -7642,7 +7642,7 @@
     },
     "dratini 066 113 delta species": {
       "display_name": "Dratini - 066/113 (Delta Species)",
-      "market_usd": 3.49
+      "market_usd": 3.52
     },
     "dratini 1": {
       "display_name": "Dratini (1)",
@@ -7654,7 +7654,7 @@
     },
     "dratini 117": {
       "display_name": "Dratini (117)",
-      "market_usd": 0.31
+      "market_usd": 0.3
     },
     "dratini 147": {
       "display_name": "Dratini (147)",
@@ -7662,7 +7662,7 @@
     },
     "dratini 148": {
       "display_name": "Dratini (148)",
-      "market_usd": 0.45
+      "market_usd": 0.47
     },
     "dratini 150 217": {
       "display_name": "Dratini - 150/217",
@@ -7674,7 +7674,7 @@
     },
     "dratini 34": {
       "display_name": "Dratini (34)",
-      "market_usd": 0.31
+      "market_usd": 0.3
     },
     "dratini 35": {
       "display_name": "Dratini (35)",
@@ -7706,7 +7706,7 @@
     },
     "dratini love ball": {
       "display_name": "Dratini (Love Ball)",
-      "market_usd": 0.25
+      "market_usd": 0.26
     },
     "dratini love ball pattern": {
       "display_name": "Dratini (Love Ball Pattern)",
@@ -7718,7 +7718,7 @@
     },
     "dratini poke ball pattern": {
       "display_name": "Dratini (Poke Ball Pattern)",
-      "market_usd": 1.09
+      "market_usd": 1.1
     },
     "dream league booster box": {
       "display_name": "Dream League Booster Box",
@@ -7730,7 +7730,7 @@
     },
     "eevee 62 100 platinum": {
       "display_name": "Eevee - 62/100 [Platinum]",
-      "market_usd": 60.27
+      "market_usd": 60.21
     },
     "eevee evolution vmax premium collection case": {
       "display_name": "Eevee Evolution VMAX Premium Collection Case",
@@ -7738,11 +7738,11 @@
     },
     "eevee evolution vmax premium collection set of 3": {
       "display_name": "Eevee Evolution VMAX Premium Collection [Set of 3]",
-      "market_usd": 941.52
+      "market_usd": 938.79
     },
     "eevee evolutions premium collection": {
       "display_name": "Eevee Evolutions Premium Collection",
-      "market_usd": 275.83
+      "market_usd": 276.87
     },
     "eevee evolutions tin case": {
       "display_name": "Eevee Evolutions Tin Case",
@@ -7806,7 +7806,7 @@
     },
     "enhanced 2 pack blister pack latios zekrom palkia": {
       "display_name": "Enhanced 2-Pack Blister Pack [Latios, Zekrom & Palkia]",
-      "market_usd": 23.31
+      "market_usd": 22.87
     },
     "erika s dratini": {
       "display_name": "Erika's Dratini",
@@ -7834,7 +7834,7 @@
     },
     "evolutions booster pack": {
       "display_name": "Evolutions Booster Pack",
-      "market_usd": 65.03
+      "market_usd": 64.98
     },
     "evolutions booster pack art bundle set of 4": {
       "display_name": "Evolutions Booster Pack Art Bundle [Set of 4]",
@@ -7846,7 +7846,7 @@
     },
     "evolving skies 3 pack blister eiscue": {
       "display_name": "Evolving Skies 3 Pack Blister [Eiscue]",
-      "market_usd": 188.25
+      "market_usd": 190.52
     },
     "evolving skies 3 pack blister umbreon": {
       "display_name": "Evolving Skies 3 Pack Blister [Umbreon]",
@@ -7858,7 +7858,7 @@
     },
     "evolving skies booster pack": {
       "display_name": "Evolving Skies Booster Pack",
-      "market_usd": 42.21
+      "market_usd": 43.4
     },
     "evolving skies booster pack art bundle set of 4": {
       "display_name": "Evolving Skies Booster Pack Art Bundle [Set of 4]",
@@ -7886,7 +7886,7 @@
     },
     "evolving skies elite trainer box set of 2": {
       "display_name": "Evolving Skies Elite Trainer Box [Set of 2]",
-      "market_usd": 1062.83
+      "market_usd": 1059.57
     },
     "evolving skies half booster box": {
       "display_name": "Evolving Skies Half Booster Box",
@@ -7906,7 +7906,7 @@
     },
     "evolving skies sleeved booster pack": {
       "display_name": "Evolving Skies Sleeved Booster Pack",
-      "market_usd": 62.36
+      "market_usd": 62.6
     },
     "evolving skies sleeved booster pack art bundle set of 4": {
       "display_name": "Evolving Skies Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -7978,7 +7978,7 @@
     },
     "fantina 116 100": {
       "display_name": "Fantina - 116/100",
-      "market_usd": 3.91
+      "market_usd": 3.92
     },
     "fantina 124 100": {
       "display_name": "Fantina - 124/100",
@@ -7986,11 +7986,11 @@
     },
     "fantina full art": {
       "display_name": "Fantina (Full Art)",
-      "market_usd": 2.64
+      "market_usd": 2.7
     },
     "fantina secret": {
       "display_name": "Fantina (Secret)",
-      "market_usd": 4.32
+      "market_usd": 4.35
     },
     "fates collide single pack blister pansear": {
       "display_name": "Fates Collide Single Pack Blister [Pansear]",
@@ -8166,7 +8166,7 @@
     },
     "fighting energy 2022 unnumbered": {
       "display_name": "Fighting Energy (2022 Unnumbered)",
-      "market_usd": 0.15
+      "market_usd": 0.17
     },
     "fighting energy 2023": {
       "display_name": "Fighting Energy (2023)",
@@ -8246,7 +8246,7 @@
     },
     "fighting energy texture full art": {
       "display_name": "Fighting Energy (Texture Full Art)",
-      "market_usd": 4.2
+      "market_usd": 4.18
     },
     "fighting energy wotc 2002 league promo": {
       "display_name": "Fighting Energy (WotC 2002 League Promo)",
@@ -8266,19 +8266,19 @@
     },
     "fighting gong": {
       "display_name": "Fighting Gong",
-      "market_usd": 0.18
+      "market_usd": 0.16
     },
     "fighting gong 116 132": {
       "display_name": "Fighting Gong - 116/132",
-      "market_usd": 0.2
+      "market_usd": 0.19
     },
     "fighting gong 116 132 cosmos holo": {
       "display_name": "Fighting Gong - 116/132 (Cosmos Holo)",
-      "market_usd": 0.46
+      "market_usd": 0.48
     },
     "fighting gong 168 132": {
       "display_name": "Fighting Gong - 168/132",
-      "market_usd": 2.27
+      "market_usd": 2.57
     },
     "fighting memory": {
       "display_name": "Fighting Memory",
@@ -8294,7 +8294,7 @@
     },
     "first partner collection 2026 series 1 booster pack": {
       "display_name": "First Partner Collection 2026 Series 1 Booster Pack",
-      "market_usd": 47.91
+      "market_usd": 47.79
     },
     "first partner collection 2026 series 2 booster pack": {
       "display_name": "First Partner Collection 2026 Series 2 Booster Pack",
@@ -8302,31 +8302,31 @@
     },
     "first partner collection 2026 series 3 booster pack": {
       "display_name": "First Partner Collection 2026 Series 3 Booster Pack",
-      "market_usd": 34.46
+      "market_usd": 34.08
     },
     "first partner illustration collection case series 1": {
       "display_name": "First Partner Illustration Collection Case (Series 1)",
-      "market_usd": 388.5
+      "market_usd": 384.43
     },
     "first partner illustration collection case series 2": {
       "display_name": "First Partner Illustration Collection Case (Series 2)",
-      "market_usd": 194.09
+      "market_usd": 191.15
     },
     "first partner illustration collection case series 3": {
       "display_name": "First Partner Illustration Collection Case (Series 3)",
-      "market_usd": 206.26
+      "market_usd": 205.78
     },
     "first partner illustration collection series 1": {
       "display_name": "First Partner Illustration Collection (Series 1)",
-      "market_usd": 60.91
+      "market_usd": 63.56
     },
     "first partner illustration collection series 2": {
       "display_name": "First Partner Illustration Collection (Series 2)",
-      "market_usd": 28.69
+      "market_usd": 28.52
     },
     "first partner illustration collection series 3": {
       "display_name": "First Partner Illustration Collection (Series 3)",
-      "market_usd": 32.37
+      "market_usd": 33.24
     },
     "flareon vmax premium collection": {
       "display_name": "Flareon VMAX Premium Collection",
@@ -8358,7 +8358,7 @@
     },
     "forbidden light elite trainer box": {
       "display_name": "Forbidden Light Elite Trainer Box",
-      "market_usd": 678.49
+      "market_usd": 685.41
     },
     "forbidden light single pack blister rockruff": {
       "display_name": "Forbidden Light Single Pack Blister [Rockruff]",
@@ -8370,7 +8370,7 @@
     },
     "fossil booster pack 1st edition": {
       "display_name": "Fossil Booster Pack [1st Edition]",
-      "market_usd": 665.06
+      "market_usd": 666.03
     },
     "fossil booster pack unlimited edition": {
       "display_name": "Fossil Booster Pack [Unlimited Edition]",
@@ -8398,7 +8398,7 @@
     },
     "fusion arts booster box": {
       "display_name": "Fusion Arts Booster Box",
-      "market_usd": 290.56
+      "market_usd": 302.32
     },
     "fusion arts booster pack": {
       "display_name": "Fusion Arts Booster Pack",
@@ -8438,7 +8438,7 @@
     },
     "fusion strike elite trainer box": {
       "display_name": "Fusion Strike Elite Trainer Box",
-      "market_usd": 339.66
+      "market_usd": 336.78
     },
     "fusion strike elite trainer box case": {
       "display_name": "Fusion Strike Elite Trainer Box Case",
@@ -8454,7 +8454,7 @@
     },
     "fusion strike sleeved booster pack": {
       "display_name": "Fusion Strike Sleeved Booster Pack",
-      "market_usd": 28.37
+      "market_usd": 28.29
     },
     "fusion strike sleeved booster pack art bundle set of 4": {
       "display_name": "Fusion Strike Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -8522,11 +8522,11 @@
     },
     "galar power mini tin toxtricity": {
       "display_name": "Galar Power Mini Tin [Toxtricity]",
-      "market_usd": 32.59
+      "market_usd": 33.82
     },
     "garchomp giratina gx": {
       "display_name": "Garchomp & Giratina GX",
-      "market_usd": 54.37
+      "market_usd": 54.49
     },
     "garchomp giratina gx 032 054": {
       "display_name": "Garchomp & Giratina GX - 032/054",
@@ -8542,7 +8542,7 @@
     },
     "garchomp giratina gx 099 173": {
       "display_name": "Garchomp & Giratina GX - 099/173",
-      "market_usd": 15.8
+      "market_usd": 15.85
     },
     "garchomp giratina gx full art": {
       "display_name": "Garchomp & Giratina GX (Full Art)",
@@ -8554,11 +8554,11 @@
     },
     "garchomp giratina gx sm193": {
       "display_name": "Garchomp & Giratina GX - SM193",
-      "market_usd": 107.27
+      "market_usd": 107.53
     },
     "gardevoir 8 127 dppt platinum": {
       "display_name": "Gardevoir - 8/127 (DPPt Platinum)",
-      "market_usd": 9.67
+      "market_usd": 9.78
     },
     "gardevoir v victini v battle decks set of 2": {
       "display_name": "Gardevoir V/Victini V Battle Decks [Set of 2]",
@@ -8686,7 +8686,7 @@
     },
     "giratina sm151 prerelease": {
       "display_name": "Giratina - SM151 (Prerelease)",
-      "market_usd": 37.72
+      "market_usd": 37.34
     },
     "giratina sm151 prerelease staff": {
       "display_name": "Giratina - SM151 (Prerelease) [Staff]",
@@ -8718,15 +8718,15 @@
     },
     "giratina v full art": {
       "display_name": "Giratina V (Full Art)",
-      "market_usd": 18.25
+      "market_usd": 18.14
     },
     "giratina v swsh259": {
       "display_name": "Giratina V - SWSH259",
-      "market_usd": 3.13
+      "market_usd": 3.19
     },
     "giratina vstar": {
       "display_name": "Giratina VSTAR",
-      "market_usd": 2.41
+      "market_usd": 2.61
     },
     "giratina vstar 081 100": {
       "display_name": "Giratina VSTAR - 081/100",
@@ -8734,7 +8734,7 @@
     },
     "giratina vstar 111 172": {
       "display_name": "Giratina VSTAR - 111/172",
-      "market_usd": 0.95
+      "market_usd": 0.99
     },
     "giratina vstar 120 100": {
       "display_name": "Giratina VSTAR - 120/100",
@@ -8746,7 +8746,7 @@
     },
     "giratina vstar 131 196": {
       "display_name": "Giratina VSTAR - 131/196",
-      "market_usd": 12.47
+      "market_usd": 12.33
     },
     "giratina vstar 201 secret": {
       "display_name": "Giratina VSTAR (201) (Secret)",
@@ -8758,7 +8758,7 @@
     },
     "giratina vstar 212 secret": {
       "display_name": "Giratina VSTAR (212) (Secret)",
-      "market_usd": 18.17
+      "market_usd": 18.36
     },
     "giratina vstar 261 172": {
       "display_name": "Giratina VSTAR - 261/172",
@@ -8806,7 +8806,7 @@
     },
     "go center elite trainer box plus exclusive": {
       "display_name": "Pokemon GO Pokemon Center Elite Trainer Box Plus (Exclusive)",
-      "market_usd": 235.92
+      "market_usd": 233.6
     },
     "go collection alolan exeggutor v": {
       "display_name": "Pokemon GO Collection [Alolan Exeggutor V]",
@@ -8814,7 +8814,7 @@
     },
     "go elite trainer box": {
       "display_name": "Pokemon GO Elite Trainer Box",
-      "market_usd": 168.94
+      "market_usd": 169.3
     },
     "go elite trainer box case": {
       "display_name": "Pokemon GO Elite Trainer Box Case",
@@ -8826,7 +8826,7 @@
     },
     "go mini tin display": {
       "display_name": "Pokemon GO Mini Tin Display",
-      "market_usd": 242.48
+      "market_usd": 253.23
     },
     "go mini tin eevee": {
       "display_name": "Pokemon GO Mini Tin [Eevee]",
@@ -8878,7 +8878,7 @@
     },
     "go premium collection radiant eevee": {
       "display_name": "Pokemon GO Premium Collection [Radiant Eevee]",
-      "market_usd": 168.14
+      "market_usd": 168.09
     },
     "go special collection set of 3": {
       "display_name": "Pokemon GO Special Collection [Set of 3]",
@@ -9018,11 +9018,11 @@
     },
     "heat wave arena booster box": {
       "display_name": "Heat Wave Arena Booster Box",
-      "market_usd": 129.23
+      "market_usd": 129.44
     },
     "heat wave arena booster pack": {
       "display_name": "Heat Wave Arena Booster Pack",
-      "market_usd": 3.77
+      "market_usd": 3.71
     },
     "heavy hitters premium collection": {
       "display_name": "Heavy Hitters Premium Collection",
@@ -9030,7 +9030,7 @@
     },
     "heavy hitters premium collection fall 2023": {
       "display_name": "Heavy Hitters Premium Collection (Fall 2023)",
-      "market_usd": 290.9
+      "market_usd": 296.7
     },
     "hidden fates booster pack": {
       "display_name": "Hidden Fates Booster Pack",
@@ -9162,11 +9162,11 @@
     },
     "inferno x booster box": {
       "display_name": "Inferno X Booster Box",
-      "market_usd": 123.9
+      "market_usd": 124.05
     },
     "inferno x booster pack": {
       "display_name": "Inferno X Booster Pack",
-      "market_usd": 3.9
+      "market_usd": 3.94
     },
     "infinity zone booster box": {
       "display_name": "Infinity Zone Booster Box",
@@ -9190,7 +9190,7 @@
     },
     "iris s fighting spirit 121 100": {
       "display_name": "Iris's Fighting Spirit - 121/100",
-      "market_usd": 1.77
+      "market_usd": 1.74
     },
     "iris s fighting spirit 149 159": {
       "display_name": "Iris's Fighting Spirit - 149/159",
@@ -9202,7 +9202,7 @@
     },
     "iris s fighting spirit 180 159": {
       "display_name": "Iris's Fighting Spirit - 180/159",
-      "market_usd": 1.29
+      "market_usd": 1.22
     },
     "iris s fighting spirit 190 217": {
       "display_name": "Iris's Fighting Spirit - 190/217",
@@ -9214,7 +9214,7 @@
     },
     "iris s fighting spirit 292 217": {
       "display_name": "Iris's Fighting Spirit - 292/217",
-      "market_usd": 32.51
+      "market_usd": 32.35
     },
     "iris s fighting spirit mirror holo": {
       "display_name": "Iris's Fighting Spirit (Mirror Holo)",
@@ -9242,7 +9242,7 @@
     },
     "jet black spirit booster pack": {
       "display_name": "Jet-Black Spirit Booster Pack",
-      "market_usd": 6.96
+      "market_usd": 6.68
     },
     "jirachi gx collection": {
       "display_name": "Jirachi GX Collection",
@@ -9262,11 +9262,11 @@
     },
     "journey together 3 pack blister yanmega": {
       "display_name": "Journey Together 3 Pack Blister [Yanmega]",
-      "market_usd": 24.65
+      "market_usd": 24.81
     },
     "journey together booster box": {
       "display_name": "Journey Together Booster Box",
-      "market_usd": 287.16
+      "market_usd": 265.23
     },
     "journey together booster box case": {
       "display_name": "Journey Together Booster Box Case",
@@ -9274,7 +9274,7 @@
     },
     "journey together booster bundle": {
       "display_name": "Journey Together Booster Bundle",
-      "market_usd": 46.26
+      "market_usd": 46.04
     },
     "journey together booster bundle case": {
       "display_name": "Journey Together Booster Bundle Case",
@@ -9282,7 +9282,7 @@
     },
     "journey together booster pack": {
       "display_name": "Journey Together Booster Pack",
-      "market_usd": 6.5
+      "market_usd": 6.57
     },
     "journey together booster pack art bundle set of 4": {
       "display_name": "Journey Together Booster Pack Art Bundle [Set of 4]",
@@ -9290,11 +9290,11 @@
     },
     "journey together center elite trainer box exclusive": {
       "display_name": "Journey Together Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 201.41
+      "market_usd": 201.45
     },
     "journey together elite trainer box": {
       "display_name": "Journey Together Elite Trainer Box",
-      "market_usd": 134.41
+      "market_usd": 134.85
     },
     "journey together elite trainer box case": {
       "display_name": "Journey Together Elite Trainer Box Case",
@@ -9302,7 +9302,7 @@
     },
     "journey together enhanced booster box": {
       "display_name": "Journey Together Enhanced Booster Box",
-      "market_usd": 246.27
+      "market_usd": 245.23
     },
     "journey together enhanced booster box case": {
       "display_name": "Journey Together Enhanced Booster Box Case",
@@ -9330,7 +9330,7 @@
     },
     "journey together sleeved booster pack": {
       "display_name": "Journey Together Sleeved Booster Pack",
-      "market_usd": 9.25
+      "market_usd": 9.27
     },
     "journey together sleeved booster pack art bundle set of 4": {
       "display_name": "Journey Together Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -9339,10 +9339,6 @@
     "jungle booster pack 1st edition": {
       "display_name": "Jungle Booster Pack [1st Edition]",
       "market_usd": 658.18
-    },
-    "jungle booster pack 291 yen": {
-      "display_name": "Pokemon Jungle Booster Pack (291 Yen)",
-      "market_usd": 500.0
     },
     "jungle booster pack unlimited edition": {
       "display_name": "Jungle Booster Pack [Unlimited Edition]",
@@ -9414,7 +9410,7 @@
     },
     "kingambit illustration collection": {
       "display_name": "Kingambit Illustration Collection",
-      "market_usd": 52.45
+      "market_usd": 52.35
     },
     "kingambit illustration collection case": {
       "display_name": "Kingambit Illustration Collection Case",
@@ -9458,7 +9454,7 @@
     },
     "knock out collection kyogre": {
       "display_name": "Knock Out Collection [Kyogre]",
-      "market_usd": 15.22
+      "market_usd": 15.34
     },
     "knock out collection lucario bisharp and zoroark": {
       "display_name": "Knock Out Collection [Lucario, Bisharp, and Zoroark]",
@@ -9478,11 +9474,11 @@
     },
     "kyogre ex 037 ex collector s tins": {
       "display_name": "Kyogre ex - 037 (EX Collector's Tins)",
-      "market_usd": 146.29
+      "market_usd": 139.25
     },
     "lady outing": {
       "display_name": "Lady Outing",
-      "market_usd": 0.66
+      "market_usd": 0.7
     },
     "lady outing 83 109 no e reader": {
       "display_name": "Lady Outing - 83/109 (No E-Reader)",
@@ -9598,11 +9594,11 @@
     },
     "lost origin booster box": {
       "display_name": "Lost Origin Booster Box",
-      "market_usd": 725.72
+      "market_usd": 726.4
     },
     "lost origin booster box case": {
       "display_name": "Lost Origin Booster Box Case",
-      "market_usd": 4546.4
+      "market_usd": 4542.83
     },
     "lost origin booster bundle": {
       "display_name": "Lost Origin Booster Bundle",
@@ -9618,7 +9614,7 @@
     },
     "lost origin center elite trainer box exclusive": {
       "display_name": "Lost Origin Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 391.93
+      "market_usd": 392.61
     },
     "lost origin elite trainer box": {
       "display_name": "Lost Origin Elite Trainer Box",
@@ -9646,11 +9642,11 @@
     },
     "lost origin single pack blister set of 2": {
       "display_name": "Lost Origin Single Pack Blister [Set of 2]",
-      "market_usd": 40.93
+      "market_usd": 40.83
     },
     "lost origin sleeved booster pack": {
       "display_name": "Lost Origin Sleeved Booster Pack",
-      "market_usd": 21.81
+      "market_usd": 21.69
     },
     "lost origin sleeved booster pack art bundle set of 4": {
       "display_name": "Lost Origin Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -9666,7 +9662,7 @@
     },
     "lost thunder booster box": {
       "display_name": "Lost Thunder Booster Box",
-      "market_usd": 1473.64
+      "market_usd": 1475.46
     },
     "lost thunder booster pack": {
       "display_name": "Lost Thunder Booster Pack",
@@ -9674,7 +9670,7 @@
     },
     "lost thunder elite trainer box": {
       "display_name": "Lost Thunder Elite Trainer Box",
-      "market_usd": 681.95
+      "market_usd": 689.13
     },
     "lucario vstar premium collection": {
       "display_name": "Lucario VSTAR Premium Collection",
@@ -9690,11 +9686,11 @@
     },
     "lumiose city mini tin display": {
       "display_name": "Lumiose City Mini Tin Display",
-      "market_usd": 113.48
+      "market_usd": 113.68
     },
     "lumiose city mini tin display case": {
       "display_name": "Lumiose City Mini Tin Display Case",
-      "market_usd": 461.36
+      "market_usd": 456.98
     },
     "lumiose city mini tin emboar inkay": {
       "display_name": "Lumiose City Mini Tin [Emboar & Inkay]",
@@ -9738,7 +9734,7 @@
     },
     "mantine": {
       "display_name": "Mantine",
-      "market_usd": 1.01
+      "market_usd": 1.02
     },
     "mantine 023 s p": {
       "display_name": "Mantine - 023/S-P",
@@ -9762,7 +9758,7 @@
     },
     "mantine swsh026": {
       "display_name": "Mantine - SWSH026",
-      "market_usd": 2.69
+      "market_usd": 2.73
     },
     "marnie premium tournament collection box": {
       "display_name": "Marnie Premium Tournament Collection Box",
@@ -9770,11 +9766,11 @@
     },
     "masks of ogerpon premium collection": {
       "display_name": "Masks of Ogerpon Premium Collection",
-      "market_usd": 86.98
+      "market_usd": 87.12
     },
     "mcdonald s 25th anniversary booster pack": {
       "display_name": "McDonald's 25th Anniversary Booster Pack",
-      "market_usd": 8.25
+      "market_usd": 8.33
     },
     "meddling sparks premium collection": {
       "display_name": "Meddling Sparks Premium Collection",
@@ -9782,7 +9778,7 @@
     },
     "mega brave booster box": {
       "display_name": "Mega Brave Booster Box",
-      "market_usd": 98.53
+      "market_usd": 98.7
     },
     "mega brave booster pack": {
       "display_name": "Mega Brave Booster Pack",
@@ -9790,15 +9786,15 @@
     },
     "mega charizard tin case": {
       "display_name": "Mega Charizard Tin Case",
-      "market_usd": 208.23
+      "market_usd": 211.73
     },
     "mega charizard tin mega charizard x": {
       "display_name": "Mega Charizard Tin (Mega Charizard X)",
-      "market_usd": 43.48
+      "market_usd": 43.03
     },
     "mega charizard tin mega charizard y": {
       "display_name": "Mega Charizard Tin (Mega Charizard Y)",
-      "market_usd": 43.61
+      "market_usd": 43.33
     },
     "mega charizard x collection": {
       "display_name": "Mega Charizard X Collection",
@@ -9806,7 +9802,7 @@
     },
     "mega charizard x ex ultra premium collection": {
       "display_name": "Mega Charizard X ex Ultra Premium Collection",
-      "market_usd": 235.25
+      "market_usd": 222.38
     },
     "mega charizard x ex ultra premium collection case": {
       "display_name": "Mega Charizard X ex Ultra Premium Collection Case",
@@ -9814,11 +9810,11 @@
     },
     "mega dream ex booster box": {
       "display_name": "Mega Dream ex Booster Box",
-      "market_usd": 103.91
+      "market_usd": 103.3
     },
     "mega dream ex booster pack": {
       "display_name": "Mega Dream ex Booster Pack",
-      "market_usd": 10.82
+      "market_usd": 10.86
     },
     "mega evolution 3 pack blister golduck": {
       "display_name": "Mega Evolution 3 Pack Blister [Golduck]",
@@ -9826,7 +9822,7 @@
     },
     "mega evolution 3 pack blister psyduck": {
       "display_name": "Mega Evolution 3 Pack Blister [Psyduck]",
-      "market_usd": 45.52
+      "market_usd": 45.58
     },
     "mega evolution ascended heroes collection case": {
       "display_name": "Mega Evolution: Ascended Heroes Collection case",
@@ -9850,7 +9846,7 @@
     },
     "mega evolution ascended heroes collection set of 2": {
       "display_name": "Mega Evolution: Ascended Heroes Collection [Set of 2]",
-      "market_usd": 60.27
+      "market_usd": 59.87
     },
     "mega evolution ascended heroes tech sticker collection case": {
       "display_name": "Mega Evolution: Ascended Heroes Tech Sticker Collection Case",
@@ -9866,7 +9862,7 @@
     },
     "mega evolution booster box": {
       "display_name": "Mega Evolution Booster Box",
-      "market_usd": 326.02
+      "market_usd": 325.33
     },
     "mega evolution booster box case": {
       "display_name": "Mega Evolution Booster Box Case",
@@ -9874,7 +9870,7 @@
     },
     "mega evolution booster bundle": {
       "display_name": "Mega Evolution Booster Bundle",
-      "market_usd": 63.62
+      "market_usd": 63.7
     },
     "mega evolution booster bundle case": {
       "display_name": "Mega Evolution Booster Bundle Case",
@@ -9882,11 +9878,11 @@
     },
     "mega evolution booster pack": {
       "display_name": "Mega Evolution Booster Pack",
-      "market_usd": 8.19
+      "market_usd": 8.16
     },
     "mega evolution booster pack art bundle set of 4": {
       "display_name": "Mega Evolution Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 35.06
+      "market_usd": 34.94
     },
     "mega evolution center elite trainer box exclusive mega gardevoir": {
       "display_name": "Mega Evolution Pokemon Center Elite Trainer Box (Exclusive) [Mega Gardevoir]",
@@ -9902,15 +9898,15 @@
     },
     "mega evolution elite trainer box mega gardevoir": {
       "display_name": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
-      "market_usd": 114.9
+      "market_usd": 115.18
     },
     "mega evolution elite trainer box mega lucario": {
       "display_name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
-      "market_usd": 121.66
+      "market_usd": 122.09
     },
     "mega evolution enhanced booster box": {
       "display_name": "Mega Evolution Enhanced Booster Box",
-      "market_usd": 306.35
+      "market_usd": 304.48
     },
     "mega evolution premium checklane blister meowscarada": {
       "display_name": "Mega Evolution Premium Checklane Blister [Meowscarada]",
@@ -9942,7 +9938,7 @@
     },
     "mega evolution sleeved booster pack art bundle set of 4": {
       "display_name": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 45.11
+      "market_usd": 45.05
     },
     "mega forces tin case": {
       "display_name": "Mega Forces Tin Case",
@@ -9954,7 +9950,7 @@
     },
     "mega forces tin mega dragonite ex": {
       "display_name": "Mega Forces Tin [Mega Dragonite ex]",
-      "market_usd": 53.98
+      "market_usd": 53.93
     },
     "mega forces tin mega zeraora ex": {
       "display_name": "Mega Forces Tin [Mega Zeraora ex]",
@@ -9966,7 +9962,7 @@
     },
     "mega greninja ex premium collection": {
       "display_name": "Mega Greninja ex Premium Collection",
-      "market_usd": 46.2
+      "market_usd": 46.22
     },
     "mega greninja ex premium collection case": {
       "display_name": "Mega Greninja ex Premium Collection Case",
@@ -10006,7 +10002,7 @@
     },
     "mega lucario ex premium figure collection": {
       "display_name": "Mega Lucario ex Premium Figure Collection",
-      "market_usd": 56.34
+      "market_usd": 56.37
     },
     "mega moonlit tin case": {
       "display_name": "Mega Moonlit Tin Case",
@@ -10014,19 +10010,15 @@
     },
     "mega moonlit tin mega clefable ex": {
       "display_name": "Mega Moonlit Tin [Mega Clefable ex]",
-      "market_usd": 26.5
+      "market_usd": 26.59
     },
     "mega moonlit tin mega gengar ex": {
       "display_name": "Mega Moonlit Tin [Mega Gengar ex]",
-      "market_usd": 33.28
-    },
-    "mega powers collection": {
-      "display_name": "Mega Powers Collection",
-      "market_usd": 1098.79
+      "market_usd": 33.84
     },
     "mega symphonia booster box": {
       "display_name": "Mega Symphonia Booster Box",
-      "market_usd": 87.16
+      "market_usd": 87.52
     },
     "mega symphonia booster pack": {
       "display_name": "Mega Symphonia Booster Pack",
@@ -10034,11 +10026,11 @@
     },
     "mega venusaur ex premium collection": {
       "display_name": "Mega Venusaur ex Premium Collection",
-      "market_usd": 69.89
+      "market_usd": 69.95
     },
     "mega zygarde ex premium collection": {
       "display_name": "Mega Zygarde ex Premium Collection",
-      "market_usd": 47.72
+      "market_usd": 48.58
     },
     "mega zygarde ex premium collection case": {
       "display_name": "Mega Zygarde ex Premium Collection Case",
@@ -10050,7 +10042,7 @@
     },
     "meowth 106 146 platinum": {
       "display_name": "Meowth - 106/146 [Platinum]",
-      "market_usd": 32.91
+      "market_usd": 35.9
     },
     "meowth vmax special collection": {
       "display_name": "Meowth VMAX Special Collection",
@@ -10070,7 +10062,7 @@
     },
     "mighty mysterious tin mimikyu": {
       "display_name": "Mighty Mysterious Tin [Mimikyu]",
-      "market_usd": 86.72
+      "market_usd": 87.71
     },
     "mighty mysterious tin snorlax": {
       "display_name": "Mighty Mysterious Tin [Snorlax]",
@@ -10132,10 +10124,6 @@
       "display_name": "Mysterious Powers Tin [Necrozma GX]",
       "market_usd": 126.74
     },
-    "mysterious treasures booster pack": {
-      "display_name": "Mysterious Treasures Booster Pack",
-      "market_usd": 337.8
-    },
     "mythical 2 pack blister celebi": {
       "display_name": "Mythical 2-Pack Blister [Celebi]",
       "market_usd": 59.95
@@ -10178,7 +10166,7 @@
     },
     "mythical collection box victini": {
       "display_name": "Mythical Pokemon Collection Box [Victini]",
-      "market_usd": 457.48
+      "market_usd": 396.65
     },
     "mythical collection magearna": {
       "display_name": "Mythical Collection [Magearna]",
@@ -10190,7 +10178,7 @@
     },
     "mythical squishy premium collection": {
       "display_name": "Mythical Squishy Premium Collection",
-      "market_usd": 245.56
+      "market_usd": 250.41
     },
     "n 2015 patrick martinez": {
       "display_name": "N - 2015 (Patrick Martinez)",
@@ -10222,7 +10210,7 @@
     },
     "nidoran f 2009 jason martinez": {
       "display_name": "Nidoran F - 2009 (Jason Martinez)",
-      "market_usd": 0.76
+      "market_usd": 0.71
     },
     "nidorina 2009 jason martinez": {
       "display_name": "Nidorina - 2009 (Jason Martinez)",
@@ -10242,7 +10230,7 @@
     },
     "nihil zero booster box": {
       "display_name": "Nihil Zero Booster Box",
-      "market_usd": 77.65
+      "market_usd": 77.83
     },
     "nihil zero booster pack": {
       "display_name": "Nihil Zero Booster Pack",
@@ -10250,11 +10238,11 @@
     },
     "ninja spinner booster box": {
       "display_name": "Ninja Spinner Booster Box",
-      "market_usd": 86.55
+      "market_usd": 85.18
     },
     "ninja spinner booster pack": {
       "display_name": "Ninja Spinner Booster Pack",
-      "market_usd": 3.07
+      "market_usd": 3.03
     },
     "noble victories booster pack": {
       "display_name": "Noble Victories Booster Pack",
@@ -10270,7 +10258,7 @@
     },
     "obsidian flames booster box": {
       "display_name": "Obsidian Flames Booster Box",
-      "market_usd": 365.66
+      "market_usd": 364.46
     },
     "obsidian flames booster box case": {
       "display_name": "Obsidian Flames Booster Box Case",
@@ -10282,11 +10270,11 @@
     },
     "obsidian flames booster pack": {
       "display_name": "Obsidian Flames Booster Pack",
-      "market_usd": 13.09
+      "market_usd": 13.06
     },
     "obsidian flames booster pack art bundle set of 4": {
       "display_name": "Obsidian Flames Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 50.56
+      "market_usd": 51.06
     },
     "obsidian flames center elite trainer box exclusive": {
       "display_name": "Obsidian Flames Pokemon Center Elite Trainer Box (Exclusive)",
@@ -10314,7 +10302,7 @@
     },
     "obsidian flames single pack blister paldean wooper": {
       "display_name": "Obsidian Flames Single Pack Blister [Paldean Wooper]",
-      "market_usd": 13.08
+      "market_usd": 13.21
     },
     "obsidian flames single pack blister pawmi": {
       "display_name": "Obsidian Flames Single Pack Blister [Pawmi]",
@@ -10326,7 +10314,7 @@
     },
     "obsidian flames sleeved booster pack art bundle set of 4": {
       "display_name": "Obsidian Flames Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 55.72
+      "market_usd": 56.26
     },
     "obsidian flames sleeved booster pack case": {
       "display_name": "Obsidian Flames Sleeved Booster Pack Case",
@@ -10346,7 +10334,7 @@
     },
     "oshawott 021 086 unova poster collection": {
       "display_name": "Oshawott - 021/086 (Unova Poster Collection)",
-      "market_usd": 0.27
+      "market_usd": 0.28
     },
     "paldea collection fuecoco koraidon ex": {
       "display_name": "Paldea Collection [Fuecoco/Koraidon ex]",
@@ -10398,7 +10386,7 @@
     },
     "paldea evolved booster pack": {
       "display_name": "Paldea Evolved Booster Pack",
-      "market_usd": 16.21
+      "market_usd": 16.25
     },
     "paldea evolved booster pack art bundle set of 5": {
       "display_name": "Paldea Evolved Booster Pack Art Bundle [Set of 5]",
@@ -10410,7 +10398,7 @@
     },
     "paldea evolved elite trainer box": {
       "display_name": "Paldea Evolved Elite Trainer Box",
-      "market_usd": 218.38
+      "market_usd": 218.09
     },
     "paldea evolved elite trainer box case": {
       "display_name": "Paldea Evolved Elite Trainer Box Case",
@@ -10426,7 +10414,7 @@
     },
     "paldea evolved single pack blister growlithe": {
       "display_name": "Paldea Evolved Single Pack Blister [Growlithe]",
-      "market_usd": 17.74
+      "market_usd": 17.85
     },
     "paldea evolved single pack blister smoliv": {
       "display_name": "Paldea Evolved Single Pack Blister [Smoliv]",
@@ -10446,7 +10434,7 @@
     },
     "paldea friends mini tin fuecoco smoliv": {
       "display_name": "Paldea Friends Mini Tin [Fuecoco & Smoliv]",
-      "market_usd": 28.03
+      "market_usd": 28.58
     },
     "paldea friends mini tin pawmi lechonk": {
       "display_name": "Paldea Friends Mini Tin [Pawmi & Lechonk]",
@@ -10514,11 +10502,11 @@
     },
     "paldea partners tin skeledirge ex": {
       "display_name": "Paldea Partners Tin [Skeledirge ex]",
-      "market_usd": 45.65
+      "market_usd": 46.13
     },
     "paldean fates booster bundle": {
       "display_name": "Paldean Fates Booster Bundle",
-      "market_usd": 176.39
+      "market_usd": 175.84
     },
     "paldean fates booster bundle display": {
       "display_name": "Paldean Fates Booster Bundle Display",
@@ -10534,7 +10522,7 @@
     },
     "paldean fates booster pack art bundle set of 4": {
       "display_name": "Paldean Fates Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 95.13
+      "market_usd": 94.97
     },
     "paldean fates center elite trainer box exclusive": {
       "display_name": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive)",
@@ -10563,10 +10551,6 @@
     "paldean fates international tin great tusk ex": {
       "display_name": "Paldean Fates International Tin [Great Tusk ex]",
       "market_usd": 95.25
-    },
-    "paldean fates international tin iron treads ex": {
-      "display_name": "Paldean Fates International Tin [Iron Treads ex]",
-      "market_usd": 97.68
     },
     "paldean fates mini tin display": {
       "display_name": "Paldean Fates Mini Tin Display",
@@ -10618,15 +10602,15 @@
     },
     "paldean fates tech sticker collection fidough": {
       "display_name": "Paldean Fates Tech Sticker Collection [Fidough]",
-      "market_usd": 73.2
+      "market_usd": 73.24
     },
     "paldean fates tech sticker collection greavard": {
       "display_name": "Paldean Fates Tech Sticker Collection [Greavard]",
-      "market_usd": 69.88
+      "market_usd": 70.19
     },
     "paldean fates tech sticker collection maschiff": {
       "display_name": "Paldean Fates Tech Sticker Collection [Maschiff]",
-      "market_usd": 72.72
+      "market_usd": 72.7
     },
     "paldean fates tech sticker collections set of 3": {
       "display_name": "Paldean Fates Tech Sticker Collections [Set of 3]",
@@ -10694,7 +10678,7 @@
     },
     "paradox destinies tin set of 4": {
       "display_name": "Paradox Destinies Tin [Set of 4]",
-      "market_usd": 140.55
+      "market_usd": 141.17
     },
     "paradox fury premium collection": {
       "display_name": "Paradox Fury Premium Collection",
@@ -10702,7 +10686,7 @@
     },
     "paradox rift 3 pack blister arctibax": {
       "display_name": "Paradox Rift 3 Pack Blister [Arctibax]",
-      "market_usd": 30.54
+      "market_usd": 30.55
     },
     "paradox rift 3 pack blister cetitan": {
       "display_name": "Paradox Rift 3 Pack Blister [Cetitan]",
@@ -10710,15 +10694,15 @@
     },
     "paradox rift 3 pack blister set of 2": {
       "display_name": "Paradox Rift 3 Pack Blister [Set of 2]",
-      "market_usd": 50.79
+      "market_usd": 51.02
     },
     "paradox rift booster box": {
       "display_name": "Paradox Rift Booster Box",
-      "market_usd": 274.44
+      "market_usd": 272.36
     },
     "paradox rift booster box case": {
       "display_name": "Paradox Rift Booster Box Case",
-      "market_usd": 1850.8
+      "market_usd": 1845.81
     },
     "paradox rift booster bundle": {
       "display_name": "Paradox Rift Booster Bundle",
@@ -10726,7 +10710,7 @@
     },
     "paradox rift booster pack": {
       "display_name": "Paradox Rift Booster Pack",
-      "market_usd": 8.4
+      "market_usd": 8.25
     },
     "paradox rift booster pack art bundle set of 4": {
       "display_name": "Paradox Rift Booster Pack Art Bundle [Set of 4]",
@@ -10746,7 +10730,7 @@
     },
     "paradox rift elite trainer box iron valiant": {
       "display_name": "Paradox Rift Elite Trainer Box [Iron Valiant]",
-      "market_usd": 135.75
+      "market_usd": 136.23
     },
     "paradox rift elite trainer box roaring moon": {
       "display_name": "Paradox Rift Elite Trainer Box [Roaring Moon]",
@@ -10794,19 +10778,19 @@
     },
     "perfect order 3 pack blister chikorita": {
       "display_name": "Perfect Order 3 Pack Blister [Chikorita]",
-      "market_usd": 20.22
+      "market_usd": 20.38
     },
     "perfect order booster box": {
       "display_name": "Perfect Order Booster Box",
-      "market_usd": 171.58
+      "market_usd": 170.78
     },
     "perfect order booster box case": {
       "display_name": "Perfect Order Booster Box Case",
-      "market_usd": 1003.46
+      "market_usd": 1001.52
     },
     "perfect order booster bundle": {
       "display_name": "Perfect Order Booster Bundle",
-      "market_usd": 39.86
+      "market_usd": 40.05
     },
     "perfect order booster bundle case": {
       "display_name": "Perfect Order Booster Bundle Case",
@@ -10818,15 +10802,15 @@
     },
     "perfect order booster pack art bundle set of 4": {
       "display_name": "Perfect Order Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 26.5
+      "market_usd": 26.42
     },
     "perfect order center elite trainer box": {
       "display_name": "Perfect Order Pokemon Center Elite Trainer Box",
-      "market_usd": 122.82
+      "market_usd": 121.51
     },
     "perfect order elite trainer box": {
       "display_name": "Perfect Order Elite Trainer Box",
-      "market_usd": 71.74
+      "market_usd": 71.66
     },
     "perfect order elite trainer box case": {
       "display_name": "Perfect Order Elite Trainer Box Case",
@@ -10850,35 +10834,35 @@
     },
     "perfect order single pack blister makuhita": {
       "display_name": "Perfect Order Single Pack Blister [Makuhita]",
-      "market_usd": 8.03
+      "market_usd": 8.0
     },
     "perfect order sleeved booster pack": {
       "display_name": "Perfect Order Sleeved Booster Pack",
-      "market_usd": 7.29
+      "market_usd": 7.31
     },
     "perfect order sleeved booster pack art bundle set of 4": {
       "display_name": "Perfect Order Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 29.67
+      "market_usd": 29.6
     },
     "phantasmal flames 3 pack blister sneasel": {
       "display_name": "Phantasmal Flames 3 Pack Blister [Sneasel]",
-      "market_usd": 41.84
+      "market_usd": 41.87
     },
     "phantasmal flames 3 pack blister weavile": {
       "display_name": "Phantasmal Flames 3 Pack Blister [Weavile]",
-      "market_usd": 42.27
+      "market_usd": 42.37
     },
     "phantasmal flames booster box": {
       "display_name": "Phantasmal Flames Booster Box",
-      "market_usd": 393.85
+      "market_usd": 394.05
     },
     "phantasmal flames booster box case": {
       "display_name": "Phantasmal Flames Booster Box Case",
-      "market_usd": 2647.73
+      "market_usd": 2602.03
     },
     "phantasmal flames booster bundle": {
       "display_name": "Phantasmal Flames Booster Bundle",
-      "market_usd": 80.78
+      "market_usd": 80.86
     },
     "phantasmal flames booster bundle case": {
       "display_name": "Phantasmal Flames Booster Bundle Case",
@@ -10886,19 +10870,19 @@
     },
     "phantasmal flames booster pack": {
       "display_name": "Phantasmal Flames Booster Pack",
-      "market_usd": 11.64
+      "market_usd": 11.59
     },
     "phantasmal flames booster pack art bundle set of 4": {
       "display_name": "Phantasmal Flames Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 47.31
+      "market_usd": 47.35
     },
     "phantasmal flames center elite trainer box exclusive": {
       "display_name": "Phantasmal Flames Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 288.41
+      "market_usd": 288.09
     },
     "phantasmal flames elite trainer box": {
       "display_name": "Phantasmal Flames Elite Trainer Box",
-      "market_usd": 154.73
+      "market_usd": 153.48
     },
     "phantasmal flames elite trainer box case": {
       "display_name": "Phantasmal Flames Elite Trainer Box Case",
@@ -10910,7 +10894,7 @@
     },
     "phantasmal flames premium checklane blister blaziken": {
       "display_name": "Phantasmal Flames Premium Checklane Blister [Blaziken]",
-      "market_usd": 30.78
+      "market_usd": 30.59
     },
     "phantasmal flames premium checklane blister ethan s magcargo": {
       "display_name": "Phantasmal Flames Premium Checklane Blister [Ethan's Magcargo]",
@@ -10922,15 +10906,15 @@
     },
     "phantasmal flames single pack blister cottonee": {
       "display_name": "Phantasmal Flames Single Pack Blister [Cottonee]",
-      "market_usd": 12.96
+      "market_usd": 12.87
     },
     "phantasmal flames single pack blister whimsicott": {
       "display_name": "Phantasmal Flames Single Pack Blister [Whimsicott]",
-      "market_usd": 13.24
+      "market_usd": 13.12
     },
     "phantasmal flames sleeved booster pack": {
       "display_name": "Phantasmal Flames Sleeved Booster Pack",
-      "market_usd": 13.39
+      "market_usd": 13.55
     },
     "phantasmal flames sleeved booster pack art bundle set of 4": {
       "display_name": "Phantasmal Flames Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -10982,43 +10966,43 @@
     },
     "pitch black 3 pack blister binacle": {
       "display_name": "Pitch Black 3-Pack Blister [Binacle]",
-      "market_usd": 22.32
+      "market_usd": 22.61
     },
     "pitch black 3 pack blister case": {
       "display_name": "Pitch Black 3-Pack Blister Case",
-      "market_usd": 636.23
+      "market_usd": 588.98
     },
     "pitch black booster box": {
       "display_name": "Pitch Black Booster Box",
-      "market_usd": 188.49
+      "market_usd": 188.01
     },
     "pitch black booster box case": {
       "display_name": "Pitch Black Booster Box Case",
-      "market_usd": 1051.48
+      "market_usd": 1055.16
     },
     "pitch black booster bundle": {
       "display_name": "Pitch Black Booster Bundle",
-      "market_usd": 35.71
+      "market_usd": 34.96
     },
     "pitch black booster bundle case": {
       "display_name": "Pitch Black Booster Bundle Case",
-      "market_usd": 808.76
+      "market_usd": 808.83
     },
     "pitch black booster pack": {
       "display_name": "Pitch Black Booster Pack",
-      "market_usd": 5.8
+      "market_usd": 5.75
     },
     "pitch black booster pack art bundle set of 4": {
       "display_name": "Pitch Black Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 30.09
+      "market_usd": 29.75
     },
     "pitch black center elite trainer box exclusive": {
       "display_name": "Pitch Black Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 124.41
+      "market_usd": 123.05
     },
     "pitch black elite trainer box": {
       "display_name": "Pitch Black Elite Trainer Box",
-      "market_usd": 69.76
+      "market_usd": 69.95
     },
     "pitch black elite trainer box case": {
       "display_name": "Pitch Black Elite Trainer Box Case",
@@ -11038,7 +11022,7 @@
     },
     "pitch black premium checklane blister tyrunt tyrantrum target exclusive": {
       "display_name": "Pitch Black Premium Checklane Blister [Tyrunt, Tyrantrum] (Target Exclusive)",
-      "market_usd": 19.08
+      "market_usd": 19.03
     },
     "pitch black single pack blister slowpoke": {
       "display_name": "Pitch Black Single Pack Blister [Slowpoke]",
@@ -11046,7 +11030,7 @@
     },
     "pitch black sleeved booster pack": {
       "display_name": "Pitch Black Sleeved Booster Pack",
-      "market_usd": 7.34
+      "market_usd": 7.02
     },
     "pitch black sleeved booster pack art bundle set of 4": {
       "display_name": "Pitch Black Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -11059,10 +11043,6 @@
     "plasma freeze booster pack": {
       "display_name": "Plasma Freeze Booster Pack",
       "market_usd": 299.32
-    },
-    "plasma storm booster pack": {
-      "display_name": "Plasma Storm Booster Pack",
-      "market_usd": 477.85
     },
     "platinum booster pack": {
       "display_name": "Platinum Booster Pack",
@@ -11086,7 +11066,7 @@
     },
     "poke ball tin great ball": {
       "display_name": "Pokemon - Poke Ball Tin - Great Ball",
-      "market_usd": 25.42
+      "market_usd": 25.56
     },
     "poke ball tin great ball q4 2024": {
       "display_name": "Pokemon - Poke Ball Tin - Great Ball (Q4 2024)",
@@ -11120,6 +11100,10 @@
       "display_name": "Pokemon - Poke Ball Tin - Poke Ball",
       "market_usd": 26.6
     },
+    "poke ball tin poke ball q4 2024": {
+      "display_name": "Pokemon - Poke Ball Tin - Poke Ball (Q4 2024)",
+      "market_usd": 25.34
+    },
     "poke ball tin poke ball q4 2025": {
       "display_name": "Pokemon - Poke Ball Tin - Poke Ball (Q4 2025)",
       "market_usd": 28.99
@@ -11134,7 +11118,7 @@
     },
     "poke ball tin premier ball q4 2025": {
       "display_name": "Pokemon - Poke Ball Tin - Premier Ball (Q4 2025)",
-      "market_usd": 27.66
+      "market_usd": 27.49
     },
     "poke ball tin quick ball": {
       "display_name": "Pokemon - Poke Ball Tin - Quick Ball",
@@ -11150,7 +11134,7 @@
     },
     "poke ball tin ultra ball": {
       "display_name": "Pokemon - Poke Ball Tin - Ultra Ball",
-      "market_usd": 26.78
+      "market_usd": 26.61
     },
     "poke ball tin ultra ball q4 2024": {
       "display_name": "Pokemon - Poke Ball Tin - Ultra Ball (Q4 2024)",
@@ -11190,11 +11174,11 @@
     },
     "premium poster collection mega gardevoir": {
       "display_name": "Premium Poster Collection: Mega Gardevoir",
-      "market_usd": 147.44
+      "market_usd": 148.0
     },
     "premium poster collection mega lucario": {
       "display_name": "Premium Poster Collection: Mega Lucario",
-      "market_usd": 156.16
+      "market_usd": 157.39
     },
     "premium power pro": {
       "display_name": "Premium Power Pro",
@@ -11210,7 +11194,7 @@
     },
     "premium power pro 081 063": {
       "display_name": "Premium Power Pro - 081/063",
-      "market_usd": 0.54
+      "market_usd": 0.55
     },
     "premium power pro 124 132": {
       "display_name": "Premium Power Pro - 124/132",
@@ -11218,11 +11202,11 @@
     },
     "premium power pro 124 132 cosmos holo": {
       "display_name": "Premium Power Pro - 124/132 (Cosmos Holo)",
-      "market_usd": 0.48
+      "market_usd": 0.5
     },
     "premium power pro 174 132": {
       "display_name": "Premium Power Pro - 174/132",
-      "market_usd": 1.83
+      "market_usd": 1.87
     },
     "premium trainer box ex": {
       "display_name": "Premium Trainer Box ex",
@@ -11246,7 +11230,7 @@
     },
     "prismatic evolutions accessory pouch special collection": {
       "display_name": "Prismatic Evolutions Accessory Pouch Special Collection",
-      "market_usd": 77.99
+      "market_usd": 76.52
     },
     "prismatic evolutions accessory pouch special collection case": {
       "display_name": "Prismatic Evolutions Accessory Pouch Special Collection Case",
@@ -11254,35 +11238,35 @@
     },
     "prismatic evolutions binder collection": {
       "display_name": "Prismatic Evolutions Binder Collection",
-      "market_usd": 112.35
+      "market_usd": 111.99
     },
     "prismatic evolutions booster bundle": {
       "display_name": "Prismatic Evolutions Booster Bundle",
-      "market_usd": 89.38
+      "market_usd": 88.48
     },
     "prismatic evolutions booster bundle case": {
       "display_name": "Prismatic Evolutions Booster Bundle Case",
-      "market_usd": 2339.17
+      "market_usd": 2321.6
     },
     "prismatic evolutions booster bundle display": {
       "display_name": "Prismatic Evolutions Booster Bundle Display",
-      "market_usd": 1757.03
+      "market_usd": 1749.04
     },
     "prismatic evolutions booster bundle surprise box bundle sam s club": {
       "display_name": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-      "market_usd": 149.68
+      "market_usd": 149.62
     },
     "prismatic evolutions booster pack": {
       "display_name": "Prismatic Evolutions Booster Pack",
-      "market_usd": 15.06
+      "market_usd": 15.05
     },
     "prismatic evolutions booster pack art bundle set of 4": {
       "display_name": "Prismatic Evolutions Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 59.62
+      "market_usd": 59.6
     },
     "prismatic evolutions center elite trainer box exclusive": {
       "display_name": "Prismatic Evolutions Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 451.61
+      "market_usd": 444.26
     },
     "prismatic evolutions center elite trainer box exclusive case": {
       "display_name": "Prismatic Evolutions Pokemon Center Elite Trainer Box (Exclusive) Case",
@@ -11290,7 +11274,7 @@
     },
     "prismatic evolutions elite trainer box": {
       "display_name": "Prismatic Evolutions Elite Trainer Box",
-      "market_usd": 162.82
+      "market_usd": 161.99
     },
     "prismatic evolutions elite trainer box and pokeball sam s club": {
       "display_name": "Prismatic Evolutions Elite Trainer Box and Pokeball (Sam's Club)",
@@ -11298,7 +11282,7 @@
     },
     "prismatic evolutions elite trainer box case": {
       "display_name": "Prismatic Evolutions Elite Trainer Box Case",
-      "market_usd": 1829.92
+      "market_usd": 1881.76
     },
     "prismatic evolutions elite trainer box dollar general exclusive": {
       "display_name": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
@@ -11306,11 +11290,11 @@
     },
     "prismatic evolutions lucario ex tyranitar ex premium collection sam s club": {
       "display_name": "Prismatic Evolutions Lucario ex & Tyranitar ex Premium Collection (Sam's Club)",
-      "market_usd": 197.87
+      "market_usd": 196.03
     },
     "prismatic evolutions mini tin display": {
       "display_name": "Prismatic Evolutions Mini Tin Display",
-      "market_usd": 251.81
+      "market_usd": 251.2
     },
     "prismatic evolutions mini tin display case": {
       "display_name": "Prismatic Evolutions Mini Tin Display Case",
@@ -11318,7 +11302,7 @@
     },
     "prismatic evolutions mini tin espeon": {
       "display_name": "Prismatic Evolutions Mini Tin [Espeon]",
-      "market_usd": 38.56
+      "market_usd": 38.72
     },
     "prismatic evolutions mini tin flareon": {
       "display_name": "Prismatic Evolutions Mini Tin [Flareon]",
@@ -11334,7 +11318,7 @@
     },
     "prismatic evolutions mini tin leafeon": {
       "display_name": "Prismatic Evolutions Mini Tin [Leafeon]",
-      "market_usd": 34.7
+      "market_usd": 34.9
     },
     "prismatic evolutions mini tin sylveon": {
       "display_name": "Prismatic Evolutions Mini Tin [Sylveon]",
@@ -11342,15 +11326,15 @@
     },
     "prismatic evolutions mini tin umbreon": {
       "display_name": "Prismatic Evolutions Mini Tin [Umbreon]",
-      "market_usd": 41.01
+      "market_usd": 40.97
     },
     "prismatic evolutions mini tin vaporeon": {
       "display_name": "Prismatic Evolutions Mini Tin [Vaporeon]",
-      "market_usd": 38.27
+      "market_usd": 38.15
     },
     "prismatic evolutions poster collection": {
       "display_name": "Prismatic Evolutions Poster Collection",
-      "market_usd": 41.81
+      "market_usd": 41.32
     },
     "prismatic evolutions poster collection case": {
       "display_name": "Prismatic Evolutions Poster Collection Case",
@@ -11358,19 +11342,19 @@
     },
     "prismatic evolutions premium figure collection": {
       "display_name": "Prismatic Evolutions Premium Figure Collection",
-      "market_usd": 222.45
+      "market_usd": 222.77
     },
     "prismatic evolutions premium figure collection case": {
       "display_name": "Prismatic Evolutions Premium Figure Collection Case",
-      "market_usd": 1317.3
+      "market_usd": 1314.96
     },
     "prismatic evolutions super premium collection": {
       "display_name": "Prismatic Evolutions Super-Premium Collection",
-      "market_usd": 254.26
+      "market_usd": 257.93
     },
     "prismatic evolutions super premium collection case": {
       "display_name": "Prismatic Evolutions Super-Premium Collection Case",
-      "market_usd": 1292.8
+      "market_usd": 1287.01
     },
     "prismatic evolutions tech sticker collection case": {
       "display_name": "Prismatic Evolutions Tech Sticker Collection Case",
@@ -11386,11 +11370,11 @@
     },
     "prismatic evolutions tech sticker collection set of 3": {
       "display_name": "Prismatic Evolutions Tech Sticker Collection [Set of 3]",
-      "market_usd": 124.07
+      "market_usd": 124.23
     },
     "prismatic evolutions tech sticker collection sylveon": {
       "display_name": "Prismatic Evolutions Tech Sticker Collection [Sylveon]",
-      "market_usd": 42.64
+      "market_usd": 42.96
     },
     "professor juniper 2015 patrick martinez": {
       "display_name": "Professor Juniper - 2015 (Patrick Martinez)",
@@ -11450,7 +11434,7 @@
     },
     "rebel clash booster pack": {
       "display_name": "Rebel Clash Booster Pack",
-      "market_usd": 9.93
+      "market_usd": 10.27
     },
     "rebel clash booster pack art bundle set of 4": {
       "display_name": "Rebel Clash Booster Pack Art Bundle [Set of 4]",
@@ -11478,7 +11462,7 @@
     },
     "rebel clash sleeved booster pack": {
       "display_name": "Rebel Clash Sleeved Booster Pack",
-      "market_usd": 12.64
+      "market_usd": 12.57
     },
     "rebel clash sleeved booster pack art bundle set of 4": {
       "display_name": "Rebel Clash Sleeved Booster Pack Art Bundle [Set of 4]",
@@ -11538,15 +11522,15 @@
     },
     "rocky fighting energy": {
       "display_name": "Rocky Fighting Energy",
-      "market_usd": 0.3
+      "market_usd": 0.23
     },
     "rocky fighting energy 087 088": {
       "display_name": "Rocky Fighting Energy - 087/088",
-      "market_usd": 0.74
+      "market_usd": 0.72
     },
     "rocky fighting energy 087 088 cosmos holo": {
       "display_name": "Rocky Fighting Energy - 087/088 (Cosmos Holo)",
-      "market_usd": 2.44
+      "market_usd": 2.35
     },
     "rocky fighting energy 087 088 non holo": {
       "display_name": "Rocky Fighting Energy - 087/088 (Non-Holo)",
@@ -11602,7 +11586,7 @@
     },
     "scarlet violet 3 pack blister dondozo": {
       "display_name": "Scarlet & Violet 3 Pack Blister [Dondozo]",
-      "market_usd": 29.72
+      "market_usd": 29.81
     },
     "scarlet violet 3 pack blister set of 2": {
       "display_name": "Scarlet & Violet 3 Pack Blister [Set of 2]",
@@ -11610,7 +11594,7 @@
     },
     "scarlet violet booster box": {
       "display_name": "Scarlet & Violet Booster Box",
-      "market_usd": 297.94
+      "market_usd": 297.75
     },
     "scarlet violet booster box case": {
       "display_name": "Scarlet & Violet Booster Box Case",
@@ -11646,7 +11630,7 @@
     },
     "scarlet violet elite trainer box miraidon": {
       "display_name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
-      "market_usd": 149.3
+      "market_usd": 148.46
     },
     "scarlet violet elite trainer boxes set of 2": {
       "display_name": "Scarlet & Violet Elite Trainer Boxes [Set of 2]",
@@ -11686,7 +11670,7 @@
     },
     "scorbunny 031 202 premium collection": {
       "display_name": "Scorbunny - 031/202 (Premium Collection)",
-      "market_usd": 0.59
+      "market_usd": 0.57
     },
     "scrafty 74 99 next destinies": {
       "display_name": "Scrafty - 74/99(Next Destinies)",
@@ -11694,7 +11678,7 @@
     },
     "sea sky premium collection": {
       "display_name": "Sea & Sky Premium Collection",
-      "market_usd": 387.13
+      "market_usd": 386.11
     },
     "secret wonders booster pack": {
       "display_name": "Secret Wonders Booster Pack",
@@ -11711,6 +11695,10 @@
     "shaymin ex 2015 patrick martinez": {
       "display_name": "Shaymin EX - 2015 (Patrick Martinez)",
       "market_usd": 3.34
+    },
+    "shaymin vstar premium collection": {
+      "display_name": "Shaymin VSTAR Premium Collection",
+      "market_usd": 120.93
     },
     "shield booster pack": {
       "display_name": "Shield Booster Pack",
@@ -11746,7 +11734,7 @@
     },
     "shining fates elite trainer box": {
       "display_name": "Shining Fates Elite Trainer Box",
-      "market_usd": 144.8
+      "market_usd": 144.5
     },
     "shining fates elite trainer box case": {
       "display_name": "Shining Fates Elite Trainer Box Case",
@@ -11786,7 +11774,7 @@
     },
     "shining fates mini tin kyogre": {
       "display_name": "Shining Fates Mini Tin [Kyogre]",
-      "market_usd": 29.73
+      "market_usd": 29.74
     },
     "shining fates mini tin manaphy": {
       "display_name": "Shining Fates Mini Tin [Manaphy]",
@@ -11794,7 +11782,7 @@
     },
     "shining fates mini tin reshiram": {
       "display_name": "Shining Fates Mini Tin [Reshiram]",
-      "market_usd": 34.82
+      "market_usd": 34.28
     },
     "shining fates mini tin zarude": {
       "display_name": "Shining Fates Mini Tin [Zarude]",
@@ -11834,7 +11822,7 @@
     },
     "shining legends elite trainer box": {
       "display_name": "Shining Legends Elite Trainer Box",
-      "market_usd": 981.79
+      "market_usd": 1001.63
     },
     "shining legends pin collection marshadow": {
       "display_name": "Shining Legends Pin Collection: Marshadow",
@@ -11870,11 +11858,11 @@
     },
     "shiny treasure ex high class booster box": {
       "display_name": "Shiny Treasure ex High Class Booster Box",
-      "market_usd": 130.54
+      "market_usd": 130.5
     },
     "shiny treasure ex high class booster pack": {
       "display_name": "Shiny Treasure ex High Class Booster Pack",
-      "market_usd": 13.36
+      "market_usd": 13.2
     },
     "shrouded fable 3 pack blister pecharunt": {
       "display_name": "Shrouded Fable 3 Pack Blister [Pecharunt]",
@@ -11882,7 +11870,7 @@
     },
     "shrouded fable booster bundle": {
       "display_name": "Shrouded Fable Booster Bundle",
-      "market_usd": 51.96
+      "market_usd": 53.33
     },
     "shrouded fable booster bundle case": {
       "display_name": "Shrouded Fable Booster Bundle Case",
@@ -11902,7 +11890,7 @@
     },
     "shrouded fable elite trainer box": {
       "display_name": "Shrouded Fable Elite Trainer Box",
-      "market_usd": 114.28
+      "market_usd": 113.91
     },
     "shrouded fable elite trainer box case": {
       "display_name": "Shrouded Fable Elite Trainer Box Case",
@@ -11912,13 +11900,25 @@
       "display_name": "Shrouded Fable Mini Tin Display",
       "market_usd": 198.29
     },
+    "shrouded fable mini tin dusknoir": {
+      "display_name": "Shrouded Fable Mini Tin (Dusknoir)",
+      "market_usd": 22.46
+    },
     "shrouded fable mini tin fezandipiti": {
       "display_name": "Shrouded Fable Mini Tin (Fezandipiti)",
       "market_usd": 25.31
     },
+    "shrouded fable mini tin munkidori": {
+      "display_name": "Shrouded Fable Mini Tin (Munkidori)",
+      "market_usd": 18.47
+    },
     "shrouded fable mini tin set of 5": {
       "display_name": "Shrouded Fable Mini Tin [Set of 5]",
       "market_usd": 102.54
+    },
+    "shrouded fable mini tin zoroark": {
+      "display_name": "Shrouded Fable Mini Tin (Zoroark)",
+      "market_usd": 29.66
     },
     "shrouded fable special illustration collection case": {
       "display_name": "Shrouded Fable Special Illustration Collection Case",
@@ -11934,7 +11934,7 @@
     },
     "silver tempest 3 pack blister manaphy": {
       "display_name": "Silver Tempest 3 Pack Blister [Manaphy]",
-      "market_usd": 45.89
+      "market_usd": 46.6
     },
     "silver tempest 3 pack blister set of 2": {
       "display_name": "Silver Tempest 3 Pack Blister [Set of 2]",
@@ -11946,7 +11946,7 @@
     },
     "silver tempest booster box": {
       "display_name": "Silver Tempest Booster Box",
-      "market_usd": 504.4
+      "market_usd": 504.12
     },
     "silver tempest booster box case": {
       "display_name": "Silver Tempest Booster Box Case",
@@ -11954,7 +11954,7 @@
     },
     "silver tempest booster bundle": {
       "display_name": "Silver Tempest Booster Bundle",
-      "market_usd": 115.82
+      "market_usd": 115.67
     },
     "silver tempest booster bundle case": {
       "display_name": "Silver Tempest Booster Bundle Case",
@@ -11962,7 +11962,7 @@
     },
     "silver tempest booster pack": {
       "display_name": "Silver Tempest Booster Pack",
-      "market_usd": 14.71
+      "market_usd": 14.75
     },
     "silver tempest booster pack art bundle set of 4": {
       "display_name": "Silver Tempest Booster Pack Art Bundle [Set of 4]",
@@ -11974,7 +11974,7 @@
     },
     "silver tempest elite trainer box": {
       "display_name": "Silver Tempest Elite Trainer Box",
-      "market_usd": 155.51
+      "market_usd": 155.35
     },
     "silver tempest elite trainer box case": {
       "display_name": "Silver Tempest Elite Trainer Box Case",
@@ -12014,7 +12014,7 @@
     },
     "single strike master booster box": {
       "display_name": "Single Strike Master Booster Box",
-      "market_usd": 167.88
+      "market_usd": 167.65
     },
     "single strike urshifu vmax premium collection": {
       "display_name": "Single Strike Urshifu VMAX Premium Collection",
@@ -12123,6 +12123,10 @@
     "space juggler booster pack": {
       "display_name": "Space Juggler Booster Pack",
       "market_usd": 8.33
+    },
+    "spring 2017 collector s chest tin": {
+      "display_name": "Spring 2017 Collector's Chest Tin",
+      "market_usd": 230.99
     },
     "spring 2020 collector s chest tin": {
       "display_name": "Spring 2020 Collector's Chest Tin",
@@ -12238,7 +12242,7 @@
     },
     "stellar crown booster box": {
       "display_name": "Stellar Crown Booster Box",
-      "market_usd": 314.68
+      "market_usd": 314.8
     },
     "stellar crown booster box case": {
       "display_name": "Stellar Crown Booster Box Case",
@@ -12246,23 +12250,23 @@
     },
     "stellar crown booster bundle": {
       "display_name": "Stellar Crown Booster Bundle",
-      "market_usd": 73.57
+      "market_usd": 73.52
     },
     "stellar crown booster pack": {
       "display_name": "Stellar Crown Booster Pack",
-      "market_usd": 10.57
+      "market_usd": 10.65
     },
     "stellar crown booster pack art bundle set of 4": {
       "display_name": "Stellar Crown Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 44.78
+      "market_usd": 45.02
     },
     "stellar crown center elite trainer box exclusive": {
       "display_name": "Stellar Crown Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 176.71
+      "market_usd": 176.48
     },
     "stellar crown elite trainer box": {
       "display_name": "Stellar Crown Elite Trainer Box",
-      "market_usd": 156.74
+      "market_usd": 156.77
     },
     "stellar crown elite trainer box case": {
       "display_name": "Stellar Crown Elite Trainer Box Case",
@@ -12314,15 +12318,15 @@
     },
     "stone fighting energy": {
       "display_name": "Stone Fighting Energy",
-      "market_usd": 0.2
+      "market_usd": 0.22
     },
     "storm emeralda booster box": {
       "display_name": "Storm Emeralda Booster Box",
-      "market_usd": 159.02
+      "market_usd": 155.62
     },
     "storm emeralda booster pack": {
       "display_name": "Storm Emeralda Booster Pack",
-      "market_usd": 3.92
+      "market_usd": 3.81
     },
     "stormfront booster pack": {
       "display_name": "Stormfront Booster Pack",
@@ -12402,7 +12406,7 @@
     },
     "surging sparks booster box": {
       "display_name": "Surging Sparks Booster Box",
-      "market_usd": 305.77
+      "market_usd": 305.37
     },
     "surging sparks booster box case": {
       "display_name": "Surging Sparks Booster Box Case",
@@ -12414,15 +12418,15 @@
     },
     "surging sparks booster bundle lgs": {
       "display_name": "Surging Sparks Booster Bundle (LGS)",
-      "market_usd": 64.8
+      "market_usd": 64.59
     },
     "surging sparks booster bundle retail": {
       "display_name": "Surging Sparks Booster Bundle (Retail)",
-      "market_usd": 60.46
+      "market_usd": 60.29
     },
     "surging sparks booster pack": {
       "display_name": "Surging Sparks Booster Pack",
-      "market_usd": 7.8
+      "market_usd": 7.83
     },
     "surging sparks booster pack art bundle set of 4": {
       "display_name": "Surging Sparks Booster Pack Art Bundle [Set of 4]",
@@ -12430,7 +12434,7 @@
     },
     "surging sparks center elite trainer box exclusive": {
       "display_name": "Surging Sparks Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 272.67
+      "market_usd": 272.6
     },
     "surging sparks center elite trainer box exclusive case": {
       "display_name": "Surging Sparks Pokemon Center Elite Trainer Box (Exclusive) Case",
@@ -12458,7 +12462,7 @@
     },
     "surging sparks single pack blister hisuian arcanine": {
       "display_name": "Surging Sparks Single Pack Blister [Hisuian Arcanine]",
-      "market_usd": 19.2
+      "market_usd": 19.32
     },
     "surging sparks single pack blister pachirisu": {
       "display_name": "Surging Sparks Single Pack Blister [Pachirisu]",
@@ -12494,7 +12498,7 @@
     },
     "suspicious food tin secret": {
       "display_name": "Suspicious Food Tin (Secret)",
-      "market_usd": 2.01
+      "market_usd": 1.88
     },
     "sword and shield base set booster pack art bundle set of 4": {
       "display_name": "Sword and Shield Base Set Booster Pack Art Bundle [Set of 4]",
@@ -12518,7 +12522,7 @@
     },
     "sword shield booster pack": {
       "display_name": "Sword & Shield Booster Pack",
-      "market_usd": 10.97
+      "market_usd": 10.89
     },
     "sword shield elite trainer box plus zacian": {
       "display_name": "Sword & Shield Elite Trainer Box Plus [Zacian]",
@@ -12530,7 +12534,7 @@
     },
     "sword shield elite trainer box set of 2": {
       "display_name": "Sword & Shield Elite Trainer Box [Set of 2]",
-      "market_usd": 322.78
+      "market_usd": 328.93
     },
     "sword shield elite trainer box zacian": {
       "display_name": "Sword & Shield Elite Trainer Box [Zacian]",
@@ -12538,7 +12542,7 @@
     },
     "sword shield elite trainer box zamazenta": {
       "display_name": "Sword & Shield Elite Trainer Box [Zamazenta]",
-      "market_usd": 154.78
+      "market_usd": 156.27
     },
     "sword shield figure collection": {
       "display_name": "Sword & Shield Figure Collection",
@@ -12594,7 +12598,7 @@
     },
     "tag team tin eevee snorlax gx": {
       "display_name": "TAG TEAM Tin [Eevee & Snorlax GX]",
-      "market_usd": 629.89
+      "market_usd": 660.67
     },
     "tag team tin set of 3": {
       "display_name": "TAG TEAM Tin [Set of 3]",
@@ -12610,7 +12614,7 @@
     },
     "tcg back to school eraser blister 2024 gengar": {
       "display_name": "Pokemon TCG: Back to School Eraser Blister 2024 [Gengar]",
-      "market_usd": 30.8
+      "market_usd": 30.83
     },
     "tcg back to school eraser blister 2024 set of 2": {
       "display_name": "Pokemon TCG: Back to School Eraser Blister 2024 [Set of 2]",
@@ -12634,7 +12638,7 @@
     },
     "team rocket booster pack 1st edition": {
       "display_name": "Team Rocket Booster Pack [1st Edition]",
-      "market_usd": 705.3
+      "market_usd": 715.6
     },
     "team rocket s articuno 051 182 cosmos holo destined rivals stamp": {
       "display_name": "Team Rocket's Articuno - 051/182 (Cosmos Holo) (Destined Rivals Stamp)",
@@ -12646,15 +12650,15 @@
     },
     "team rocket s moltres ex 229 182 destined rivals stamp": {
       "display_name": "Team Rocket's Moltres ex - 229/182 (Destined Rivals Stamp)",
-      "market_usd": 54.57
+      "market_usd": 54.58
     },
     "team rocket s moltres ex 31 182 destined rivals stamp": {
       "display_name": "Team Rocket's Moltres ex - 31/182 (Destined Rivals Stamp)",
-      "market_usd": 1.72
+      "market_usd": 1.73
     },
     "team rocket s moltres ex ultra premium collection": {
       "display_name": "Team Rocket’s Moltres ex Ultra-Premium Collection",
-      "market_usd": 343.98
+      "market_usd": 344.66
     },
     "team rocket s moltres ex ultra premium collection case": {
       "display_name": "Team Rocket’s Moltres ex Ultra-Premium Collection Case",
@@ -12686,11 +12690,11 @@
     },
     "team up booster box": {
       "display_name": "Team Up Booster Box",
-      "market_usd": 11481.67
+      "market_usd": 11725.0
     },
     "team up booster pack": {
       "display_name": "Team Up Booster Pack",
-      "market_usd": 286.92
+      "market_usd": 288.49
     },
     "team up booster pack art bundle set of 4": {
       "display_name": "Team Up Booster Pack Art Bundle [Set of 4]",
@@ -12702,11 +12706,11 @@
     },
     "team up mini booster pack": {
       "display_name": "Team Up - Mini Booster Pack",
-      "market_usd": 53.49
+      "market_usd": 52.79
     },
     "team up single pack blister mimikyu": {
       "display_name": "Team Up Single Pack Blister [Mimikyu]",
-      "market_usd": 306.98
+      "market_usd": 307.35
     },
     "team up single pack blister pikachu": {
       "display_name": "Team Up Single Pack Blister [Pikachu]",
@@ -12730,7 +12734,7 @@
     },
     "temporal forces booster box": {
       "display_name": "Temporal Forces Booster Box",
-      "market_usd": 308.3
+      "market_usd": 309.11
     },
     "temporal forces booster box case": {
       "display_name": "Temporal Forces Booster Box Case",
@@ -12798,15 +12802,15 @@
     },
     "temporal forces sleeved booster pack": {
       "display_name": "Temporal Forces Sleeved Booster Pack",
-      "market_usd": 11.83
+      "market_usd": 11.89
     },
     "temporal forces sleeved booster pack art bundle set of 4": {
       "display_name": "Temporal Forces Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 39.62
+      "market_usd": 40.1
     },
     "tepig 011 086 unova poster collection": {
       "display_name": "Tepig - 011/086 (Unova Poster Collection)",
-      "market_usd": 0.23
+      "market_usd": 0.25
     },
     "tera team premium collection": {
       "display_name": "Tera Team Premium Collection",
@@ -12818,7 +12822,7 @@
     },
     "terastal fest ex booster box": {
       "display_name": "Terastal Fest ex Booster Box",
-      "market_usd": 122.03
+      "market_usd": 120.71
     },
     "terastal fest ex booster pack": {
       "display_name": "Terastal Fest ex Booster Pack",
@@ -12838,7 +12842,7 @@
     },
     "ting lu ex": {
       "display_name": "Ting-Lu ex",
-      "market_usd": 0.71
+      "market_usd": 0.73
     },
     "ting lu ex 049 071": {
       "display_name": "Ting-Lu ex - 049/071",
@@ -12870,11 +12874,11 @@
     },
     "ting lu ex 263 193": {
       "display_name": "Ting-Lu ex - 263/193",
-      "market_usd": 11.48
+      "market_usd": 11.56
     },
     "ting lu ex 275 193": {
       "display_name": "Ting-Lu ex - 275/193",
-      "market_usd": 4.18
+      "market_usd": 4.26
     },
     "ting lu ex 359 190": {
       "display_name": "Ting-Lu ex - 359/190",
@@ -12894,7 +12898,7 @@
     },
     "tinkatink 025 cosmo holofoil": {
       "display_name": "Tinkatink - 025 (Cosmo Holofoil)",
-      "market_usd": 0.46
+      "market_usd": 0.49
     },
     "tinkatink 032 071": {
       "display_name": "Tinkatink - 032/071",
@@ -12926,11 +12930,11 @@
     },
     "tinkatink 082 182": {
       "display_name": "Tinkatink - 082/182",
-      "market_usd": 0.13
+      "market_usd": 0.14
     },
     "tinkatink 083 182": {
       "display_name": "Tinkatink - 083/182",
-      "market_usd": 0.12
+      "market_usd": 0.13
     },
     "tinkatink 094 190": {
       "display_name": "Tinkatink - 094/190",
@@ -12942,19 +12946,19 @@
     },
     "tinkatink 100 193": {
       "display_name": "Tinkatink - 100/193",
-      "market_usd": 0.19
+      "market_usd": 0.2
     },
     "tinkatink 101 193": {
       "display_name": "Tinkatink - 101/193",
-      "market_usd": 0.16
+      "market_usd": 0.18
     },
     "tinkatink 102 193": {
       "display_name": "Tinkatink - 102/193",
-      "market_usd": 0.15
+      "market_usd": 0.12
     },
     "tinkatink 216 193": {
       "display_name": "Tinkatink - 216/193",
-      "market_usd": 34.38
+      "market_usd": 34.37
     },
     "tinkatink 271 190": {
       "display_name": "Tinkatink - 271/190",
@@ -12998,7 +13002,7 @@
     },
     "tinkaton 140 cosmo holo": {
       "display_name": "Tinkaton - 140 (Cosmo Holo)",
-      "market_usd": 1.41
+      "market_usd": 1.43
     },
     "tinkaton 273 190": {
       "display_name": "Tinkaton - 273/190",
@@ -13022,11 +13026,11 @@
     },
     "tinkaton ex 240 193": {
       "display_name": "Tinkaton ex - 240/193",
-      "market_usd": 9.22
+      "market_usd": 9.21
     },
     "tinkaton ex 262 193": {
       "display_name": "Tinkaton ex - 262/193",
-      "market_usd": 57.94
+      "market_usd": 57.78
     },
     "tinkatuff": {
       "display_name": "Tinkatuff",
@@ -13038,7 +13042,7 @@
     },
     "tinkatuff 077 071": {
       "display_name": "Tinkatuff - 077/071",
-      "market_usd": 5.16
+      "market_usd": 5.08
     },
     "tinkatuff 095 190": {
       "display_name": "Tinkatuff - 095/190",
@@ -13046,11 +13050,11 @@
     },
     "tinkatuff 095 190 mirror holofoil": {
       "display_name": "Tinkatuff - 095/190 (Mirror Holofoil)",
-      "market_usd": 0.96
+      "market_usd": 0.97
     },
     "tinkatuff 103 193": {
       "display_name": "Tinkatuff - 103/193",
-      "market_usd": 0.14
+      "market_usd": 0.15
     },
     "tinkatuff 104 193": {
       "display_name": "Tinkatuff - 104/193",
@@ -13058,7 +13062,7 @@
     },
     "tinkatuff 217 193": {
       "display_name": "Tinkatuff - 217/193",
-      "market_usd": 33.97
+      "market_usd": 34.33
     },
     "tinkatuff 272 190": {
       "display_name": "Tinkatuff - 272/190",
@@ -13094,11 +13098,11 @@
     },
     "trick or trade booster bundle 2023 50 ct": {
       "display_name": "Trick or Trade BOOster Bundle 2023 (50 ct)",
-      "market_usd": 73.54
+      "market_usd": 73.92
     },
     "trick or trade booster bundle 2023 mini booster pack": {
       "display_name": "Trick or Trade BOOster Bundle 2023 - Mini Booster Pack",
-      "market_usd": 1.95
+      "market_usd": 2.01
     },
     "trick or trade booster bundle 2024 120 ct": {
       "display_name": "Trick or Trade BOOster Bundle 2024 (120 ct)",
@@ -13106,7 +13110,7 @@
     },
     "trick or trade booster bundle 2024 35 mini packs": {
       "display_name": "Trick or Trade BOOster Bundle 2024 (35 mini packs)",
-      "market_usd": 56.78
+      "market_usd": 55.92
     },
     "trick or trade booster bundle 2024 mini booster pack": {
       "display_name": "Trick or Trade BOOster Bundle 2024 - Mini Booster Pack",
@@ -13114,7 +13118,7 @@
     },
     "trick or trade booster bundle 40 ct": {
       "display_name": "Trick or Trade BOOster Bundle (40 ct)",
-      "market_usd": 63.51
+      "market_usd": 63.55
     },
     "trick or trade booster bundle mini booster pack": {
       "display_name": "Trick or Trade BOOster Bundle - Mini Booster Pack",
@@ -13162,11 +13166,11 @@
     },
     "twilight masquerade 3 pack blister snorlax": {
       "display_name": "Twilight Masquerade 3 Pack Blister [Snorlax]",
-      "market_usd": 42.47
+      "market_usd": 42.6
     },
     "twilight masquerade booster box": {
       "display_name": "Twilight Masquerade Booster Box",
-      "market_usd": 353.57
+      "market_usd": 352.42
     },
     "twilight masquerade booster box case": {
       "display_name": "Twilight Masquerade Booster Box Case",
@@ -13174,7 +13178,7 @@
     },
     "twilight masquerade booster bundle": {
       "display_name": "Twilight Masquerade Booster Bundle",
-      "market_usd": 77.2
+      "market_usd": 76.66
     },
     "twilight masquerade booster pack": {
       "display_name": "Twilight Masquerade Booster Pack",
@@ -13194,7 +13198,7 @@
     },
     "twilight masquerade elite trainer box": {
       "display_name": "Twilight Masquerade Elite Trainer Box",
-      "market_usd": 107.71
+      "market_usd": 106.7
     },
     "twilight masquerade elite trainer box case": {
       "display_name": "Twilight Masquerade Elite Trainer Box Case",
@@ -13262,7 +13266,7 @@
     },
     "ultra prism booster box": {
       "display_name": "Ultra Prism Booster Box",
-      "market_usd": 1466.66
+      "market_usd": 1462.5
     },
     "ultra prism booster pack": {
       "display_name": "Ultra Prism Booster Pack",
@@ -13298,7 +13302,7 @@
     },
     "unbroken bonds booster pack": {
       "display_name": "Unbroken Bonds Booster Pack",
-      "market_usd": 67.74
+      "market_usd": 67.63
     },
     "unbroken bonds single pack blister eevee": {
       "display_name": "Unbroken Bonds Single Pack Blister [Eevee]",
@@ -13334,7 +13338,7 @@
     },
     "unova heavy hitters premium collection": {
       "display_name": "Unova Heavy Hitters Premium Collection",
-      "market_usd": 183.21
+      "market_usd": 183.25
     },
     "unova mini tin alomomola axew": {
       "display_name": "Unova Mini Tin [Alomomola & Axew]",
@@ -13346,7 +13350,7 @@
     },
     "unova mini tin display": {
       "display_name": "Unova Mini Tin Display",
-      "market_usd": 247.75
+      "market_usd": 248.44
     },
     "unova mini tin display case": {
       "display_name": "Unova Mini Tin Display Case",
@@ -13370,15 +13374,15 @@
     },
     "unova mini tin mienshao klinklang": {
       "display_name": "Unova Mini Tin [Mienshao & Klinklang]",
-      "market_usd": 22.8
+      "market_usd": 23.15
     },
     "unova mini tin volcarona emolga": {
       "display_name": "Unova Mini Tin [Volcarona & Emolga]",
-      "market_usd": 22.6
+      "market_usd": 23.33
     },
     "unova poster collection": {
       "display_name": "Unova Poster Collection",
-      "market_usd": 40.99
+      "market_usd": 41.35
     },
     "unova poster collection case": {
       "display_name": "Unova Poster Collection Case",
@@ -13386,11 +13390,11 @@
     },
     "unova two pack blister forces of nature trio": {
       "display_name": "Unova Two Pack Blister [Forces of Nature Trio]",
-      "market_usd": 29.05
+      "market_usd": 29.06
     },
     "unova victini illustration collection": {
       "display_name": "Unova Victini Illustration Collection",
-      "market_usd": 71.95
+      "market_usd": 71.53
     },
     "unova victini illustration collection case": {
       "display_name": "Unova Victini Illustration Collection Case",
@@ -13414,7 +13418,7 @@
     },
     "v battle deck victini v": {
       "display_name": "V Battle Deck [Victini V]",
-      "market_usd": 13.64
+      "market_usd": 13.61
     },
     "v forces tin galarian slowbro v": {
       "display_name": "V Forces Tin [Galarian Slowbro V]",
@@ -13430,7 +13434,7 @@
     },
     "v heroes tin espeon v international version": {
       "display_name": "V Heroes Tin [Espeon V] (International Version)",
-      "market_usd": 60.14
+      "market_usd": 61.12
     },
     "v heroes tin set of 3": {
       "display_name": "V Heroes Tin [Set of 3]",
@@ -13450,15 +13454,15 @@
     },
     "v heroes tin umbreon v international version": {
       "display_name": "V Heroes Tin [Umbreon V] (International Version)",
-      "market_usd": 76.51
+      "market_usd": 76.71
     },
     "v powers tin eevee v": {
       "display_name": "V Powers Tin [Eevee V]",
-      "market_usd": 85.99
+      "market_usd": 88.65
     },
     "v powers tin eevee v international version": {
       "display_name": "V Powers Tin [Eevee V] (International Version)",
-      "market_usd": 54.99
+      "market_usd": 54.19
     },
     "v powers tin eternatus v": {
       "display_name": "V Powers Tin [Eternatus V]",
@@ -13562,7 +13566,7 @@
     },
     "victini 097 086": {
       "display_name": "Victini - 097/086",
-      "market_usd": 17.6
+      "market_usd": 17.68
     },
     "victini 106 742": {
       "display_name": "Victini - 106/742",
@@ -13642,7 +13646,7 @@
     },
     "victini 5 15": {
       "display_name": "Victini - 5/15",
-      "market_usd": 1.38
+      "market_usd": 1.37
     },
     "victini 98 full art": {
       "display_name": "Victini (98 Full Art)",
@@ -13650,7 +13654,7 @@
     },
     "victini black bolt stamped": {
       "display_name": "Victini (Black Bolt Stamped)",
-      "market_usd": 0.85
+      "market_usd": 0.91
     },
     "victini bw32": {
       "display_name": "Victini - BW32",
@@ -13674,7 +13678,7 @@
     },
     "victini ex 142": {
       "display_name": "Victini ex - 142",
-      "market_usd": 4.06
+      "market_usd": 4.13
     },
     "victini master ball pattern": {
       "display_name": "Victini (Master Ball Pattern)",
@@ -13682,7 +13686,7 @@
     },
     "victini poke ball pattern": {
       "display_name": "Victini (Poke Ball Pattern)",
-      "market_usd": 0.38
+      "market_usd": 0.4
     },
     "victini prism star": {
       "display_name": "Victini Prism Star",
@@ -13694,7 +13698,7 @@
     },
     "victini sm225": {
       "display_name": "Victini - SM225",
-      "market_usd": 1.81
+      "market_usd": 1.8
     },
     "victini v": {
       "display_name": "Victini V",
@@ -13710,19 +13714,19 @@
     },
     "victini v full art": {
       "display_name": "Victini V (Full Art)",
-      "market_usd": 11.19
+      "market_usd": 11.14
     },
     "victini v swsh104": {
       "display_name": "Victini V - SWSH104",
-      "market_usd": 1.29
+      "market_usd": 1.28
     },
     "victini vmax": {
       "display_name": "Victini VMAX",
-      "market_usd": 3.18
+      "market_usd": 3.16
     },
     "victini vmax 013 070": {
       "display_name": "Victini VMAX - 013/070",
-      "market_usd": 2.57
+      "market_usd": 2.51
     },
     "victini vmax 022 163": {
       "display_name": "Victini VMAX - 022/163",
@@ -13738,7 +13742,7 @@
     },
     "victini xy189": {
       "display_name": "Victini - XY189",
-      "market_usd": 7.89
+      "market_usd": 8.07
     },
     "violet ex booster box": {
       "display_name": "Violet ex Booster Box",
@@ -13762,7 +13766,7 @@
     },
     "vivid voltage booster box": {
       "display_name": "Vivid Voltage Booster Box",
-      "market_usd": 316.54
+      "market_usd": 317.54
     },
     "vivid voltage booster box case": {
       "display_name": "Vivid Voltage Booster Box Case",
@@ -13770,7 +13774,7 @@
     },
     "vivid voltage booster pack": {
       "display_name": "Vivid Voltage Booster Pack",
-      "market_usd": 10.35
+      "market_usd": 10.47
     },
     "vivid voltage booster pack art bundle set of 4": {
       "display_name": "Vivid Voltage Booster Pack Art Bundle [Set of 4]",
@@ -13778,7 +13782,7 @@
     },
     "vivid voltage elite trainer box": {
       "display_name": "Vivid Voltage Elite Trainer Box",
-      "market_usd": 136.21
+      "market_usd": 136.5
     },
     "vivid voltage elite trainer box case": {
       "display_name": "Vivid Voltage Elite Trainer Box Case",
@@ -13798,7 +13802,7 @@
     },
     "vivid voltage sleeved booster pack art bundle set of 4": {
       "display_name": "Vivid Voltage Sleeved Booster Pack Art Bundle [Set of 4]",
-      "market_usd": 39.95
+      "market_usd": 40.26
     },
     "vmax climax booster box": {
       "display_name": "VMAX Climax Booster Box",
@@ -13806,7 +13810,7 @@
     },
     "vmax climax booster pack": {
       "display_name": "VMAX Climax Booster Pack",
-      "market_usd": 19.6
+      "market_usd": 20.15
     },
     "vmax dragons premium collection": {
       "display_name": "VMAX Dragons Premium Collection",
@@ -13818,11 +13822,11 @@
     },
     "vstar universe booster box": {
       "display_name": "VSTAR Universe Booster Box",
-      "market_usd": 206.37
+      "market_usd": 206.29
     },
     "vstar universe booster pack": {
       "display_name": "VSTAR Universe Booster Pack",
-      "market_usd": 19.17
+      "market_usd": 19.63
     },
     "warp point 2009 jason martinez": {
       "display_name": "Warp Point - 2009 (Jason Martinez)",
@@ -13830,7 +13834,7 @@
     },
     "wartortle 034 214 premium collection promo": {
       "display_name": "Wartortle - 034/214 (Premium Collection Promo)",
-      "market_usd": 4.06
+      "market_usd": 3.96
     },
     "whismur 019 ex deck tin": {
       "display_name": "Whismur - 019 (EX Deck Tin)",
@@ -13838,7 +13842,7 @@
     },
     "white flare binder collection": {
       "display_name": "White Flare Binder Collection",
-      "market_usd": 73.52
+      "market_usd": 73.49
     },
     "white flare binder unova poster collection sam s club": {
       "display_name": "White Flare Binder & Unova Poster Collection (Sam's Club)",
@@ -13850,7 +13854,7 @@
     },
     "white flare booster bundle": {
       "display_name": "White Flare Booster Bundle",
-      "market_usd": 85.35
+      "market_usd": 85.22
     },
     "white flare booster bundle case": {
       "display_name": "White Flare Booster Bundle Case",
@@ -13858,7 +13862,7 @@
     },
     "white flare booster bundle display": {
       "display_name": "White Flare Booster Bundle Display",
-      "market_usd": 1421.19
+      "market_usd": 1518.16
     },
     "white flare booster pack": {
       "display_name": "White Flare Booster Pack",
@@ -13866,7 +13870,7 @@
     },
     "white flare center elite trainer box exclusive": {
       "display_name": "White Flare Pokemon Center Elite Trainer Box (Exclusive)",
-      "market_usd": 248.35
+      "market_usd": 245.53
     },
     "white flare deluxe booster box": {
       "display_name": "White Flare Deluxe Booster Box",
@@ -13878,7 +13882,7 @@
     },
     "white flare elite trainer box": {
       "display_name": "White Flare Elite Trainer Box",
-      "market_usd": 153.76
+      "market_usd": 153.28
     },
     "white flare elite trainer box case": {
       "display_name": "White Flare Elite Trainer Box Case",
@@ -13886,7 +13890,7 @@
     },
     "white flare tech sticker collection": {
       "display_name": "White Flare Tech Sticker Collection",
-      "market_usd": 46.88
+      "market_usd": 46.86
     },
     "wild force booster box": {
       "display_name": "Wild Force Booster Box",
@@ -13914,7 +13918,7 @@
     },
     "xy booster pack": {
       "display_name": "XY Booster Pack",
-      "market_usd": 111.26
+      "market_usd": 125.13
     },
     "xy breakpoint booster pack": {
       "display_name": "XY BREAKpoint Booster Pack",
@@ -13938,7 +13942,7 @@
     },
     "xy evolutions booster box": {
       "display_name": "XY Evolutions Booster Box",
-      "market_usd": 2509.27
+      "market_usd": 2516.19
     },
     "xy evolutions booster box case": {
       "display_name": "XY Evolutions Booster Box Case",
