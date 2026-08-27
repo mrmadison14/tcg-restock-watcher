@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-27T22:38:02Z",
+  "last_run": "2026-08-27T22:44:37Z",
   "seeded": true,
   "variants": {
     "43860802240694": {
@@ -234,9 +234,9 @@
       "title": "Pokemon TCG:  Lumiose City Mini Tin Display"
     },
     "45386317267126": {
-      "in_stock": false,
+      "in_stock": true,
       "is_preorder": true,
-      "last_seen": "2026-08-27T22:38:02Z",
+      "last_seen": "2026-08-27T22:44:37Z",
       "price": 199.99,
       "title": "Pokemon TCG: ME06 Delta Reign Booster Box  - Preorder"
     }
