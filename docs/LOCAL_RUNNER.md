@@ -13,7 +13,7 @@ launchd 5-min cadence beats the 429s. GitHub Actions stays as the overnight/asle
   fallback for when the Mac is asleep.
 - **State** is still committed to `origin/main` by `commit_state.sh` (concurrency-safe `--mixed`
   reconcile), so Mac runs and any GitHub runs never clobber each other.
-- Fetches from a residential IP → all 31 stores succeed (verified: local dry-runs pulled every store).
+- Fetches from a residential IP → all stores succeed (verified: local dry-runs pulled every store).
 
 ## One-time setup
 
@@ -43,7 +43,7 @@ launchd 5-min cadence beats the 429s. GitHub Actions stays as the overnight/asle
 
 ```sh
 tail -f ~/Library/Logs/tcg-restock-watcher.log      # expect: [ts] OK every ~5 min
-# newest run committed by the Mac should show ok=31 failed=0
+# newest run committed by the Mac should show ok=32 failed=0
 git -C ~/workspace/tcg-restock-watcher-runner log -1 --format='%an %s'
 ```
 

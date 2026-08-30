@@ -281,6 +281,12 @@ platform = "wix"
 currency = "USD"
 franchise = "pokemon"
 
+[[stores]]
+key = "alicecollectibles"
+base_url = "https://alicecollectibles.com"
+platform = "alicecollectibles"
+currency = "USD"
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]
