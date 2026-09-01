@@ -1,781 +1,781 @@
 {
-  "last_run": "2026-09-01T21:08:23Z",
+  "last_run": "2026-09-01T21:15:44Z",
   "seeded": true,
   "variants": {
     "181d0ba2-dd3c-4a5c-a05f-e6e7f8748251": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 14.99,
       "title": "ex Battle Deck [Chien-Pao ex]"
     },
     "2745f3a7-ff4c-451e-994b-a3d6221a2f2c": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 20.99,
       "title": "League Battle Deck [Team Rocket's Mewtwo ex]"
     },
     "3b33009b-a752-40e7-93ea-cd1e2c2a1dd6": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 10.99,
       "title": "V Battle Deck [Melmetal V]"
     },
     "5c34f262-8374-4ec2-9af0-78451904a670": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 19.99,
       "title": "Deluxe Battle Deck [Zapdos ex]"
     },
     "63f72686-e408-4901-acac-a74ae43b45c3": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 29.99,
       "title": "Mega Evolution Quad Pack Blister Set - Psyduck + Golduck"
     },
     "74a0fb36-8ec1-4d19-8122-78f3b3c59c96": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 19.99,
       "title": "Mega Battle Deck [Mega Diancie ex]"
     },
     "943af77c-6b09-4c8c-a1c7-c4b4fadb1ec3": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 119.9,
       "title": "Ascended Heroes 18 Booster Pack - Portuguese"
     },
     "9523dd23-8b3b-4453-beee-076cdc6bca6b": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 11.99,
       "title": "ex Battle Deck [Miraidon ex]"
     },
     "adf1febc-2ca1-466e-89f0-7680b00c1ac1": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 39.99,
       "title": "League Battle Deck [Rapid/Single Strike Urshifu VMAX]"
     },
     "bf1d3890-bb45-4350-90e6-0731f54fb61f": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 13.99,
       "title": "ex Battle Deck [Victini ex]"
     },
     "cmrgw8bmo0003s0vhtz4lvxf7": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 139.99,
       "title": "Phantasmal Flames Booster Box Portuguese Brand New Sealed Box TCG"
     },
     "cmrvhi73u002y5ovhsmubuhgu": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 119.99,
       "title": "Prismatic Evolutions 18 Booster Pack Lot Portuguese Brazil Factory Sealed"
     },
     "cmrycctiy000ao8vhkcon7eot": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 24.9,
       "title": "Mega Evolution QuadPack 2 Blister Set (Psyduck+Golduck) Portuguese"
     },
     "cmrycstkp000to8vhhqh9qynw": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 29.9,
       "title": "Phantasmal Flames QuadPack 2 Blister Set (Sneasel+Weavile) Portuguese"
     },
     "cmryd2j9q001bo8vhipu1kvjq": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 44.9,
       "title": "Prismatic Evolutions QuadPack 3 Blister Set Portuguese 12 Packs"
     },
     "cmryddqz0001lo8vhdvq783l9": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 5.99,
       "title": "Prismatic Evolutions Booster Pack Portuguese"
     },
     "cms1be2mj001au0vh4vuok00r": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 379.99,
       "title": "Blooming Waters Premium Collection"
     },
     "cms5e5soq000p8ovh93j24sxz": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 79.9,
       "title": "Pitch Black Elite Trainer Box"
     },
     "cms5e5sw4000s8ovh8cndimod": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 79.99,
       "title": "Chaos Rising Elite Trainer Box"
     },
     "cms5e5tau000v8ovhjosccvp8": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 79.99,
       "title": "Perfect Order Elite Trainer Box"
     },
     "cms5e5tpd000y8ovhu40m1gb3": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 189.99,
       "title": "Pitch Black Pokemon Center Elite Trainer Box"
     },
     "cms5e5u5i00118ovhr6ytoswh": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 149.99,
       "title": "Chaos Rising Pokemon Center Elite Trainer Box"
     },
     "cms5e5um200148ovh05vclfd6": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 139.99,
       "title": "Perfect Order Pokemon Center Elite Trainer Box"
     },
     "cms5epztp001t8ovhidg7x3pn": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "Pitch Black Booster Bundle"
     },
     "cms5eq02y001w8ovh3a3lomxl": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 39.99,
       "title": "Chaos Rising Booster Bundle"
     },
     "cms5eq0d2001z8ovhoyzy8jea": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 39.99,
       "title": "Perfect Order Booster Bundle"
     },
     "cms5ey60x00368ovh5dba0qs0": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 84.99,
       "title": "Destined Rivals Booster Bundle"
     },
     "cms5fd1ep003d8ovhqkote4dh": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 249.99,
       "title": "Pokemon GO Pokemon Center Elite Trainer Box Plus"
     },
     "cms5fd1l0003g8ovherlqjcmb": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 899.99,
       "title": "Prismatic Evolutions Elite Trainer Box"
     },
     "cms5fd1ye003j8ovhiazr13li": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 159.99,
       "title": "Pokemon GO Elite Trainer Box"
     },
     "cms5fd24e003m8ovh9smso1p2": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 124.99,
       "title": "Surging Sparks Elite Trainer Box"
     },
     "cms5fd2cc003p8ovhrmu68ghh": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 114.99,
       "title": "Twilight Masquerade Elite Trainer Box"
     },
     "cms5fd2kk003s8ovheztz4qrz": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 79.99,
       "title": "Twilight Masquerade Booster Bundle"
     },
     "cms5fd2uy003v8ovhgo7xrpdw": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 59.99,
       "title": "Surging Sparks Booster Bundle"
     },
     "cms5fd316003y8ovheq31z648": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 329.99,
       "title": "Mega Evolution Booster Box"
     },
     "cms5fd3cy00418ovhh4c6g5e6": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 46.99,
       "title": "Journey Together Booster Bundle"
     },
     "cms5fd3ij00448ovh4b1l3n1b": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 214.99,
       "title": "Prismatic Evolutions Premium Figure Collection"
     },
     "cms5fd3ra00478ovhosezme9v": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 199.99,
       "title": "Chaos Rising Booster Box"
     },
     "cms5fd3xg004a8ovhzps2t8v3": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 169.99,
       "title": "Ascended Heroes Elite Trainer Box"
     },
     "cms5fd41n004d8ovh7sburcec": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 6.99,
       "title": "Chaos Rising Booster Pack"
     },
     "cms5fd45z004g8ovhfhit69uy": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 84.99,
       "title": "Ascended Heroes Booster Bundle"
     },
     "cms6z1cpu000b50vhwjzm99vw": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 59.99,
       "title": "Charizard ex Special Collection"
     },
     "cms6zaj4t000h50vhnmzaoygm": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 44.99,
       "title": "Iron Valiant ex Box"
     },
     "cms6zsp79000v50vhkujsv4wk": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 44.99,
       "title": "Back-to-School 2024 Collector Chest"
     },
     "cms7ucxn2002750vhfspp9gbc": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 10.49,
       "title": "Pokemon GO Booster Pack"
     },
     "cms7ufeye002a50vh85yumay1": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 34.99,
       "title": "Paradox Destinies Tin [Raging Bolt ex]"
     },
     "cms8dhjd8003h50vhvytxz63r": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 6.99,
       "title": "Pitch Black Sleeved Booster Pack"
     },
     "cms8dplmy003m50vh9hrz5evn": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 7.99,
       "title": "Chaos Rising Single Pack Blister [Toxel]"
     },
     "cms9vaf2k0013z4vh6b0844ll": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 34.99,
       "title": "Rival Battle Deck [Steven]"
     },
     "cmsb7fqk9001cz4vhkfb4z6uk": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 199.99,
       "title": "Pitch Black Booster Box"
     },
     "cmsb8s6ze000s1gvhg0me3ii7": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 139.99,
       "title": "Lumiose City Mini Tin Display"
     },
     "cmsba9qyu001l1gvh20j039dg": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 269.99,
       "title": "Mega Charizard X ex Ultra Premium Collection"
     },
     "cmsbacn8t001o1gvhralnrkh8": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 299.99,
       "title": "Prismatic Evolutions Super-Premium Collection"
     },
     "cmsbaezwz001t1gvhoqjnooz0": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 32.99,
       "title": "Mega Moonlit Tin [Mega Gengar ex]"
     },
     "cmsbahpfn001x1gvhqmaf9la1": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 54.99,
       "title": "Fall 2025 Collector Chest"
     },
     "cmsbani7m00211gvhfk6rucr4": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 29.99,
       "title": "Pokemon - Poke Ball Tin - Poke Ball (Q4 2025)"
     },
     "cmsbaps6500251gvhrf4kpw4p": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 39.99,
       "title": "Mega Kangaskhan ex Box"
     },
     "cmsbb3qeq002s1gvh9exxtu7d": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 54.99,
       "title": "Ascended Heroes First Partners Deluxe Pin Collection"
     },
     "cmsbb54td002w1gvhr867bdcm": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "Ascended Heroes Mega Meganium ex Box"
     },
     "cmsbb7ali00301gvhibdmwfmc": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 54.99,
       "title": "Mega Zygarde ex Premium Collection"
     },
     "cmsdlr57100471gvhjau4enzh": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 11.49,
       "title": "Destined Rivals Sleeved Booster Pack"
     },
     "cmsdlu2sy004b1gvhyz4nq5ty": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 19.49,
       "title": "Pitch Black 3-Pack Blister [Binacle]"
     },
     "cmsdm2j0b004f1gvhd04uoo14": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 19.49,
       "title": "2-Pack Blister [Raikou] (3-tab)"
     },
     "cmsdm6rrp004j1gvh8gxt2xbp": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 17.99,
       "title": "Pitch Black Premium Checklane Blister [Luxray Line]"
     },
     "cmsdm8pmh004o1gvh0gpq3rjz": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 17.99,
       "title": "Pitch Black Premium Checklane Blister [Tyrunt, Tyrantrum] (Target Exclusive)"
     },
     "cmsdoakuu000ec0vhwoqo48ya": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 159.99,
       "title": "Destined Rivals Elite Trainer Box"
     },
     "cmsdokqwn000nc0vhyc4qd4mw": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 18.49,
       "title": "2-Pack Blister Pack [Oddish, Gloom, & Vileplume]"
     },
     "cmsdoohmr000rc0vhf31u9jpq": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 151.99,
       "title": "Ascended Heroes Premium Poster Collection: Mega Gardevoir"
     },
     "cmsdor6eg000vc0vhoupucapi": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 164.99,
       "title": "Ascended Heroes Premium Poster Collection: Mega Lucario"
     },
     "cmsdt8p8g001cc0vhmxodxovs": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 44.0,
       "title": "Unova Poster Collection"
     },
     "cmsdte7bi001jc0vhocshwvv6": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 309.99,
       "title": "White Flare Pokemon Center Elite Trainer Box"
     },
     "cmsdtg5ih001nc0vhei10jvn5": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 339.99,
       "title": "Black Bolt Pokemon Center Elite Trainer Box"
     },
     "cmse0wml400063svhgrc21eit": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 64.99,
       "title": "151 Gathering Slim Booster Box"
     },
     "cmse13qhu000d3svh1ru5gyga": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 9.49,
       "title": "Perfect Order Single Pack Blister [Makuhita]"
     },
     "cmse19yq3000m3svhbrqyync4": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 84.99,
       "title": "Prismatic Evolutions Accessory Pouch Special Collection"
     },
     "cmse1cpzb000q3svhc2qfnc3o": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 39.99,
       "title": "Prismatic Evolutions Poster Collection"
     },
     "cmse1e9ux000u3svh8ocw6y8k": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 189.99,
       "title": "Black Bolt Elite Trainer Box"
     },
     "cmse1frio000y3svhrvtbimov": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 194.99,
       "title": "Unova Heavy Hitters Premium Collection"
     },
     "cmse1lhlc00123svhginer2gh": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 189.99,
       "title": "Perfect Order Booster Box"
     },
     "cmsf3xcnx000nisvhvo1agf9a": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 19.99,
       "title": "Mabosstiff ex Showcase"
     },
     "cmsf43lpd0011isvho410o55y": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "Ascended Heroes Mega Emboar ex Box"
     },
     "cmsw3di1q001kc0vhtv2snz8a": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 29.99,
       "title": "Black Crystal Blazing 13.0 CSV5C"
     },
     "cmsw3kftp001sc0vhwht4xi0z": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 36.99,
       "title": "Stellar Crystal 17.0 CSV9C"
     },
     "cmsw3r2ex0021c0vhn64u4gub": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 37.99,
       "title": "Chasing Glory Together 18.0 CSV10C"
     },
     "cmsw3vsrh0029c0vhjgsn28mq": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 47.99,
       "title": "Gem Pack Vol 5 CBB5C"
     },
     "cmsw44k9d002mc0vha79bsl70": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 99.9,
       "title": "Crystal Gathering 17.5 CSVC9.5"
     },
     "cmsz3m7qt005ec0vhdhtw39ry": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "151 Surprise Slim Booster Box"
     },
     "cmsz3r7qt005kc0vhep1ct4ah": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "151 Journey Slim Booster Box"
     },
     "cmt56f00000a1c0vh72cxnh1k": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 17.49,
       "title": "2-Pack Blister [Zarude]"
     },
     "cmtax7bck001elsvhrn9sibom": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 49.99,
       "title": "151 Hope Slim Booster Box"
     },
     "cmtaxb1am001klsvhjis217mu": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 44.99,
       "title": "Gem Pack Vol 4 CBB4C"
     },
     "cmtaxeydw001qlsvh6hpunohy": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 99.99,
       "title": "Gem Pack Vol 3 CBB3C"
     },
     "cmtaxis0l001wlsvh4f2ep73a": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 119.99,
       "title": "Storm Emeralda M6"
     },
     "cmtaxkmda0022lsvh3s10ynpp": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 289.99,
       "title": "151 SV2a"
     },
     "cmtaxpys6002elsvhwwkeikho": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 89.99,
       "title": "Mega Dream EX M2a"
     },
     "cmtaxrv69002llsvhqf4y98aj": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 159.99,
       "title": "VSTAR Universe"
     },
     "cmtaxub9r002slsvhin0a4lqh": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 86.99,
       "title": "Terastal Festival EX"
     },
     "cmtaxwrjw002zlsvh3wff911q": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 87.99,
       "title": "Inferno X"
     },
     "cmtaxylgn0036lsvhz501rxo7": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 108.99,
       "title": "Heat Wave Arena"
     },
     "cmtay0fk7003dlsvhzr07shdu": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 79.99,
       "title": "Ninja Spinner"
     },
     "cmtay25lz003klsvh7wef1ccq": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 94.99,
       "title": "Super Electric Breaker"
     },
     "cmtay3hub003rlsvhdbg2u3gc": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 104.99,
       "title": "Shiny Treasure EX"
     },
     "cmtd9y2b9000uf8vhx247evq1": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 14.99,
       "title": "Metal Magnetic Sticker Set Paldea"
     },
     "cmtfa0z4k000d8ovh9o1v880t": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 84.99,
       "title": "Gem Pack Vol 2 CBB2C"
     },
     "cmtfe2mll000v8ovht9fja5m8": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 144.99,
       "title": "Black Bolt SV11B"
     },
     "cmtfe3443000z8ovhlgq9s00k": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 144.99,
       "title": "White Flare SV11W"
     },
     "cmtfe4r5200138ovhs91q7zot": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 144.99,
       "title": "Glory of Team Rocket SV10"
     },
     "d25a89f7-0ffe-494c-a06d-38b0e3efb85e": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 229.0,
       "title": "Paldean Evolved Booster Box - Portuguese"
     },
     "df12d476-f0ee-4804-9199-3e86294cb399": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 24.99,
       "title": "ex Battle Deck [Tinkaton ex]"
     },
     "f2c6cbc6-9678-413f-9d01-9b9eefc5d1f4": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 10.99,
       "title": "ex Battle Deck [Kangaskhan ex]"
     },
     "f404a122-5544-42cb-b9b3-eabf0ce832bb": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-01T21:08:23Z",
+      "last_seen": "2026-09-01T21:15:44Z",
       "price": 24.99,
       "title": "Deluxe Battle Deck [Ninetales ex]"
     }
