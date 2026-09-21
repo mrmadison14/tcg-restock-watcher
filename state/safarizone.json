@@ -1,11 +1,11 @@
 {
-  "last_run": "2026-09-21T16:00:05Z",
+  "last_run": "2026-09-21T16:06:56Z",
   "seeded": true,
   "variants": {
     "43358068572342": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 270.0,
       "title": "Pokemon TCG: SV08 Surging Sparks Booster Box"
     },
@@ -19,65 +19,16 @@
     "44473544474806": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 220.0,
       "title": "Pokemon: SV09 Journey Together Booster Box - NOT Enhanced // NO PROMO"
     },
     "44944307617974": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 160.0,
       "title": "One Piece TCG: Tin Pack Vol 2 - Set of 3"
-    },
-    "45404948562102": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 180.0,
-      "title": "Pokemon TCG: First Partner Illustration Collection - Series 3 - Case"
-    },
-    "45404952527030": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 450.0,
-      "title": "Pokemon TCG:   Lumiose City Mini Tin Display Case"
-    },
-    "45404954886326": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 1100.0,
-      "title": "Pokemon TCG: ME04 Chaos Rising Booster Box Case - Double Box"
-    },
-    "45404955672758": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 1020.0,
-      "title": "Pokemon TCG:  ME05 Pitch Black Booster Box Case - Double Box"
-    },
-    "45404956295350": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 1940.0,
-      "title": "Pokemon TCG: ME01 Mega Base Booster Box Case - Double Box"
-    },
-    "45404958851254": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 830.0,
-      "title": "Pokemon TCG:  ME05 Pitch Black Booster Bundle Case"
-    },
-    "45404959572150": {
-      "in_stock": true,
-      "is_preorder": false,
-      "last_seen": "2026-09-07T16:03:21Z",
-      "price": 650.0,
-      "title": "Pokemon TCG: ME05 Pitch Black Elite Trainer Box Case"
     },
     "45412826185910": {
       "in_stock": true,
@@ -215,21 +166,21 @@
     "45438798692534": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 160.0,
       "title": "Pokemon TCG: Paldean Fates International Tin [Charizard ex]"
     },
     "45438798954678": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 150.0,
       "title": "Pokemon TCG: Paldean Fates International Tin [Great Tusk ex]"
     },
     "45438799577270": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-21T16:00:05Z",
+      "last_seen": "2026-09-21T16:06:56Z",
       "price": 150.0,
       "title": "Pokemon TCG: Paldean Fates International Tin [Iron Treads ex]"
     }
