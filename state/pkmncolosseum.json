@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-29T01:24:14Z",
+  "last_run": "2026-09-29T01:31:10Z",
   "seeded": true,
   "variants": {
     "32687470280758": {
@@ -12,42 +12,42 @@
     "32965237342262": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 214.99,
       "title": "Champion's Path Elite Trainer Box"
     },
     "32991518654518": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 314.99,
       "title": "Sealed Vivid Voltage Booster Box"
     },
     "33045115076662": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 144.99,
       "title": "Shining Fates Elite Trainer Box"
     },
     "33045117829174": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 554.99,
       "title": "Sealed Hidden Fates Elite Trainer Box"
     },
     "39274613440566": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 289.99,
       "title": "Sealed Battle Styles Booster Box"
     },
     "39330937536566": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 129.99,
       "title": "Battle Styles Elite Trainer Box - Rapid Strike Urshifu (Blue)"
     },
@@ -61,35 +61,35 @@
     "39491186130998": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 146.99,
       "title": "Chilling Reign: Shadow Rider Calyrex Elite Trainer Box"
     },
     "39491187572790": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 139.99,
       "title": "Chilling Reign: Ice Rider Calyrex Elite Trainer Box"
     },
     "39694983594038": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T06:36:50Z",
+      "last_seen": "2026-09-28T06:43:44Z",
       "price": 644.99,
       "title": "Evolving Skies Build and Battle Stadium"
     },
     "39709676503094": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 359.99,
       "title": "Sealed Celebrations Elite Trainer Box"
     },
     "39771500216374": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 359.99,
       "title": "Sealed Fusion Strike Elite Trainer Box"
     },
@@ -103,35 +103,35 @@
     "39837647503414": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 364.99,
       "title": "Vaporeon VMAX Premium Collection (Limit 1)"
     },
     "39837647929398": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 329.99,
       "title": "Jolteon VMAX Premium Collection"
     },
     "39837648126006": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 339.99,
       "title": "Flareon VMAX Premium Collection"
     },
     "39844152836150": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 153.99,
       "title": "Brilliant Stars Elite Trainer Box"
     },
     "39990771908662": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 174.99,
       "title": "Brilliant Stars Build and Battle Stadium"
     },
@@ -145,14 +145,14 @@
     "40033864286262": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 142.99,
       "title": "Astral Radiance Elite Trainer Box"
     },
     "40144911826998": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 169.99,
       "title": "Pokemon GO Elite Trainer Box"
     },
@@ -166,14 +166,14 @@
     "40392658190390": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 979.99,
       "title": "Sealed Fusion Strike Booster Box"
     },
     "40435226738742": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 529.99,
       "title": "Sealed Silver Tempest Booster Box"
     },
@@ -187,112 +187,112 @@
     "40450449014838": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 104.99,
       "title": "Pokemon GO Premier Ball Deck Holder Collection - Dragonite VSTAR"
     },
     "40460103876662": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T06:36:50Z",
+      "last_seen": "2026-09-28T06:43:44Z",
       "price": 124.99,
       "title": "Astral Radiance Build and Battle Stadium"
     },
     "40460108955702": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T06:36:50Z",
+      "last_seen": "2026-09-28T06:43:44Z",
       "price": 224.99,
       "title": "Lost Origin Build and Battle Stadium"
     },
     "40526423031862": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T11:52:39Z",
+      "last_seen": "2026-09-28T11:59:21Z",
       "price": 579.99,
       "title": "Charizard Ultra Premium Collection"
     },
     "40556523913270": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 301.99,
       "title": "Crown Zenith Elite Trainer Box"
     },
     "40630156492854": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 100.99,
       "title": "Blastoise VMAX Battle Box"
     },
     "40630157705270": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 82.99,
       "title": "Venusaur VMAX Battle Box"
     },
     "40665634701366": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 299.99,
       "title": "Scarlet & Violet Base Booster Box"
     },
     "40733317988406": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T00:51:25Z",
+      "last_seen": "2026-09-28T00:59:24Z",
       "price": 469.99,
       "title": "Paldea Evolved Booster Box"
     },
     "40792560959542": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T00:51:25Z",
+      "last_seen": "2026-09-28T00:59:24Z",
       "price": 369.99,
       "title": "Obsidian Flames Booster Box"
     },
     "40792562303030": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 269.99,
       "title": "Obsidian Flames Elite Trainer Box"
     },
     "40801415856182": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 1229.99,
       "title": "Celebrations Ultra Premium Collection"
     },
     "40805722914870": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T06:36:50Z",
+      "last_seen": "2026-09-28T06:43:44Z",
       "price": 189.99,
       "title": "Silver Tempest Build and Battle Stadium"
     },
     "40806692323382": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 162.99,
       "title": "Scarlet & Violet 151 Booster Bundle"
     },
     "40918914302006": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 279.99,
       "title": "Sealed Paradox Rift Booster Box"
     },
     "41424320987190": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 465.99,
       "title": "Scarlet & Violet 151 Elite Trainer Box"
     },
@@ -306,14 +306,14 @@
     "42013283057718": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 309.99,
       "title": "Sealed Temporal Forces Booster Box"
     },
     "42569338060854": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 349.99,
       "title": "Sealed Twilight Masquerade Booster Box"
     },
@@ -327,7 +327,7 @@
     "42803928530998": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 111.99,
       "title": "Shrouded Fable Elite Trainer Box"
     },
@@ -341,7 +341,7 @@
     "43063836114998": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 299.99,
       "title": "Surging Sparks Booster Box"
     },
@@ -355,42 +355,42 @@
     "43105614037046": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 57.99,
       "title": "Shrouded Fable Booster Bundle"
     },
     "43108018618422": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 119.99,
       "title": "Surging Sparks Elite Trainer Box"
     },
     "43108018749494": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 59.99,
       "title": "Surging Sparks Booster Bundle"
     },
     "43246387626038": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 43.99,
       "title": "Twilight Masquerade 3 Pack Blister (Snorlax)"
     },
     "43246387888182": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 33.99,
       "title": "Twilight Masquerade 3 Pack Blister (Revavroom)"
     },
     "43259598700598": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 254.99,
       "title": "Sealed Terapagos ex Ultra Premium Collection"
     },
@@ -404,21 +404,21 @@
     "43348316127286": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-27T19:55:27Z",
+      "last_seen": "2026-09-27T19:48:38Z",
       "price": 34.99,
       "title": "Stellar Crown 3 Pack Blister - Latias"
     },
     "43348316225590": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 34.99,
       "title": "Stellar Crown 3 Pack Blister - Tinkaton"
     },
     "43751569981494": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 539.99,
       "title": "Crown Zenith Pokemon Center Elite Trainer Box Plus"
     },
@@ -432,14 +432,14 @@
     "43920975233078": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 149.99,
       "title": "White Flare Elite Trainer Box"
     },
     "44016188686390": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 269.99,
       "title": "Surging Sparks Elite Trainer Box - Pokemon Center Exclusive"
     },
@@ -453,28 +453,28 @@
     "44146848366646": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 289.99,
       "title": "Mega Evolution Enhanced Booster Box"
     },
     "44469306884150": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 234.99,
       "title": "Mega Charizard ex Ultra Premium Collection"
     },
     "44596887191606": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 24.99,
       "title": "Team Rocket's Mewtwo ex League Battle Deck"
     },
     "44843062820918": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 63.99,
       "title": "Destined Rivals Booster Bundle"
     },
@@ -488,42 +488,42 @@
     "44849365942326": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 42.99,
       "title": "Journey Together Booster Bundle"
     },
     "44859322925110": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 125.99,
       "title": "Paldea Evolved Booster Bundle"
     },
     "44859330691126": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 12.49,
       "title": "Obsidian Flames Sleeved Booster Pack"
     },
     "44921597952054": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 77.99,
       "title": "Prismatic Evolutions Accessory Pouch Special Collection"
     },
     "44938911121462": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 61.99,
       "title": "Mega Evolution Booster Bundle"
     },
     "45074537971766": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 230.99,
       "title": "Sealed Journey Together Booster Box (NON ENHANCED)"
     },
@@ -572,14 +572,14 @@
     "47116992905270": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 559.99,
       "title": "Evolving Skies Elite Trainer Box (Flareon/Jolteon/Umbreon/Leafeon)"
     },
     "47116995100726": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 499.99,
       "title": "Evolving Skies Elite Trainer Box (Glaceon/Vaporeon/Sylveon/Espeon)"
     },
@@ -593,21 +593,21 @@
     "47127836098614": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 214.99,
       "title": "Prismatic Evolutions Premium Figure Collection"
     },
     "47128102731830": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 289.99,
       "title": "Scarlet & Violet Pokemon Center Elite Trainer Box (Exclusive) (Koraidon)"
     },
     "47128125571126": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 499.99,
       "title": "Fusion Strike Pokemon Center Elite Trainer Box (Exclusive)"
     },
@@ -656,21 +656,21 @@
     "47773689708598": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 119.99,
       "title": "Temporal Forces Elite Trainer Box (Iron Leaves)"
     },
     "47773878190134": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 132.99,
       "title": "Paradox Rift Elite Trainer Box (Iron Valiant)"
     },
     "47773885628470": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 139.99,
       "title": "Paradox Rift Elite Trainer Box (Roaring Moon)"
     },
@@ -691,42 +691,42 @@
     "47775015895094": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 33.99,
       "title": "Mega Evolution 3 Pack Blister - Golduck"
     },
     "47775018025014": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 44.99,
       "title": "Mega Evolution 3 Pack Blister - Psyduck"
     },
     "47843462807606": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 232.99,
       "title": "Paldean Fates Premium Collection (Skeledirge ex)"
     },
     "47843463594038": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 216.99,
       "title": "Paldean Fates Premium Collection (Quaquaval ex)"
     },
     "47843472900150": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 217.99,
       "title": "Paldean Fates Premium Collection (Meowscarada ex)"
     },
     "47843647684662": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 51.99,
       "title": "Mega Lucario ex Figure Collection"
     },
@@ -740,56 +740,56 @@
     "47843655647286": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 46.99,
       "title": "Mega Greninja ex Premium Collection"
     },
     "47843660464182": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 67.99,
       "title": "Mega Venusaur ex Premium Collection"
     },
     "47843861987382": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 82.99,
       "title": "Ascended Heroes Booster Bundle"
     },
     "47876903370806": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 1079.99,
       "title": "Evolving Skies Pokemon Center Elite Trainer Box - Glaceon/Vaporeon/Sylveon/Espeon"
     },
     "47876906254390": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 999.99,
       "title": "Evolving Skies Pokemon Center Elite Trainer Box - Flareon/Jolteon/Umbreon/Leafeon (Small Tear in Front)"
     },
     "47876909531190": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 699.99,
       "title": "Forbidden Light Elite Trainer Box (Slight Tear on Top)"
     },
     "47876920279094": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 589.99,
       "title": "Giratina VSTAR Secret Rare - PSA 10 - Crown Zenith"
     },
     "47877553750070": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 197.99,
       "title": "Chilling Reign Pokemon Center Elite Trainer Box (Ice Rider Calyrex)"
     },
@@ -803,14 +803,14 @@
     "47877571313718": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 191.99,
       "title": "Temporal Forces Pokemon Center Elite Trainer Box (Iron Leaves)"
     },
     "47877575606326": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 195.99,
       "title": "Temporal Forces Pokemon Center Elite Trainer Box (Walking Wake)"
     },
@@ -831,14 +831,14 @@
     "47877625217078": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 605.99,
       "title": "Paldea Evolved Pokemon Center Elite Trainer Box"
     },
     "47877777227830": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 282.99,
       "title": "Scarlet & Violet Pokemon Center Elite Trainer Box (Koraidon)"
     },
@@ -852,126 +852,126 @@
     "47877787353142": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 182.99,
       "title": "Twilight Masquerade Pokemon Center Elite Trainer Box"
     },
     "47877794922550": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 104.99,
       "title": "Paradox Rift Build and Battle Stadium"
     },
     "47877810487350": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 219.99,
       "title": "Paldea Evolved Build and Battle Stadium"
     },
     "47878311641142": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-27T22:15:48Z",
+      "last_seen": "2026-09-27T22:22:35Z",
       "price": 118.99,
       "title": "Mega Evolution Elite Trainer Box (Mega Gardevoir)"
     },
     "47878317408310": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 120.99,
       "title": "Mega Evolution Elite Trainer Box (Mega Lucario)"
     },
     "47898888929334": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 199.99,
       "title": "Reshiram & Charizard GX League Battle Deck"
     },
     "47898907639862": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-28T06:36:50Z",
+      "last_seen": "2026-09-28T06:43:44Z",
       "price": 334.99,
       "title": "Crown Zenith Shiny Zamazenta Premium Figure Collection"
     },
     "47898967736374": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 339.99,
       "title": "Team Rocket's Moltres Ultra Premium Collection"
     },
     "47899013021750": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 239.99,
       "title": "Brilliant Stars Pokemon Center Elite Trainer Box"
     },
     "47899031175222": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 5599.99,
       "title": "Scarlet & Violet 151 Elite Trainer Box Sealed Case - Pokemon Center Exclusive"
     },
     "47899061714998": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 2719.99,
       "title": "Prismatic Evolutions Elite Trainer Box Sealed Case - Pokemon Center Exclusive"
     },
     "47899077804086": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 3199.99,
       "title": "Paldean Fates Elite Trainer Box Sealed Case - Pokemon Center Exclusive"
     },
     "47899227488310": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 164.99,
       "title": "Shrouded Fable Elite Trainer Box - Pokemon Center Exclusive"
     },
     "47899365605430": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 514.99,
       "title": "Celebrations Elite Trainer Box - Pokemon Center Exclusive"
     },
     "47909765152822": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 86.99,
       "title": "Phantasmal Flames Booster Bundle"
     },
     "47909769379894": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 94.99,
       "title": "Black Bolt Booster Bundle"
     },
     "47909772001334": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 89.99,
       "title": "White Flare Booster Bundle"
     },
     "47909774524470": {
       "in_stock": true,
       "is_preorder": false,
-      "last_seen": "2026-09-29T01:24:14Z",
+      "last_seen": "2026-09-29T01:31:10Z",
       "price": 214.99,
       "title": "Crown Zenith Booster Bundle"
     }
