@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-02T00:40:18Z",
+  "last_run": "2026-10-02T02:25:16Z",
   "seeded": true,
   "variants": {
     "43358068572342": {
@@ -47,7 +47,7 @@
     "45424566665398": {
       "in_stock": false,
       "is_preorder": false,
-      "last_seen": "2026-10-02T00:40:18Z",
+      "last_seen": "2026-10-02T02:25:16Z",
       "price": 149.99,
       "title": "Pokemon TCG:  ME05 Pitch Black Booster Box"
     },
@@ -78,6 +78,13 @@
       "last_seen": "2026-09-28T22:34:36Z",
       "price": 150.0,
       "title": "Pokemon TCG: Paldean Fates International Tin [Iron Treads ex]"
+    },
+    "67567367159990": {
+      "in_stock": false,
+      "is_preorder": false,
+      "last_seen": "2026-10-02T02:25:16Z",
+      "price": 47.99,
+      "title": "Pokemon TCG:  30th Celebration Booster Bundle"
     }
   }
 }
