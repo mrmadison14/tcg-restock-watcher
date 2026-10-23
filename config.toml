@@ -134,9 +134,15 @@ currency = "USD"
 
 [[stores]]
 key = "shinypax"
-base_url = "https://shinypax.us"
-platform = "shopify"
+base_url = "https://www.shinypax.com"
+platform = "wix"
 currency = "USD"
+filter_collections = true
+# Wix category ids: pokémon-packs, one-piece-packs
+collections = [
+  "pokemon:9fe6fbdc-7645-4772-ac6d-3d0858010390",
+  "one piece:17c10d81-c9e9-43c0-843b-90c7734be929",
+]
 
 [[stores]]
 key = "tygerstcgden"

@@ -29,7 +29,7 @@ def _has_marker(text: str, markers: tuple[str, ...]) -> bool:
     return any(m in low for m in markers)
 
 
-def _to_product(store: Store, it: dict) -> Product:
+def _to_product(store: Store, it: dict, franchise: str | None) -> Product:
     name = it["name"]
     ribbon = it.get("ribbon") or ""
     media = it.get("media") or []
@@ -44,9 +44,10 @@ def _to_product(store: Store, it: dict) -> Product:
         url=f"{store.base_url}/product-page/{it['urlPart']}",
         image=_MEDIA_BASE + media[0]["url"] if media else None,
         product_type=it.get("productType") or "",
-        tags=(store.franchise,) if store.franchise else (),
+        tags=(franchise,) if franchise else (),
         is_preorder=_has_marker(f"{name} {ribbon}", _PREORDER_MARKERS),
         is_sealed=_has_marker(name, _SEALED_MARKERS),
+        franchise=franchise,
     )
 
 
@@ -55,8 +56,8 @@ def _mint_token(store: Store, http_get) -> str:
     return data["apps"][_STORES_APP_ID]["instance"]
 
 
-def fetch_products(store: Store, http_get) -> list[Product]:
-    token = _mint_token(store, http_get)
+def _fetch_category(store: Store, http_get, token: str, category_id: str,
+                    franchise: str | None) -> list[Product]:
     out: list[Product] = []
     offset = 0
     for _ in range(_MAX_PAGES):
@@ -65,7 +66,7 @@ def fetch_products(store: Store, http_get) -> list[Product]:
             {
                 "query": _QUERY,
                 "variables": {
-                    "mainCollectionId": _ALL_PRODUCTS_CATEGORY,
+                    "mainCollectionId": category_id,
                     "offset": offset,
                     "limit": _PAGE_LIMIT,
                 },
@@ -76,9 +77,31 @@ def fetch_products(store: Store, http_get) -> list[Product]:
         if payload.get("errors"):
             raise RuntimeError(f"wix graphql errors: {payload['errors']}")
         meta = payload["data"]["catalog"]["category"]["productsWithMetaData"]
+        if offset == 0 and meta["totalCount"] == 0:
+            # A wrong category id answers with no error, so fail loudly
+            # rather than seed an empty snapshot.
+            raise RuntimeError(f"wix category {category_id} reported totalCount 0")
         items = meta["list"]
-        out.extend(_to_product(store, it) for it in items)
+        out.extend(_to_product(store, it, franchise) for it in items)
         offset += _PAGE_LIMIT
         if not items or offset >= meta["totalCount"]:
             break
+    return out
+
+
+def fetch_products(store: Store, http_get) -> list[Product]:
+    token = _mint_token(store, http_get)
+    if not store.collections:
+        return _fetch_category(store, http_get, token, _ALL_PRODUCTS_CATEGORY, store.franchise)
+    # Wix sites can give "All Products" its own id, so a store lists its
+    # categories as "<franchise>:<category-id>", like Shopify handles.
+    out: list[Product] = []
+    seen: set[str] = set()
+    for spec in store.collections:
+        franchise, _, category_id = spec.partition(":")
+        for p in _fetch_category(store, http_get, token, category_id.strip(),
+                                 franchise.strip() or None):
+            if p.variant_id not in seen:
+                seen.add(p.variant_id)
+                out.append(p)
     return out

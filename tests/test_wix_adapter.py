@@ -137,6 +137,54 @@ def test_empty_page_stops():
     assert len(calls["posts"]) == 1
 
 
+def test_zero_total_count_raises_instead_of_seeding_empty():
+    # shinypax's all-products category is not the default id, so the
+    # default query returned totalCount 0 with no error.
+    http, _ = _fake_http([_page(0, 0)])
+    with pytest.raises(RuntimeError, match="totalCount 0"):
+        wix.fetch_products(_store(), http)
+
+
+def _collections_store(collections, filter_collections=False):
+    return Store(key="shinypax", base_url="https://www.shinypax.com", platform="wix",
+                 currency="USD", collections=tuple(collections),
+                 filter_collections=filter_collections)
+
+
+def test_collections_query_each_category_id():
+    store = _collections_store(["pokemon:cat-pkm", "one piece:cat-op"])
+    http, calls = _fake_http([_page(2, 2, 0), _page(1, 1, 10)])
+    products = wix.fetch_products(store, http)
+    cats = [p["body"]["variables"]["mainCollectionId"] for p in calls["posts"]]
+    assert cats == ["cat-pkm", "cat-op"]
+    assert len(calls["gets"]) == 1
+    assert [(p.variant_id, p.franchise) for p in products] == [
+        ("id-0", "pokemon"), ("id-1", "pokemon"), ("id-10", "one piece")]
+
+
+def test_collections_tag_franchise_for_filter():
+    store = _collections_store(["pokemon:cat-pkm"], filter_collections=True)
+    http, _ = _fake_http([_page(1, 1)])
+    products = wix.fetch_products(store, http)
+    assert products[0].tags == ("pokemon",)
+    synonyms = {"pokemon": ("pokemon", "pokémon")}
+    assert len(keep_sealed(filter_franchises(products, synonyms))) == 1
+
+
+def test_collections_dedupe_across_categories():
+    store = _collections_store(["pokemon:cat-a", "pokemon:cat-b"])
+    http, _ = _fake_http([_page(2, 2, 0), _page(2, 2, 1)])
+    ids = [p.variant_id for p in wix.fetch_products(store, http)]
+    assert ids == ["id-0", "id-1", "id-2"]
+
+
+def test_collections_paginate_per_category():
+    store = _collections_store(["pokemon:cat-pkm"])
+    http, calls = _fake_http([_page(100, 150, 0), _page(50, 150, 100)])
+    assert len(wix.fetch_products(store, http)) == 150
+    assert [p["body"]["variables"]["offset"] for p in calls["posts"]] == [0, 100]
+
+
 def test_graphql_errors_raise():
     http, _ = _fake_http([{"errors": [{"message": "boom"}]}])
     with pytest.raises(RuntimeError):
