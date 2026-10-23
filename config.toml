@@ -287,6 +287,45 @@ base_url = "https://alicecollectibles.com"
 platform = "alicecollectibles"
 currency = "USD"
 
+[[stores]]
+key = "missionreadycollectibles"
+base_url = "https://missionreadycollectibles.com"
+platform = "shopify"
+currency = "USD"
+collections = [
+  "pokemon:english-sealed-products",
+  "pokemon:japanese-sealed-products",
+  "pokemon:japanese-booster-boxes",
+  "one piece:one-piece-sealed",
+]
+
+[[stores]]
+key = "thetcgcollect"
+base_url = "https://thetcgcollect.com"
+platform = "shopify"
+currency = "USD"
+filter_collections = true
+collections = [
+  "pokemon:pokemon-english",
+  "pokemon:pokemon-japanese",
+  "pokemon:pokemon-korean",
+  "pokemon:pokemon-chinese",
+  "one piece:one-piece-japanese",
+  "dragon ball:dragon-ball-japanese",
+]
+
+[[stores]]
+key = "stompinggroundstcg"
+base_url = "https://www.stompinggroundstcg.com"
+platform = "shopify"
+currency = "USD"
+filter_collections = true
+collections = [
+  "pokemon:pokemon-trading-card-game",
+  "one piece:one-piece-card-game",
+  "dragon ball:dragon-ball-super-fusion-world",
+]
+
 [franchise_synonyms]
 pokemon = ["pokemon", "pokémon"]
 "one piece" = ["one piece", "one-piece"]
